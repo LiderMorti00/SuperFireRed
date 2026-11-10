@@ -51,11 +51,11 @@
 
 #else
 
-#define FLAG_UNUSED_0x020    0x20 // Unused Flag
-#define FLAG_UNUSED_0x021    0x21 // Unused Flag
-#define FLAG_UNUSED_0x022    0x22 // Unused Flag
-#define FLAG_UNUSED_0x023    0x23 // Unused Flag
-#define FLAG_UNUSED_0x024    0x24 // Unused Flag
+#define FLAG_SFR_EXP_SHARE          0x20 // Super Fire Red: modern Exp. Share on/off (I_EXP_SHARE_FLAG)
+#define FLAG_SFR_TEXT_INSTANT       0x21 // Super Fire Red: instant text option (FLAG_TEXT_SPEED_INSTANT)
+#define FLAG_SFR_DEXNAV_SEARCHING   0x22 // Super Fire Red: DexNav
+#define FLAG_SFR_DEXNAV_GET         0x23 // Super Fire Red: DexNav shows in the start menu
+#define FLAG_SFR_DEXNAV_DETECTOR    0x24 // Super Fire Red: DexNav detector mode
 #define FLAG_UNUSED_0x025    0x25 // Unused Flag
 #define FLAG_UNUSED_0x026    0x26 // Unused Flag
 #define FLAG_UNUSED_0x027    0x27 // Unused Flag
