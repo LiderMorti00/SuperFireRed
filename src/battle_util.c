@@ -8110,7 +8110,7 @@ static bool32 IsCriticalHit(struct DamageContext *ctx)
 {
 
     if (HasAnyBattleFlags(BATTLE_TYPE_CATCH_TUTORIAL | BATTLE_TYPE_POKEDUDE)
-    || (HasAnyBattleFlags(BATTLE_TYPE_FIRST_BATTLE) && (!IS_FRLG || !BtlCtrl_OakOldMan_TestState2Flag(1))))
+    || (HasAnyBattleFlags(BATTLE_TYPE_FIRST_BATTLE) && (!TRUE /* Super Fire Red: was IS_FRLG */ || !BtlCtrl_OakOldMan_TestState2Flag(1))))
         return FALSE;
     if (ctx->isSelfInflicted)
         return FALSE;

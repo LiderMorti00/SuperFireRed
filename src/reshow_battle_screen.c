@@ -25,7 +25,7 @@ static void CreateHealthboxSprite(enum BattlerId battler);
 static void ClearBattleBgCntBaseBlocks(void);
 static void CreateCaughtMonSprite(void);
 
-#define CATCH_TUTORIAL_TRAINER_PIC (IS_FRLG ? TRAINER_PIC_OLD_MAN : TRAINER_PIC_WALLY)
+#define CATCH_TUTORIAL_TRAINER_PIC (TRUE ? TRAINER_PIC_OLD_MAN : TRAINER_PIC_WALLY) // Super Fire Red: old man tutorial
 
 void ReshowBattleScreenDummy(void)
 {

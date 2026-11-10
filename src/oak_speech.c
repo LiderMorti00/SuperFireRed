@@ -22,7 +22,7 @@
 #include "constants/rgb.h"
 #include "constants/songs.h"
 
-#if IS_FRLG
+#if TRUE // Super Fire Red: was IS_FRLG
 
 #define INTRO_SPECIES SPECIES_NIDORAN_F
 
@@ -592,7 +592,7 @@ static const u8 *const sControlsGuide_Pages2And3_Strings[CONTROLS_GUIDE_STRINGS_
 
 static const u8 *const sMaleNameChoices[] =
 {
-#if defined(FIRERED)
+#if defined(FIRERED) || SUPER_FIRE_RED
     gNameChoice_Red,
     gNameChoice_Fire,
     gNameChoice_Ash,
@@ -623,7 +623,7 @@ static const u8 *const sMaleNameChoices[] =
 
 static const u8 *const sFemaleNameChoices[] =
 {
-#if defined(FIRERED)
+#if defined(FIRERED) || SUPER_FIRE_RED
     gNameChoice_Red,
     gNameChoice_Fire,
 #else
@@ -651,7 +651,7 @@ static const u8 *const sFemaleNameChoices[] =
 
 static const u8 *const sRivalNameChoices[] =
 {
-#if defined(FIRERED)
+#if defined(FIRERED) || SUPER_FIRE_RED
     gNameChoice_Green,
     gNameChoice_Gary,
     gNameChoice_Kaz,

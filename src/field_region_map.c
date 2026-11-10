@@ -1,4 +1,5 @@
 #include "global.h"
+#include "regions.h"
 #include "bg.h"
 #include "event_data.h"
 #include "field_effect.h"
@@ -232,7 +233,7 @@ static void PrintTitleWindowText(void)
 {
     static const u8 FlyPromptText[] = _("{R_BUTTON} FLY");
     const u8 *region;
-    if (IS_FRLG)
+    if (IsInKanto()) // Super Fire Red
         region = gText_Kanto;
     else
         region = gText_Hoenn;

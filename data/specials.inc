@@ -623,7 +623,7 @@ gSpecials::
 	def_special IsPlayerNotInTrainerTowerLobby
 	def_special BrailleCursorToggle
 	def_special EnterHallOfFame
-	def_special CB2_StartCreditsSequence
+	def_special CB2_StartCreditsSequenceFrlg @ Super Fire Red: renamed, Emerald credits keep CB2_StartCreditsSequence
 	def_special DoPokemonLeagueLightingEffect
 	def_special GetStarterPokemon
 	def_special SetIcefallCaveCrackedIceMetatiles

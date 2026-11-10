@@ -1,4 +1,5 @@
 #include "global.h"
+#include "regions.h"
 #include "battle.h"
 #include "battle_anim.h"
 #include "battle_ai_record.h"
@@ -3396,7 +3397,7 @@ u32 BattleStringExpandPlaceholders(const u8 *src, u8 *dst, u32 dstSize)
                 break;
             case B_TXT_PC_CREATOR_NAME: // lanette pc
                 if (FlagGet(FLAG_SYS_PC_LANETTE))
-                    toCpy = IS_FRLG ? sText_Bills : sText_Lanettes;
+                    toCpy = IsInKanto() ? sText_Bills : sText_Lanettes; // Super Fire Red
                 else
                     toCpy = sText_Someones;
                 break;
@@ -3555,7 +3556,7 @@ u32 BattleStringExpandPlaceholders(const u8 *src, u8 *dst, u32 dstSize)
                 toCpy = textStart;
                 if (HasAnyBattleFlags(BATTLE_TYPE_CATCH_TUTORIAL))
                 {
-                    if (IS_FRLG)
+                    if (TRUE) // Super Fire Red: the catch tutorial is the old man's
                         textStart = StringCopy(textStart, COMPOUND_STRING("The old man"));
                     else
                         textStart = StringCopy(textStart, COMPOUND_STRING("WALLY"));

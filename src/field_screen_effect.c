@@ -1,4 +1,5 @@
 #include "global.h"
+#include "regions.h"
 #include "cable_club.h"
 #include "event_data.h"
 #include "fieldmap.h"
@@ -1478,13 +1479,13 @@ static void Task_RushInjuredPokemonToCenter(u8 taskId)
             }
             if (gTasks[taskId].tIsPlayerHouse)
             {
-                if (IS_FRLG)
+                if (IsInKanto()) // Super Fire Red
                     StringCopy(gStringVar1, COMPOUND_STRING("PROF. OAK"));
                 else
                     StringCopy(gStringVar1, COMPOUND_STRING("PROF. BIRCH"));
                 ScriptContext_SetupScript(EventScript_AfterWhiteOutMomHeal);
             }
-            else if (IS_FRLG)
+            else if (IsInKanto()) // Super Fire Red
             {
                 ScriptContext_SetupScript(EventScript_AfterWhiteOutHeal_Frlg);
             }

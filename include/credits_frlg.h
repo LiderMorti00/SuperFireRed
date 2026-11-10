@@ -20,6 +20,6 @@ extern bool8 gHasHallOfFameRecords;
     { CREDITSOVWLDCMD_END, CREDITSOVWLDCMD_END, CREDITSOVWLDCMD_END }
 
     
-void CB2_StartCreditsSequence(void);
+void CB2_StartCreditsSequenceFrlg(void); // Super Fire Red: renamed, Emerald credits keep the original name
 
 #endif //GUARD_CREDITS_FRLG_H

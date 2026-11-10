@@ -563,7 +563,7 @@ static void VBlankCB(void)
 
 void CB2_InitTitleScreen(void)
 {
-    if (IS_FRLG)
+    if (TRUE /* Super Fire Red: was IS_FRLG */)
     {
         CB2_InitTitleScreenFrlg();
         return;

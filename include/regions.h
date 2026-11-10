@@ -18,4 +18,13 @@ static inline enum Region GetCurrentRegion(void)
     return GetRegionForSectionId(gMapHeader.regionMapSectionId);
 }
 
+// Super Fire Red: Kanto and Hoenn share one build, so things that used to depend
+// on IS_FRLG now check where the player is (or which tileset style the map uses).
+static inline bool32 IsInKanto(void)
+{
+    return GetCurrentRegion() == REGION_KANTO;
+}
+
+#define IS_FRLG_MAP_LAYOUT (gMapHeader.mapLayout->isFrlg)
+
 #endif // GUARD_REGIONS_H

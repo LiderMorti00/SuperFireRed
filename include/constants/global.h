@@ -77,6 +77,11 @@ enum Language
     #define IS_FRLG 0
     #endif
 #endif
+
+// Super Fire Red: Emerald build that also contains Kanto. Content that differs between
+// Fire Red and Leaf Green (title screen, exclusives, prizes...) uses the Fire Red version.
+#define SUPER_FIRE_RED 1
+
 #define GAME_LANGUAGE (LANGUAGE_ENGLISH)
 
 // party sizes

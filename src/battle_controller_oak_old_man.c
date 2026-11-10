@@ -337,7 +337,7 @@ static void CompleteWhenChoseItem(enum BattlerId battler)
 {
     if (gMain.callback2 == BattleMainCB2 && !gPaletteFade.active)
     {
-        if (IS_FRLG && !BtlCtrl_OakOldMan_TestState2Flag(FIRST_BATTLE_MSG_FLAG_HP_RESTORE)
+        if (TRUE /* Super Fire Red: was IS_FRLG */ && !BtlCtrl_OakOldMan_TestState2Flag(FIRST_BATTLE_MSG_FLAG_HP_RESTORE)
          && gSpecialVar_ItemId == ITEM_POTION
          && HasAnyBattleFlags(BATTLE_TYPE_FIRST_BATTLE))
         {
@@ -726,7 +726,7 @@ static void OakOldManHandlePrintString(enum BattlerId battler)
             switch (*stringId)
             {
             case STRINGID_STATFELL:
-                if (gBattlerTarget == battler && IS_FRLG && !BtlCtrl_OakOldMan_TestState2Flag(FIRST_BATTLE_MSG_FLAG_STAT_CHG))
+                if (gBattlerTarget == battler && TRUE /* Super Fire Red: was IS_FRLG */ && !BtlCtrl_OakOldMan_TestState2Flag(FIRST_BATTLE_MSG_FLAG_STAT_CHG))
                 {
                     BtlCtrl_OakOldMan_SetState2Flag(FIRST_BATTLE_MSG_FLAG_STAT_CHG);
                     gBattlerControllerFuncs[battler] = PrintOakText_LoweringStats;

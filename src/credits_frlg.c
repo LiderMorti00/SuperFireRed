@@ -20,9 +20,9 @@
 #include "constants/rgb.h"
 #include "constants/sound.h"
 
-#if IS_FRLG
+#if TRUE // Super Fire Red: was IS_FRLG
 
-#if defined(FIRERED)
+#if TRUE // Super Fire Red: was defined(FIRERED)
 #define TITLE_TEXT gString_PokemonFireRed_Staff
 #else
 #define TITLE_TEXT gString_PokemonLeafGreen_Staff
@@ -194,7 +194,7 @@ struct CreditsTaskData
     u16 groundPalTag;
 };
 
-EWRAM_DATA bool8 gHasHallOfFameRecords = 0;
+// Super Fire Red: gHasHallOfFameRecords is defined once, in credits.c
 static EWRAM_DATA struct CreditsResources * sCreditsMgr = NULL;
 
 static void CB2_Credits(void);
@@ -818,7 +818,7 @@ static const struct CreditsTextHeader sCreditsTexts[] = {
     { gText_EmptyString2, gText_EmptyString2, FALSE }
 };
 
-void CB2_StartCreditsSequence(void)
+void CB2_StartCreditsSequenceFrlg(void)
 {
     sCreditsMgr = AllocZeroed(sizeof(*sCreditsMgr));
     ResetTasks();

@@ -1,4 +1,5 @@
 #include "global.h"
+#include "regions.h"
 #include "main.h"
 #include "event_data.h"
 #include "field_effect.h"
@@ -771,7 +772,7 @@ static void CreatePCMultichoice(void)
     // Change PC name if player has met Lanette
     if (FlagGet(FLAG_SYS_PC_LANETTE))
     {
-        if (IS_FRLG)
+        if (IsInKanto()) // Super Fire Red
             AddTextPrinterParameterized(windowId, FONT_NORMAL, gText_BillsPc, x, 1, TEXT_SKIP_DRAW, NULL);
         else
             AddTextPrinterParameterized(windowId, FONT_NORMAL, gText_LanettesPC, x, 1, TEXT_SKIP_DRAW, NULL);

@@ -90,7 +90,7 @@ static void HasSpokenToOwner(void);
 static void BuildEnemyParty(void);
 static s32 GetPartyMaxLevel(void);
 static void ValidateOrResetCurTrainerTowerRecord(void);
-#if FREE_TRAINER_TOWER == FALSE && IS_FRLG
+#if FREE_TRAINER_TOWER == FALSE
 static u32 GetTrainerTowerRecordTime(u32 *);
 static void SetTrainerTowerRecordTime(u32 *, u32);
 #endif //FREE_TRAINER_TOWER
@@ -400,7 +400,7 @@ void InitTrainerTowerBattleStruct(void)
     sTrainerTowerOpponent->battleType = CURR_FLOOR.challengeType;
     sTrainerTowerOpponent->facilityClass = CURR_FLOOR.trainers[trainerId].facilityClass;
     sTrainerTowerOpponent->textColor = CURR_FLOOR.trainers[trainerId].textColor;
-#if FREE_TRAINER_TOWER == FALSE && IS_FRLG
+#if FREE_TRAINER_TOWER == FALSE
     SetTrainerHillVBlankCounter(&TRAINER_TOWER.timer);
 #endif //FREE_TRAINER_TOWER
     FreeTrainerTowerDataStruct();
@@ -433,7 +433,7 @@ void GetTrainerTowerOpponentLoseText(u8 *dest, u8 opponentIdx)
 
 static void SetUpTrainerTowerDataStruct(void)
 {
-#if FREE_TRAINER_TOWER == FALSE && IS_FRLG
+#if FREE_TRAINER_TOWER == FALSE
     u32 challengeType = gSaveBlock1Ptr->towerChallengeId;
 #else
     u32 challengeType = CHALLENGE_TYPE_SINGLE;
@@ -676,7 +676,7 @@ static void TrainerTowerGetChallengeType(void)
 
 static void TrainerTowerAddFloorCleared(void)
 {
-#if FREE_TRAINER_TOWER == FALSE && IS_FRLG
+#if FREE_TRAINER_TOWER == FALSE
     TRAINER_TOWER.floorsCleared++;
 #endif //FREE_TRAINER_TOWER
 }
@@ -684,7 +684,7 @@ static void TrainerTowerAddFloorCleared(void)
 // So the player can safely go back through defeated floors to use the Poke Center (or exit challenge)
 static void GetFloorAlreadyCleared(void)
 {
-#if FREE_TRAINER_TOWER == FALSE && IS_FRLG
+#if FREE_TRAINER_TOWER == FALSE
     u16 mapLayoutId = gMapHeader.mapLayoutId;
     if (mapLayoutId - LAYOUT_TRAINER_TOWER_1F == TRAINER_TOWER.floorsCleared
      && mapLayoutId - LAYOUT_TRAINER_TOWER_LOBBY <= CURR_FLOOR.floorIdx)
@@ -698,7 +698,7 @@ static void GetFloorAlreadyCleared(void)
 
 static void StartTrainerTowerChallenge(void)
 {
-#if FREE_TRAINER_TOWER == FALSE && IS_FRLG
+#if FREE_TRAINER_TOWER == FALSE
     gSaveBlock1Ptr->towerChallengeId = gSpecialVar_0x8005;
     if (gSaveBlock1Ptr->towerChallengeId >= NUM_TOWER_CHALLENGE_TYPES)
         gSaveBlock1Ptr->towerChallengeId = 0;
@@ -714,7 +714,7 @@ static void StartTrainerTowerChallenge(void)
 
 static void GetOwnerState(void)
 {
-#if FREE_TRAINER_TOWER == FALSE && IS_FRLG
+#if FREE_TRAINER_TOWER == FALSE
     ClearTrainerHillVBlankCounter();
     gSpecialVar_Result = 0;
 
@@ -731,7 +731,7 @@ static void GetOwnerState(void)
 
 static void GiveChallengePrize(void)
 {
-#if FREE_TRAINER_TOWER == FALSE && IS_FRLG
+#if FREE_TRAINER_TOWER == FALSE
     enum Item itemId = sPrizeList[sTrainerTowerState->data.floors->prize];
 
     if (TRAINER_TOWER.receivedPrize)
@@ -755,7 +755,7 @@ static void GiveChallengePrize(void)
 
 static void CheckFinalTime(void)
 {
-#if FREE_TRAINER_TOWER == FALSE && IS_FRLG
+#if FREE_TRAINER_TOWER == FALSE
     if (TRAINER_TOWER.checkedFinalTime)
     {
         gSpecialVar_Result = 2;
@@ -778,7 +778,7 @@ static void CheckFinalTime(void)
 
 static void TrainerTowerResumeTimer(void)
 {
-#if FREE_TRAINER_TOWER == FALSE && IS_FRLG
+#if FREE_TRAINER_TOWER == FALSE
     if (!TRAINER_TOWER.spokeToOwner)
     {
         if (TRAINER_TOWER.timer >= TRAINER_TOWER_MAX_TIME)
@@ -791,14 +791,14 @@ static void TrainerTowerResumeTimer(void)
 
 static void TrainerTowerSetPlayerLost(void)
 {
-#if FREE_TRAINER_TOWER == FALSE && IS_FRLG
+#if FREE_TRAINER_TOWER == FALSE
     TRAINER_TOWER.hasLost = TRUE;
 #endif //FREE_TRAINER_TOWER
 }
 
 static void GetTrainerTowerChallengeStatus(void)
 {
-#if FREE_TRAINER_TOWER == FALSE && IS_FRLG
+#if FREE_TRAINER_TOWER == FALSE
     if (TRAINER_TOWER.hasLost)
     {
         TRAINER_TOWER.hasLost = FALSE;
@@ -836,7 +836,7 @@ static void GetTrainerTowerChallengeStatus(void)
 
 static void GetCurrentTime(void)
 {
-#if FREE_TRAINER_TOWER == FALSE && IS_FRLG
+#if FREE_TRAINER_TOWER == FALSE
     if (TRAINER_TOWER.timer >= TRAINER_TOWER_MAX_TIME)
     {
         ClearTrainerHillVBlankCounter();
@@ -853,7 +853,7 @@ static void GetCurrentTime(void)
 
 static void ShowResultsBoard(void)
 {
-#if FREE_TRAINER_TOWER == FALSE && IS_FRLG
+#if FREE_TRAINER_TOWER == FALSE
     u8 windowId;
     s32 i;
 
@@ -880,7 +880,7 @@ static void ShowResultsBoard(void)
 
 static void CloseResultsBoard(void)
 {
-#if FREE_TRAINER_TOWER == FALSE && IS_FRLG
+#if FREE_TRAINER_TOWER == FALSE
     u8 windowId = VarGet(VAR_TEMP_1);
     ClearStdWindowAndFrameToTransparent(windowId, TRUE);
     RemoveWindow(windowId);
@@ -941,7 +941,7 @@ static void PlayTrainerTowerEncounterMusic(void)
 
 static void HasSpokenToOwner(void)
 {
-#if FREE_TRAINER_TOWER == FALSE && IS_FRLG
+#if FREE_TRAINER_TOWER == FALSE
     gSpecialVar_Result = TRAINER_TOWER.spokeToOwner;
 #endif //FREE_TRAINER_TOWER
 }
@@ -950,7 +950,7 @@ static void BuildEnemyParty(void)
 {
     u16 trainerIdx = VarGet(VAR_TEMP_1);
     s32 level = GetPartyMaxLevel();
-#if FREE_TRAINER_TOWER == FALSE && IS_FRLG
+#if FREE_TRAINER_TOWER == FALSE
     u8 floorIdx = TRAINER_TOWER.floorsCleared;
 #else
     u8 floorIdx = gMapHeader.mapLayoutId - LAYOUT_TRAINER_TOWER_1F;
@@ -1008,7 +1008,7 @@ static s32 GetPartyMaxLevel(void)
 
 static void ValidateOrResetCurTrainerTowerRecord(void)
 {
-#if FREE_TRAINER_TOWER == FALSE && IS_FRLG
+#if FREE_TRAINER_TOWER == FALSE
     if (TRAINER_TOWER.unk9 != sTrainerTowerState->data.id)
     {
         TRAINER_TOWER.unk9 = sTrainerTowerState->data.id;
@@ -1020,7 +1020,7 @@ static void ValidateOrResetCurTrainerTowerRecord(void)
 
 void PrintTrainerTowerRecords(void)
 {
-#if FREE_TRAINER_TOWER == FALSE && IS_FRLG
+#if FREE_TRAINER_TOWER == FALSE
     s32 i;
     u8 windowId = 0;
 
@@ -1043,7 +1043,7 @@ void PrintTrainerTowerRecords(void)
 #endif //FREE_TRAINER_TOWER
 }
 
-#if FREE_TRAINER_TOWER == FALSE && IS_FRLG
+#if FREE_TRAINER_TOWER == FALSE
 static u32 GetTrainerTowerRecordTime(u32 *counter)
 {
     return *counter;
@@ -1057,7 +1057,7 @@ static void SetTrainerTowerRecordTime(u32 *counter, u32 value)
 
 void ResetTrainerTowerResults(void)
 {
-#if FREE_TRAINER_TOWER == FALSE && IS_FRLG
+#if FREE_TRAINER_TOWER == FALSE
     s32 i;
 
     for (i = 0; i < NUM_TOWER_CHALLENGE_TYPES; i++)

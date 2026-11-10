@@ -1,4 +1,5 @@
 #include "global.h"
+#include "regions.h"
 #include "data.h"
 #include "decompress.h"
 #include "event_data.h"
@@ -1189,7 +1190,7 @@ bool8 FldEff_HallOfFameRecord(void)
     task = &gTasks[CreateTask(Task_HallOfFameRecord, 0xff)];
     task->tNumMons = nPokemon;
     task->tFirstBallX = 117;
-    task->tFirstBallY = IS_FRLG ? 60 : 52;
+    task->tFirstBallY = IS_FRLG_MAP_LAYOUT ? 60 : 52;
     return FALSE;
 }
 
@@ -1205,7 +1206,7 @@ static void HallOfFameRecordEffect_Init(struct Task *task)
     u8 taskId;
     task->tState++;
     task->tBallSpriteId = CreateGlowingPokeballsEffect(task->tNumMons, task->tFirstBallX, task->tFirstBallY, FALSE);
-    if (!IS_FRLG)
+    if (!IS_FRLG_MAP_LAYOUT)
     {
         taskId = FindTaskIdByFunc(Task_HallOfFameRecord);
         CreateHofMonitorSprite(taskId, 120, 24, FALSE);
@@ -1220,7 +1221,7 @@ static void HallOfFameRecordEffect_WaitForBallPlacement(struct Task *task)
 {
     if (gSprites[task->tBallSpriteId].sState > 1)
     {
-        if (IS_FRLG)
+        if (IS_FRLG_MAP_LAYOUT)
             CreateHofMonitorSpriteFrlg(120, 25);
         task->tStartHofFlash++;
         task->tState++;
@@ -1240,7 +1241,7 @@ static void HallOfFameRecordEffect_WaitForSoundAndEnd(struct Task *task)
     if (gSprites[task->tBallSpriteId].sState > 6)
     {
         DestroySprite(&gSprites[task->tBallSpriteId]);
-        if (IS_FRLG)
+        if (IS_FRLG_MAP_LAYOUT)
             FieldEffectActiveListRemove(FLDEFF_HALL_OF_FAME_RECORD_FRLG);
         else
             FieldEffectActiveListRemove(FLDEFF_HALL_OF_FAME_RECORD);
@@ -1389,7 +1390,7 @@ static u8 CreatePokecenterMonitorSprite(s16 x, s16 y)
 {
     u8 spriteId;
     struct Sprite *sprite;
-    if (IS_FRLG)
+    if (IS_FRLG_MAP_LAYOUT)
     {
         spriteId = CreateSpriteAtEnd(&sSpriteTemplate_PokecenterMonitor_FrLg, x + 4, y, 0);
     }
@@ -3340,7 +3341,7 @@ u8 FldEff_UseSurf(void)
     u8 taskId = CreateTask(Task_SurfFieldEffect, 0xff);
     gTasks[taskId].tMonId = gFieldEffectArguments[0];
     Overworld_ClearSavedMusic();
-    Overworld_ChangeMusicTo(IS_FRLG ? MUS_RG_SURF : MUS_SURF);
+    Overworld_ChangeMusicTo(IsInKanto() ? MUS_RG_SURF : MUS_SURF);
     return FALSE;
 }
 

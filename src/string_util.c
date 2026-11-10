@@ -1,4 +1,5 @@
 #include "global.h"
+#include "regions.h"
 #include "string_util.h"
 #include "text.h"
 #include "strings.h"
@@ -469,15 +470,14 @@ static const u8 *ExpandPlaceholder_KunChan(void)
 
 static const u8 *ExpandPlaceholder_RivalName(void)
 {
-#if IS_FRLG
-    if (gSaveBlock1Ptr->rivalName[0] != EOS)
+    // Super Fire Red: Blue's name in Kanto; in Hoenn May/Brendan are named explicitly
+    if (IsInKanto() && gSaveBlock1Ptr->rivalName[0] != EOS)
         return gSaveBlock1Ptr->rivalName;
-#endif
 
     if (gSaveBlock2Ptr->playerGender == MALE)
-        return (IS_FRLG ? gText_ExpandedPlaceholder_Green : gText_ExpandedPlaceholder_May);
+        return (IsInKanto() ? gText_ExpandedPlaceholder_Green : gText_ExpandedPlaceholder_May);
     else
-        return (IS_FRLG ? gText_ExpandedPlaceholder_Red : gText_ExpandedPlaceholder_Brendan);
+        return (IsInKanto() ? gText_ExpandedPlaceholder_Red : gText_ExpandedPlaceholder_Brendan);
 }
 
 static const u8 *ExpandPlaceholder_Version(void)
@@ -517,7 +517,7 @@ static const u8 *ExpandPlaceholder_Groudon(void)
 
 static const u8 *ExpandPlaceholder_Region(void)
 {
-    if (IS_FRLG)
+    if (IsInKanto()) // Super Fire Red
         return gText_Kanto;
     else
         return gText_Hoenn;
