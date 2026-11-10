@@ -867,12 +867,17 @@
 #define TRAINERS_COUNT_EMERALD     855
 #define MAX_TRAINERS_COUNT_EMERALD 864
 
+#if !IS_FRLG && KANTO_TRAINER_ID_START != MAX_TRAINERS_COUNT_EMERALD
+#error "Super Fire Red: KANTO_TRAINER_ID_START must match MAX_TRAINERS_COUNT_EMERALD (opponents_frlg.h)"
+#endif
+
 #if IS_FRLG
 #define TRAINERS_COUNT                      TRAINERS_COUNT_FRLG
 #define MAX_TRAINERS_COUNT                  MAX_TRAINERS_COUNT_FRLG
 #else
-#define TRAINERS_COUNT                      TRAINERS_COUNT_EMERALD
-#define MAX_TRAINERS_COUNT                  MAX_TRAINERS_COUNT_EMERALD
+// Super Fire Red: Emerald trainers first, then the Kanto ones (see opponents_frlg.h)
+#define TRAINERS_COUNT                      (KANTO_TRAINER_ID_START + TRAINERS_COUNT_FRLG)
+#define MAX_TRAINERS_COUNT                  (KANTO_TRAINER_ID_START + MAX_TRAINERS_COUNT_FRLG)
 #endif
 #define TRAINER_PARTNER(partner)           (MAX_TRAINERS_COUNT + partner)
 

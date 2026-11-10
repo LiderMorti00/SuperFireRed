@@ -234,6 +234,7 @@ const struct Trainer gTrainers[DIFFICULTY_COUNT][TRAINERS_COUNT] =
 #include "data/trainers_frlg.h"
 #else
 #include "data/trainers.h"
+#include "data/trainers_frlg.h" // Super Fire Red: Kanto trainers, IDs offset by KANTO_TRAINER_ID_START
 #endif
 };
 #endif

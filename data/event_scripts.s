@@ -602,7 +602,7 @@ gStdScripts_End::
 	.include "data/maps/Route119_House/scripts.inc"
 	.include "data/maps/Route124_DivingTreasureHuntersHouse/scripts.inc"
 
-.if IS_FRLG
+.if TRUE @ Super Fire Red: FRLG scripts are always included (was .if IS_FRLG)
 
 @ FRLG scripts
 	.include "data/maps/BattleColosseum_2P_Frlg/scripts.inc"

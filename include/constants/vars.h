@@ -280,41 +280,108 @@
 #define VAR_UNUSED_0x40FE                                0x40FE // Unused Var
 #define VAR_UNUSED_0x40FF                                0x40FF // Unused Var
 
+#ifdef SFR_GEN_VARS
 #define VARS_END                                         0x40FF
+#else
+#define VARS_END                                         KANTO_VARS_END // Super Fire Red: Emerald vars + Kanto vars
+#endif
 #define VARS_COUNT                                       (VARS_END - VARS_START + 1)
 
-// FRLG vars
+// FRLG vars: real IDs for Kanto live in vars_kanto.h (Super Fire Red).
+#ifndef SFR_GEN_VARS
+#include "constants/vars_kanto.h"
+#endif
+#ifndef VAR_MASSAGE_COOLDOWN_STEP_COUNTER
 #define VAR_MASSAGE_COOLDOWN_STEP_COUNTER   0
+#endif
+#ifndef VAR_ELEVATOR_FLOOR
 #define VAR_ELEVATOR_FLOOR                  0
+#endif
+#ifndef VAR_RESORT_GORGEOUS_REQUESTED_MON
 #define VAR_RESORT_GORGEOUS_REQUESTED_MON   0
+#endif
+#ifndef VAR_RESORT_GORGEOUS_REWARD
 #define VAR_RESORT_GORGEOUS_REWARD          0
+#endif
+#ifndef VAR_RESORT_GOREGEOUS_STEP_COUNTER
 #define VAR_RESORT_GOREGEOUS_STEP_COUNTER   0
+#endif
+#ifndef VAR_TRAINER_CARD_MON_ICON_TINT_IDX
 #define VAR_TRAINER_CARD_MON_ICON_TINT_IDX  0
+#endif
+#ifndef VAR_TRAINER_CARD_MON_ICON_1
 #define VAR_TRAINER_CARD_MON_ICON_1         0
+#endif
+#ifndef VAR_TRAINER_CARD_MON_ICON_2
 #define VAR_TRAINER_CARD_MON_ICON_2         0
+#endif
+#ifndef VAR_TRAINER_CARD_MON_ICON_3
 #define VAR_TRAINER_CARD_MON_ICON_3         0
+#endif
+#ifndef VAR_TRAINER_CARD_MON_ICON_4
 #define VAR_TRAINER_CARD_MON_ICON_4         0
+#endif
+#ifndef VAR_TRAINER_CARD_MON_ICON_5
 #define VAR_TRAINER_CARD_MON_ICON_5         0
+#endif
+#ifndef VAR_TRAINER_CARD_MON_ICON_6
 #define VAR_TRAINER_CARD_MON_ICON_6         0
+#endif
+#ifndef VAR_HERACROSS_SIZE_RECORD
 #define VAR_HERACROSS_SIZE_RECORD           0
+#endif
+#ifndef VAR_MAGIKARP_SIZE_RECORD
 #define VAR_MAGIKARP_SIZE_RECORD            0
+#endif
+#ifndef VAR_HOF_BRAG_STATE
 #define VAR_HOF_BRAG_STATE                  0
+#endif
+#ifndef VAR_EGG_BRAG_STATE
 #define VAR_EGG_BRAG_STATE                  0
+#endif
+#ifndef VAR_LINK_WIN_BRAG_STATE
 #define VAR_LINK_WIN_BRAG_STATE             0
+#endif
+#ifndef VAR_RENEWABLE_ITEM_STEP_COUNTER
 #define VAR_RENEWABLE_ITEM_STEP_COUNTER     0
+#endif
 
+#ifndef VAR_MAP_SCENE_PALLET_TOWN_OAK
 #define VAR_MAP_SCENE_PALLET_TOWN_OAK                        0
+#endif
+#ifndef VAR_MAP_SCENE_PALLET_TOWN_PROFESSOR_OAKS_LAB
 #define VAR_MAP_SCENE_PALLET_TOWN_PROFESSOR_OAKS_LAB         0
+#endif
+#ifndef VAR_MAP_SCENE_PALLET_TOWN_RIVALS_HOUSE
 #define VAR_MAP_SCENE_PALLET_TOWN_RIVALS_HOUSE               0
+#endif
+#ifndef VAR_MAP_SCENE_VIRIDIAN_CITY_MART
 #define VAR_MAP_SCENE_VIRIDIAN_CITY_MART                     0
+#endif
+#ifndef VAR_MAP_SCENE_VIRIDIAN_CITY_OLD_MAN
 #define VAR_MAP_SCENE_VIRIDIAN_CITY_OLD_MAN                  0
+#endif
+#ifndef VAR_MAP_SCENE_SAFFRON_CITY_POKEMON_TRAINER_FAN_CLUB
 #define VAR_MAP_SCENE_SAFFRON_CITY_POKEMON_TRAINER_FAN_CLUB  0
+#endif
+#ifndef VAR_MAP_SCENE_ROUTE16
 #define VAR_MAP_SCENE_ROUTE16                                0
+#endif
+#ifndef VAR_MAP_SCENE_ROUTE22
 #define VAR_MAP_SCENE_ROUTE22                                0
+#endif
+#ifndef VAR_MAP_SCENE_INDIGO_PLATEAU_EXTERIOR
 #define VAR_MAP_SCENE_INDIGO_PLATEAU_EXTERIOR                0
+#endif
+#ifndef VAR_MAP_SCENE_POKEMON_LEAGUE
 #define VAR_MAP_SCENE_POKEMON_LEAGUE                         0
+#endif
+#ifndef VAR_MAP_SCENE_TRAINER_TOWER
 #define VAR_MAP_SCENE_TRAINER_TOWER                          0
+#endif
+#ifndef VAR_MAP_SCENE_POKEMON_CENTER_TEALA
 #define VAR_MAP_SCENE_POKEMON_CENTER_TEALA                   0
+#endif
 
 #endif
 

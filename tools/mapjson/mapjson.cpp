@@ -734,6 +734,32 @@ void clean_heal_locations(vector<string> &valid_map_ids)
     write_text_file("src/data/heal_locations.json", new_json.str());
 }
 
+
+// Super Fire Red: the emerald build includes both Hoenn and Kanto (Sevii included).
+// FRLG duplicates of shared maps are left out; the Emerald versions are used instead.
+static const vector<string> sfrExcludedMaps = {
+    "BattleColosseum_2P_Frlg", "BattleColosseum_4P_Frlg", "RecordCorner_Frlg", "TradeCenter_Frlg", "UnionRoom_Frlg",
+    "BirthIsland_Exterior_Frlg", "BirthIsland_Harbor_Frlg",
+    "NavelRock_B1F_Frlg", "NavelRock_Exterior_Frlg", "NavelRock_Fork_Frlg", "NavelRock_Harbor_Frlg",
+};
+
+static bool is_region_included(const string &region, const string &map_name) {
+    if (version == "emerald")
+        return (region == "REGION_HOENN" || region == "REGION_KANTO")
+            && find(sfrExcludedMaps.begin(), sfrExcludedMaps.end(), map_name) == sfrExcludedMaps.end();
+    if (version == "firered")
+        return region == "REGION_KANTO";
+    return true;
+}
+
+static bool is_layout_version_included(const string &layout_version) {
+    if (version == "emerald")
+        return layout_version == "emerald" || layout_version == "frlg";
+    if (version == "firered")
+        return layout_version == "frlg";
+    return true;
+}
+
 // Output paths are directories with trailing path separators
 void process_groups(string groups_filepath, vector<string> &map_filepaths, string output_asm, string output_c) {
     output_asm = strip_trailing_separator(output_asm); // Remove separator if existing.
@@ -761,8 +787,7 @@ void process_groups(string groups_filepath, vector<string> &map_filepaths, strin
         }
         string map_name = json_to_string(map_data, "name");
 
-        if ((version == "emerald" && region != "REGION_HOENN")
-         || (version == "firered" && region != "REGION_KANTO")) {
+        if (!is_region_included(region, map_name)) {
             invalid_maps.push_back(map_name);
         }
     }
@@ -801,8 +826,7 @@ string generate_layout_headers_text(Json layouts_data) {
             else if (version == "firered")
                 layout_version = "frlg";
         }
-        if ((version == "emerald" && layout_version != "emerald")
-         || (version == "firered" && layout_version != "frlg"))
+        if (!is_layout_version_included(layout_version))
             continue;
         string layoutName = json_to_string(layout, "name");
         string border_label = layoutName + "_Border";
@@ -859,7 +883,7 @@ string generate_layouts_table_text(Json layouts_data) {
             else if (version == "firered")
                 layout_version = "frlg";
         }
-        if ((version == "emerald" && layout_version != "emerald") || (version == "firered" && layout_version != "frlg")) {
+        if (!is_layout_version_included(layout_version)) {
             text << "\t.4byte NULL\n";
         } else {
             string layout_name = json_to_string(layout, "name", true);
