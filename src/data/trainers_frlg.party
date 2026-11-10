@@ -5024,45 +5024,17 @@ Items: Hyper Potion / Hyper Potion / Full Heal
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
-Rhyhorn
-Level: 45
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Take Down
-- Rock Blast
-- Scary Face
-- Earthquake
-
 Dugtrio
-Level: 42
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Slash
-- Sand Tomb
-- Mud Slap
-- Earthquake
+Level: 49
 
 Nidoqueen
-Level: 44
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Body Slam
-- Double Kick
-- Poison Sting
-- Earthquake
+Level: 49
 
 Nidoking
-Level: 45
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Thrash
-- Double Kick
-- Poison Sting
-- Earthquake
+Level: 49
 
-Rhyhorn
+Rhydon
 Level: 50
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Take Down
-- Rock Blast
-- Scary Face
-- Earthquake
 
 === TRAINER_TEAM_ROCKET_GRUNT ===
 Name: GRUNT
@@ -6834,44 +6806,19 @@ AI: Check Bad Move / Try To Faint / Check Viability
 Mugshot: Purple
 
 Dewgong
-Level: 52
-IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
-- Ice Beam
-- Surf
-- Hail
-- Safeguard
+Level: 51
+
+Jynx
+Level: 51
 
 Cloyster
 Level: 51
-IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
-- Spikes
-- Protect
-- Hail
-- Dive
 
 Slowbro
+Level: 51
+
+Lapras
 Level: 52
-IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
-- Ice Beam
-- Surf
-- Amnesia
-- Yawn
-
-Jynx
-Level: 54
-IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
-- Ice Punch
-- Double Slap
-- Lovely Kiss
-- Attract
-
-Lapras @ Sitrus Berry
-Level: 54
-IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
-- Confuse Ray
-- Ice Beam
-- Surf
-- Body Slam
 
 === TRAINER_ELITE_FOUR_BRUNO ===
 Name: BRUNO
@@ -6885,44 +6832,19 @@ AI: Check Bad Move / Try To Faint / Check Viability
 Mugshot: Green
 
 Onix
-Level: 51
-IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
-- Earthquake
-- Rock Tomb
-- Iron Tail
-- Roar
-
-Hitmonchan
-Level: 53
-IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
-- Sky Uppercut
-- Mach Punch
-- Rock Tomb
-- Counter
+Level: 52
 
 Hitmonlee
+Level: 52
+
+Hitmonchan
+Level: 52
+
+Poliwrath
+Level: 52
+
+Machamp
 Level: 53
-IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
-- Mega Kick
-- Foresight
-- Brick Break
-- Facade
-
-Onix
-Level: 54
-IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
-- Double Edge
-- Earthquake
-- Iron Tail
-- Sand Tomb
-
-Machamp @ Sitrus Berry
-Level: 56
-IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
-- Cross Chop
-- Bulk Up
-- Scary Face
-- Rock Tomb
 
 === TRAINER_ELITE_FOUR_AGATHA ===
 Name: AGATHA
@@ -6935,45 +6857,20 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 Mugshot: Pink
 
+Arbok
+Level: 53
+
 Gengar
-Level: 54
-IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
-- Shadow Punch
-- Confuse Ray
-- Toxic
-- Double Team
+Level: 53
 
 Golbat
-Level: 54
-IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
-- Confuse Ray
-- Poison Fang
-- Air Cutter
-- Bite
-
-Haunter
 Level: 53
-IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
-- Hypnosis
-- Dream Eater
-- Curse
-- Mean Look
 
-Arbok
-Level: 56
-IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
-- Sludge Bomb
-- Screech
-- Iron Tail
-- Bite
+Weezing
+Level: 53
 
-Gengar @ Sitrus Berry
-Level: 58
-IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
-- Shadow Ball
-- Sludge Bomb
-- Hypnosis
-- Nightmare
+Gengar
+Level: 54
 
 === TRAINER_ELITE_FOUR_LANCE ===
 Name: LANCE
@@ -6986,45 +6883,20 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 Mugshot: Blue
 
-Gyarados
-Level: 56
-IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
-- Hyper Beam
-- Dragon Rage
-- Twister
-- Bite
-
-Dragonair
+Seadra
 Level: 54
-IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
-- Hyper Beam
-- Safeguard
-- Dragon Rage
-- Outrage
-
-Dragonair
-Level: 54
-IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
-- Hyper Beam
-- Safeguard
-- Thunder Wave
-- Outrage
 
 Aerodactyl
-Level: 58
-IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
-- Hyper Beam
-- Ancient Power
-- Wing Attack
-- Scary Face
+Level: 54
 
-Dragonite @ Sitrus Berry
-Level: 60
-IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
-- Hyper Beam
-- Safeguard
-- Outrage
-- Wing Attack
+Gyarados
+Level: 54
+
+Charizard
+Level: 54
+
+Dragonite
+Level: 55
 
 === TRAINER_LEADER_BROCK ===
 Name: BROCK
@@ -7036,17 +6908,10 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Geodude
-Level: 12
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Tackle
-- Defense Curl
+Level: 11
 
 Onix
-Level: 14
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Tackle
-- Bind
-- Rock Tomb
+Level: 12
 
 === TRAINER_LEADER_MISTY ===
 Name: MISTY
@@ -7058,21 +6923,11 @@ Items: Super Potion
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
-Staryu
+Psyduck
 Level: 18
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Tackle
-- Harden
-- Recover
-- Water Pulse
 
 Starmie
-Level: 21
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Swift
-- Recover
-- Rapid Spin
-- Water Pulse
+Level: 19
 
 === TRAINER_LEADER_LT_SURGE ===
 Name: LT. SURGE
@@ -7085,28 +6940,13 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Voltorb
-Level: 21
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Sonic Boom
-- Tackle
-- Screech
-- Shock Wave
+Level: 25
 
-Pikachu
-Level: 18
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Quick Attack
-- Thunder Wave
-- Double Team
-- Shock Wave
+Magnemite
+Level: 25
 
 Raichu
-Level: 24
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Quick Attack
-- Thunder Wave
-- Double Team
-- Shock Wave
+Level: 26
 
 === TRAINER_LEADER_ERIKA ===
 Name: ERIKA
@@ -7118,29 +6958,14 @@ Items: Hyper Potion / Full Heal
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
-Victreebel
-Level: 29
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Stun Spore
-- Acid
-- Poison Powder
-- Giga Drain
-
 Tangela
-Level: 24
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Poison Powder
-- Constrict
-- Ingrain
-- Giga Drain
+Level: 33
+
+Weepinbell
+Level: 33
 
 Vileplume
-Level: 29
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Sleep Powder
-- Acid
-- Stun Spore
-- Giga Drain
+Level: 34
 
 === TRAINER_LEADER_KOGA ===
 Name: KOGA
@@ -7152,37 +6977,17 @@ Items: Hyper Potion / Hyper Potion / Full Heal
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
-Koffing
-Level: 37
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Self Destruct
-- Sludge
-- Smokescreen
-- Toxic
-
-Muk
-Level: 39
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Minimize
-- Sludge
-- Acid Armor
-- Toxic
-
-Koffing
-Level: 37
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Self Destruct
-- Sludge
-- Smokescreen
-- Toxic
-
 Weezing
 Level: 43
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Tackle
-- Sludge
-- Smokescreen
-- Toxic
+
+Muk
+Level: 43
+
+Golbat
+Level: 43
+
+Venomoth
+Level: 44
 
 === TRAINER_LEADER_BLAINE ===
 Name: BLAINE
@@ -7194,37 +6999,17 @@ Items: Hyper Potion / Hyper Potion / Full Heal
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
-Growlithe
-Level: 42
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Bite
-- Roar
-- Take Down
-- Fire Blast
-
-Ponyta
-Level: 40
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Stomp
-- Bounce
-- Fire Spin
-- Fire Blast
+Magmar
+Level: 47
 
 Rapidash
-Level: 42
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Stomp
-- Bounce
-- Fire Spin
-- Fire Blast
+Level: 47
+
+Ninetales
+Level: 47
 
 Arcanine
-Level: 47
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Bite
-- Roar
-- Take Down
-- Fire Blast
+Level: 48
 
 === TRAINER_LEADER_SABRINA ===
 Name: SABRINA
@@ -7236,37 +7021,17 @@ Items: Hyper Potion / Hyper Potion / Full Heal
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
-Kadabra
-Level: 38
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Psybeam
-- Reflect
-- Future Sight
-- Calm Mind
-
 Mr Mime
-Level: 37
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Barrier
-- Psybeam
-- Baton Pass
-- Calm Mind
+Level: 43
 
-Venomoth
-Level: 38
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Psybeam
-- Gust
-- Leech Life
-- Supersonic
+Slowbro
+Level: 43
+
+Jynx
+Level: 43
 
 Alakazam
-Level: 43
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Psychic
-- Recover
-- Future Sight
-- Calm Mind
+Level: 44
 
 === TRAINER_GENTLEMAN_THOMAS ===
 Name: THOMAS

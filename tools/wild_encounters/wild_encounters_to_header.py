@@ -1,6 +1,13 @@
 import json
 import re
 
+# Super Fire Red: the Emerald build also has Kanto, using the Fire Red tables.
+def VersionCondition(version):
+    if version == "FIRERED":
+        return "#if defined(FIRERED) || defined(EMERALD)"
+    return f"#ifdef {version}"
+
+
 class Config:
     def __init__(self, config_file_name, rtc_constants_file_name, encounters_json_data):
         self.times_of_day = None
@@ -169,7 +176,7 @@ class WildEncounterAssembler:
             elif "LeafGreen" in shared_label:
                 version = "LEAFGREEN"
             
-            self.WriteLine(f"#ifdef {version}")
+            self.WriteLine(VersionCondition(version))
 
             self.WriteLine("{", 1)
             self.WriteLine(f".mapGroup = {map_group},", 2)
@@ -241,7 +248,7 @@ class WildEncounterAssembler:
                     version = "FIRERED"
                 elif "LeafGreen" in shared_label:
                     version = "LEAFGREEN"
-                self.WriteLine(f"#ifdef {version}")
+                self.WriteLine(VersionCondition(version))
                 for mon_type in self.config.mon_types:
                     if mon_type not in map_encounters:
                         headers["data"][shared_label][mon_type] = "NULL"

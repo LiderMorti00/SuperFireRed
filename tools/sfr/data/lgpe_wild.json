@@ -1,0 +1,3886 @@
+{
+ "areas": {
+  "cerulean-cave/1f": {
+   "land": {
+    "ditto": {
+     "max": 56,
+     "min": 51,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    },
+    "geodude": {
+     "max": 56,
+     "min": 51,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    },
+    "golbat": {
+     "max": 56,
+     "min": 51,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    },
+    "golduck": {
+     "max": 56,
+     "min": 51,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    },
+    "graveler": {
+     "max": 56,
+     "min": 51,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    },
+    "lickitung": {
+     "max": 56,
+     "min": 51,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    },
+    "psyduck": {
+     "max": 56,
+     "min": 51,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    },
+    "rhydon": {
+     "max": 56,
+     "min": 51,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    },
+    "rhyhorn": {
+     "max": 56,
+     "min": 51,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    },
+    "zubat": {
+     "max": 56,
+     "min": 51,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    }
+   },
+   "water": {
+    "magikarp": {
+     "max": 56,
+     "min": 51,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    },
+    "poliwag": {
+     "max": 56,
+     "min": 51,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    },
+    "poliwhirl": {
+     "max": 56,
+     "min": 51,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    },
+    "poliwrath": {
+     "max": 56,
+     "min": 51,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    }
+   }
+  },
+  "cerulean-cave/2f": {
+   "land": {
+    "chansey": {
+     "max": 56,
+     "min": 51,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    },
+    "ditto": {
+     "max": 56,
+     "min": 51,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    },
+    "geodude": {
+     "max": 56,
+     "min": 51,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    },
+    "golbat": {
+     "max": 56,
+     "min": 51,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    },
+    "graveler": {
+     "max": 56,
+     "min": 51,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    },
+    "lickitung": {
+     "max": 56,
+     "min": 51,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    },
+    "rhydon": {
+     "max": 56,
+     "min": 51,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    },
+    "rhyhorn": {
+     "max": 56,
+     "min": 51,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    },
+    "zubat": {
+     "max": 56,
+     "min": 51,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    }
+   },
+   "water": {}
+  },
+  "cerulean-cave/b1f": {
+   "land": {
+    "ditto": {
+     "max": 56,
+     "min": 51,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    },
+    "geodude": {
+     "max": 56,
+     "min": 51,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    },
+    "golbat": {
+     "max": 56,
+     "min": 51,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    },
+    "golduck": {
+     "max": 56,
+     "min": 51,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    },
+    "graveler": {
+     "max": 56,
+     "min": 51,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    },
+    "lickitung": {
+     "max": 56,
+     "min": 51,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    },
+    "psyduck": {
+     "max": 56,
+     "min": 51,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    },
+    "rhydon": {
+     "max": 56,
+     "min": 51,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    },
+    "rhyhorn": {
+     "max": 56,
+     "min": 51,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    },
+    "zubat": {
+     "max": 56,
+     "min": 51,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    }
+   },
+   "water": {
+    "magikarp": {
+     "max": 56,
+     "min": 51,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    },
+    "poliwag": {
+     "max": 56,
+     "min": 51,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    },
+    "poliwhirl": {
+     "max": 56,
+     "min": 51,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    },
+    "poliwrath": {
+     "max": 56,
+     "min": 51,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    }
+   }
+  },
+  "digletts-cave": {
+   "land": {
+    "diglett": {
+     "max": 18,
+     "min": 13,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    },
+    "dugtrio": {
+     "max": 18,
+     "min": 13,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    },
+    "zubat": {
+     "max": 18,
+     "min": 13,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    }
+   },
+   "water": {}
+  },
+  "kanto-power-plant": {
+   "land": {
+    "electabuzz": {
+     "max": 42,
+     "min": 37,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    },
+    "electrode": {
+     "max": 42,
+     "min": 37,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    },
+    "grimer": {
+     "max": 42,
+     "min": 37,
+     "versions": [
+      "pikachu"
+     ]
+    },
+    "koffing": {
+     "max": 42,
+     "min": 37,
+     "versions": [
+      "eevee"
+     ]
+    },
+    "magnemite": {
+     "max": 42,
+     "min": 37,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    },
+    "magneton": {
+     "max": 42,
+     "min": 37,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    },
+    "muk": {
+     "max": 42,
+     "min": 37,
+     "versions": [
+      "pikachu"
+     ]
+    },
+    "voltorb": {
+     "max": 42,
+     "min": 37,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    },
+    "weezing": {
+     "max": 42,
+     "min": 37,
+     "versions": [
+      "eevee"
+     ]
+    }
+   },
+   "water": {}
+  },
+  "kanto-route-1": {
+   "land": {
+    "bellsprout": {
+     "max": 4,
+     "min": 3,
+     "versions": [
+      "eevee"
+     ]
+    },
+    "oddish": {
+     "max": 4,
+     "min": 3,
+     "versions": [
+      "pikachu"
+     ]
+    },
+    "pidgey": {
+     "max": 4,
+     "min": 3,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    },
+    "rattata": {
+     "max": 4,
+     "min": 3,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    }
+   },
+   "water": {}
+  },
+  "kanto-route-10": {
+   "land": {
+    "fearow": {
+     "max": 23,
+     "min": 18,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    },
+    "krabby": {
+     "max": 23,
+     "min": 18,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    },
+    "nidoran-f": {
+     "max": 23,
+     "min": 18,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    },
+    "nidoran-m": {
+     "max": 23,
+     "min": 18,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    },
+    "nidorina": {
+     "max": 23,
+     "min": 18,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    },
+    "nidorino": {
+     "max": 23,
+     "min": 18,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    },
+    "raticate": {
+     "max": 23,
+     "min": 18,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    },
+    "rattata": {
+     "max": 23,
+     "min": 18,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    },
+    "spearow": {
+     "max": 23,
+     "min": 18,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    }
+   },
+   "water": {
+    "dragonair": {
+     "max": 23,
+     "min": 18,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    },
+    "dratini": {
+     "max": 23,
+     "min": 18,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    },
+    "magikarp": {
+     "max": 23,
+     "min": 18,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    },
+    "tentacool": {
+     "max": 23,
+     "min": 18,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    },
+    "tentacruel": {
+     "max": 23,
+     "min": 18,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    }
+   }
+  },
+  "kanto-route-11": {
+   "land": {
+    "drowzee": {
+     "max": 18,
+     "min": 13,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    },
+    "mr-mime": {
+     "max": 18,
+     "min": 13,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    },
+    "pidgeotto": {
+     "max": 18,
+     "min": 13,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    },
+    "pidgey": {
+     "max": 18,
+     "min": 13,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    },
+    "raticate": {
+     "max": 18,
+     "min": 13,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    },
+    "rattata": {
+     "max": 18,
+     "min": 13,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    }
+   },
+   "water": {
+    "horsea": {
+     "max": 18,
+     "min": 13,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    },
+    "magikarp": {
+     "max": 18,
+     "min": 13,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    },
+    "seadra": {
+     "max": 18,
+     "min": 13,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    },
+    "tentacool": {
+     "max": 18,
+     "min": 13,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    },
+    "tentacruel": {
+     "max": 18,
+     "min": 13,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    }
+   }
+  },
+  "kanto-route-12": {
+   "land": {
+    "bellsprout": {
+     "max": 36,
+     "min": 31,
+     "versions": [
+      "eevee"
+     ]
+    },
+    "farfetchd": {
+     "max": 36,
+     "min": 31,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    },
+    "gloom": {
+     "max": 36,
+     "min": 31,
+     "versions": [
+      "pikachu"
+     ]
+    },
+    "kingler": {
+     "max": 36,
+     "min": 31,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    },
+    "krabby": {
+     "max": 36,
+     "min": 31,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    },
+    "oddish": {
+     "max": 36,
+     "min": 31,
+     "versions": [
+      "pikachu"
+     ]
+    },
+    "pidgeotto": {
+     "max": 36,
+     "min": 31,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    },
+    "pidgey": {
+     "max": 36,
+     "min": 31,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    },
+    "weepinbell": {
+     "max": 36,
+     "min": 31,
+     "versions": [
+      "eevee"
+     ]
+    }
+   },
+   "water": {
+    "horsea": {
+     "max": 36,
+     "min": 31,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    },
+    "magikarp": {
+     "max": 36,
+     "min": 31,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    },
+    "seadra": {
+     "max": 36,
+     "min": 31,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    },
+    "tentacool": {
+     "max": 36,
+     "min": 31,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    },
+    "tentacruel": {
+     "max": 36,
+     "min": 31,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    }
+   }
+  },
+  "kanto-route-13": {
+   "land": {
+    "bellsprout": {
+     "max": 38,
+     "min": 33,
+     "versions": [
+      "eevee"
+     ]
+    },
+    "farfetchd": {
+     "max": 38,
+     "min": 33,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    },
+    "gloom": {
+     "max": 38,
+     "min": 33,
+     "versions": [
+      "pikachu"
+     ]
+    },
+    "kingler": {
+     "max": 38,
+     "min": 33,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    },
+    "krabby": {
+     "max": 38,
+     "min": 33,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    },
+    "oddish": {
+     "max": 38,
+     "min": 33,
+     "versions": [
+      "pikachu"
+     ]
+    },
+    "pidgeotto": {
+     "max": 38,
+     "min": 33,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    },
+    "pidgey": {
+     "max": 38,
+     "min": 33,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    },
+    "weepinbell": {
+     "max": 38,
+     "min": 33,
+     "versions": [
+      "eevee"
+     ]
+    }
+   },
+   "water": {
+    "horsea": {
+     "max": 38,
+     "min": 33,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    },
+    "magikarp": {
+     "max": 38,
+     "min": 33,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    },
+    "seadra": {
+     "max": 38,
+     "min": 33,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    },
+    "tentacool": {
+     "max": 38,
+     "min": 33,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    },
+    "tentacruel": {
+     "max": 38,
+     "min": 33,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    }
+   }
+  },
+  "kanto-route-14": {
+   "land": {
+    "bellsprout": {
+     "max": 38,
+     "min": 33,
+     "versions": [
+      "eevee"
+     ]
+    },
+    "gloom": {
+     "max": 38,
+     "min": 33,
+     "versions": [
+      "pikachu"
+     ]
+    },
+    "oddish": {
+     "max": 38,
+     "min": 33,
+     "versions": [
+      "pikachu"
+     ]
+    },
+    "pidgeotto": {
+     "max": 38,
+     "min": 33,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    },
+    "pidgey": {
+     "max": 38,
+     "min": 33,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    },
+    "pinsir": {
+     "max": 38,
+     "min": 33,
+     "versions": [
+      "eevee"
+     ]
+    },
+    "scyther": {
+     "max": 38,
+     "min": 33,
+     "versions": [
+      "pikachu"
+     ]
+    },
+    "tauros": {
+     "max": 38,
+     "min": 33,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    },
+    "venomoth": {
+     "max": 38,
+     "min": 33,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    },
+    "venonat": {
+     "max": 38,
+     "min": 33,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    },
+    "weepinbell": {
+     "max": 38,
+     "min": 33,
+     "versions": [
+      "eevee"
+     ]
+    }
+   },
+   "water": {}
+  },
+  "kanto-route-15": {
+   "land": {
+    "bellsprout": {
+     "max": 38,
+     "min": 33,
+     "versions": [
+      "eevee"
+     ]
+    },
+    "gloom": {
+     "max": 38,
+     "min": 33,
+     "versions": [
+      "pikachu"
+     ]
+    },
+    "oddish": {
+     "max": 38,
+     "min": 33,
+     "versions": [
+      "pikachu"
+     ]
+    },
+    "pidgeotto": {
+     "max": 38,
+     "min": 33,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    },
+    "pidgey": {
+     "max": 38,
+     "min": 33,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    },
+    "pinsir": {
+     "max": 38,
+     "min": 33,
+     "versions": [
+      "eevee"
+     ]
+    },
+    "scyther": {
+     "max": 38,
+     "min": 33,
+     "versions": [
+      "pikachu"
+     ]
+    },
+    "tauros": {
+     "max": 38,
+     "min": 33,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    },
+    "venomoth": {
+     "max": 38,
+     "min": 33,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    },
+    "venonat": {
+     "max": 38,
+     "min": 33,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    },
+    "weepinbell": {
+     "max": 38,
+     "min": 33,
+     "versions": [
+      "eevee"
+     ]
+    }
+   },
+   "water": {}
+  },
+  "kanto-route-16": {
+   "land": {
+    "dodrio": {
+     "max": 36,
+     "min": 31,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    },
+    "doduo": {
+     "max": 36,
+     "min": 31,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    },
+    "pidgeotto": {
+     "max": 36,
+     "min": 31,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    },
+    "pidgey": {
+     "max": 36,
+     "min": 31,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    },
+    "raticate": {
+     "max": 36,
+     "min": 31,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    },
+    "rattata": {
+     "max": 36,
+     "min": 31,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    }
+   },
+   "water": {}
+  },
+  "kanto-route-17": {
+   "land": {
+    "dodrio": {
+     "max": 38,
+     "min": 33,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    },
+    "doduo": {
+     "max": 38,
+     "min": 33,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    },
+    "eevee": {
+     "max": 38,
+     "min": 33,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    },
+    "pidgeotto": {
+     "max": 38,
+     "min": 33,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    },
+    "pidgey": {
+     "max": 38,
+     "min": 33,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    },
+    "ponyta": {
+     "max": 38,
+     "min": 33,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    },
+    "psyduck": {
+     "max": 38,
+     "min": 33,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    },
+    "rapidash": {
+     "max": 38,
+     "min": 33,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    },
+    "raticate": {
+     "max": 38,
+     "min": 33,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    },
+    "rattata": {
+     "max": 38,
+     "min": 33,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    }
+   },
+   "water": {}
+  },
+  "kanto-route-18": {
+   "land": {
+    "dodrio": {
+     "max": 38,
+     "min": 33,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    },
+    "doduo": {
+     "max": 38,
+     "min": 33,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    },
+    "pidgeotto": {
+     "max": 38,
+     "min": 33,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    },
+    "pidgey": {
+     "max": 38,
+     "min": 33,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    },
+    "raticate": {
+     "max": 38,
+     "min": 33,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    },
+    "rattata": {
+     "max": 38,
+     "min": 33,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    }
+   },
+   "water": {
+    "magikarp": {
+     "max": 38,
+     "min": 33,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    },
+    "starmie": {
+     "max": 38,
+     "min": 33,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    },
+    "staryu": {
+     "max": 38,
+     "min": 33,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    },
+    "tentacool": {
+     "max": 38,
+     "min": 33,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    },
+    "tentacruel": {
+     "max": 38,
+     "min": 33,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    }
+   }
+  },
+  "kanto-route-2/north-towards-pewter-city": {
+   "land": {
+    "bellsprout": {
+     "max": 8,
+     "min": 3,
+     "versions": [
+      "eevee"
+     ]
+    },
+    "caterpie": {
+     "max": 8,
+     "min": 3,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    },
+    "oddish": {
+     "max": 8,
+     "min": 3,
+     "versions": [
+      "pikachu"
+     ]
+    },
+    "pidgey": {
+     "max": 8,
+     "min": 3,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    },
+    "rattata": {
+     "max": 8,
+     "min": 3,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    },
+    "weedle": {
+     "max": 8,
+     "min": 3,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    }
+   },
+   "water": {}
+  },
+  "kanto-route-2/south-towards-viridian-city": {
+   "land": {
+    "bellsprout": {
+     "max": 4,
+     "min": 3,
+     "versions": [
+      "eevee"
+     ]
+    },
+    "caterpie": {
+     "max": 4,
+     "min": 3,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    },
+    "oddish": {
+     "max": 4,
+     "min": 3,
+     "versions": [
+      "pikachu"
+     ]
+    },
+    "pidgey": {
+     "max": 4,
+     "min": 3,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    },
+    "rattata": {
+     "max": 4,
+     "min": 3,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    },
+    "weedle": {
+     "max": 4,
+     "min": 3,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    }
+   },
+   "water": {}
+  },
+  "kanto-route-22": {
+   "land": {
+    "nidoran-f": {
+     "max": 4,
+     "min": 3,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    },
+    "nidoran-m": {
+     "max": 4,
+     "min": 3,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    },
+    "rattata": {
+     "max": 4,
+     "min": 3,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    },
+    "spearow": {
+     "max": 4,
+     "min": 3,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    }
+   },
+   "water": {
+    "magikarp": {
+     "max": 4,
+     "min": 3,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    },
+    "poliwag": {
+     "max": 4,
+     "min": 3,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    },
+    "poliwhirl": {
+     "max": 4,
+     "min": 3,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    }
+   }
+  },
+  "kanto-route-23": {
+   "land": {
+    "exeggcute": {
+     "max": 46,
+     "min": 41,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    },
+    "exeggutor": {
+     "max": 46,
+     "min": 41,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    },
+    "fearow": {
+     "max": 46,
+     "min": 41,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    },
+    "nidoking": {
+     "max": 46,
+     "min": 41,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    },
+    "nidoqueen": {
+     "max": 46,
+     "min": 41,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    },
+    "nidoran-f": {
+     "max": 46,
+     "min": 41,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    },
+    "nidoran-m": {
+     "max": 46,
+     "min": 41,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    },
+    "nidorina": {
+     "max": 46,
+     "min": 41,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    },
+    "nidorino": {
+     "max": 46,
+     "min": 41,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    },
+    "spearow": {
+     "max": 46,
+     "min": 41,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    }
+   },
+   "water": {
+    "magikarp": {
+     "max": 46,
+     "min": 41,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    },
+    "poliwag": {
+     "max": 46,
+     "min": 41,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    },
+    "poliwhirl": {
+     "max": 46,
+     "min": 41,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    }
+   }
+  },
+  "kanto-route-24": {
+   "land": {
+    "bellsprout": {
+     "max": 12,
+     "min": 7,
+     "versions": [
+      "eevee"
+     ]
+    },
+    "meowth": {
+     "max": 12,
+     "min": 7,
+     "versions": [
+      "eevee"
+     ]
+    },
+    "oddish": {
+     "max": 12,
+     "min": 7,
+     "versions": [
+      "pikachu"
+     ]
+    },
+    "pidgey": {
+     "max": 12,
+     "min": 7,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    },
+    "psyduck": {
+     "max": 12,
+     "min": 7,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    },
+    "venonat": {
+     "max": 12,
+     "min": 7,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    }
+   },
+   "water": {
+    "magikarp": {
+     "max": 12,
+     "min": 7,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    },
+    "tentacool": {
+     "max": 12,
+     "min": 7,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    },
+    "tentacruel": {
+     "max": 12,
+     "min": 7,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    }
+   }
+  },
+  "kanto-route-25": {
+   "land": {
+    "bellsprout": {
+     "max": 14,
+     "min": 9,
+     "versions": [
+      "eevee"
+     ]
+    },
+    "meowth": {
+     "max": 14,
+     "min": 9,
+     "versions": [
+      "eevee"
+     ]
+    },
+    "oddish": {
+     "max": 14,
+     "min": 9,
+     "versions": [
+      "pikachu"
+     ]
+    },
+    "pidgey": {
+     "max": 14,
+     "min": 9,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    },
+    "psyduck": {
+     "max": 14,
+     "min": 9,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    },
+    "venonat": {
+     "max": 14,
+     "min": 9,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    }
+   },
+   "water": {
+    "magikarp": {
+     "max": 14,
+     "min": 9,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    },
+    "poliwag": {
+     "max": 14,
+     "min": 9,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    },
+    "poliwhirl": {
+     "max": 14,
+     "min": 9,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    }
+   }
+  },
+  "kanto-route-3": {
+   "land": {
+    "ekans": {
+     "max": 8,
+     "min": 3,
+     "versions": [
+      "eevee"
+     ]
+    },
+    "mankey": {
+     "max": 8,
+     "min": 3,
+     "versions": [
+      "pikachu"
+     ]
+    },
+    "rattata": {
+     "max": 8,
+     "min": 3,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    },
+    "sandshrew": {
+     "max": 8,
+     "min": 3,
+     "versions": [
+      "pikachu"
+     ]
+    },
+    "spearow": {
+     "max": 8,
+     "min": 3,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    }
+   },
+   "water": {}
+  },
+  "kanto-route-4": {
+   "land": {
+    "ekans": {
+     "max": 12,
+     "min": 7,
+     "versions": [
+      "eevee"
+     ]
+    },
+    "mankey": {
+     "max": 12,
+     "min": 7,
+     "versions": [
+      "pikachu"
+     ]
+    },
+    "psyduck": {
+     "max": 12,
+     "min": 7,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    },
+    "rattata": {
+     "max": 12,
+     "min": 7,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    },
+    "sandshrew": {
+     "max": 12,
+     "min": 7,
+     "versions": [
+      "pikachu"
+     ]
+    },
+    "spearow": {
+     "max": 12,
+     "min": 7,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    }
+   },
+   "water": {
+    "magikarp": {
+     "max": 12,
+     "min": 7,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    },
+    "tentacool": {
+     "max": 12,
+     "min": 7,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    },
+    "tentacruel": {
+     "max": 12,
+     "min": 7,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    }
+   }
+  },
+  "kanto-route-5": {
+   "land": {
+    "abra": {
+     "max": 16,
+     "min": 11,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    },
+    "growlithe": {
+     "max": 16,
+     "min": 11,
+     "versions": [
+      "pikachu"
+     ]
+    },
+    "jigglypuff": {
+     "max": 16,
+     "min": 11,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    },
+    "pidgeotto": {
+     "max": 16,
+     "min": 11,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    },
+    "pidgey": {
+     "max": 16,
+     "min": 11,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    },
+    "rattata": {
+     "max": 16,
+     "min": 11,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    },
+    "vulpix": {
+     "max": 16,
+     "min": 11,
+     "versions": [
+      "eevee"
+     ]
+    }
+   },
+   "water": {}
+  },
+  "kanto-route-6": {
+   "land": {
+    "abra": {
+     "max": 16,
+     "min": 11,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    },
+    "growlithe": {
+     "max": 16,
+     "min": 11,
+     "versions": [
+      "pikachu"
+     ]
+    },
+    "jigglypuff": {
+     "max": 16,
+     "min": 11,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    },
+    "pidgeotto": {
+     "max": 16,
+     "min": 11,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    },
+    "pidgey": {
+     "max": 16,
+     "min": 11,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    },
+    "psyduck": {
+     "max": 16,
+     "min": 11,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    },
+    "rattata": {
+     "max": 16,
+     "min": 11,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    },
+    "vulpix": {
+     "max": 16,
+     "min": 11,
+     "versions": [
+      "eevee"
+     ]
+    }
+   },
+   "water": {
+    "goldeen": {
+     "max": 16,
+     "min": 11,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    },
+    "magikarp": {
+     "max": 16,
+     "min": 11,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    },
+    "seaking": {
+     "max": 16,
+     "min": 11,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    }
+   }
+  },
+  "kanto-route-7": {
+   "land": {
+    "abra": {
+     "max": 27,
+     "min": 22,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    },
+    "arcanine": {
+     "max": 27,
+     "min": 22,
+     "versions": [
+      "pikachu"
+     ]
+    },
+    "growlithe": {
+     "max": 27,
+     "min": 22,
+     "versions": [
+      "pikachu"
+     ]
+    },
+    "jigglypuff": {
+     "max": 27,
+     "min": 22,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    },
+    "kadabra": {
+     "max": 27,
+     "min": 22,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    },
+    "ninetales": {
+     "max": 27,
+     "min": 22,
+     "versions": [
+      "eevee"
+     ]
+    },
+    "pidgeotto": {
+     "max": 27,
+     "min": 22,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    },
+    "pidgey": {
+     "max": 27,
+     "min": 22,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    },
+    "raticate": {
+     "max": 27,
+     "min": 22,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    },
+    "rattata": {
+     "max": 27,
+     "min": 22,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    },
+    "vulpix": {
+     "max": 27,
+     "min": 22,
+     "versions": [
+      "eevee"
+     ]
+    }
+   },
+   "water": {}
+  },
+  "kanto-route-8": {
+   "land": {
+    "abra": {
+     "max": 27,
+     "min": 22,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    },
+    "arcanine": {
+     "max": 27,
+     "min": 22,
+     "versions": [
+      "pikachu"
+     ]
+    },
+    "growlithe": {
+     "max": 27,
+     "min": 22,
+     "versions": [
+      "pikachu"
+     ]
+    },
+    "jigglypuff": {
+     "max": 27,
+     "min": 22,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    },
+    "kadabra": {
+     "max": 27,
+     "min": 22,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    },
+    "ninetales": {
+     "max": 27,
+     "min": 22,
+     "versions": [
+      "eevee"
+     ]
+    },
+    "pidgeotto": {
+     "max": 27,
+     "min": 22,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    },
+    "pidgey": {
+     "max": 27,
+     "min": 22,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    },
+    "raticate": {
+     "max": 27,
+     "min": 22,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    },
+    "rattata": {
+     "max": 27,
+     "min": 22,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    },
+    "vulpix": {
+     "max": 27,
+     "min": 22,
+     "versions": [
+      "eevee"
+     ]
+    }
+   },
+   "water": {}
+  },
+  "kanto-route-9": {
+   "land": {
+    "fearow": {
+     "max": 22,
+     "min": 17,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    },
+    "nidoran-f": {
+     "max": 22,
+     "min": 17,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    },
+    "nidoran-m": {
+     "max": 22,
+     "min": 17,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    },
+    "nidorina": {
+     "max": 22,
+     "min": 17,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    },
+    "nidorino": {
+     "max": 22,
+     "min": 17,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    },
+    "raticate": {
+     "max": 22,
+     "min": 17,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    },
+    "rattata": {
+     "max": 22,
+     "min": 17,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    },
+    "spearow": {
+     "max": 22,
+     "min": 17,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    }
+   },
+   "water": {}
+  },
+  "kanto-sea-route-19": {
+   "land": {},
+   "water": {
+    "magikarp": {
+     "max": 42,
+     "min": 37,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    },
+    "starmie": {
+     "max": 42,
+     "min": 37,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    },
+    "staryu": {
+     "max": 42,
+     "min": 37,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    },
+    "tentacool": {
+     "max": 42,
+     "min": 37,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    },
+    "tentacruel": {
+     "max": 42,
+     "min": 37,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    }
+   }
+  },
+  "kanto-sea-route-20": {
+   "land": {},
+   "water": {
+    "gyarados": {
+     "max": 42,
+     "min": 37,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    },
+    "magikarp": {
+     "max": 42,
+     "min": 37,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    },
+    "tentacool": {
+     "max": 42,
+     "min": 37,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    },
+    "tentacruel": {
+     "max": 42,
+     "min": 37,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    }
+   }
+  },
+  "kanto-sea-route-21": {
+   "land": {
+    "bellsprout": {
+     "max": 42,
+     "min": 37,
+     "versions": [
+      "eevee"
+     ]
+    },
+    "gloom": {
+     "max": 42,
+     "min": 37,
+     "versions": [
+      "pikachu"
+     ]
+    },
+    "oddish": {
+     "max": 42,
+     "min": 37,
+     "versions": [
+      "pikachu"
+     ]
+    },
+    "pidgeotto": {
+     "max": 42,
+     "min": 37,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    },
+    "pidgey": {
+     "max": 42,
+     "min": 37,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    },
+    "raticate": {
+     "max": 42,
+     "min": 37,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    },
+    "rattata": {
+     "max": 42,
+     "min": 37,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    },
+    "tangela": {
+     "max": 42,
+     "min": 37,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    },
+    "victreebel": {
+     "max": 42,
+     "min": 37,
+     "versions": [
+      "eevee"
+     ]
+    },
+    "vileplume": {
+     "max": 42,
+     "min": 37,
+     "versions": [
+      "pikachu"
+     ]
+    },
+    "weepinbell": {
+     "max": 42,
+     "min": 37,
+     "versions": [
+      "eevee"
+     ]
+    }
+   },
+   "water": {
+    "magikarp": {
+     "max": 42,
+     "min": 37,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    },
+    "starmie": {
+     "max": 42,
+     "min": 37,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    },
+    "staryu": {
+     "max": 42,
+     "min": 37,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    },
+    "tentacool": {
+     "max": 42,
+     "min": 37,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    },
+    "tentacruel": {
+     "max": 42,
+     "min": 37,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    }
+   }
+  },
+  "kanto-victory-road-1/1f": {
+   "land": {
+    "geodude": {
+     "max": 46,
+     "min": 41,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    },
+    "golbat": {
+     "max": 46,
+     "min": 41,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    },
+    "graveler": {
+     "max": 46,
+     "min": 41,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    },
+    "machoke": {
+     "max": 46,
+     "min": 41,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    },
+    "machop": {
+     "max": 46,
+     "min": 41,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    },
+    "onix": {
+     "max": 46,
+     "min": 41,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    },
+    "rhydon": {
+     "max": 46,
+     "min": 41,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    },
+    "rhyhorn": {
+     "max": 46,
+     "min": 41,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    },
+    "zubat": {
+     "max": 46,
+     "min": 41,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    }
+   },
+   "water": {}
+  },
+  "kanto-victory-road-1/2f": {
+   "land": {
+    "geodude": {
+     "max": 46,
+     "min": 41,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    },
+    "golbat": {
+     "max": 46,
+     "min": 41,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    },
+    "graveler": {
+     "max": 46,
+     "min": 41,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    },
+    "machoke": {
+     "max": 46,
+     "min": 41,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    },
+    "machop": {
+     "max": 46,
+     "min": 41,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    },
+    "onix": {
+     "max": 46,
+     "min": 41,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    },
+    "rhydon": {
+     "max": 46,
+     "min": 41,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    },
+    "rhyhorn": {
+     "max": 46,
+     "min": 41,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    },
+    "zubat": {
+     "max": 46,
+     "min": 41,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    }
+   },
+   "water": {}
+  },
+  "kanto-victory-road-1/3f": {
+   "land": {
+    "geodude": {
+     "max": 46,
+     "min": 41,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    },
+    "golbat": {
+     "max": 46,
+     "min": 41,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    },
+    "graveler": {
+     "max": 46,
+     "min": 41,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    },
+    "machoke": {
+     "max": 46,
+     "min": 41,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    },
+    "machop": {
+     "max": 46,
+     "min": 41,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    },
+    "onix": {
+     "max": 46,
+     "min": 41,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    },
+    "rhydon": {
+     "max": 46,
+     "min": 41,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    },
+    "rhyhorn": {
+     "max": 46,
+     "min": 41,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    },
+    "zubat": {
+     "max": 46,
+     "min": 41,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    }
+   },
+   "water": {}
+  },
+  "mt-moon/1f": {
+   "land": {
+    "clefairy": {
+     "max": 10,
+     "min": 5,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    },
+    "geodude": {
+     "max": 10,
+     "min": 5,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    },
+    "onix": {
+     "max": 10,
+     "min": 5,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    },
+    "paras": {
+     "max": 10,
+     "min": 5,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    },
+    "zubat": {
+     "max": 10,
+     "min": 5,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    }
+   },
+   "water": {}
+  },
+  "mt-moon/b1f": {
+   "land": {
+    "clefairy": {
+     "max": 10,
+     "min": 5,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    },
+    "geodude": {
+     "max": 10,
+     "min": 5,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    },
+    "onix": {
+     "max": 10,
+     "min": 5,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    },
+    "paras": {
+     "max": 10,
+     "min": 5,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    },
+    "zubat": {
+     "max": 10,
+     "min": 5,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    }
+   },
+   "water": {}
+  },
+  "mt-moon/b2f": {
+   "land": {
+    "clefable": {
+     "max": 10,
+     "min": 5,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    },
+    "clefairy": {
+     "max": 10,
+     "min": 5,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    },
+    "geodude": {
+     "max": 10,
+     "min": 5,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    },
+    "onix": {
+     "max": 10,
+     "min": 5,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    },
+    "paras": {
+     "max": 10,
+     "min": 5,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    },
+    "zubat": {
+     "max": 10,
+     "min": 5,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    }
+   },
+   "water": {}
+  },
+  "pokemon-mansion/1f": {
+   "land": {
+    "ditto": {
+     "max": 44,
+     "min": 39,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    },
+    "grimer": {
+     "max": 44,
+     "min": 39,
+     "versions": [
+      "pikachu"
+     ]
+    },
+    "koffing": {
+     "max": 44,
+     "min": 39,
+     "versions": [
+      "eevee"
+     ]
+    },
+    "magmar": {
+     "max": 44,
+     "min": 39,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    },
+    "muk": {
+     "max": 44,
+     "min": 39,
+     "versions": [
+      "pikachu"
+     ]
+    },
+    "raticate": {
+     "max": 44,
+     "min": 39,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    },
+    "rattata": {
+     "max": 44,
+     "min": 39,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    },
+    "weezing": {
+     "max": 44,
+     "min": 39,
+     "versions": [
+      "eevee"
+     ]
+    }
+   },
+   "water": {}
+  },
+  "pokemon-mansion/2f": {
+   "land": {
+    "ditto": {
+     "max": 44,
+     "min": 39,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    },
+    "grimer": {
+     "max": 44,
+     "min": 39,
+     "versions": [
+      "pikachu"
+     ]
+    },
+    "koffing": {
+     "max": 44,
+     "min": 39,
+     "versions": [
+      "eevee"
+     ]
+    },
+    "magmar": {
+     "max": 44,
+     "min": 39,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    },
+    "muk": {
+     "max": 44,
+     "min": 39,
+     "versions": [
+      "pikachu"
+     ]
+    },
+    "raticate": {
+     "max": 44,
+     "min": 39,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    },
+    "rattata": {
+     "max": 44,
+     "min": 39,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    },
+    "weezing": {
+     "max": 44,
+     "min": 39,
+     "versions": [
+      "eevee"
+     ]
+    }
+   },
+   "water": {}
+  },
+  "pokemon-mansion/3f": {
+   "land": {
+    "ditto": {
+     "max": 44,
+     "min": 39,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    },
+    "grimer": {
+     "max": 44,
+     "min": 39,
+     "versions": [
+      "pikachu"
+     ]
+    },
+    "koffing": {
+     "max": 44,
+     "min": 39,
+     "versions": [
+      "eevee"
+     ]
+    },
+    "magmar": {
+     "max": 44,
+     "min": 39,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    },
+    "muk": {
+     "max": 44,
+     "min": 39,
+     "versions": [
+      "pikachu"
+     ]
+    },
+    "raticate": {
+     "max": 44,
+     "min": 39,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    },
+    "rattata": {
+     "max": 44,
+     "min": 39,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    },
+    "weezing": {
+     "max": 44,
+     "min": 39,
+     "versions": [
+      "eevee"
+     ]
+    }
+   },
+   "water": {}
+  },
+  "pokemon-mansion/b1f": {
+   "land": {
+    "ditto": {
+     "max": 44,
+     "min": 39,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    },
+    "grimer": {
+     "max": 44,
+     "min": 39,
+     "versions": [
+      "pikachu"
+     ]
+    },
+    "koffing": {
+     "max": 44,
+     "min": 39,
+     "versions": [
+      "eevee"
+     ]
+    },
+    "magmar": {
+     "max": 44,
+     "min": 39,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    },
+    "muk": {
+     "max": 44,
+     "min": 39,
+     "versions": [
+      "pikachu"
+     ]
+    },
+    "raticate": {
+     "max": 44,
+     "min": 39,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    },
+    "rattata": {
+     "max": 44,
+     "min": 39,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    },
+    "weezing": {
+     "max": 44,
+     "min": 39,
+     "versions": [
+      "eevee"
+     ]
+    }
+   },
+   "water": {}
+  },
+  "pokemon-tower/3f": {
+   "land": {
+    "cubone": {
+     "max": 32,
+     "min": 27,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    },
+    "gastly": {
+     "max": 32,
+     "min": 27,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    },
+    "golbat": {
+     "max": 32,
+     "min": 27,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    },
+    "haunter": {
+     "max": 32,
+     "min": 27,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    },
+    "zubat": {
+     "max": 32,
+     "min": 27,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    }
+   },
+   "water": {}
+  },
+  "pokemon-tower/4f": {
+   "land": {
+    "cubone": {
+     "max": 32,
+     "min": 27,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    },
+    "gastly": {
+     "max": 32,
+     "min": 27,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    },
+    "golbat": {
+     "max": 32,
+     "min": 27,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    },
+    "haunter": {
+     "max": 32,
+     "min": 27,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    },
+    "zubat": {
+     "max": 32,
+     "min": 27,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    }
+   },
+   "water": {}
+  },
+  "pokemon-tower/5f": {
+   "land": {
+    "cubone": {
+     "max": 32,
+     "min": 27,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    },
+    "gastly": {
+     "max": 32,
+     "min": 27,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    },
+    "golbat": {
+     "max": 32,
+     "min": 27,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    },
+    "haunter": {
+     "max": 32,
+     "min": 27,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    },
+    "zubat": {
+     "max": 32,
+     "min": 27,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    }
+   },
+   "water": {}
+  },
+  "pokemon-tower/6f": {
+   "land": {
+    "cubone": {
+     "max": 32,
+     "min": 27,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    },
+    "gastly": {
+     "max": 32,
+     "min": 27,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    },
+    "golbat": {
+     "max": 32,
+     "min": 27,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    },
+    "haunter": {
+     "max": 32,
+     "min": 27,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    },
+    "zubat": {
+     "max": 32,
+     "min": 27,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    }
+   },
+   "water": {}
+  },
+  "rock-tunnel/1f": {
+   "land": {
+    "cubone": {
+     "max": 23,
+     "min": 18,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    },
+    "geodude": {
+     "max": 23,
+     "min": 18,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    },
+    "golbat": {
+     "max": 23,
+     "min": 18,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    },
+    "graveler": {
+     "max": 23,
+     "min": 18,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    },
+    "kangaskhan": {
+     "max": 23,
+     "min": 18,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    },
+    "machop": {
+     "max": 23,
+     "min": 18,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    },
+    "onix": {
+     "max": 23,
+     "min": 18,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    },
+    "rhyhorn": {
+     "max": 23,
+     "min": 18,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    },
+    "zubat": {
+     "max": 23,
+     "min": 18,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    }
+   },
+   "water": {}
+  },
+  "rock-tunnel/b1f": {
+   "land": {
+    "cubone": {
+     "max": 23,
+     "min": 18,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    },
+    "geodude": {
+     "max": 23,
+     "min": 18,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    },
+    "golbat": {
+     "max": 23,
+     "min": 18,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    },
+    "graveler": {
+     "max": 23,
+     "min": 18,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    },
+    "kangaskhan": {
+     "max": 23,
+     "min": 18,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    },
+    "machop": {
+     "max": 23,
+     "min": 18,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    },
+    "onix": {
+     "max": 23,
+     "min": 18,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    },
+    "rhyhorn": {
+     "max": 23,
+     "min": 18,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    },
+    "zubat": {
+     "max": 23,
+     "min": 18,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    }
+   },
+   "water": {}
+  },
+  "seafoam-islands/1f": {
+   "land": {
+    "dewgong": {
+     "max": 44,
+     "min": 39,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    },
+    "golbat": {
+     "max": 44,
+     "min": 39,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    },
+    "jynx": {
+     "max": 44,
+     "min": 39,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    },
+    "seel": {
+     "max": 44,
+     "min": 39,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    },
+    "slowbro": {
+     "max": 44,
+     "min": 39,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    },
+    "slowpoke": {
+     "max": 44,
+     "min": 39,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    },
+    "zubat": {
+     "max": 44,
+     "min": 39,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    }
+   },
+   "water": {}
+  },
+  "seafoam-islands/b1f": {
+   "land": {
+    "dewgong": {
+     "max": 44,
+     "min": 39,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    },
+    "golbat": {
+     "max": 44,
+     "min": 39,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    },
+    "jynx": {
+     "max": 44,
+     "min": 39,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    },
+    "seel": {
+     "max": 44,
+     "min": 39,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    },
+    "slowbro": {
+     "max": 44,
+     "min": 39,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    },
+    "slowpoke": {
+     "max": 44,
+     "min": 39,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    },
+    "zubat": {
+     "max": 44,
+     "min": 39,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    }
+   },
+   "water": {}
+  },
+  "seafoam-islands/b2f": {
+   "land": {
+    "dewgong": {
+     "max": 44,
+     "min": 39,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    },
+    "golbat": {
+     "max": 44,
+     "min": 39,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    },
+    "jynx": {
+     "max": 44,
+     "min": 39,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    },
+    "seel": {
+     "max": 44,
+     "min": 39,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    },
+    "slowbro": {
+     "max": 44,
+     "min": 39,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    },
+    "slowpoke": {
+     "max": 44,
+     "min": 39,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    },
+    "zubat": {
+     "max": 44,
+     "min": 39,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    }
+   },
+   "water": {}
+  },
+  "seafoam-islands/b3f": {
+   "land": {
+    "dewgong": {
+     "max": 44,
+     "min": 39,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    },
+    "golbat": {
+     "max": 44,
+     "min": 39,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    },
+    "jynx": {
+     "max": 44,
+     "min": 39,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    },
+    "seel": {
+     "max": 44,
+     "min": 39,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    },
+    "slowbro": {
+     "max": 44,
+     "min": 39,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    },
+    "slowpoke": {
+     "max": 44,
+     "min": 39,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    },
+    "zubat": {
+     "max": 44,
+     "min": 39,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    }
+   },
+   "water": {
+    "cloyster": {
+     "max": 44,
+     "min": 39,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    },
+    "magikarp": {
+     "max": 44,
+     "min": 39,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    },
+    "shellder": {
+     "max": 44,
+     "min": 39,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    },
+    "tentacool": {
+     "max": 44,
+     "min": 39,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    },
+    "tentacruel": {
+     "max": 44,
+     "min": 39,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    }
+   }
+  },
+  "seafoam-islands/b4f": {
+   "land": {
+    "dewgong": {
+     "max": 44,
+     "min": 39,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    },
+    "golbat": {
+     "max": 44,
+     "min": 39,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    },
+    "jynx": {
+     "max": 44,
+     "min": 39,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    },
+    "seel": {
+     "max": 44,
+     "min": 39,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    },
+    "slowbro": {
+     "max": 44,
+     "min": 39,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    },
+    "slowpoke": {
+     "max": 44,
+     "min": 39,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    },
+    "zubat": {
+     "max": 44,
+     "min": 39,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    }
+   },
+   "water": {
+    "cloyster": {
+     "max": 44,
+     "min": 39,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    },
+    "magikarp": {
+     "max": 44,
+     "min": 39,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    },
+    "shellder": {
+     "max": 44,
+     "min": 39,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    },
+    "tentacool": {
+     "max": 44,
+     "min": 39,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    },
+    "tentacruel": {
+     "max": 44,
+     "min": 39,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    }
+   }
+  },
+  "viridian-forest": {
+   "land": {
+    "beedrill": {
+     "max": 6,
+     "min": 3,
+     "versions": [
+      "eevee"
+     ]
+    },
+    "bellsprout": {
+     "max": 6,
+     "min": 3,
+     "versions": [
+      "eevee"
+     ]
+    },
+    "butterfree": {
+     "max": 6,
+     "min": 3,
+     "versions": [
+      "pikachu"
+     ]
+    },
+    "caterpie": {
+     "max": 6,
+     "min": 3,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    },
+    "kakuna": {
+     "max": 6,
+     "min": 3,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    },
+    "metapod": {
+     "max": 6,
+     "min": 3,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    },
+    "oddish": {
+     "max": 6,
+     "min": 3,
+     "versions": [
+      "pikachu"
+     ]
+    },
+    "pidgey": {
+     "max": 6,
+     "min": 3,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    },
+    "pikachu": {
+     "max": 6,
+     "min": 3,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    },
+    "weedle": {
+     "max": 6,
+     "min": 3,
+     "versions": [
+      "pikachu",
+      "eevee"
+     ]
+    }
+   },
+   "water": {}
+  }
+ },
+ "source": "PokeAPI data/v2/csv (Lets Go Pikachu/Eevee overworld spawns, versions 31/32)"
+}

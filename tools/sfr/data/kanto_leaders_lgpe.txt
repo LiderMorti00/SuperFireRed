@@ -1,0 +1,15 @@
+# Super Fire Red: Kanto Gym Leaders and Elite Four use their Let's Go Pikachu/Eevee teams (first battle).
+# Source: pokemondb.net/lets-go-pikachu-eevee/gymleaders-elitefour
+# Blue (Champion) keeps his Fire Red teams.
+TRAINER_LEADER_BROCK: Geodude 11, Onix 12
+TRAINER_LEADER_MISTY: Psyduck 18, Starmie 19
+TRAINER_LEADER_LT_SURGE: Voltorb 25, Magnemite 25, Raichu 26
+TRAINER_LEADER_ERIKA: Tangela 33, Weepinbell 33, Vileplume 34
+TRAINER_LEADER_KOGA: Weezing 43, Muk 43, Golbat 43, Venomoth 44
+TRAINER_LEADER_SABRINA: Mr Mime 43, Slowbro 43, Jynx 43, Alakazam 44
+TRAINER_LEADER_BLAINE: Magmar 47, Rapidash 47, Ninetales 47, Arcanine 48
+TRAINER_LEADER_GIOVANNI: Dugtrio 49, Nidoqueen 49, Nidoking 49, Rhydon 50
+TRAINER_ELITE_FOUR_LORELEI: Dewgong 51, Jynx 51, Cloyster 51, Slowbro 51, Lapras 52
+TRAINER_ELITE_FOUR_BRUNO: Onix 52, Hitmonlee 52, Hitmonchan 52, Poliwrath 52, Machamp 53
+TRAINER_ELITE_FOUR_AGATHA: Arbok 53, Gengar 53, Golbat 53, Weezing 53, Gengar 54
+TRAINER_ELITE_FOUR_LANCE: Seadra 54, Aerodactyl 54, Gyarados 54, Charizard 54, Dragonite 55
