@@ -1,0 +1,4504 @@
+{
+ "celadon-city": [
+  {
+   "trainer": "Lass Kay",
+   "party": [
+    [
+     "Oddish",
+     28
+    ]
+   ],
+   "notes": ""
+  },
+  {
+   "trainer": "Beauty Mai",
+   "party": [
+    [
+     "Exeggcute",
+     29
+    ]
+   ],
+   "notes": ""
+  },
+  {
+   "trainer": "Picnicker Tina",
+   "party": [
+    [
+     "Gloom",
+     29
+    ]
+   ],
+   "notes": ""
+  },
+  {
+   "trainer": "Beauty Tamia",
+   "party": [
+    [
+     "Oddish",
+     29
+    ],
+    [
+     "Weepinbell",
+     29
+    ]
+   ],
+   "notes": ""
+  },
+  {
+   "trainer": "Beauty Lori",
+   "party": [
+    [
+     "Gloom",
+     29
+    ]
+   ],
+   "notes": ""
+  },
+  {
+   "trainer": "Ace Trainer Mary",
+   "party": [
+    [
+     "Weepinbell",
+     31
+    ],
+    [
+     "Tangela",
+     32
+    ]
+   ],
+   "notes": ""
+  },
+  {
+   "trainer": "Lass Lina",
+   "party": [
+    [
+     "Bellsprout",
+     28
+    ],
+    [
+     "Bellsprout",
+     28
+    ],
+    [
+     "Bellsprout",
+     28
+    ]
+   ],
+   "notes": ""
+  },
+  {
+   "trainer": "Erika",
+   "party": [
+    [
+     "Tangela",
+     33
+    ],
+    [
+     "Weepinbell",
+     33
+    ],
+    [
+     "Vileplume",
+     34
+    ]
+   ],
+   "notes": "She will give the player TM53 Mega Drain after the battle."
+  },
+  {
+   "trainer": "Erika",
+   "party": [
+    [
+     "Tangela",
+     56
+    ],
+    [
+     "Parasect",
+     56
+    ],
+    [
+     "Exeggutor",
+     56
+    ],
+    [
+     "Victreebel",
+     56
+    ],
+    [
+     "Vileplume",
+     57
+    ]
+   ],
+   "notes": "Rematch after defeating the Elite Four. She can be rematched every day."
+  },
+  {
+   "trainer": "Team Rocket Grunt",
+   "party": [
+    [
+     "Raticate",
+     29
+    ]
+   ],
+   "notes": "In front of the poster. Only after Cubone is kidnapped in Lavender Town."
+  },
+  {
+   "trainer": "Coach Trainer Morimoto",
+   "party": [
+    [
+     "Kangaskhan",
+     54
+    ],
+    [
+     "Flareon",
+     54
+    ],
+    [
+     "Vaporeon",
+     54
+    ],
+    [
+     "Jolteon",
+     54
+    ],
+    [
+     "Machamp",
+     54
+    ],
+    [
+     "Dragonite",
+     54
+    ]
+   ],
+   "notes": "On 3F. Only after defeating the Elite Four. He will give the player 10 PP Maxes after the battle."
+  }
+ ],
+ "cerulean-cave": [
+  {
+   "trainer": "Green",
+   "party": [
+    [
+     "Clefable",
+     66
+    ],
+    [
+     "Gengar",
+     66
+    ],
+    [
+     "Victreebel",
+     66
+    ],
+    [
+     "Ninetales",
+     66
+    ],
+    [
+     "Kangaskhan",
+     66
+    ],
+    [
+     "Blastoise",
+     68
+    ]
+   ],
+   "notes": "On B1F, after capturing Mewtwo, leaving Cerulean Cave, and returning.\nShe will give the player Mewtwonite X and Mewtwonite Y after the battle."
+  }
+ ],
+ "cerulean-city": [
+  {
+   "trainer": "Beauty Lily",
+   "party": [
+    [
+     "Goldeen",
+     16
+    ]
+   ],
+   "notes": ""
+  },
+  {
+   "trainer": "Beauty Violet",
+   "party": [
+    [
+     "Shellder",
+     16
+    ]
+   ],
+   "notes": ""
+  },
+  {
+   "trainer": "Beauty Daisy",
+   "party": [
+    [
+     "Seel",
+     16
+    ]
+   ],
+   "notes": ""
+  },
+  {
+   "trainer": "Misty",
+   "party": [
+    [
+     "Psyduck",
+     18
+    ],
+    [
+     "Starmie",
+     19
+    ]
+   ],
+   "notes": "She will give the player TM29 Scald after the battle."
+  },
+  {
+   "trainer": "Misty",
+   "party": [
+    [
+     "Golduck",
+     56
+    ],
+    [
+     "Dewgong",
+     56
+    ],
+    [
+     "Vaporeon",
+     56
+    ],
+    [
+     "Starmie",
+     56
+    ],
+    [
+     "Gyarados",
+     57
+    ]
+   ],
+   "notes": "Rematch after defeating the Elite Four. She can be rematched every day."
+  }
+ ],
+ "cinnabar-island": [
+  {
+   "trainer": "Super Nerd Erik",
+   "party": [
+    [
+     "Charmeleon",
+     45
+    ]
+   ],
+   "notes": ""
+  },
+  {
+   "trainer": "Burglar Quinn",
+   "party": [
+    [
+     "Ninetales",
+     44
+    ]
+   ],
+   "notes": ""
+  },
+  {
+   "trainer": "Super Nerd Derek",
+   "party": [
+    [
+     "Magmar",
+     45
+    ]
+   ],
+   "notes": ""
+  },
+  {
+   "trainer": "Burglar Dusty",
+   "party": [
+    [
+     "Growlithe",
+     44
+    ],
+    [
+     "Rapidash",
+     44
+    ]
+   ],
+   "notes": ""
+  },
+  {
+   "trainer": "Blaine",
+   "party": [
+    [
+     "Magmar",
+     47
+    ],
+    [
+     "Rapidash",
+     47
+    ],
+    [
+     "Ninetales",
+     47
+    ],
+    [
+     "Arcanine",
+     48
+    ]
+   ],
+   "notes": "He will give the player TM46 Fire Blast after the battle."
+  },
+  {
+   "trainer": "Blaine",
+   "party": [
+    [
+     "Magmar",
+     56
+    ],
+    [
+     "Rapidash",
+     56
+    ],
+    [
+     "Ninetales",
+     56
+    ],
+    [
+     "Flareon",
+     56
+    ],
+    [
+     "Arcanine",
+     57
+    ]
+   ],
+   "notes": "Rematch after defeating the Elite Four. He can be rematched every day."
+  }
+ ],
+ "fighting-dojo": [
+  {
+   "trainer": "Coach Trainer Leona",
+   "party": [
+    [
+     "Machoke",
+     32
+    ],
+    [
+     "Electabuzz",
+     33
+    ]
+   ],
+   "notes": "She will give the player TM23 Thunder Punch after the battle."
+  },
+  {
+   "trainer": "Black Belt Hitoshi",
+   "party": [
+    [
+     "Primeape",
+     31
+    ]
+   ],
+   "notes": "The player will receive 3 Poké Balls after the battle."
+  },
+  {
+   "trainer": "Black Belt Aaron",
+   "party": [
+    [
+     "Graveler",
+     31
+    ]
+   ],
+   "notes": "The player will receive 3 Poké Balls after the battle."
+  },
+  {
+   "trainer": "Black Belt Hideki",
+   "party": [
+    [
+     "Poliwhirl",
+     31
+    ]
+   ],
+   "notes": "The player will receive 3 Poké Balls after the battle."
+  },
+  {
+   "trainer": "Black Belt Mike",
+   "party": [
+    [
+     "Machoke",
+     31
+    ]
+   ],
+   "notes": "The player will receive 3 Poké Balls after the battle."
+  },
+  {
+   "trainer": "Black Belt Koichi",
+   "party": [
+    [
+     "Poliwrath",
+     34
+    ]
+   ],
+   "notes": ""
+  }
+ ],
+ "fuchsia-city": [
+  {
+   "trainer": "Tamer Phil",
+   "party": [
+    [
+     "Nidorina",
+     41
+    ],
+    [
+     "Nidorino",
+     41
+    ]
+   ],
+   "notes": ""
+  },
+  {
+   "trainer": "Ace Trainer Kayden",
+   "party": [
+    [
+     "Muk",
+     41
+    ],
+    [
+     "Beedrill",
+     42
+    ]
+   ],
+   "notes": ""
+  },
+  {
+   "trainer": "Juggler Kirk",
+   "party": [
+    [
+     "Haunter",
+     40
+    ]
+   ],
+   "notes": ""
+  },
+  {
+   "trainer": "Juggler Harry",
+   "party": [
+    [
+     "Haunter",
+     40
+    ],
+    [
+     "Haunter",
+     40
+    ],
+    [
+     "Haunter",
+     40
+    ]
+   ],
+   "notes": ""
+  },
+  {
+   "trainer": "Ace Trainer Annie",
+   "party": [
+    [
+     "Ivysaur",
+     41
+    ],
+    [
+     "Weezing",
+     42
+    ]
+   ],
+   "notes": ""
+  },
+  {
+   "trainer": "Tamer Edgar",
+   "party": [
+    [
+     "Arbok",
+     41
+    ],
+    [
+     "Arbok",
+     41
+    ],
+    [
+     "Arbok",
+     41
+    ]
+   ],
+   "notes": ""
+  },
+  {
+   "trainer": "Koga",
+   "party": [
+    [
+     "Weezing",
+     43
+    ],
+    [
+     "Muk",
+     43
+    ],
+    [
+     "Golbat",
+     43
+    ],
+    [
+     "Venomoth",
+     44
+    ]
+   ],
+   "notes": "He will give the player TM27 Toxic after the battle."
+  },
+  {
+   "trainer": "Koga",
+   "party": [
+    [
+     "Tentacruel",
+     56
+    ],
+    [
+     "Weezing",
+     56
+    ],
+    [
+     "Golbat",
+     56
+    ],
+    [
+     "Venomoth",
+     56
+    ],
+    [
+     "Muk",
+     57
+    ]
+   ],
+   "notes": "Rematch after defeating the Elite Four. He can be rematched every day."
+  }
+ ],
+ "indigo-plateau": [
+  {
+   "trainer": "Red",
+   "party": [
+    [
+     "Pikachu",
+     85
+    ],
+    [
+     "Machamp",
+     85
+    ],
+    [
+     "Arcanine",
+     85
+    ],
+    [
+     "Lapras",
+     85
+    ],
+    [
+     "Snorlax",
+     85
+    ],
+    [
+     "(Mega) Venusaur",
+     85
+    ]
+   ],
+   "notes": "He can be fought here after defeating six Master Trainers, and each time the player defeats the Elite Four after that."
+  }
+ ],
+ "mt-moon": [
+  {
+   "trainer": "Bug Catcher Kent",
+   "party": [
+    [
+     "Butterfree",
+     7
+    ]
+   ],
+   "notes": "The player will receive 3 Poké Balls after the battle."
+  },
+  {
+   "trainer": "Lass Evelyn",
+   "party": [
+    [
+     "Bellsprout",
+     8
+    ]
+   ],
+   "notes": "The player will receive 3 Poké Balls after the battle."
+  },
+  {
+   "trainer": "Super Nerd Jovan",
+   "party": [
+    [
+     "Grimer",
+     10
+    ]
+   ],
+   "notes": "The player will receive 3 Poké Balls after the battle."
+  },
+  {
+   "trainer": "Youngster Robby",
+   "party": [
+    [
+     "Mankey",
+     8
+    ]
+   ],
+   "notes": "The player will receive 3 Poké Balls after the battle."
+  },
+  {
+   "trainer": "Lass Miriam",
+   "party": [
+    [
+     "Clefairy",
+     8
+    ]
+   ],
+   "notes": "The player will receive 3 Poké Balls after the battle."
+  },
+  {
+   "trainer": "Youngster Josh",
+   "party": [
+    [
+     "Sandshrew",
+     8
+    ]
+   ],
+   "notes": "The player will receive 3 Poké Balls after the battle."
+  },
+  {
+   "trainer": "Hiker Marcos",
+   "party": [
+    [
+     "Geodude",
+     10
+    ],
+    [
+     "Geodude",
+     10
+    ]
+   ],
+   "notes": "The player will receive 3 Poké Balls after the battle."
+  },
+  {
+   "trainer": "Team Rocket Grunt",
+   "party": [
+    [
+     "Rattata",
+     9
+    ]
+   ],
+   "notes": ""
+  },
+  {
+   "trainer": "Team Rocket Grunt",
+   "party": [
+    [
+     "Drowzee",
+     9
+    ]
+   ],
+   "notes": ""
+  },
+  {
+   "trainer": "Team Rocket Grunt",
+   "party": [
+    [
+     "Zubat",
+     9
+    ]
+   ],
+   "notes": ""
+  },
+  {
+   "trainer": "Super Nerd Miguel",
+   "party": [
+    [
+     "Voltorb",
+     10
+    ],
+    [
+     "Magnemite",
+     10
+    ]
+   ],
+   "notes": ""
+  },
+  {
+   "trainer": "Team Rocket Jessie and James",
+   "party": [
+    [
+     "Ekans",
+     12
+    ],
+    [
+     "Koffing",
+     12
+    ]
+   ],
+   "notes": "This is a Double Battle."
+  }
+ ],
+ "pewter-city": [
+  {
+   "trainer": "Picnicker Amara",
+   "party": [
+    [
+     "Geodude",
+     7
+    ]
+   ],
+   "notes": ""
+  },
+  {
+   "trainer": "Camper Liam",
+   "party": [
+    [
+     "Geodude",
+     7
+    ]
+   ],
+   "notes": ""
+  },
+  {
+   "trainer": "Brock",
+   "party": [
+    [
+     "Geodude",
+     11
+    ],
+    [
+     "Onix",
+     12
+    ]
+   ],
+   "notes": "He will give the player TM01 Headbutt after the battle."
+  },
+  {
+   "trainer": "Brock",
+   "party": [
+    [
+     "Onix",
+     56
+    ],
+    [
+     "Kabutops",
+     56
+    ],
+    [
+     "Omastar",
+     56
+    ],
+    [
+     "Aerodactyl",
+     56
+    ],
+    [
+     "Golem",
+     57
+    ]
+   ],
+   "notes": "Rematch after defeating the Elite Four. He can be rematched every day."
+  }
+ ],
+ "pokemon-mansion": [
+  {
+   "trainer": "Burglar Arnie",
+   "party": [
+    [
+     "Rapidash",
+     44
+    ]
+   ],
+   "notes": "On 2F. The player will receive 3 Poké Balls after the battle."
+  },
+  {
+   "trainer": "Coach Trainer Rita",
+   "party": [
+    [
+     "Graveler",
+     46
+    ],
+    [
+     "Dugtrio",
+     46
+    ],
+    [
+     "Poliwrath",
+     47
+    ]
+   ],
+   "notes": "On 2F. She will give the player TM22 Rock Slide after the battle."
+  },
+  {
+   "trainer": "Burglar Simon",
+   "party": [
+    [
+     "Magmar",
+     44
+    ],
+    [
+     "Muk",
+     44
+    ]
+   ],
+   "notes": "On 3F. The player will receive 3 Poké Balls after the battle."
+  },
+  {
+   "trainer": "Scientist Braydon",
+   "party": [
+    [
+     "Weezing",
+     45
+    ],
+    [
+     "Magneton",
+     45
+    ],
+    [
+     "Magmar",
+     45
+    ]
+   ],
+   "notes": "On 3F."
+  },
+  {
+   "trainer": "Ace Trainer Louis",
+   "party": [
+    [
+     "Kingler",
+     45
+    ],
+    [
+     "Primeape",
+     46
+    ]
+   ],
+   "notes": "On 2F, in the area accessible from 3F. The player will receive 5 Ultra Balls after the battle."
+  },
+  {
+   "trainer": "Scientist Ted",
+   "party": [
+    [
+     "Electrode",
+     45
+    ],
+    [
+     "Muk",
+     45
+    ]
+   ],
+   "notes": "On 1F, in the area accessible from 3F."
+  },
+  {
+   "trainer": "Burglar Lewis",
+   "party": [
+    [
+     "Koffing",
+     44
+    ],
+    [
+     "Koffing",
+     44
+    ],
+    [
+     "Koffing",
+     44
+    ],
+    [
+     "Weezing",
+     44
+    ]
+   ],
+   "notes": "On B1F. The player will receive 3 Poké Balls after the battle."
+  },
+  {
+   "trainer": "Scientist Ivan",
+   "party": [
+    [
+     "Electabuzz",
+     45
+    ]
+   ],
+   "notes": "On B1F."
+  }
+ ],
+ "pokemon-tower": [
+  {
+   "trainer": "Channeler Hope",
+   "party": [
+    [
+     "Gastly",
+     25
+    ]
+   ],
+   "notes": "The player will receive 3 Poké Balls after the battle."
+  },
+  {
+   "trainer": "Channeler Patricia",
+   "party": [
+    [
+     "Gastly",
+     25
+    ],
+    [
+     "Gastly",
+     25
+    ]
+   ],
+   "notes": "The player will receive 3 Poké Balls after the battle."
+  },
+  {
+   "trainer": "Channeler Carly",
+   "party": [
+    [
+     "Gastly",
+     25
+    ]
+   ],
+   "notes": "The player will receive 3 Poké Balls after the battle."
+  },
+  {
+   "trainer": "Channeler Laurel",
+   "party": [
+    [
+     "Haunter",
+     25
+    ]
+   ],
+   "notes": "The player will receive 3 Poké Balls after the battle."
+  },
+  {
+   "trainer": "Channeler Jody",
+   "party": [
+    [
+     "Gastly",
+     25
+    ],
+    [
+     "Haunter",
+     25
+    ]
+   ],
+   "notes": "The player will receive 3 Poké Balls after the battle."
+  },
+  {
+   "trainer": "Channeler Paula",
+   "party": [
+    [
+     "Gastly",
+     25
+    ],
+    [
+     "Gastly",
+     25
+    ]
+   ],
+   "notes": "The player will receive 3 Poké Balls after the battle."
+  },
+  {
+   "trainer": "Channeler Ruth",
+   "party": [
+    [
+     "Haunter",
+     25
+    ]
+   ],
+   "notes": "The player will receive 3 Poké Balls after the battle."
+  },
+  {
+   "trainer": "Channeler Tammy",
+   "party": [
+    [
+     "Haunter",
+     25
+    ],
+    [
+     "Gastly",
+     25
+    ],
+    [
+     "Gastly",
+     25
+    ]
+   ],
+   "notes": "The player will receive 3 Poké Balls after the battle."
+  },
+  {
+   "trainer": "Channeler Karina",
+   "party": [
+    [
+     "Haunter",
+     25
+    ],
+    [
+     "Gastly",
+     25
+    ]
+   ],
+   "notes": "The player will receive 3 Poké Balls after the battle."
+  },
+  {
+   "trainer": "Channeler Janae",
+   "party": [
+    [
+     "Gastly",
+     25
+    ],
+    [
+     "Gastly",
+     25
+    ],
+    [
+     "Gastly",
+     25
+    ],
+    [
+     "Gastly",
+     25
+    ]
+   ],
+   "notes": "The player will receive 3 Poké Balls after the battle."
+  },
+  {
+   "trainer": "Channeler Emilia",
+   "party": [
+    [
+     "Haunter",
+     32
+    ],
+    [
+     "Haunter",
+     32
+    ],
+    [
+     "Haunter",
+     32
+    ]
+   ],
+   "notes": "The player will receive 3 Poké Balls after the battle."
+  },
+  {
+   "trainer": "Channeler Angelica",
+   "party": [
+    [
+     "Gastly",
+     25
+    ],
+    [
+     "Haunter",
+     25
+    ],
+    [
+     "Gastly",
+     25
+    ]
+   ],
+   "notes": "The player will receive 3 Poké Balls after the battle."
+  },
+  {
+   "trainer": "Channeler Jennifer",
+   "party": [
+    [
+     "Haunter",
+     25
+    ]
+   ],
+   "notes": "The player will receive 3 Poké Balls after the battle."
+  },
+  {
+   "trainer": "Team Rocket Jessie and James",
+   "party": [
+    [
+     "Arbok",
+     34
+    ],
+    [
+     "Weezing",
+     34
+    ]
+   ],
+   "notes": "This is a Double Battle."
+  }
+ ],
+ "power-plant": [
+  {
+   "trainer": "Coach Trainer Mable",
+   "party": [
+    [
+     "Omastar",
+     44
+    ],
+    [
+     "Kabutops",
+     44
+    ],
+    [
+     "Aerodactyl",
+     45
+    ]
+   ],
+   "notes": "She will give the player 5 Rare Candies after the battle."
+  }
+ ],
+ "rock-tunnel": [
+  {
+   "trainer": "Poké Maniac Ashton",
+   "party": [
+    [
+     "Slowpoke",
+     23
+    ]
+   ],
+   "notes": "The player will receive 3 Poké Balls after the battle."
+  },
+  {
+   "trainer": "Camper Lenny",
+   "party": [
+    [
+     "Growlithe",
+     22
+    ]
+   ],
+   "notes": "The player will receive 2 Great Balls after the battle."
+  },
+  {
+   "trainer": "Hiker Oliver",
+   "party": [
+    [
+     "Onix",
+     23
+    ],
+    [
+     "Sandslash",
+     23
+    ]
+   ],
+   "notes": "The player will receive 3 Poké Balls after the battle."
+  },
+  {
+   "trainer": "Hiker Claus",
+   "party": [
+    [
+     "Machop",
+     23
+    ],
+    [
+     "Rhyhorn",
+     23
+    ]
+   ],
+   "notes": "The player will receive 3 Poké Balls after the battle."
+  },
+  {
+   "trainer": "Picnicker Leah",
+   "party": [
+    [
+     "Nidorina",
+     22
+    ]
+   ],
+   "notes": "The player will receive 2 Great Balls after the battle."
+  },
+  {
+   "trainer": "Camper Leroy",
+   "party": [
+    [
+     "Nidorino",
+     22
+    ]
+   ],
+   "notes": "The player will receive 2 Great Balls after the battle."
+  },
+  {
+   "trainer": "Picnicker Dana",
+   "party": [
+    [
+     "Meowth",
+     22
+    ],
+    [
+     "Vulpix",
+     22
+    ]
+   ],
+   "notes": "The player will receive 2 Great Balls after the battle."
+  },
+  {
+   "trainer": "Poké Maniac Winston",
+   "party": [
+    [
+     "Kangaskhan",
+     23
+    ]
+   ],
+   "notes": "The player will receive 3 Poké Balls after the battle."
+  },
+  {
+   "trainer": "Black Belt Dudley",
+   "party": [
+    [
+     "Onix",
+     24
+    ]
+   ],
+   "notes": "The player will receive 3 Poké Balls after the battle."
+  },
+  {
+   "trainer": "Hiker Allen",
+   "party": [
+    [
+     "Geodude",
+     23
+    ],
+    [
+     "Onix",
+     23
+    ],
+    [
+     "Graveler",
+     23
+    ]
+   ],
+   "notes": "The player will receive 3 Poké Balls after the battle."
+  },
+  {
+   "trainer": "Black Belt Eric",
+   "party": [
+    [
+     "Mankey",
+     24
+    ],
+    [
+     "Poliwhirl",
+     24
+    ]
+   ],
+   "notes": "The player will receive 3 Poké Balls after the battle."
+  },
+  {
+   "trainer": "Poké Maniac Cooper",
+   "party": [
+    [
+     "Ivysaur",
+     23
+    ]
+   ],
+   "notes": "The player will receive 3 Poké Balls after the battle."
+  },
+  {
+   "trainer": "Ace Trainer Sofia",
+   "party": [
+    [
+     "Vulpix",
+     24
+    ],
+    [
+     "Kadabra",
+     25
+    ]
+   ],
+   "notes": "The player will receive 5 Ultra Balls after the battle."
+  },
+  {
+   "trainer": "Ace Trainer Charlie",
+   "party": [
+    [
+     "Diglett",
+     24
+    ],
+    [
+     "Flareon",
+     25
+    ]
+   ],
+   "notes": "The player will receive 5 Ultra Balls after the battle."
+  },
+  {
+   "trainer": "Black Belt Steve",
+   "party": [
+    [
+     "Machop",
+     24
+    ],
+    [
+     "Machop",
+     24
+    ]
+   ],
+   "notes": "The player will receive 3 Poké Balls after the battle."
+  }
+ ],
+ "rocket-hideout": [
+  {
+   "trainer": "Team Rocket Grunt",
+   "party": [
+    [
+     "Golbat",
+     29
+    ]
+   ],
+   "notes": "On B1F."
+  },
+  {
+   "trainer": "Team Rocket Grunt",
+   "party": [
+    [
+     "Koffing",
+     29
+    ],
+    [
+     "Rattata",
+     29
+    ],
+    [
+     "Rattata",
+     29
+    ]
+   ],
+   "notes": "On B1F."
+  },
+  {
+   "trainer": "Team Rocket Grunt",
+   "party": [
+    [
+     "Voltorb",
+     29
+    ]
+   ],
+   "notes": "On B1F."
+  },
+  {
+   "trainer": "Team Rocket Grunt",
+   "party": [
+    [
+     "Ekans",
+     29
+    ],
+    [
+     "Arbok",
+     29
+    ]
+   ],
+   "notes": "On B1F."
+  },
+  {
+   "trainer": "Team Rocket Grunt",
+   "party": [
+    [
+     "Zubat",
+     29
+    ],
+    [
+     "Gastly",
+     29
+    ]
+   ],
+   "notes": "On B1F. Requires the Lift Key."
+  },
+  {
+   "trainer": "Team Rocket Grunt",
+   "party": [
+    [
+     "Hypno",
+     29
+    ]
+   ],
+   "notes": "On B2F."
+  },
+  {
+   "trainer": "Team Rocket Grunt",
+   "party": [
+    [
+     "Golbat",
+     29
+    ]
+   ],
+   "notes": "On B3F."
+  },
+  {
+   "trainer": "Team Rocket Grunt",
+   "party": [
+    [
+     "Rattata",
+     29
+    ],
+    [
+     "Voltorb",
+     29
+    ]
+   ],
+   "notes": "On B3F."
+  },
+  {
+   "trainer": "Team Rocket Grunt",
+   "party": [
+    [
+     "Grimer",
+     29
+    ]
+   ],
+   "notes": "On B4F. Defeating him allows the player's Partner Pokémon to get the Lift Key."
+  },
+  {
+   "trainer": "Team Rocket Jessie and James",
+   "party": [
+    [
+     "Arbok",
+     32
+    ],
+    [
+     "Weezing",
+     32
+    ]
+   ],
+   "notes": "On B4F. Require the Lift Key.\nThis is a Double Battle."
+  },
+  {
+   "trainer": "Team Rocket Admin Archer",
+   "party": [
+    [
+     "Weezing",
+     33
+    ],
+    [
+     "Golbat",
+     33
+    ]
+   ],
+   "notes": "On B4F. Requires the Lift Key."
+  },
+  {
+   "trainer": "Giovanni",
+   "party": [
+    [
+     "Persian",
+     35
+    ],
+    [
+     "Rhyhorn",
+     35
+    ]
+   ],
+   "notes": "On B4F. Requires the Lift Key.\nHe will give the player the Silph Scope after the battle."
+  },
+  {
+   "trainer": "Team Rocket Admin Archer",
+   "party": [
+    [
+     "Electrode",
+     54
+    ],
+    [
+     "Golbat",
+     54
+    ],
+    [
+     "Magmar",
+     54
+    ],
+    [
+     "Weezing",
+     54
+    ]
+   ],
+   "notes": "On B4F. Only after defeating the Elite Four."
+  }
+ ],
+ "route-1": [
+  {
+   "trainer": "Youngster Ronny",
+   "party": [
+    [
+     "Rattata",
+     3
+    ]
+   ],
+   "notes": "Only after delivering the Parcel. The player will receive 3 Poké Balls after the battle."
+  }
+ ],
+ "route-10": [
+  {
+   "trainer": "Team Rocket Grunt",
+   "party": [
+    [
+     "Raticate",
+     22
+    ]
+   ],
+   "notes": "On the northern half."
+  },
+  {
+   "trainer": "Camper Vance",
+   "party": [
+    [
+     "Eevee",
+     22
+    ],
+    [
+     "Psyduck",
+     22
+    ]
+   ],
+   "notes": "On the northern half. The player will receive 2 Great Balls after the battle."
+  },
+  {
+   "trainer": "Coach Trainer Tasha",
+   "party": [
+    [
+     "Poliwhirl",
+     25
+    ],
+    [
+     "Primeape",
+     26
+    ]
+   ],
+   "notes": "On the northern half. She will give the player TM13 Brick Break after the battle."
+  },
+  {
+   "trainer": "Poké Maniac Mark",
+   "party": [
+    [
+     "Rhyhorn",
+     42
+    ],
+    [
+     "Lickitung",
+     42
+    ]
+   ],
+   "notes": "On the northern half. Requires Sea Skim.\nThe player will receive 3 Poké Balls after the battle."
+  },
+  {
+   "trainer": "Hiker Clark",
+   "party": [
+    [
+     "Geodude",
+     25
+    ],
+    [
+     "Graveler",
+     25
+    ]
+   ],
+   "notes": "On the southern half. The player will receive 3 Poké Balls after the battle."
+  },
+  {
+   "trainer": "Picnicker Carol",
+   "party": [
+    [
+     "Pikachu",
+     24
+    ],
+    [
+     "Pidgeotto",
+     24
+    ]
+   ],
+   "notes": "On the southern half. The player will receive 2 Great Balls after the battle."
+  },
+  {
+   "trainer": "Camper Trent",
+   "party": [
+    [
+     "Krabby",
+     24
+    ],
+    [
+     "Sandslash",
+     24
+    ]
+   ],
+   "notes": "On the southern half. The player will receive 2 Great Balls after the battle."
+  },
+  {
+   "trainer": "Poké Maniac Damian",
+   "party": [
+    [
+     "Charmeleon",
+     25
+    ]
+   ],
+   "notes": "On the southern half. The player will receive 3 Poké Balls after the battle."
+  }
+ ],
+ "route-11": [
+  {
+   "trainer": "Coach Trainer Will",
+   "party": [
+    [
+     "Rattata",
+     21
+    ]
+   ],
+   "notes": "He will give the player 5 Pikachu or Eevee Candies after the battle."
+  },
+  {
+   "trainer": "Sailor Dirk",
+   "party": [
+    [
+     "Poliwag",
+     18
+    ],
+    [
+     "Machop",
+     18
+    ]
+   ],
+   "notes": "The player will receive 3 Poké Balls after the battle."
+  },
+  {
+   "trainer": "Youngster Eddie",
+   "party": [
+    [
+     "Nidorino",
+     16
+    ]
+   ],
+   "notes": "The player will receive 3 Poké Balls after the battle."
+  },
+  {
+   "trainer": "Gentleman Wilco",
+   "party": [
+    [
+     "Vulpix",
+     18
+    ]
+   ],
+   "notes": "The player will receive 3 Poké Balls after the battle.\nHe can use a Full Restore during the battle."
+  },
+  {
+   "trainer": "Engineer Bernie",
+   "party": [
+    [
+     "Magnemite",
+     18
+    ],
+    [
+     "Voltorb",
+     18
+    ]
+   ],
+   "notes": "The player will receive 3 Poké Balls after the battle."
+  },
+  {
+   "trainer": "Engineer Braxton",
+   "party": [
+    [
+     "Voltorb",
+     18
+    ]
+   ],
+   "notes": "The player will receive 3 Poké Balls after the battle."
+  },
+  {
+   "trainer": "Gamer Hugo",
+   "party": [
+    [
+     "Diglett",
+     26
+    ]
+   ],
+   "notes": "The player will receive 3 Poké Balls after the battle."
+  },
+  {
+   "trainer": "Sailor Yasu",
+   "party": [
+    [
+     "Slowpoke",
+     18
+    ]
+   ],
+   "notes": "The player will receive 3 Poké Balls after the battle."
+  },
+  {
+   "trainer": "Lass Tomoe",
+   "party": [
+    [
+     "Jigglypuff",
+     16
+    ],
+    [
+     "Nidorina",
+     16
+    ]
+   ],
+   "notes": "The player will receive 3 Poké Balls after the battle."
+  }
+ ],
+ "route-12": [
+  {
+   "trainer": "Fisherman Ned",
+   "party": [
+    [
+     "Staryu",
+     27
+    ]
+   ],
+   "notes": "The player will receive 3 Poké Balls after the battle."
+  },
+  {
+   "trainer": "Fisherman Chip",
+   "party": [
+    [
+     "Poliwhirl",
+     27
+    ]
+   ],
+   "notes": "The player will receive 3 Poké Balls after the battle."
+  },
+  {
+   "trainer": "Fisherman Hank",
+   "party": [
+    [
+     "Magikarp",
+     27
+    ],
+    [
+     "Seaking",
+     27
+    ],
+    [
+     "Poliwag",
+     27
+    ]
+   ],
+   "notes": "The player will receive 3 Poké Balls after the battle."
+  },
+  {
+   "trainer": "Fisherman Elliot",
+   "party": [
+    [
+     "Gyarados",
+     27
+    ],
+    [
+     "Magikarp",
+     27
+    ]
+   ],
+   "notes": "The player will receive 3 Poké Balls after the battle."
+  },
+  {
+   "trainer": "Ace Trainer Zach",
+   "party": [
+    [
+     "Tangela",
+     28
+    ],
+    [
+     "Onix",
+     29
+    ]
+   ],
+   "notes": "The player will receive 5 Ultra Balls after the battle."
+  },
+  {
+   "trainer": "Fisherman Andrew",
+   "party": [
+    [
+     "Tentacool",
+     36
+    ],
+    [
+     "Kingler",
+     36
+    ]
+   ],
+   "notes": "The player will receive 3 Poké Balls after the battle."
+  },
+  {
+   "trainer": "Rocker Luca",
+   "party": [
+    [
+     "Electabuzz",
+     36
+    ]
+   ],
+   "notes": "Requires Chop Down. The player will receive 3 Poké Balls after the battle."
+  },
+  {
+   "trainer": "Camper Justin",
+   "party": [
+    [
+     "Nidoran♂",
+     35
+    ],
+    [
+     "Nidorino",
+     35
+    ]
+   ],
+   "notes": "The player will receive 2 Great Balls after the battle."
+  },
+  {
+   "trainer": "Coach Trainer Priya",
+   "party": [
+    [
+     "Butterfree",
+     38
+    ],
+    [
+     "Clefable",
+     39
+    ]
+   ],
+   "notes": "She will give the player TM59 Dream Eater after the battle."
+  }
+ ],
+ "route-13": [
+  {
+   "trainer": "Camper Nash",
+   "party": [
+    [
+     "Sandshrew",
+     37
+    ],
+    [
+     "Sandslash",
+     37
+    ]
+   ],
+   "notes": "The player will receive 2 Great Balls after the battle."
+  },
+  {
+   "trainer": "Picnicker Susie",
+   "party": [
+    [
+     "Jigglypuff",
+     37
+    ],
+    [
+     "Weepinbell",
+     37
+    ]
+   ],
+   "notes": "The player will receive 2 Great Balls after the battle."
+  },
+  {
+   "trainer": "Beauty Lola",
+   "party": [
+    [
+     "Chansey",
+     37
+    ]
+   ],
+   "notes": "The player will receive 3 Poké Balls after the battle."
+  },
+  {
+   "trainer": "Ace Trainer Kite",
+   "party": [
+    [
+     "Graveler",
+     39
+    ],
+    [
+     "Magneton",
+     39
+    ],
+    [
+     "Haunter",
+     40
+    ]
+   ],
+   "notes": "Requires Chop Down. The player will receive 5 Ultra Balls after the battle."
+  },
+  {
+   "trainer": "Bug Catcher Milo",
+   "party": [
+    [
+     "Scyther",
+     36
+    ],
+    [
+     "Pinsir",
+     36
+    ]
+   ],
+   "notes": "The player will receive 3 Poké Balls after the battle."
+  },
+  {
+   "trainer": "Bird Keeper Robert",
+   "party": [
+    [
+     "Doduo",
+     39
+    ],
+    [
+     "Pidgeotto",
+     39
+    ]
+   ],
+   "notes": "The player will receive 3 Poké Balls after the battle."
+  },
+  {
+   "trainer": "Picnicker Gwen",
+   "party": [
+    [
+     "Raticate",
+     37
+    ],
+    [
+     "Golduck",
+     37
+    ]
+   ],
+   "notes": "The player will receive 2 Great Balls after the battle."
+  },
+  {
+   "trainer": "Beauty Sheila",
+   "party": [
+    [
+     "Eevee",
+     37
+    ],
+    [
+     "Persian",
+     37
+    ]
+   ],
+   "notes": "The player will receive 3 Poké Balls after the battle."
+  },
+  {
+   "trainer": "Camper Perry",
+   "party": [
+    [
+     "Growlithe",
+     37
+    ],
+    [
+     "Nidorino",
+     37
+    ]
+   ],
+   "notes": "The player will receive 2 Great Balls after the battle."
+  },
+  {
+   "trainer": "Punk Guy Jared",
+   "party": [
+    [
+     "Golbat",
+     38
+    ]
+   ],
+   "notes": "The player will receive 3 Poké Balls after the battle."
+  }
+ ],
+ "route-14": [
+  {
+   "trainer": "Camper Beck",
+   "party": [
+    [
+     "Flareon",
+     37
+    ]
+   ],
+   "notes": "The player will receive 2 Great Balls after the battle."
+  },
+  {
+   "trainer": "Camper Carter",
+   "party": [
+    [
+     "Psyduck",
+     37
+    ],
+    [
+     "Dugtrio",
+     37
+    ]
+   ],
+   "notes": "The player will receive 2 Great Balls after the battle."
+  },
+  {
+   "trainer": "Bird Keeper Benny",
+   "party": [
+    [
+     "Pidgeotto",
+     39
+    ],
+    [
+     "Fearow",
+     39
+    ]
+   ],
+   "notes": "The player will receive 3 Poké Balls after the battle."
+  },
+  {
+   "trainer": "Bird Keeper Donald",
+   "party": [
+    [
+     "Fearow",
+     39
+    ],
+    [
+     "Pidgeot",
+     39
+    ]
+   ],
+   "notes": "The player will receive 3 Poké Balls after the battle."
+  },
+  {
+   "trainer": "Ace Trainer Kindra",
+   "party": [
+    [
+     "Vaporeon",
+     40
+    ],
+    [
+     "Sandslash",
+     39
+    ],
+    [
+     "Dodrio",
+     39
+    ]
+   ],
+   "notes": "The player will receive 5 Ultra Balls after the battle."
+  },
+  {
+   "trainer": "Punk Guy Harvey",
+   "party": [
+    [
+     "Raticate",
+     38
+    ],
+    [
+     "Raticate",
+     38
+    ]
+   ],
+   "notes": "The player will receive 3 Poké Balls after the battle."
+  },
+  {
+   "trainer": "Punk Guy Malik",
+   "party": [
+    [
+     "Rhyhorn",
+     38
+    ]
+   ],
+   "notes": "The player will receive 3 Poké Balls after the battle."
+  },
+  {
+   "trainer": "Punk Guy Gerald",
+   "party": [
+    [
+     "Magmar",
+     38
+    ]
+   ],
+   "notes": "The player will receive 3 Poké Balls after the battle."
+  },
+  {
+   "trainer": "Punk Guy Felix",
+   "party": [
+    [
+     "Weezing",
+     38
+    ]
+   ],
+   "notes": "The player will receive 3 Poké Balls after the battle."
+  },
+  {
+   "trainer": "Roughneck Zeek",
+   "party": [
+    [
+     "Machoke",
+     38
+    ]
+   ],
+   "notes": "The player will receive 3 Poké Balls after the battle."
+  }
+ ],
+ "route-15": [
+  {
+   "trainer": "Coach Trainer Midge",
+   "party": [
+    [
+     "Machoke",
+     40
+    ],
+    [
+     "Magmar",
+     41
+    ]
+   ],
+   "notes": "Requires Chop Down. She will give the player TM31 Fire Punch after the battle."
+  },
+  {
+   "trainer": "Picnicker Yazmin",
+   "party": [
+    [
+     "Tangela",
+     37
+    ],
+    [
+     "Seaking",
+     37
+    ]
+   ],
+   "notes": "Requires Chop Down. The player will receive 2 Great Balls after the battle."
+  },
+  {
+   "trainer": "Punk Guy Ernest",
+   "party": [
+    [
+     "Primeape",
+     38
+    ],
+    [
+     "Muk",
+     38
+    ]
+   ],
+   "notes": "The player will receive 3 Poké Balls after the battle."
+  },
+  {
+   "trainer": "Punk Guy Alex",
+   "party": [
+    [
+     "Arbok",
+     38
+    ]
+   ],
+   "notes": "The player will receive 3 Poké Balls after the battle."
+  },
+  {
+   "trainer": "Beauty Lana",
+   "party": [
+    [
+     "Growlithe",
+     37
+    ],
+    [
+     "Growlithe",
+     37
+    ],
+    [
+     "Growlithe",
+     37
+    ]
+   ],
+   "notes": "The player will receive 3 Poké Balls after the battle."
+  },
+  {
+   "trainer": "Bird Keeper Edwin",
+   "party": [
+    [
+     "Dodrio",
+     39
+    ]
+   ],
+   "notes": "The player will receive 3 Poké Balls after the battle."
+  }
+ ],
+ "route-16": [
+  {
+   "trainer": "Punk Guy Lao",
+   "party": [
+    [
+     "Onix",
+     36
+    ],
+    [
+     "Muk",
+     36
+    ]
+   ],
+   "notes": "Requires Chop Down. The player will receive 3 Poké Balls after the battle."
+  },
+  {
+   "trainer": "Roughneck Koji",
+   "party": [
+    [
+     "Raticate",
+     36
+    ],
+    [
+     "Rhyhorn",
+     36
+    ],
+    [
+     "Koffing",
+     36
+    ]
+   ],
+   "notes": "Requires Chop Down. The player will receive 3 Poké Balls after the battle."
+  },
+  {
+   "trainer": "Punk Guy Hideo",
+   "party": [
+    [
+     "Arbok",
+     36
+    ],
+    [
+     "Fearow",
+     36
+    ]
+   ],
+   "notes": "Requires Chop Down. The player will receive 3 Poké Balls after the battle."
+  },
+  {
+   "trainer": "Camper Ruben",
+   "party": [
+    [
+     "Psyduck",
+     35
+    ],
+    [
+     "Psyduck",
+     35
+    ]
+   ],
+   "notes": "The player will receive 2 Great Balls after the battle."
+  }
+ ],
+ "route-17": [
+  {
+   "trainer": "Picnicker Dalia",
+   "party": [
+    [
+     "Vaporeon",
+     37
+    ]
+   ],
+   "notes": "The player will receive 2 Great Balls after the battle."
+  },
+  {
+   "trainer": "Beauty Alexis",
+   "party": [
+    [
+     "Jolteon",
+     37
+    ]
+   ],
+   "notes": "The player will receive 3 Poké Balls after the battle."
+  },
+  {
+   "trainer": "Lass Mila",
+   "party": [
+    [
+     "Flareon",
+     36
+    ]
+   ],
+   "notes": "The player will receive 3 Poké Balls after the battle."
+  },
+  {
+   "trainer": "Ace Trainer Johnson",
+   "party": [
+    [
+     "Wartortle",
+     40
+    ],
+    [
+     "Magneton",
+     39
+    ],
+    [
+     "Marowak",
+     39
+    ]
+   ],
+   "notes": "The player will receive 5 Ultra Balls after the battle."
+  },
+  {
+   "trainer": "Punk Guy Corey",
+   "party": [
+    [
+     "Primeape",
+     38
+    ],
+    [
+     "Graveler",
+     38
+    ]
+   ],
+   "notes": "The player will receive 3 Poké Balls after the battle."
+  },
+  {
+   "trainer": "Coach Trainer Grantley",
+   "party": [
+    [
+     "Fearow",
+     40
+    ],
+    [
+     "Beedrill",
+     40
+    ],
+    [
+     "Sandslash",
+     41
+    ]
+   ],
+   "notes": "He will give the player TM58 Drill Run after the battle."
+  },
+  {
+   "trainer": "Beauty Samantha",
+   "party": [
+    [
+     "Weepinbell",
+     37
+    ]
+   ],
+   "notes": "The player will receive 3 Poké Balls after the battle."
+  },
+  {
+   "trainer": "Gentleman Orson",
+   "party": [
+    [
+     "Persian",
+     38
+    ]
+   ],
+   "notes": "The player will receive 3 Poké Balls after the battle."
+  },
+  {
+   "trainer": "Ace Trainer Maria",
+   "party": [
+    [
+     "Exeggutor",
+     40
+    ],
+    [
+     "Ninetales",
+     39
+    ],
+    [
+     "Starmie",
+     39
+    ]
+   ],
+   "notes": "The player will receive 5 Ultra Balls after the battle."
+  },
+  {
+   "trainer": "Picnicker Misaki",
+   "party": [
+    [
+     "Vulpix",
+     37
+    ],
+    [
+     "Ivysaur",
+     37
+    ],
+    [
+     "Wigglytuff",
+     37
+    ]
+   ],
+   "notes": "The player will receive 2 Great Balls after the battle."
+  },
+  {
+   "trainer": "Team Rocket Jessie and James",
+   "party": [
+    [
+     "Arbok",
+     52
+    ],
+    [
+     "Weezing",
+     52
+    ]
+   ],
+   "notes": "Only after defeating the Elite Four. They will give the player the Blast-Off Set after the battle.\n\n                        This is a Double Battle."
+  }
+ ],
+ "route-18": [
+  {
+   "trainer": "Bird Keeper Wilton",
+   "party": [
+    [
+     "Fearow",
+     39
+    ],
+    [
+     "Dodrio",
+     39
+    ]
+   ],
+   "notes": "The player will receive 3 Poké Balls after the battle."
+  },
+  {
+   "trainer": "Bird Keeper Ramiro",
+   "party": [
+    [
+     "Pidgeot",
+     39
+    ]
+   ],
+   "notes": "The player will receive 3 Poké Balls after the battle."
+  },
+  {
+   "trainer": "Bird Keeper Jacob",
+   "party": [
+    [
+     "Farfetch'd",
+     39
+    ],
+    [
+     "Farfetch'd",
+     39
+    ],
+    [
+     "Farfetch'd",
+     39
+    ]
+   ],
+   "notes": "The player will receive 3 Poké Balls after the battle."
+  }
+ ],
+ "route-19": [
+  {
+   "trainer": "Swimmer Reece",
+   "party": [
+    [
+     "Dratini",
+     38
+    ]
+   ],
+   "notes": "The player will receive 3 Poké Balls after the battle."
+  },
+  {
+   "trainer": "Swimmer Richard",
+   "party": [
+    [
+     "Starmie",
+     38
+    ]
+   ],
+   "notes": "The player will receive 3 Poké Balls after the battle."
+  },
+  {
+   "trainer": "Beauty Alice",
+   "party": [
+    [
+     "Golduck",
+     41
+    ],
+    [
+     "Cloyster",
+     41
+    ]
+   ],
+   "notes": "Requires Sea Skim. The player will receive 3 Poké Balls after the battle."
+  },
+  {
+   "trainer": "Swimmer Axle",
+   "party": [
+    [
+     "Poliwhirl",
+     42
+    ]
+   ],
+   "notes": "Requires Sea Skim. The player will receive 3 Poké Balls after the battle."
+  },
+  {
+   "trainer": "Swimmer David",
+   "party": [
+    [
+     "Seel",
+     42
+    ],
+    [
+     "Seel",
+     42
+    ],
+    [
+     "Seadra",
+     42
+    ]
+   ],
+   "notes": "Requires Sea Skim. The player will receive 3 Poké Balls after the battle."
+  },
+  {
+   "trainer": "Beauty Connie",
+   "party": [
+    [
+     "Vaporeon",
+     41
+    ]
+   ],
+   "notes": "Requires Sea Skim. The player will receive 3 Poké Balls after the battle."
+  },
+  {
+   "trainer": "Beauty Anya",
+   "party": [
+    [
+     "Seel",
+     41
+    ],
+    [
+     "Seaking",
+     41
+    ]
+   ],
+   "notes": "Requires Sea Skim. The player will receive 3 Poké Balls after the battle."
+  }
+ ],
+ "route-20": [
+  {
+   "trainer": "Swimmer Douglas",
+   "party": [
+    [
+     "Gyarados",
+     42
+    ]
+   ],
+   "notes": "East of the Seafoam Islands. The player will receive 3 Poké Balls after the battle."
+  },
+  {
+   "trainer": "Swimmer Darrin",
+   "party": [
+    [
+     "Golduck",
+     44
+    ],
+    [
+     "Gyarados",
+     44
+    ]
+   ],
+   "notes": "East of the Seafoam Islands. The player will receive 3 Poké Balls after the battle."
+  },
+  {
+   "trainer": "Beauty Shirley",
+   "party": [
+    [
+     "Wartortle",
+     41
+    ],
+    [
+     "Starmie",
+     41
+    ]
+   ],
+   "notes": "East of the Seafoam Islands. The player will receive 3 Poké Balls after the battle."
+  },
+  {
+   "trainer": "Picnicker Irene",
+   "party": [
+    [
+     "Marowak",
+     43
+    ],
+    [
+     "Gloom",
+     43
+    ],
+    [
+     "Wigglytuff",
+     43
+    ]
+   ],
+   "notes": "West of the Seafoam Islands. The player will receive 2 Great Balls after the battle."
+  },
+  {
+   "trainer": "Beauty Hansol",
+   "party": [
+    [
+     "Slowbro",
+     43
+    ]
+   ],
+   "notes": "West of the Seafoam Islands. The player will receive 3 Poké Balls after the battle."
+  },
+  {
+   "trainer": "Bird Keeper Roger",
+   "party": [
+    [
+     "Fearow",
+     45
+    ],
+    [
+     "Dodrio",
+     45
+    ],
+    [
+     "Pidgeot",
+     45
+    ]
+   ],
+   "notes": "West of the Seafoam Islands. The player will receive 3 Poké Balls after the battle."
+  },
+  {
+   "trainer": "Swimmer Dean",
+   "party": [
+    [
+     "Starmie",
+     44
+    ],
+    [
+     "Tentacruel",
+     44
+    ],
+    [
+     "Kingler",
+     44
+    ]
+   ],
+   "notes": "West of the Seafoam Islands. The player will receive 3 Poké Balls after the battle."
+  },
+  {
+   "trainer": "Picnicker Missy",
+   "party": [
+    [
+     "Jolteon",
+     41
+    ]
+   ],
+   "notes": "West of the Seafoam Islands. The player will receive 2 Great Balls after the battle."
+  },
+  {
+   "trainer": "Beauty Nora",
+   "party": [
+    [
+     "Cloyster",
+     41
+    ]
+   ],
+   "notes": "West of the Seafoam Islands. The player will receive 3 Poké Balls after the battle."
+  },
+  {
+   "trainer": "Beauty Melissa",
+   "party": [
+    [
+     "Seaking",
+     43
+    ],
+    [
+     "Jynx",
+     43
+    ]
+   ],
+   "notes": "West of the Seafoam Islands. The player will receive 3 Poké Balls after the battle."
+  },
+  {
+   "trainer": "Ace Trainer Marty",
+   "party": [
+    [
+     "Golem",
+     45
+    ],
+    [
+     "Pinsir",
+     46
+    ]
+   ],
+   "notes": "West of the Seafoam Islands. The player will receive 5 Ultra Balls after the battle."
+  }
+ ],
+ "route-21": [
+  {
+   "trainer": "Fisherman Wade",
+   "party": [
+    [
+     "Magikarp",
+     42
+    ],
+    [
+     "Magikarp",
+     42
+    ],
+    [
+     "Magikarp",
+     42
+    ],
+    [
+     "Magikarp",
+     42
+    ],
+    [
+     "Magikarp",
+     42
+    ],
+    [
+     "Magikarp",
+     42
+    ]
+   ],
+   "notes": "The player will receive 3 Poké Balls after the battle."
+  },
+  {
+   "trainer": "Fisherman Ronald",
+   "party": [
+    [
+     "Seadra",
+     42
+    ],
+    [
+     "Gyarados",
+     42
+    ]
+   ],
+   "notes": "The player will receive 3 Poké Balls after the battle."
+  },
+  {
+   "trainer": "Coach Trainer Pam",
+   "party": [
+    [
+     "Machoke",
+     44
+    ],
+    [
+     "Jynx",
+     44
+    ],
+    [
+     "Kangaskhan",
+     45
+    ]
+   ],
+   "notes": "She will give the player TM35 Ice Punch after the battle."
+  },
+  {
+   "trainer": "Roughneck Martin",
+   "party": [
+    [
+     "Raticate",
+     42
+    ],
+    [
+     "Onix",
+     42
+    ]
+   ],
+   "notes": "The player will receive 3 Poké Balls after the battle."
+  },
+  {
+   "trainer": "Swimmer Spencer",
+   "party": [
+    [
+     "Seel",
+     42
+    ],
+    [
+     "Seadra",
+     42
+    ]
+   ],
+   "notes": "The player will receive 3 Poké Balls after the battle."
+  },
+  {
+   "trainer": "Swimmer Jack",
+   "party": [
+    [
+     "Tentacool",
+     42
+    ],
+    [
+     "Golduck",
+     42
+    ],
+    [
+     "Tentacruel",
+     42
+    ]
+   ],
+   "notes": "The player will receive 3 Poké Balls after the battle."
+  },
+  {
+   "trainer": "Fisherman Nolan",
+   "party": [
+    [
+     "Tentacruel",
+     42
+    ],
+    [
+     "Starmie",
+     42
+    ]
+   ],
+   "notes": "The player will receive 3 Poké Balls after the battle."
+  },
+  {
+   "trainer": "Sailor Claude",
+   "party": [
+    [
+     "Primeape",
+     42
+    ],
+    [
+     "Machoke",
+     42
+    ]
+   ],
+   "notes": "The player will receive 3 Poké Balls after the battle."
+  },
+  {
+   "trainer": "Swimmer Roland",
+   "party": [
+    [
+     "Starmie",
+     42
+    ],
+    [
+     "Kingler",
+     42
+    ]
+   ],
+   "notes": "The player will receive 3 Poké Balls after the battle."
+  },
+  {
+   "trainer": "Swimmer Jerome",
+   "party": [
+    [
+     "Slowbro",
+     42
+    ]
+   ],
+   "notes": "The player will receive 3 Poké Balls after the battle."
+  }
+ ],
+ "route-24": [
+  {
+   "trainer": "Bug Catcher Cale",
+   "party": [
+    [
+     "Venonat",
+     9
+    ]
+   ],
+   "notes": "The player will receive 3 Poké Balls after the battle."
+  },
+  {
+   "trainer": "Lass Ali",
+   "party": [
+    [
+     "Psyduck",
+     10
+    ]
+   ],
+   "notes": "The player will receive 3 Poké Balls after the battle."
+  },
+  {
+   "trainer": "Youngster Timmy",
+   "party": [
+    [
+     "Sandshrew",
+     10
+    ]
+   ],
+   "notes": "The player will receive 3 Poké Balls after the battle."
+  },
+  {
+   "trainer": "Lass Reli",
+   "party": [
+    [
+     "Meowth",
+     10
+    ]
+   ],
+   "notes": "The player will receive 3 Poké Balls after the battle."
+  },
+  {
+   "trainer": "Camper Kevin",
+   "party": [
+    [
+     "Growlithe",
+     11
+    ]
+   ],
+   "notes": "The player will receive 2 Great Balls after the battle."
+  },
+  {
+   "trainer": "Team Rocket Grunt",
+   "party": [
+    [
+     "Zubat",
+     11
+    ],
+    [
+     "Koffing",
+     11
+    ]
+   ],
+   "notes": "He will give the player a Nugget after the battle."
+  },
+  {
+   "trainer": "Camper Shane",
+   "party": [
+    [
+     "Spearow",
+     11
+    ]
+   ],
+   "notes": "The player will receive 2 Great Balls after the battle."
+  }
+ ],
+ "route-25": [
+  {
+   "trainer": "Hiker Franklin",
+   "party": [
+    [
+     "Onix",
+     14
+    ]
+   ],
+   "notes": "The player will receive 3 Poké Balls after the battle."
+  },
+  {
+   "trainer": "Youngster Chad",
+   "party": [
+    [
+     "Diglett",
+     12
+    ]
+   ],
+   "notes": "The player will receive 3 Poké Balls after the battle."
+  },
+  {
+   "trainer": "Bird Keeper Joey",
+   "party": [
+    [
+     "Pidgeotto",
+     15
+    ]
+   ],
+   "notes": "The player will receive 3 Poké Balls after the battle."
+  },
+  {
+   "trainer": "Youngster Dan",
+   "party": [
+    [
+     "Ekans",
+     12
+    ],
+    [
+     "Rattata",
+     12
+    ]
+   ],
+   "notes": "The player will receive 3 Poké Balls after the battle."
+  },
+  {
+   "trainer": "Hiker Nob",
+   "party": [
+    [
+     "Geodude",
+     14
+    ],
+    [
+     "Machop",
+     14
+    ]
+   ],
+   "notes": "The player will receive 3 Poké Balls after the battle."
+  },
+  {
+   "trainer": "Picnicker Kelsey",
+   "party": [
+    [
+     "Goldeen",
+     13
+    ]
+   ],
+   "notes": "The player will receive 2 Great Balls after the battle."
+  },
+  {
+   "trainer": "Camper Dustin",
+   "party": [
+    [
+     "Squirtle",
+     13
+    ]
+   ],
+   "notes": "The player will receive 2 Great Balls after the battle."
+  },
+  {
+   "trainer": "Lass Haley",
+   "party": [
+    [
+     "Oddish",
+     12
+    ],
+    [
+     "Pidgey",
+     12
+    ]
+   ],
+   "notes": "The player will receive 3 Poké Balls after the battle."
+  },
+  {
+   "trainer": "Fisherman Wayne",
+   "party": [
+    [
+     "Magikarp",
+     14
+    ],
+    [
+     "Krabby",
+     14
+    ]
+   ],
+   "notes": "The player will receive 3 Poké Balls after the battle."
+  },
+  {
+   "trainer": "Coach Trainer Amala",
+   "party": [
+    [
+     "Machop",
+     16
+    ]
+   ],
+   "notes": "She will give the player TM15 after the battle."
+  }
+ ],
+ "route-3": [
+  {
+   "trainer": "Lass Janice",
+   "party": [
+    [
+     "Oddish",
+     6
+    ]
+   ],
+   "notes": "The player will receive 3 Poké Balls after the battle."
+  },
+  {
+   "trainer": "Coach Trainer Kareem",
+   "party": [
+    [
+     "Bulbasaur",
+     11
+    ]
+   ],
+   "notes": "He will give the player a Revive after the battle."
+  },
+  {
+   "trainer": "Youngster Calvin",
+   "party": [
+    [
+     "Spearow",
+     6
+    ]
+   ],
+   "notes": "The player will receive 3 Poké Balls after the battle."
+  },
+  {
+   "trainer": "Camper Victor",
+   "party": [
+    [
+     "Nidoran♂",
+     7
+    ]
+   ],
+   "notes": "The player will receive 2 Great Balls after the battle."
+  },
+  {
+   "trainer": "Picnicker Robin",
+   "party": [
+    [
+     "Nidoran♀",
+     6
+    ]
+   ],
+   "notes": "The player will receive 2 Great Balls after the battle."
+  },
+  {
+   "trainer": "Youngster Ben",
+   "party": [
+    [
+     "Rattata",
+     6
+    ]
+   ],
+   "notes": "The player will receive 3 Poké Balls after the battle."
+  },
+  {
+   "trainer": "Bug Catcher Greg",
+   "party": [
+    [
+     "Kakuna",
+     5
+    ]
+   ],
+   "notes": "The player will receive 3 Poké Balls after the battle."
+  }
+ ],
+ "route-4": [
+  {
+   "trainer": "Coach Trainer Oberon",
+   "party": [
+    [
+     "Meowth",
+     13
+    ]
+   ],
+   "notes": "On the western half. He will give the player TM57 Pay Day after the battle."
+  }
+ ],
+ "route-6": [
+  {
+   "trainer": "Camper Ricky",
+   "party": [
+    [
+     "Sandshrew",
+     15
+    ],
+    [
+     "Nidoran♂",
+     15
+    ]
+   ],
+   "notes": "The player will receive 2 Great Balls after the battle."
+  },
+  {
+   "trainer": "Picnicker Nancy",
+   "party": [
+    [
+     "Nidoran♀",
+     15
+    ],
+    [
+     "Jigglypuff",
+     15
+    ]
+   ],
+   "notes": "The player will receive 2 Great Balls after the battle."
+  },
+  {
+   "trainer": "Gentleman Edward",
+   "party": [
+    [
+     "Eevee",
+     16
+    ]
+   ],
+   "notes": "He can use a Full Restore during the battle.\nThe player will receive 3 Poké Balls after the battle."
+  },
+  {
+   "trainer": "Sailor Elijah",
+   "party": [
+    [
+     "Tentacool",
+     16
+    ]
+   ],
+   "notes": "The player will receive 3 Poké Balls after the battle."
+  },
+  {
+   "trainer": "Picnicker Isabelle",
+   "party": [
+    [
+     "Charmander",
+     15
+    ]
+   ],
+   "notes": "The player will receive 2 Great Balls after the battle."
+  },
+  {
+   "trainer": "Camper Jeff",
+   "party": [
+    [
+     "Bellsprout",
+     15
+    ]
+   ],
+   "notes": "The player will receive 2 Great Balls after the battle."
+  }
+ ],
+ "route-7": [
+  {
+   "trainer": "Ace Trainer Yvette",
+   "party": [
+    [
+     "Raichu",
+     28
+    ],
+    [
+     "Dugtrio",
+     29
+    ],
+    [
+     "Seel",
+     28
+    ]
+   ],
+   "notes": "The player will receive 5 Ultra Balls after the battle."
+  },
+  {
+   "trainer": "Coach Trainer Alpesh",
+   "party": [
+    [
+     "Farfetch'd",
+     29
+    ],
+    [
+     "Wigglytuff",
+     30
+    ]
+   ],
+   "notes": "He will give the player TM12 Facade after the battle."
+  }
+ ],
+ "route-8": [
+  {
+   "trainer": "Beauty Aubrey",
+   "party": [
+    [
+     "Clefairy",
+     26
+    ]
+   ],
+   "notes": "The player will receive 3 Poké Balls after the battle."
+  },
+  {
+   "trainer": "Gamer Rich",
+   "party": [
+    [
+     "Seaking",
+     35
+    ]
+   ],
+   "notes": "The player will receive 3 Poké Balls after the battle."
+  },
+  {
+   "trainer": "Ace Trainer Kyla",
+   "party": [
+    [
+     "Kadabra",
+     28
+    ],
+    [
+     "Machoke",
+     29
+    ]
+   ],
+   "notes": "Requires Chop Down. The player will receive 5 Ultra Balls after the battle."
+  },
+  {
+   "trainer": "Super Nerd Aidan",
+   "party": [
+    [
+     "Koffing",
+     27
+    ]
+   ],
+   "notes": "The player will receive 3 Poké Balls after the battle."
+  },
+  {
+   "trainer": "Rocker Glenn",
+   "party": [
+    [
+     "Jolteon",
+     27
+    ]
+   ],
+   "notes": "The player will receive 3 Poké Balls after the battle."
+  },
+  {
+   "trainer": "Gamer Stan",
+   "party": [
+    [
+     "Rhyhorn",
+     35
+    ]
+   ],
+   "notes": "The player will receive 3 Poké Balls after the battle."
+  },
+  {
+   "trainer": "Lass Andrea",
+   "party": [
+    [
+     "Meowth",
+     25
+    ],
+    [
+     "Meowth",
+     25
+    ],
+    [
+     "Meowth",
+     25
+    ]
+   ],
+   "notes": "The player will receive 3 Poké Balls after the battle."
+  },
+  {
+   "trainer": "Lass Megan",
+   "party": [
+    [
+     "Pikachu",
+     25
+    ]
+   ],
+   "notes": "The player will receive 3 Poké Balls after the battle."
+  },
+  {
+   "trainer": "Super Nerd Leslie",
+   "party": [
+    [
+     "Magnemite",
+     27
+    ]
+   ],
+   "notes": "The player will receive 3 Poké Balls after the battle."
+  }
+ ],
+ "route-9": [
+  {
+   "trainer": "Picnicker Alicia",
+   "party": [
+    [
+     "Eevee",
+     21
+    ],
+    [
+     "Gloom",
+     21
+    ]
+   ],
+   "notes": "The player will receive 2 Great Balls after the battle."
+  },
+  {
+   "trainer": "Bug Catcher Conner",
+   "party": [
+    [
+     "Paras",
+     19
+    ]
+   ],
+   "notes": "The player will receive 3 Poké Balls after the battle."
+  },
+  {
+   "trainer": "Hiker Jeremy",
+   "party": [
+    [
+     "Onix",
+     22
+    ]
+   ],
+   "notes": "The player will receive 3 Poké Balls after the battle."
+  },
+  {
+   "trainer": "Camper Drew",
+   "party": [
+    [
+     "Sandshrew",
+     21
+    ],
+    [
+     "Raticate",
+     21
+    ]
+   ],
+   "notes": "The player will receive 2 Great Balls after the battle."
+  },
+  {
+   "trainer": "Youngster Chris",
+   "party": [
+    [
+     "Diglett",
+     20
+    ],
+    [
+     "Fearow",
+     20
+    ]
+   ],
+   "notes": "The player will receive 3 Poké Balls after the battle."
+  },
+  {
+   "trainer": "Black Belt Brice",
+   "party": [
+    [
+     "Mankey",
+     23
+    ]
+   ],
+   "notes": "The player will receive 3 Poké Balls after the battle."
+  },
+  {
+   "trainer": "Picnicker Caitlin",
+   "party": [
+    [
+     "Goldeen",
+     21
+    ],
+    [
+     "Pidgeotto",
+     21
+    ]
+   ],
+   "notes": "The player will receive 2 Great Balls after the battle."
+  },
+  {
+   "trainer": "Hiker Alan",
+   "party": [
+    [
+     "Geodude",
+     22
+    ],
+    [
+     "Geodude",
+     22
+    ],
+    [
+     "Geodude",
+     22
+    ]
+   ],
+   "notes": "The player will receive 3 Poké Balls after the battle."
+  }
+ ],
+ "saffron-city": [
+  {
+   "trainer": "Psychic Johan",
+   "party": [
+    [
+     "Slowbro",
+     41
+    ],
+    [
+     "Kadabra",
+     41
+    ]
+   ],
+   "notes": "Southwest 'room'"
+  },
+  {
+   "trainer": "Channeler Stacy",
+   "party": [
+    [
+     "Haunter",
+     40
+    ],
+    [
+     "Haunter",
+     40
+    ]
+   ],
+   "notes": "West 'room'"
+  },
+  {
+   "trainer": "Ace Trainer Amanda",
+   "party": [
+    [
+     "Jynx",
+     42
+    ]
+   ],
+   "notes": "East 'room'"
+  },
+  {
+   "trainer": "Channeler Imari",
+   "party": [
+    [
+     "Haunter",
+     40
+    ],
+    [
+     "Haunter",
+     40
+    ],
+    [
+     "Haunter",
+     40
+    ]
+   ],
+   "notes": "North 'room'"
+  },
+  {
+   "trainer": "Ace Trainer Cameron",
+   "party": [
+    [
+     "Kadabra",
+     41
+    ],
+    [
+     "Kadabra",
+     42
+    ]
+   ],
+   "notes": "Northeast 'room'"
+  },
+  {
+   "trainer": "Psychic Preston",
+   "party": [
+    [
+     "Hypno",
+     41
+    ]
+   ],
+   "notes": "Very northeast 'room'"
+  },
+  {
+   "trainer": "Sabrina",
+   "party": [
+    [
+     "Mr. Mime",
+     43
+    ],
+    [
+     "Slowbro",
+     43
+    ],
+    [
+     "Jynx",
+     43
+    ],
+    [
+     "Alakazam",
+     44
+    ]
+   ],
+   "notes": "She will give the player TM33 Calm Mind after the battle."
+  },
+  {
+   "trainer": "Sabrina",
+   "party": [
+    [
+     "Mr. Mime",
+     56
+    ],
+    [
+     "Jynx",
+     56
+    ],
+    [
+     "Hypno",
+     56
+    ],
+    [
+     "Slowbro",
+     56
+    ],
+    [
+     "Alakazam",
+     57
+    ]
+   ],
+   "notes": "Rematch after defeating the Elite Four. She can be rematched every day."
+  }
+ ],
+ "seafoam-islands": [
+  {
+   "trainer": "Coach Trainer Yas",
+   "party": [
+    [
+     "Jolteon",
+     46
+    ],
+    [
+     "Flareon",
+     46
+    ],
+    [
+     "Vaporeon",
+     46
+    ]
+   ],
+   "notes": "On 1F. He will give the player 5 Rare Candies after the battle."
+  }
+ ],
+ "silph-co": [
+  {
+   "trainer": "Blue",
+   "party": [
+    [
+     "Exeggutor",
+     38
+    ],
+    [
+     "Charizard",
+     40
+    ]
+   ],
+   "notes": ""
+  },
+  {
+   "trainer": "Team Rocket Grunt",
+   "party": [
+    [
+     "Raticate",
+     33
+    ]
+   ],
+   "notes": ""
+  },
+  {
+   "trainer": "Team Rocket Grunt",
+   "party": [
+    [
+     "Koffing",
+     33
+    ],
+    [
+     "Koffing",
+     33
+    ],
+    [
+     "Koffing",
+     33
+    ]
+   ],
+   "notes": ""
+  },
+  {
+   "trainer": "Scientist Jerry",
+   "party": [
+    [
+     "Electabuzz",
+     35
+    ]
+   ],
+   "notes": ""
+  },
+  {
+   "trainer": "Scientist Connor",
+   "party": [
+    [
+     "Weezing",
+     35
+    ]
+   ],
+   "notes": ""
+  },
+  {
+   "trainer": "Scientist Jose",
+   "party": [
+    [
+     "Grimer",
+     35
+    ],
+    [
+     "Magmar",
+     35
+    ]
+   ],
+   "notes": ""
+  },
+  {
+   "trainer": "Team Rocket Grunt",
+   "party": [
+    [
+     "Haunter",
+     33
+    ]
+   ],
+   "notes": ""
+  },
+  {
+   "trainer": "Team Rocket Grunt",
+   "party": [
+    [
+     "Koffing",
+     33
+    ],
+    [
+     "Electrode",
+     33
+    ]
+   ],
+   "notes": ""
+  },
+  {
+   "trainer": "Team Rocket Grunt",
+   "party": [
+    [
+     "Rattata",
+     33
+    ],
+    [
+     "Grimer",
+     33
+    ]
+   ],
+   "notes": ""
+  },
+  {
+   "trainer": "Scientist Rodney",
+   "party": [
+    [
+     "Voltorb",
+     35
+    ],
+    [
+     "Voltorb",
+     35
+    ],
+    [
+     "Electrode",
+     35
+    ]
+   ],
+   "notes": ""
+  },
+  {
+   "trainer": "Team Rocket Grunt",
+   "party": [
+    [
+     "Meowth",
+     33
+    ],
+    [
+     "Raticate",
+     33
+    ]
+   ],
+   "notes": ""
+  },
+  {
+   "trainer": "Scientist Taylor",
+   "party": [
+    [
+     "Magnemite",
+     35
+    ],
+    [
+     "Magnemite",
+     35
+    ],
+    [
+     "Magmar",
+     35
+    ]
+   ],
+   "notes": ""
+  },
+  {
+   "trainer": "Team Rocket Grunt",
+   "party": [
+    [
+     "Raticate",
+     33
+    ],
+    [
+     "Golbat",
+     33
+    ]
+   ],
+   "notes": ""
+  },
+  {
+   "trainer": "Team Rocket Grunt",
+   "party": [
+    [
+     "Zubat",
+     33
+    ],
+    [
+     "Golbat",
+     33
+    ]
+   ],
+   "notes": ""
+  },
+  {
+   "trainer": "Team Rocket Grunt",
+   "party": [
+    [
+     "Voltorb",
+     33
+    ],
+    [
+     "Voltorb",
+     33
+    ],
+    [
+     "Voltorb",
+     33
+    ]
+   ],
+   "notes": ""
+  },
+  {
+   "trainer": "Scientist Joshua",
+   "party": [
+    [
+     "Koffing",
+     35
+    ],
+    [
+     "Magneton",
+     35
+    ]
+   ],
+   "notes": ""
+  },
+  {
+   "trainer": "Team Rocket Grunt",
+   "party": [
+    [
+     "Grimer",
+     33
+    ],
+    [
+     "Koffing",
+     33
+    ]
+   ],
+   "notes": ""
+  },
+  {
+   "trainer": "Team Rocket Grunt",
+   "party": [
+    [
+     "Gastly",
+     33
+    ],
+    [
+     "Persian",
+     33
+    ]
+   ],
+   "notes": ""
+  },
+  {
+   "trainer": "Scientist Parker",
+   "party": [
+    [
+     "Electrode",
+     35
+    ],
+    [
+     "Porygon",
+     35
+    ]
+   ],
+   "notes": ""
+  },
+  {
+   "trainer": "Team Rocket Grunt",
+   "party": [
+    [
+     "Persian",
+     33
+    ]
+   ],
+   "notes": ""
+  },
+  {
+   "trainer": "Scientist Ed",
+   "party": [
+    [
+     "Weezing",
+     35
+    ],
+    [
+     "Electabuzz",
+     35
+    ],
+    [
+     "Electrode",
+     35
+    ]
+   ],
+   "notes": ""
+  },
+  {
+   "trainer": "Team Rocket Grunt",
+   "party": [
+    [
+     "Koffing",
+     33
+    ],
+    [
+     "Haunter",
+     33
+    ]
+   ],
+   "notes": ""
+  },
+  {
+   "trainer": "Team Rocket Grunt",
+   "party": [
+    [
+     "Voltorb",
+     33
+    ],
+    [
+     "Raticate",
+     33
+    ]
+   ],
+   "notes": ""
+  },
+  {
+   "trainer": "Scientist Travis",
+   "party": [
+    [
+     "Grimer",
+     35
+    ],
+    [
+     "Muk",
+     35
+    ]
+   ],
+   "notes": ""
+  },
+  {
+   "trainer": "Team Rocket Grunt",
+   "party": [
+    [
+     "Drowzee",
+     33
+    ],
+    [
+     "Zubat",
+     33
+    ],
+    [
+     "Golbat",
+     33
+    ]
+   ],
+   "notes": ""
+  },
+  {
+   "trainer": "Jessie and James",
+   "party": [
+    [
+     "Arbok",
+     36
+    ],
+    [
+     "Weezing",
+     36
+    ]
+   ],
+   "notes": "This is a Double Battle."
+  },
+  {
+   "trainer": "Giovanni",
+   "party": [
+    [
+     "Persian",
+     39
+    ],
+    [
+     "Rhyhorn",
+     39
+    ],
+    [
+     "Nidoqueen",
+     39
+    ]
+   ],
+   "notes": ""
+  }
+ ],
+ "vermilion-city": [
+  {
+   "trainer": "Mina",
+   "party": [
+    [
+     "Jigglypuff",
+     21
+    ],
+    [
+     "Mr. Mime",
+     22
+    ]
+   ],
+   "notes": "In Vermilion Harbor after the S.S. Anne leaves. She can be rematched every day with this team, until the player defeats the Elite Four.\n\n                        The player will receive 1 Bottle Cap after the battle."
+  },
+  {
+   "trainer": "Mina",
+   "party": [
+    [
+     "Mr. Mime",
+     54
+    ],
+    [
+     "Wigglytuff",
+     54
+    ],
+    [
+     "Ninetales (Alolan)",
+     55
+    ]
+   ],
+   "notes": "Only after defeating the Elite Four. She can be rematched every day.\n\n                        The player will receive 1 Bottle Cap after the battle."
+  },
+  {
+   "trainer": "Sailor Dwayne",
+   "party": [
+    [
+     "Magnemite",
+     22
+    ]
+   ],
+   "notes": ""
+  },
+  {
+   "trainer": "Rocker Baily",
+   "party": [
+    [
+     "Voltorb",
+     22
+    ],
+    [
+     "Voltorb",
+     22
+    ]
+   ],
+   "notes": ""
+  },
+  {
+   "trainer": "Gentleman Tucker",
+   "party": [
+    [
+     "Pikachu",
+     22
+    ]
+   ],
+   "notes": ""
+  },
+  {
+   "trainer": "Lt. Surge",
+   "party": [
+    [
+     "Voltorb",
+     25
+    ],
+    [
+     "Magnemite",
+     25
+    ],
+    [
+     "Raichu",
+     26
+    ]
+   ],
+   "notes": "He will give the player the Autograph and TM36 Thunderbolt after the battle."
+  },
+  {
+   "trainer": "Lt. Surge",
+   "party": [
+    [
+     "Electrode",
+     56
+    ],
+    [
+     "Jolteon",
+     56
+    ],
+    [
+     "Electabuzz",
+     56
+    ],
+    [
+     "Magneton",
+     56
+    ],
+    [
+     "Raichu",
+     57
+    ]
+   ],
+   "notes": "Rematch."
+  }
+ ],
+ "victory-road": [
+  {
+   "trainer": "Coach Trainer Alemana",
+   "party": [
+    [
+     "Ditto",
+     49
+    ]
+   ],
+   "notes": "She will give the player 10 Pikachu or Eevee Candies after the battle."
+  },
+  {
+   "trainer": "Ace Trainer Naomi",
+   "party": [
+    [
+     "Kangaskhan",
+     47
+    ],
+    [
+     "Venusaur",
+     48
+    ]
+   ],
+   "notes": "The player will receive 5 Ultra Balls after the battle."
+  },
+  {
+   "trainer": "Ace Trainer Rolando",
+   "party": [
+    [
+     "Rapidash",
+     47
+    ],
+    [
+     "Starmie",
+     47
+    ],
+    [
+     "Victreebel",
+     48
+    ]
+   ],
+   "notes": "The player will receive 5 Ultra Balls after the battle."
+  },
+  {
+   "trainer": "Juggler Nelson",
+   "party": [
+    [
+     "Hypno",
+     46
+    ],
+    [
+     "Slowbro",
+     46
+    ]
+   ],
+   "notes": "The player will receive 3 Poké Balls after the battle."
+  },
+  {
+   "trainer": "Black Belt Daisuke",
+   "party": [
+    [
+     "Hitmonlee",
+     47
+    ],
+    [
+     "Poliwrath",
+     47
+    ]
+   ],
+   "notes": "The player will receive 3 Poké Balls after the battle."
+  },
+  {
+   "trainer": "Tamer Vincent",
+   "party": [
+    [
+     "Primeape",
+     47
+    ],
+    [
+     "Tauros",
+     47
+    ]
+   ],
+   "notes": "The player will receive 3 Poké Balls after the battle."
+  },
+  {
+   "trainer": "Juggler Gregory",
+   "party": [
+    [
+     "Mr. Mime",
+     46
+    ],
+    [
+     "Alakazam",
+     46
+    ]
+   ],
+   "notes": "The player will receive 3 Poké Balls after the battle."
+  },
+  {
+   "trainer": "Poké Maniac Dawson",
+   "party": [
+    [
+     "Lickitung",
+     46
+    ],
+    [
+     "Onix",
+     46
+    ],
+    [
+     "Blastoise",
+     46
+    ]
+   ],
+   "notes": "The player will receive 3 Poké Balls after the battle."
+  },
+  {
+   "trainer": "Ace Trainer George",
+   "party": [
+    [
+     "Scyther",
+     48
+    ],
+    [
+     "Marowak",
+     47
+    ]
+   ],
+   "notes": "The player will receive 5 Ultra Balls after the battle."
+  },
+  {
+   "trainer": "Ace Trainer Alexa",
+   "party": [
+    [
+     "Dragonair",
+     47
+    ],
+    [
+     "Wigglytuff",
+     47
+    ],
+    [
+     "Hitmonchan",
+     48
+    ]
+   ],
+   "notes": "The player will receive 5 Ultra Balls after the battle."
+  },
+  {
+   "trainer": "Ace Trainer Colby",
+   "party": [
+    [
+     "Electrode",
+     47
+    ],
+    [
+     "Kingler",
+     47
+    ],
+    [
+     "Pidgeot",
+     47
+    ],
+    [
+     "Rhydon",
+     48
+    ]
+   ],
+   "notes": "The player will receive 5 Ultra Balls after the battle."
+  },
+  {
+   "trainer": "Ace Trainer Caroline",
+   "party": [
+    [
+     "Jynx",
+     47
+    ],
+    [
+     "Golbat",
+     47
+    ],
+    [
+     "Arcanine",
+     48
+    ]
+   ],
+   "notes": "The player will receive 5 Ultra Balls after the battle."
+  },
+  {
+   "trainer": "Coach Trainer Ryan",
+   "party": [
+    [
+     "Primeape",
+     48
+    ],
+    [
+     "Gyarados",
+     48
+    ],
+    [
+     "Arcanine",
+     48
+    ],
+    [
+     "Tauros",
+     49
+    ]
+   ],
+   "notes": "He will give the player TM39 Outrage after the battle."
+  }
+ ],
+ "viridian-city": [
+  {
+   "trainer": "Ace Trainer Samuel",
+   "party": [
+    [
+     "Nidoking",
+     48
+    ]
+   ],
+   "notes": ""
+  },
+  {
+   "trainer": "Tamer Cole",
+   "party": [
+    [
+     "Nidorino",
+     47
+    ],
+    [
+     "Rhyhorn",
+     47
+    ]
+   ],
+   "notes": ""
+  },
+  {
+   "trainer": "Ace Trainer Kelly",
+   "party": [
+    [
+     "Nidoqueen",
+     48
+    ]
+   ],
+   "notes": ""
+  },
+  {
+   "trainer": "Ace Trainer Yuji",
+   "party": [
+    [
+     "Dugtrio",
+     47
+    ],
+    [
+     "Rhyhorn",
+     48
+    ]
+   ],
+   "notes": ""
+  },
+  {
+   "trainer": "Tamer Jason",
+   "party": [
+    [
+     "Sandslash",
+     47
+    ]
+   ],
+   "notes": ""
+  },
+  {
+   "trainer": "Black Belt Takashi",
+   "party": [
+    [
+     "Graveler",
+     47
+    ]
+   ],
+   "notes": ""
+  },
+  {
+   "trainer": "Giovanni",
+   "party": [
+    [
+     "Dugtrio",
+     49
+    ],
+    [
+     "Nidoqueen",
+     49
+    ],
+    [
+     "Nidoking",
+     49
+    ],
+    [
+     "Rhydon",
+     50
+    ]
+   ],
+   "notes": "He will give the player TM41 Earthquake after the battle."
+  },
+  {
+   "trainer": "Blue",
+   "party": [
+    [
+     "Tauros",
+     66
+    ],
+    [
+     "Alakazam",
+     66
+    ],
+    [
+     "Gyarados",
+     66
+    ],
+    [
+     "Exeggutor",
+     66
+    ],
+    [
+     "Aerodactyl",
+     66
+    ],
+    [
+     "(Mega Y) Charizard",
+     68
+    ]
+   ],
+   "notes": "Rematch in place of Giovanni after defeating the Elite Four. He can be rematched every day."
+  }
+ ],
+ "viridian-forest": [
+  {
+   "trainer": "Lass Joana",
+   "party": [
+    [
+     "Rattata",
+     4
+    ]
+   ],
+   "notes": "The player will receive 3 Poké Balls after the battle."
+  },
+  {
+   "trainer": "Bug Catcher Brian",
+   "party": [
+    [
+     "Weedle",
+     3
+    ]
+   ],
+   "notes": "The player will receive 3 Poké Balls after the battle."
+  },
+  {
+   "trainer": "Bug Catcher Rick",
+   "party": [
+    [
+     "Caterpie",
+     3
+    ]
+   ],
+   "notes": "The player will receive 3 Poké Balls after the battle."
+  },
+  {
+   "trainer": "Lass Brittany",
+   "party": [
+    [
+     "Nidoran♀",
+     4
+    ]
+   ],
+   "notes": "The player will receive 3 Poké Balls after the battle."
+  },
+  {
+   "trainer": "Bug Catcher Doug",
+   "party": [
+    [
+     "Kakuna",
+     3
+    ]
+   ],
+   "notes": "The player will receive 3 Poké Balls after the battle."
+  },
+  {
+   "trainer": "Lass Jocelyn",
+   "party": [
+    [
+     "Pidgey",
+     4
+    ]
+   ],
+   "notes": "The player will receive 3 Poké Balls after the battle."
+  },
+  {
+   "trainer": "Bug Catcher Sammy",
+   "party": [
+    [
+     "Metapod",
+     3
+    ]
+   ],
+   "notes": "The player will receive 3 Poké Balls after the battle."
+  }
+ ]
+}

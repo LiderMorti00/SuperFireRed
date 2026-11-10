@@ -1,0 +1,61 @@
+celadon-city: Beauty Mai
+celadon-city: Lass Lina
+cerulean-city: Beauty Lily
+cerulean-city: Beauty Violet
+cerulean-city: Beauty Daisy
+fuchsia-city: Juggler Harry
+fuchsia-city: Ace Trainer Annie
+mt-moon: Lass Evelyn
+pewter-city: Picnicker Amara
+pokemon-mansion: Ace Trainer Louis
+pokemon-mansion: Scientist Ted
+rock-tunnel: Hiker Claus
+rock-tunnel: Camper Leroy
+rock-tunnel: Ace Trainer Charlie
+route-1: Youngster Ronny
+route-10: Camper Vance
+route-10: Poké Maniac Mark
+route-10: Poké Maniac Damian
+route-11: Gentleman Wilco
+route-11: Lass Tomoe
+route-12: Ace Trainer Zach
+route-13: Picnicker Susie
+route-13: Ace Trainer Kite
+route-13: Bug Catcher Milo
+route-13: Bird Keeper Robert
+route-14: Punk Guy Harvey
+route-14: Punk Guy Felix
+route-15: Punk Guy Ernest
+route-15: Beauty Lana
+route-15: Bird Keeper Edwin
+route-17: Lass Mila
+route-17: Beauty Samantha
+route-17: Gentleman Orson
+route-17: Picnicker Misaki
+route-18: Bird Keeper Jacob
+route-19: Swimmer Axle
+route-19: Swimmer David
+route-19: Beauty Anya
+route-20: Swimmer Douglas
+route-20: Swimmer Darrin
+route-20: Picnicker Irene
+route-20: Beauty Hansol
+route-20: Bird Keeper Roger
+route-20: Ace Trainer Marty
+route-21: Fisherman Wade
+route-21: Fisherman Ronald
+route-21: Roughneck Martin
+route-24: Camper Kevin
+route-25: Camper Dustin
+route-3: Camper Victor
+route-6: Gentleman Edward
+route-7: Ace Trainer Yvette
+route-8: Beauty Aubrey
+route-8: Ace Trainer Kyla
+route-8: Gamer Stan
+saffron-city: Channeler Imari
+viridian-city: Ace Trainer Kelly
+viridian-forest: Lass Joana
+viridian-forest: Bug Catcher Brian
+viridian-forest: Lass Brittany
+viridian-forest: Lass Jocelyn

@@ -27,6 +27,9 @@ enum TrainerPicID GetPlayerTrainerPic(enum Gender gender, enum GameVersion versi
             return GetKantoTrainerPic(gender);
         case VERSION_EMERALD:
         default:
+            // Super Fire Red reports itself as Emerald, but the player is Red/Leaf
+            if (SUPER_FIRE_RED)
+                return GetKantoTrainerPic(gender);
             return GetEmeraldTrainerPic(gender);
     }
 }
