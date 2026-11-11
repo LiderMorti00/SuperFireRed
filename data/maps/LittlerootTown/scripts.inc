@@ -989,8 +989,8 @@ LittlerootTown_Text_CanYouGoSeeWhatsHappening:
 	.string "for me?$"
 
 LittlerootTown_Text_YouSavedBirch:
-	.string "You saved PROF. BIRCH!\n"
-	.string "I'm so glad!$"
+	.string "PROF. BIRCH is always out in the\n"
+	.string "field. He's a little reckless!$"
 
 LittlerootTown_Text_GoodLuckCatchingPokemon:
 	.string "Are you going to catch POKéMON?\n"

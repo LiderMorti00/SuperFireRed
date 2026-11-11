@@ -205,18 +205,13 @@ static const struct MatchCallStructTrainer sNormanMatchCallHeader =
     .mapSec = MAPSEC_PETALBURG_CITY,
     .flag = FLAG_ENABLE_NORMAN_MATCH_CALL,
     .rematchTableIdx = REMATCH_NORMAN,
-    .desc = COMPOUND_STRING("RELIABLE ONE"),
-    .name = COMPOUND_STRING("DAD"),
+    .desc = COMPOUND_STRING("BALANCED ONE"),
+    .name = NULL,
     .textData = (const match_call_text_data_t[]) {
-        { MatchCall_Text_Norman1,                  FLAG_ENABLE_NORMAN_MATCH_CALL, NO_FLAG_TO_SET },
-        { MatchCall_Text_Norman2,                  FLAG_DEFEATED_DEWFORD_GYM,     NO_FLAG_TO_SET },
-        { MatchCall_Text_Norman3,                  FLAG_DEFEATED_LAVARIDGE_GYM,   NO_FLAG_TO_SET },
-        { MatchCall_Text_Norman4,                  FLAG_DEFEATED_PETALBURG_GYM,   NO_FLAG_TO_SET },
-        { MatchCall_Text_Norman5,                  FLAG_RECEIVED_RED_OR_BLUE_ORB, NO_FLAG_TO_SET },
-        { MatchCall_Text_Norman_Preparing,         REMATCH_CALL_START,            NO_FLAG_TO_SET },
-        { MatchCall_Text_Norman_PreparingPostGame, FLAG_SFR_HOENN_GAME_CLEAR,           NO_FLAG_TO_SET },
-        { MatchCall_Text_Norman_RematchReady,      FLAG_SFR_HOENN_GAME_CLEAR,           NO_FLAG_TO_SET },
-        { MatchCall_Text_Norman_PostRematch,       FLAG_SFR_HOENN_GAME_CLEAR,           NO_FLAG_TO_SET },
+        { MatchCall_Text_Norman_Preparing,         REMATCH_CALL_START,        NO_FLAG_TO_SET },
+        { MatchCall_Text_Norman_PreparingPostGame, ALWAYS_AVAILABLE,          NO_FLAG_TO_SET },
+        { MatchCall_Text_Norman_RematchReady,      ALWAYS_AVAILABLE,          NO_FLAG_TO_SET },
+        { MatchCall_Text_Norman_PostRematch,       FLAG_SFR_HOENN_GAME_CLEAR, NO_FLAG_TO_SET },
         MATCH_CALL_TEXT_END
     }
 };
@@ -479,7 +474,7 @@ static const struct MatchCallStructTrainer sJuanMatchCallHeader =
     .mapSec = MAPSEC_SOOTOPOLIS_CITY,
     .flag = FLAG_ENABLE_JUAN_MATCH_CALL,
     .rematchTableIdx = REMATCH_JUAN,
-    .desc = COMPOUND_STRING("DANDY CHARM"),
+    .desc = COMPOUND_STRING("WATER ARTIST"),
     .name = NULL,
     .textData = (const match_call_text_data_t[]) {
         { MatchCall_Text_Juan_Preparing,         REMATCH_CALL_START,  NO_FLAG_TO_SET },

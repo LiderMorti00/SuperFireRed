@@ -122,10 +122,12 @@ Route119_WeatherInstitute_1F_Text_NoticingAbnormalWeather:
 	.string "heavy rain lately…$"
 
 Route119_WeatherInstitute_1F_Text_WhatWereAquasUpTo:
-	.string "Hello!\n"
-	.string "We've been saved by your actions!\p"
-	.string "What I don't understand is what on\n"
-	.string "earth the AQUAS were up to.$"
+	.string "Hello!\p"
+	.string "TEAM AQUA once took over this\n"
+	.string "INSTITUTE, but a young TRAINER\l"
+	.string "drove them out.\p"
+	.string "What on earth were the AQUAS\n"
+	.string "up to, anyway?$"
 
 Route119_WeatherInstitute_1F_Text_TakeRestInBed:
 	.string "There's a bed…\n"

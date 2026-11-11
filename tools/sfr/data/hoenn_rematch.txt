@@ -1,0 +1,69 @@
+# Super Fire Red: Hoenn Gym Leader rematch teams (after beating May). Double battles, single type.
+# One base team per leader; tools/sfr/gen_hoenn_rematch.py builds the 4 rematch tiers from it:
+#   _2: last 5 mons, base level, Mega Stone swapped for Life Orb
+#   _3: all 6 mons, +3 levels;  _4: +6 levels;  _5: +10 levels
+# Format: Species @ Item | Base level | Ability (or -) | moves separated by /
+
+== ROXANNE
+Probopass @ Leftovers | 78 | Sturdy | Power Gem / Earth Power / Flash Cannon / Stealth Rock
+Cradily @ Sitrus Berry | 79 | Storm Drain | Giga Drain / Ancient Power / Recover / Earthquake
+Armaldo @ Choice Band | 79 | Battle Armor | Stone Edge / X-Scissor / Earthquake / Aqua Jet
+Golem @ Weakness Policy | 80 | Sturdy | Rock Slide / Earthquake / Heavy Slam / Protect
+Tyranitar @ Chople Berry | 81 | Sand Stream | Rock Slide / Crunch / Earthquake / Protect
+Aerodactyl @ Aerodactylite | 82 | Unnerve | Rock Slide / Earthquake / Ice Fang / Tailwind
+
+== BRAWLY
+Hitmontop @ Sitrus Berry | 78 | Intimidate | Fake Out / Close Combat / Sucker Punch / Wide Guard
+Breloom @ Focus Sash | 79 | Technician | Mach Punch / Bullet Seed / Spore / Rock Tomb
+Machamp @ Expert Belt | 79 | No Guard | Dynamic Punch / Stone Edge / Ice Punch / Protect
+Hariyama @ Assault Vest | 80 | Thick Fat | Close Combat / Fake Out / Heavy Slam / Knock Off
+Lucario @ Life Orb | 81 | Inner Focus | Aura Sphere / Flash Cannon / Dark Pulse / Vacuum Wave
+Medicham @ Medichamite | 82 | Pure Power | High Jump Kick / Zen Headbutt / Ice Punch / Fake Out
+
+== WATTSON
+Electrode @ Lum Berry | 78 | Aftermath | Thunderbolt / Volt Switch / Taunt / Explosion
+Magnezone @ Air Balloon | 79 | Sturdy | Thunderbolt / Flash Cannon / Volt Switch / Protect
+Rotom @ Choice Scarf | 79 | Levitate | Thunderbolt / Shadow Ball / Volt Switch / Will-O-Wisp
+Electivire @ Expert Belt | 80 | Motor Drive | Wild Charge / Cross Chop / Ice Punch / Earthquake
+Ampharos @ Ampharosite | 81 | Static | Thunderbolt / Dragon Pulse / Focus Blast / Power Gem
+Manectric @ Manectite | 82 | Lightning Rod | Thunderbolt / Flamethrower / Overheat / Snarl
+
+== FLANNERY
+Torkoal @ Charcoal | 78 | Drought | Eruption / Heat Wave / Earth Power / Protect
+Ninetales @ Heat Rock | 79 | Drought | Heat Wave / Solar Beam / Nasty Plot / Protect
+Magcargo @ White Herb | 79 | Flame Body | Shell Smash / Lava Plume / Earth Power / Ancient Power
+Arcanine @ Sitrus Berry | 80 | Intimidate | Flare Blitz / Extreme Speed / Wild Charge / Protect
+Houndoom @ Houndoominite | 81 | Flash Fire | Heat Wave / Dark Pulse / Nasty Plot / Sludge Bomb
+Camerupt @ Cameruptite | 82 | Solid Rock | Eruption / Earth Power / Ancient Power / Protect
+
+== NORMAN
+Spinda @ Sitrus Berry | 78 | Contrary | Superpower / Sucker Punch / Fake Out / Return
+Blissey @ Leftovers | 79 | Natural Cure | Seismic Toss / Soft-Boiled / Thunder Wave / Protect
+Ursaring @ Toxic Orb | 79 | Guts | Facade / Close Combat / Crunch / Protect
+Kangaskhan @ Kangaskhanite | 80 | Scrappy | Fake Out / Double-Edge / Sucker Punch / Earthquake
+Slaking @ Choice Band | 81 | Truant | Giga Impact / Earthquake / Play Rough / Knock Off
+Slaking @ Silk Scarf | 82 | Truant | Double-Edge / Earthquake / Shadow Claw / Protect
+
+== WINONA
+Swellow @ Flame Orb | 78 | Guts | Facade / Brave Bird / Quick Attack / Protect
+Pelipper @ Damp Rock | 79 | Drizzle | Hurricane / Scald / Tailwind / Protect
+Tropius @ Sitrus Berry | 79 | Harvest | Air Slash / Giga Drain / Leech Seed / Protect
+Skarmory @ Rocky Helmet | 80 | Sturdy | Brave Bird / Iron Head / Tailwind / Roost
+Dragonite @ Lum Berry | 81 | Multiscale | Extreme Speed / Dragon Claw / Fire Punch / Dragon Dance
+Altaria @ Altarianite | 82 | Natural Cure | Hyper Voice / Fire Blast / Dragon Pulse / Roost
+
+== TATE_AND_LIZA
+Xatu @ Light Clay | 78 | Magic Bounce | Psychic / Reflect / Light Screen / Tailwind
+Claydol @ Leftovers | 79 | Levitate | Earth Power / Psychic / Trick Room / Ice Beam
+Slowking @ Sitrus Berry | 79 | Own Tempo | Psychic / Scald / Trick Room / Fire Blast
+Lunatone @ Life Orb | 80 | Levitate | Psychic / Power Gem / Ice Beam / Moonblast
+Solrock @ Life Orb | 81 | Levitate | Zen Headbutt / Rock Slide / Flare Blitz / Earthquake
+Metagross @ Metagrossite | 82 | Clear Body | Meteor Mash / Zen Headbutt / Bullet Punch / Earthquake
+
+== JUAN
+Whiscash @ Sitrus Berry | 78 | Oblivious | Earthquake / Waterfall / Stone Edge / Dragon Dance
+Walrein @ Leftovers | 79 | Thick Fat | Surf / Blizzard / Body Slam / Protect
+Ludicolo @ Life Orb | 79 | Swift Swim | Surf / Giga Drain / Ice Beam / Fake Out
+Kingdra @ Choice Specs | 80 | Swift Swim | Muddy Water / Draco Meteor / Ice Beam / Hydro Pump
+Sharpedo @ Sharpedonite | 81 | Speed Boost | Waterfall / Crunch / Ice Fang / Protect
+Milotic @ Flame Orb | 82 | Marvel Scale | Scald / Ice Beam / Recover / Hypnosis

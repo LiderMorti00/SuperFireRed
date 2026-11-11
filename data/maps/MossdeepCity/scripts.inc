@@ -26,7 +26,7 @@ MossdeepCity_EventScript_PokefanFMagmaGone::
 MossdeepCity_EventScript_Sailor::
 	lock
 	faceplayer
-	goto_if_set FLAG_RECEIVED_HM_DIVE, MossdeepCity_EventScript_SailorMagmaGone
+	goto MossdeepCity_EventScript_SailorMagmaGone @ Super Fire Red: post-Emerald
 	msgbox MossdeepCity_Text_MossdeepTargetedByMagma, MSGBOX_DEFAULT
 	release
 	end

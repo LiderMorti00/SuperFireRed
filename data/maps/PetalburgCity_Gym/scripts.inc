@@ -379,9 +379,6 @@ PetalburgCity_Gym_EventScript_NormanBattle::
 	setvar VAR_PETALBURG_GYM_STATE, 7
 	setflag FLAG_BADGE13_GET
 	special ResetHealLocationFromDewford
-	call EventScript_HideMrBriney
-	setflag FLAG_HIDE_MAUVILLE_GYM_WATTSON
-	clearflag FLAG_HIDE_MAUVILLE_CITY_WATTSON
 	setvar VAR_0x8008, 5
 	call Common_EventScript_SetGymTrainers
 	clearflag FLAG_HIDE_DEWFORD_HALL_SLUDGE_BOMB_MAN
@@ -390,6 +387,14 @@ PetalburgCity_Gym_EventScript_NormanBattle::
 	call PetalburgCity_Gym_EventScript_GiveFacade
 	delay 30
 	msgbox PetalburgCity_Gym_Text_DadHappyAndSad, MSGBOX_DEFAULT
+	closemessage
+	delay 30
+	playfanfare MUS_REGISTER_MATCH_CALL
+	msgbox PetalburgCity_Gym_Text_RegisteredNorman, MSGBOX_DEFAULT
+	waitfanfare
+	closemessage
+	delay 30
+	setflag FLAG_ENABLE_NORMAN_MATCH_CALL
 	release @ Super Fire Red: no Wally's dad scene after Emerald
 	end
 	closemessage
@@ -1575,3 +1580,7 @@ PetalburgCity_Gym_Text_NormanRematchNeedTwoMons:
 	.string "Sorry, but you'll have to come back\n"
 	.string "with at least two POKéMON.$"
 
+
+PetalburgCity_Gym_Text_RegisteredNorman:
+	.string "Registered GYM LEADER NORMAN\n"
+	.string "in the POKéNAV.$"

@@ -144,7 +144,7 @@ MossdeepCity_SpaceCenter_1F_EventScript_Woman::
 	goto_if_set FLAG_SFR_HOENN_GAME_CLEAR, MossdeepCity_SpaceCenter_1F_EventScript_WomanNormal
 	goto_if_eq VAR_MOSSDEEP_CITY_STATE, 2, MossdeepCity_SpaceCenter_1F_EventScript_WomanMagma
 	goto_if_lt VAR_MOSSDEEP_CITY_STATE, 2, MossdeepCity_SpaceCenter_1F_EventScript_WomanNormal
-	goto MossdeepCity_SpaceCenter_1F_EventScript_WomanMagma
+	goto MossdeepCity_SpaceCenter_1F_EventScript_WomanNormal @ Super Fire Red: Magma is gone
 	end
 
 MossdeepCity_SpaceCenter_1F_EventScript_WomanNormal::
@@ -163,7 +163,7 @@ MossdeepCity_SpaceCenter_1F_EventScript_OldMan::
 	goto_if_set FLAG_SFR_HOENN_GAME_CLEAR, MossdeepCity_SpaceCenter_1F_EventScript_OldManNormal
 	goto_if_eq VAR_MOSSDEEP_CITY_STATE, 2, MossdeepCity_SpaceCenter_1F_EventScript_OldManMagma
 	goto_if_lt VAR_MOSSDEEP_CITY_STATE, 2, MossdeepCity_SpaceCenter_1F_EventScript_OldManNormal
-	goto MossdeepCity_SpaceCenter_1F_EventScript_OldManMagma
+	goto MossdeepCity_SpaceCenter_1F_EventScript_OldManNormal @ Super Fire Red: Magma is gone
 	end
 
 MossdeepCity_SpaceCenter_1F_EventScript_OldManNormal::
