@@ -91,7 +91,7 @@
 #define FLAG_SFR_DEFEATED_REGIELEKI              0x45 // Super Fire Red
 #define FLAG_SFR_DEFEATED_REGIDRAGO              0x46 // Super Fire Red
 #define FLAG_SFR_DEFEATED_REGIGIGAS              0x47 // Super Fire Red
-#define FLAG_UNUSED_0x048    0x48 // Unused Flag
+#define FLAG_SFR_MET_SCOTT                       0x48 // Super Fire Red: Scott met the player in Mossdeep
 #define FLAG_UNUSED_0x049    0x49 // Unused Flag
 #define FLAG_UNUSED_0x04A    0x4A // Unused Flag
 #define FLAG_UNUSED_0x04B    0x4B // Unused Flag

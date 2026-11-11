@@ -29,6 +29,9 @@ int GameClear(void)
     {
         gHasHallOfFameRecords = FALSE;
         FlagSet(FLAG_SFR_HOENN_GAME_CLEAR);
+        // Super Fire Red: Scott calls to invite the player to the Battle Frontier
+        VarSet(VAR_SCOTT_BF_CALL_STEP_COUNTER, 0);
+        FlagSet(FLAG_SCOTT_CALL_BATTLE_FRONTIER);
     }
 
     if (GetGameStat(GAME_STAT_FIRST_HOF_PLAY_TIME) == 0)

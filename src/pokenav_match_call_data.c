@@ -355,13 +355,9 @@ static const struct MatchCallStructNPC sScottMatchCallHeader =
     .desc = COMPOUND_STRING("ELUSIVE EYES"),
     .name = COMPOUND_STRING("SCOTT"),
     .textData = (const match_call_text_data_t[]) {
-        { MatchCall_Text_Scott1, ALWAYS_AVAILABLE,                    NO_FLAG_TO_SET },
-        { MatchCall_Text_Scott2, FLAG_DEFEATED_EVIL_TEAM_MT_CHIMNEY,  NO_FLAG_TO_SET },
-        { MatchCall_Text_Scott3, FLAG_RECEIVED_CASTFORM,              NO_FLAG_TO_SET },
-        { MatchCall_Text_Scott4, FLAG_RECEIVED_RED_OR_BLUE_ORB,       NO_FLAG_TO_SET },
-        { MatchCall_Text_Scott5, FLAG_TEAM_AQUA_ESCAPED_IN_SUBMARINE, NO_FLAG_TO_SET },
-        { MatchCall_Text_Scott6, FLAG_DEFEATED_SOOTOPOLIS_GYM,        NO_FLAG_TO_SET },
-        { MatchCall_Text_Scott7, FLAG_SFR_HOENN_GAME_CLEAR,                 NO_FLAG_TO_SET },
+        { MatchCall_Text_Scott1, ALWAYS_AVAILABLE,          NO_FLAG_TO_SET },
+        { MatchCall_Text_Scott6, FLAG_BADGE16_GET,          NO_FLAG_TO_SET },
+        { MatchCall_Text_Scott7, FLAG_SFR_HOENN_GAME_CLEAR, NO_FLAG_TO_SET },
         MATCH_CALL_TEXT_END
     }
 };

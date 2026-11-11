@@ -1,5 +1,15 @@
 LilycoveCity_CoveLilyMotel_2F_MapScripts::
+	map_script MAP_SCRIPT_ON_TRANSITION, LilycoveCity_CoveLilyMotel_2F_OnTransition
 	.byte 0
+
+LilycoveCity_CoveLilyMotel_2F_OnTransition:
+	setflag FLAG_HIDE_LILYCOVE_MOTEL_SCOTT
+	call_if_set FLAG_SFR_MET_SCOTT, LilycoveCity_CoveLilyMotel_2F_EventScript_ShowScott
+	end
+
+LilycoveCity_CoveLilyMotel_2F_EventScript_ShowScott::
+	clearflag FLAG_HIDE_LILYCOVE_MOTEL_SCOTT
+	return
 
 LilycoveCity_CoveLilyMotel_2F_EventScript_GameDesigner::
 	lock
