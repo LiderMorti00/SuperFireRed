@@ -1,0 +1,117 @@
+# Super Fire Red: Kanto rematch teams (after beating May). Based on the PWT Kanto Leaders
+# tournament (B2W2), expanded with every generation, single type, one Mega Stone each.
+# Format: TRAINER_ID | Species @ Item | Level | Ability (or -) | moves separated by /
+
+== TRAINER_SFR_BROCK_REMATCH
+Onix @ Salac Berry | 80 | Sturdy | Stone Edge / Earthquake / Stealth Rock / Explosion
+Golem @ Choice Band | 81 | Sturdy | Stone Edge / Earthquake / Heavy Slam / Explosion
+Omastar @ White Herb | 81 | Swift Swim | Shell Smash / Hydro Pump / Ancient Power / Ice Beam
+Kabutops @ Life Orb | 82 | Swift Swim | Stone Edge / Waterfall / Aqua Jet / Swords Dance
+Tyranitar @ Chople Berry | 83 | Sand Stream | Stone Edge / Crunch / Earthquake / Dragon Dance
+Aerodactyl @ Aerodactylite | 85 | Rock Head | Stone Edge / Earthquake / Ice Fang / Aerial Ace
+
+== TRAINER_SFR_MISTY_REMATCH
+Golduck @ Life Orb | 80 | Swift Swim | Hydro Pump / Ice Beam / Focus Blast / Psychic
+Lapras @ Leftovers | 81 | Water Absorb | Surf / Ice Beam / Thunderbolt / Confuse Ray
+Gyarados @ Lum Berry | 82 | Intimidate | Waterfall / Bounce / Ice Fang / Dragon Dance
+Blastoise @ Sitrus Berry | 82 | Torrent | Hydro Pump / Ice Beam / Dark Pulse / Aura Sphere
+Slowbro @ Slowbronite | 83 | Regenerator | Scald / Psychic / Slack Off / Calm Mind
+Starmie @ Life Orb | 85 | Natural Cure | Hydro Pump / Psychic / Thunderbolt / Ice Beam
+
+== TRAINER_SFR_LT_SURGE_REMATCH
+Electrode @ Lum Berry | 80 | Static | Thunderbolt / Volt Switch / Foul Play / Explosion
+Magnezone @ Air Balloon | 81 | Sturdy | Thunderbolt / Flash Cannon / Volt Switch / Thunder Wave
+Electivire @ Expert Belt | 82 | Motor Drive | Wild Charge / Cross Chop / Ice Punch / Earthquake
+Jolteon @ Choice Specs | 82 | Volt Absorb | Thunderbolt / Shadow Ball / Volt Switch / Signal Beam
+Ampharos @ Ampharosite | 83 | Static | Thunderbolt / Dragon Pulse / Focus Blast / Power Gem
+Raichu @ Life Orb | 85 | Lightning Rod | Thunderbolt / Focus Blast / Grass Knot / Nasty Plot
+
+== TRAINER_SFR_ERIKA_REMATCH
+Victreebel @ Life Orb | 80 | Chlorophyll | Power Whip / Sucker Punch / Sludge Bomb / Swords Dance
+Tangrowth @ Rocky Helmet | 81 | Regenerator | Power Whip / Earthquake / Knock Off / Sleep Powder
+Roserade @ Focus Sash | 81 | Natural Cure | Leaf Storm / Sludge Bomb / Shadow Ball / Spikes
+Bellossom @ Sitrus Berry | 82 | Chlorophyll | Petal Dance / Moonblast / Quiver Dance / Giga Drain
+Venusaur @ Venusaurite | 84 | Overgrow | Giga Drain / Sludge Bomb / Earth Power / Synthesis
+Vileplume @ Leftovers | 85 | Effect Spore | Petal Blizzard / Sludge Bomb / Moonblast / Sleep Powder
+
+== TRAINER_SFR_KOGA_REMATCH
+Venomoth @ Focus Sash | 80 | Tinted Lens | Bug Buzz / Sludge Bomb / Quiver Dance / Sleep Powder
+Crobat @ Sharp Beak | 81 | Inner Focus | Brave Bird / Cross Poison / U-turn / Super Fang
+Muk @ Black Sludge | 81 | Poison Touch | Gunk Shot / Shadow Sneak / Ice Punch / Curse
+Nidoking @ Life Orb | 82 | Sheer Force | Sludge Wave / Earth Power / Ice Beam / Thunderbolt
+Beedrill @ Beedrillite | 83 | Swarm | Poison Jab / X-Scissor / Drill Run / U-turn
+Weezing @ Leftovers | 85 | Levitate | Sludge Bomb / Flamethrower / Will-O-Wisp / Toxic Spikes
+
+== TRAINER_SFR_SABRINA_REMATCH
+Mr Mime @ Light Clay | 80 | Filter | Psychic / Dazzling Gleam / Reflect / Light Screen
+Espeon @ Life Orb | 81 | Magic Bounce | Psychic / Shadow Ball / Dazzling Gleam / Calm Mind
+Slowking @ Leftovers | 81 | Regenerator | Psyshock / Scald / Slack Off / Nasty Plot
+Gardevoir @ Choice Specs | 82 | Trace | Psychic / Moonblast / Focus Blast / Thunderbolt
+Metagross @ Assault Vest | 83 | Clear Body | Zen Headbutt / Meteor Mash / Earthquake / Bullet Punch
+Alakazam @ Alakazite | 85 | Synchronize | Psychic / Shadow Ball / Focus Blast / Calm Mind
+
+== TRAINER_SFR_BLAINE_REMATCH
+Ninetales @ Heat Rock | 80 | Drought | Fire Blast / Solar Beam / Nasty Plot / Will-O-Wisp
+Rapidash @ Life Orb | 80 | Flash Fire | Flare Blitz / Wild Charge / Megahorn / Morning Sun
+Houndoom @ Expert Belt | 81 | Flash Fire | Fire Blast / Dark Pulse / Sludge Bomb / Nasty Plot
+Magmortar @ Expert Belt | 82 | Flame Body | Fire Blast / Thunderbolt / Psychic / Focus Blast
+Charizard @ Charizardite Y | 84 | Blaze | Flamethrower / Solar Beam / Air Slash / Focus Blast
+Arcanine @ Sitrus Berry | 85 | Intimidate | Flare Blitz / Extreme Speed / Wild Charge / Close Combat
+
+== TRAINER_ELITE_FOUR_LORELEI_2
+Dewgong @ Leftovers | 80 | Thick Fat | Ice Beam / Surf / Encore / Perish Song
+Cloyster @ Focus Sash | 81 | Skill Link | Icicle Spear / Rock Blast / Ice Shard / Shell Smash
+Jynx @ Life Orb | 81 | Dry Skin | Ice Beam / Psychic / Focus Blast / Lovely Kiss
+Mamoswine @ Never-Melt Ice | 82 | Thick Fat | Icicle Crash / Earthquake / Ice Shard / Stone Edge
+Glalie @ Glalitite | 83 | Inner Focus | Frost Breath / Earthquake / Crunch / Explosion
+Lapras @ Sitrus Berry | 85 | Water Absorb | Freeze-Dry / Hydro Pump / Thunderbolt / Psychic
+
+== TRAINER_ELITE_FOUR_BRUNO_2
+Hitmonlee @ Life Orb | 80 | Reckless | High Jump Kick / Knock Off / Stone Edge / Mach Punch
+Hitmonchan @ Expert Belt | 80 | Iron Fist | Drain Punch / Ice Punch / Thunder Punch / Mach Punch
+Poliwrath @ Leftovers | 81 | Water Absorb | Waterfall / Close Combat / Ice Punch / Bulk Up
+Heracross @ Flame Orb | 82 | Guts | Close Combat / Megahorn / Facade / Stone Edge
+Lucario @ Lucarionite | 83 | Inner Focus | Aura Sphere / Flash Cannon / Dark Pulse / Vacuum Wave
+Machamp @ Flame Orb | 85 | Guts | Dynamic Punch / Knock Off / Stone Edge / Bullet Punch
+
+== TRAINER_ELITE_FOUR_AGATHA_2
+Banette @ Life Orb | 80 | Insomnia | Shadow Claw / Gunk Shot / Knock Off / Shadow Sneak
+Mismagius @ Choice Specs | 81 | Levitate | Shadow Ball / Dazzling Gleam / Thunderbolt / Energy Ball
+Dusknoir @ Leftovers | 81 | Pressure | Shadow Punch / Earthquake / Ice Punch / Will-O-Wisp
+Chandelure @ Choice Scarf | 82 | Flash Fire | Shadow Ball / Fire Blast / Energy Ball / Psychic
+Aegislash @ Leftovers | 83 | Stance Change | Shadow Ball / Flash Cannon / Sacred Sword / King's Shield
+Gengar @ Gengarite | 85 | Cursed Body | Shadow Ball / Sludge Wave / Focus Blast / Hypnosis
+
+== TRAINER_ELITE_FOUR_LANCE_2
+Kingdra @ Life Orb | 80 | Swift Swim | Draco Meteor / Hydro Pump / Ice Beam / Rain Dance
+Haxorus @ Lum Berry | 81 | Mold Breaker | Outrage / Earthquake / Poison Jab / Dragon Dance
+Hydreigon @ Choice Specs | 82 | Levitate | Draco Meteor / Dark Pulse / Flamethrower / Earth Power
+Garchomp @ Rocky Helmet | 83 | Rough Skin | Dragon Claw / Earthquake / Stone Edge / Swords Dance
+Salamence @ Salamencite | 84 | Intimidate | Double-Edge / Dragon Claw / Earthquake / Dragon Dance
+Dragonite @ Weakness Policy | 85 | Multiscale | Outrage / Extreme Speed / Earthquake / Fire Punch
+
+# Blue: his Battle Tree team plus his Mega Evolving Kanto starter (suffix = Blue's starter)
+
+== TRAINER_CHAMPION_REMATCH_BULBASAUR
+Pidgeot @ Sharp Beak | 82 | Keen Eye | Hurricane / Heat Wave / U-turn / Roost
+Alakazam @ Focus Sash | 82 | Magic Guard | Psychic / Shadow Ball / Focus Blast / Dazzling Gleam
+Exeggutor @ Sitrus Berry | 83 | Harvest | Leaf Storm / Psyshock / Sludge Bomb / Trick Room
+Arcanine @ Charcoal | 83 | Intimidate | Flare Blitz / Extreme Speed / Wild Charge / Close Combat
+Gyarados @ Lum Berry | 83 | Intimidate | Waterfall / Ice Fang / Earthquake / Dragon Dance
+Venusaur @ Venusaurite | 85 | Overgrow | Giga Drain / Sludge Bomb / Earth Power / Synthesis
+
+== TRAINER_CHAMPION_REMATCH_CHARMANDER
+Pidgeot @ Sharp Beak | 82 | Keen Eye | Hurricane / Heat Wave / U-turn / Roost
+Alakazam @ Focus Sash | 82 | Magic Guard | Psychic / Shadow Ball / Focus Blast / Dazzling Gleam
+Exeggutor @ Sitrus Berry | 83 | Harvest | Leaf Storm / Psyshock / Sludge Bomb / Trick Room
+Arcanine @ Charcoal | 83 | Intimidate | Flare Blitz / Extreme Speed / Wild Charge / Close Combat
+Gyarados @ Lum Berry | 83 | Intimidate | Waterfall / Ice Fang / Earthquake / Dragon Dance
+Charizard @ Charizardite X | 85 | Blaze | Flare Blitz / Dragon Claw / Earthquake / Dragon Dance
+
+== TRAINER_CHAMPION_REMATCH_SQUIRTLE
+Pidgeot @ Sharp Beak | 82 | Keen Eye | Hurricane / Heat Wave / U-turn / Roost
+Alakazam @ Focus Sash | 82 | Magic Guard | Psychic / Shadow Ball / Focus Blast / Dazzling Gleam
+Exeggutor @ Sitrus Berry | 83 | Harvest | Leaf Storm / Psyshock / Sludge Bomb / Trick Room
+Arcanine @ Charcoal | 83 | Intimidate | Flare Blitz / Extreme Speed / Wild Charge / Close Combat
+Gyarados @ Lum Berry | 83 | Intimidate | Waterfall / Ice Fang / Earthquake / Dragon Dance
+Blastoise @ Blastoisinite | 85 | Torrent | Water Pulse / Dark Pulse / Aura Sphere / Ice Beam

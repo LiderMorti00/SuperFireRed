@@ -79,18 +79,18 @@
 #define FLAG_SFR_HIDE_SHOAL_CAVE_ARCHIE          0x39 // Super Fire Red
 #define FLAG_SFR_HIDE_MT_CHIMNEY_MAXIE           0x3A // Super Fire Red
 #define FLAG_SFR_DEFEATED_WALLY_VERDANTURF       0x3B // Super Fire Red
-#define FLAG_UNUSED_0x03C    0x3C // Unused Flag
-#define FLAG_UNUSED_0x03D    0x3D // Unused Flag
-#define FLAG_UNUSED_0x03E    0x3E // Unused Flag
-#define FLAG_UNUSED_0x03F    0x3F // Unused Flag
-#define FLAG_UNUSED_0x040    0x40 // Unused Flag
-#define FLAG_UNUSED_0x041    0x41 // Unused Flag
-#define FLAG_UNUSED_0x042    0x42 // Unused Flag
-#define FLAG_UNUSED_0x043    0x43 // Unused Flag
-#define FLAG_UNUSED_0x044    0x44 // Unused Flag
-#define FLAG_UNUSED_0x045    0x45 // Unused Flag
-#define FLAG_UNUSED_0x046    0x46 // Unused Flag
-#define FLAG_UNUSED_0x047    0x47 // Unused Flag
+#define FLAG_SFR_RECEIVED_SINNOH_STARTER         0x3C // Super Fire Red
+#define FLAG_SFR_RECEIVED_SHINY_CHARM            0x3D // Super Fire Red
+#define FLAG_SFR_HIDE_REGIELEKI                  0x3E // Super Fire Red
+#define FLAG_SFR_HIDE_REGIDRAGO                  0x3F // Super Fire Red
+#define FLAG_SFR_HIDE_REGIGIGAS                  0x40 // Super Fire Red
+#define FLAG_SFR_RECEIVED_EON_TICKET             0x41 // Super Fire Red
+#define FLAG_SFR_RECEIVED_OLD_SEA_MAP            0x42 // Super Fire Red
+#define FLAG_SFR_RECEIVED_AURORA_TICKET          0x43 // Super Fire Red
+#define FLAG_SFR_RECEIVED_MYSTIC_TICKET          0x44 // Super Fire Red
+#define FLAG_SFR_DEFEATED_REGIELEKI              0x45 // Super Fire Red
+#define FLAG_SFR_DEFEATED_REGIDRAGO              0x46 // Super Fire Red
+#define FLAG_SFR_DEFEATED_REGIGIGAS              0x47 // Super Fire Red
 #define FLAG_UNUSED_0x048    0x48 // Unused Flag
 #define FLAG_UNUSED_0x049    0x49 // Unused Flag
 #define FLAG_UNUSED_0x04A    0x4A // Unused Flag

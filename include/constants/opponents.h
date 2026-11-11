@@ -859,12 +859,20 @@
 #define TRAINER_LEAF                        852
 #define TRAINER_BRENDAN_PLACEHOLDER         853
 #define TRAINER_MAY_PLACEHOLDER             854
+// Super Fire Red: Kanto Gym Leader rematches (after beating May)
+#define TRAINER_SFR_BROCK_REMATCH           855
+#define TRAINER_SFR_MISTY_REMATCH           856
+#define TRAINER_SFR_LT_SURGE_REMATCH        857
+#define TRAINER_SFR_ERIKA_REMATCH           858
+#define TRAINER_SFR_KOGA_REMATCH            859
+#define TRAINER_SFR_SABRINA_REMATCH         860
+#define TRAINER_SFR_BLAINE_REMATCH          861
 
 // NOTE: Because each Trainer uses a flag to determine when they are defeated, there is only space for 9 additional trainers before trainer flag space overflows
 //       More space can be made by shifting flags around in constants/flags.h or changing how trainer flags are handled
 //       MAX_TRAINERS_COUNT can be increased but will take up additional saveblock space
 
-#define TRAINERS_COUNT_EMERALD     855
+#define TRAINERS_COUNT_EMERALD     862
 #define MAX_TRAINERS_COUNT_EMERALD 864
 
 #if !IS_FRLG && KANTO_TRAINER_ID_START != MAX_TRAINERS_COUNT_EMERALD

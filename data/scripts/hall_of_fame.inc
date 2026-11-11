@@ -11,6 +11,8 @@ EverGrandeCity_HallOfFame_EventScript_SetGameClearFlags::
 	setvar VAR_STEVENS_HOUSE_STATE, 2
 	setflag FLAG_HIDE_VICTORY_ROAD_ENTRANCE_WALLY
 	@ Super Fire Red: Wally battles at his home in Verdanturf instead
+	@ Super Fire Red: Latias starts roaming Hoenn (Latios waits on Southern Island)
+	call_if_unset FLAG_SFR_HOENN_GAME_CLEAR, SFR_EventScript_StartLatiasRoaming
 	clearflag FLAG_HIDE_SLATEPORT_CITY_HARBOR_SS_TIDAL
 	clearflag FLAG_HIDE_LILYCOVE_HARBOR_SSTIDAL
 	setflag FLAG_HIDE_SAFARI_ZONE_SOUTH_CONSTRUCTION_WORKERS

@@ -4,6 +4,7 @@
 #include "pokemon.h"
 #include "random.h"
 #include "roamer.h"
+#include "regions.h"
 
 // Despite having a variable to track it, the roamer is
 // hard-coded to only ever be in map group 0
@@ -59,9 +60,60 @@ static const u8 sRoamerLocations[][6] =
     { ___, ___, ___, ___, ___, ___ },
 };
 
+
+// Super Fire Red: the legendary beasts roam Kanto, as in FireRed
+static const u8 sRoamerLocationsKanto[][6] =
+{
+    { MAP_NUM(MAP_ROUTE1), MAP_NUM(MAP_ROUTE2), MAP_NUM(MAP_ROUTE21_NORTH), MAP_NUM(MAP_ROUTE22), ___, ___ },
+    { MAP_NUM(MAP_ROUTE2), MAP_NUM(MAP_ROUTE1), MAP_NUM(MAP_ROUTE3), MAP_NUM(MAP_ROUTE22), ___, ___ },
+    { MAP_NUM(MAP_ROUTE3), MAP_NUM(MAP_ROUTE2), MAP_NUM(MAP_ROUTE4), ___, ___, ___ },
+    { MAP_NUM(MAP_ROUTE4), MAP_NUM(MAP_ROUTE3), MAP_NUM(MAP_ROUTE24), MAP_NUM(MAP_ROUTE9), ___, ___ },
+    { MAP_NUM(MAP_ROUTE5), MAP_NUM(MAP_ROUTE6), MAP_NUM(MAP_ROUTE7), MAP_NUM(MAP_ROUTE8), MAP_NUM(MAP_ROUTE24), ___ },
+    { MAP_NUM(MAP_ROUTE6), MAP_NUM(MAP_ROUTE5), MAP_NUM(MAP_ROUTE11), MAP_NUM(MAP_ROUTE7), MAP_NUM(MAP_ROUTE8), ___ },
+    { MAP_NUM(MAP_ROUTE7), MAP_NUM(MAP_ROUTE5), MAP_NUM(MAP_ROUTE8), MAP_NUM(MAP_ROUTE16), ___, ___ },
+    { MAP_NUM(MAP_ROUTE8), MAP_NUM(MAP_ROUTE7), MAP_NUM(MAP_ROUTE12), MAP_NUM(MAP_ROUTE10), ___, ___ },
+    { MAP_NUM(MAP_ROUTE9), MAP_NUM(MAP_ROUTE10), MAP_NUM(MAP_ROUTE24), MAP_NUM(MAP_ROUTE4), ___, ___ },
+    { MAP_NUM(MAP_ROUTE10), MAP_NUM(MAP_ROUTE9), MAP_NUM(MAP_ROUTE8), MAP_NUM(MAP_ROUTE12), ___, ___ },
+    { MAP_NUM(MAP_ROUTE11), MAP_NUM(MAP_ROUTE6), MAP_NUM(MAP_ROUTE12), ___, ___, ___ },
+    { MAP_NUM(MAP_ROUTE12), MAP_NUM(MAP_ROUTE11), MAP_NUM(MAP_ROUTE13), MAP_NUM(MAP_ROUTE10), ___, ___ },
+    { MAP_NUM(MAP_ROUTE13), MAP_NUM(MAP_ROUTE12), MAP_NUM(MAP_ROUTE14), ___, ___, ___ },
+    { MAP_NUM(MAP_ROUTE14), MAP_NUM(MAP_ROUTE13), MAP_NUM(MAP_ROUTE15), ___, ___, ___ },
+    { MAP_NUM(MAP_ROUTE15), MAP_NUM(MAP_ROUTE14), MAP_NUM(MAP_ROUTE18), ___, ___, ___ },
+    { MAP_NUM(MAP_ROUTE16), MAP_NUM(MAP_ROUTE7), MAP_NUM(MAP_ROUTE17), ___, ___, ___ },
+    { MAP_NUM(MAP_ROUTE17), MAP_NUM(MAP_ROUTE16), MAP_NUM(MAP_ROUTE18), ___, ___, ___ },
+    { MAP_NUM(MAP_ROUTE18), MAP_NUM(MAP_ROUTE17), MAP_NUM(MAP_ROUTE15), ___, ___, ___ },
+    { MAP_NUM(MAP_ROUTE21_NORTH), MAP_NUM(MAP_ROUTE1), MAP_NUM(MAP_ROUTE21_SOUTH), ___, ___, ___ },
+    { MAP_NUM(MAP_ROUTE21_SOUTH), MAP_NUM(MAP_ROUTE21_NORTH), ___, ___, ___, ___ },
+    { MAP_NUM(MAP_ROUTE22), MAP_NUM(MAP_ROUTE1), MAP_NUM(MAP_ROUTE2), MAP_NUM(MAP_ROUTE23), ___, ___ },
+    { MAP_NUM(MAP_ROUTE23), MAP_NUM(MAP_ROUTE22), ___, ___, ___, ___ },
+    { MAP_NUM(MAP_ROUTE24), MAP_NUM(MAP_ROUTE25), MAP_NUM(MAP_ROUTE4), MAP_NUM(MAP_ROUTE9), MAP_NUM(MAP_ROUTE5), ___ },
+    { MAP_NUM(MAP_ROUTE25), MAP_NUM(MAP_ROUTE24), ___, ___, ___, ___ },
+    { ___, ___, ___, ___, ___, ___ },
+};
+
 #undef ___
-#define NUM_LOCATION_SETS (ARRAY_COUNT(sRoamerLocations) - 1)
 #define NUM_LOCATIONS_PER_SET (ARRAY_COUNT(sRoamerLocations[0]))
+
+static bool32 IsKantoRoamer(u32 index)
+{
+    enum Species species = ROAMER(index)->species;
+    return species == SPECIES_RAIKOU || species == SPECIES_ENTEI || species == SPECIES_SUICUNE;
+}
+
+static const u8 (*RoamerTable(u32 index))[6]
+{
+    return IsKantoRoamer(index) ? sRoamerLocationsKanto : sRoamerLocations;
+}
+
+static u32 RoamerNumSets(u32 index)
+{
+    return IsKantoRoamer(index) ? ARRAY_COUNT(sRoamerLocationsKanto) - 1 : ARRAY_COUNT(sRoamerLocations) - 1;
+}
+
+static u8 RoamerMapGroup(u32 index)
+{
+    return IsKantoRoamer(index) ? MAP_GROUP(MAP_ROUTE1) : ROAMER_MAP_GROUP;
+}
 
 void DeactivateAllRoamers(void)
 {
@@ -121,8 +173,8 @@ static void CreateInitialRoamerMon(u8 index, enum Species species, u8 level)
     ROAMER(index)->tough = GetMonData(&gParties[B_TRAINER_OPPONENT_A][0], MON_DATA_TOUGH);
     ROAMER(index)->shiny = GetMonData(&gParties[B_TRAINER_OPPONENT_A][0], MON_DATA_IS_SHINY);
     ROAMER(index)->active = TRUE;
-    sRoamerLocation[index][MAP_GRP] = ROAMER_MAP_GROUP;
-    sRoamerLocation[index][MAP_NUM] = sRoamerLocations[Random() % NUM_LOCATION_SETS][0];
+    sRoamerLocation[index][MAP_GRP] = RoamerMapGroup(index);
+    sRoamerLocation[index][MAP_NUM] = RoamerTable(index)[Random() % RoamerNumSets(index)][0];
 }
 
 static u8 GetFirstInactiveRoamerIndex(void)
@@ -153,12 +205,23 @@ bool8 TryAddRoamer(enum Species species, u8 level)
 }
 
 // gSpecialVar_0x8004 here corresponds to the options in the multichoice MULTI_TV_LATI (0 for 'Red', 1 for 'Blue')
+// Super Fire Red: in Kanto (One Island, after the National Dex) the beast depends on the
+// starter, as in FireRed; in Hoenn (after beating May) Latias or Latios roams.
 void InitRoamer(void)
 {
-    if (gSpecialVar_0x8004 == 0) // Red
-        TryAddRoamer(SPECIES_LATIAS, 40);
+    if (IsInKanto())
+    {
+        switch (VarGet(VAR_STARTER_MON))
+        {
+        case 0:  TryAddRoamer(SPECIES_ENTEI, 50); break;    // Bulbasaur
+        case 1:  TryAddRoamer(SPECIES_RAIKOU, 50); break;   // Squirtle
+        default: TryAddRoamer(SPECIES_SUICUNE, 50); break;  // Charmander
+        }
+    }
+    else if (gSpecialVar_0x8004 == 0) // Red
+        TryAddRoamer(SPECIES_LATIAS, 70);
     else
-        TryAddRoamer(SPECIES_LATIOS, 40);
+        TryAddRoamer(SPECIES_LATIOS, 70);
 }
 
 void UpdateLocationHistoryForRoamer(void)
@@ -185,13 +248,13 @@ void RoamerMoveToOtherLocationSet(u32 roamerIndex)
     if (!ROAMER(roamerIndex)->active)
         return;
 
-    sRoamerLocation[roamerIndex][MAP_GRP] = ROAMER_MAP_GROUP;
+    sRoamerLocation[roamerIndex][MAP_GRP] = RoamerMapGroup(roamerIndex);
 
     // Choose a location set that starts with a map
     // different from the roamer's current map
     do
     {
-        mapNum = sRoamerLocations[Random() % NUM_LOCATION_SETS][0];
+        mapNum = RoamerTable(roamerIndex)[Random() % RoamerNumSets(roamerIndex)][0];
         if (sRoamerLocation[roamerIndex][MAP_NUM] != mapNum)
         {
             sRoamerLocation[roamerIndex][MAP_NUM] = mapNum;
@@ -214,18 +277,18 @@ void RoamerMove(u32 roamerIndex)
         if (!ROAMER(roamerIndex)->active)
             return;
 
-        while (locSet < NUM_LOCATION_SETS)
+        while (locSet < RoamerNumSets(roamerIndex))
         {
             // Find the location set that starts with the roamer's current map
-            if (sRoamerLocation[roamerIndex][MAP_NUM] == sRoamerLocations[locSet][0])
+            if (sRoamerLocation[roamerIndex][MAP_NUM] == RoamerTable(roamerIndex)[locSet][0])
             {
                 u8 mapNum;
                 // Choose a new map (excluding the first) within this set
                 // Also exclude a map if the roamer was there 2 moves ago
                 do
                 {
-                    mapNum = sRoamerLocations[locSet][(Random() % (NUM_LOCATIONS_PER_SET - 1)) + 1];
-                } while ((sLocationHistory[roamerIndex][2][MAP_GRP] == ROAMER_MAP_GROUP
+                    mapNum = RoamerTable(roamerIndex)[locSet][(Random() % (NUM_LOCATIONS_PER_SET - 1)) + 1];
+                } while ((sLocationHistory[roamerIndex][2][MAP_GRP] == RoamerMapGroup(roamerIndex)
                         && sLocationHistory[roamerIndex][2][MAP_NUM] == mapNum)
                         || mapNum == MAP_NUM(MAP_UNDEFINED));
                 sRoamerLocation[roamerIndex][MAP_NUM] = mapNum;

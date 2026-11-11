@@ -107,8 +107,8 @@ PokemonLeague_LancesRoom_EventScript_Lance::
 	call_if_set FLAG_SYS_GAME_CLEAR, PokemonLeague_LancesRoom_EventScript_RematchIntro
 	setflag FLAG_TEMP_3
 	setflag FLAG_TEMP_5
-	call_if_unset FLAG_IS_CHAMPION, PokemonLeague_LancesRoom_EventScript_Battle
-	call_if_set FLAG_IS_CHAMPION, PokemonLeague_LancesRoom_EventScript_Rematch
+	call_if_unset FLAG_SFR_HOENN_GAME_CLEAR, PokemonLeague_LancesRoom_EventScript_Battle
+	call_if_set FLAG_SFR_HOENN_GAME_CLEAR, PokemonLeague_LancesRoom_EventScript_Rematch
 	clearflag FLAG_TEMP_5
 	goto PokemonLeague_LancesRoom_EventScript_DefeatedLance
 	end

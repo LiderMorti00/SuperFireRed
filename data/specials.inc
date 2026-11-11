@@ -289,6 +289,7 @@ gSpecials::
 	def_special LookThroughPorthole, waitstate=1
 	def_special DoSoftReset
 	def_special GameClear, waitstate=1
+	def_special SfrHasCaughtAllObtainable
 	def_special MoveElevator, waitstate=1
 	def_special ShowGlassWorkshopMenu
 	def_special SpawnCameraObject

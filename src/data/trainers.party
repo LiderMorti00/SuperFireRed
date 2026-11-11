@@ -4301,6 +4301,12 @@ AI: Basic Trainer
 Geodude
 Level: 58
 
+Lileep
+Level: 58
+
+Anorith
+Level: 58
+
 Nosepass
 Level: 60
 
@@ -4315,6 +4321,12 @@ Double Battle: No
 AI: Basic Trainer
 
 Machop
+Level: 58
+
+Meditite
+Level: 58
+
+Breloom
 Level: 58
 
 Makuhita
@@ -4336,6 +4348,9 @@ Level: 58
 Voltorb
 Level: 58
 
+Manectric
+Level: 58
+
 Magneton
 Level: 60
 
@@ -4355,6 +4370,9 @@ Level: 59
 Numel
 Level: 59
 
+Ninetales
+Level: 59
+
 Torkoal
 Level: 61
 
@@ -4372,6 +4390,9 @@ Slaking
 Level: 59
 
 Vigoroth
+Level: 59
+
+Linoone
 Level: 59
 
 Slaking
@@ -4411,6 +4432,12 @@ AI: Basic Trainer
 
 Lunatone
 Level: 62
+
+Claydol
+Level: 60
+
+Xatu
+Level: 60
 
 Solrock
 Level: 62
@@ -15694,3 +15721,452 @@ Double Battle: No
 Kyogre
 Level: 5
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+=== TRAINER_SFR_BROCK_REMATCH ===
+Name: BROCK
+Class: Leader Frlg
+Pic: Leader Brock Frlg
+Gender: Male
+Music: Serious
+Items: Full Restore / Full Restore / Full Restore
+Double Battle: No
+AI: Smart Trainer
+
+Onix @ Salac Berry
+Level: 80
+Ability: Sturdy
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Stone Edge
+- Earthquake
+- Stealth Rock
+- Explosion
+
+Golem @ Choice Band
+Level: 81
+Ability: Sturdy
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Stone Edge
+- Earthquake
+- Heavy Slam
+- Explosion
+
+Omastar @ White Herb
+Level: 81
+Ability: Swift Swim
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Shell Smash
+- Hydro Pump
+- Ancient Power
+- Ice Beam
+
+Kabutops @ Life Orb
+Level: 82
+Ability: Swift Swim
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Stone Edge
+- Waterfall
+- Aqua Jet
+- Swords Dance
+
+Tyranitar @ Chople Berry
+Level: 83
+Ability: Sand Stream
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Stone Edge
+- Crunch
+- Earthquake
+- Dragon Dance
+
+Aerodactyl @ Aerodactylite
+Level: 85
+Ability: Rock Head
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Stone Edge
+- Earthquake
+- Ice Fang
+- Aerial Ace
+
+=== TRAINER_SFR_MISTY_REMATCH ===
+Name: MISTY
+Class: Leader Frlg
+Pic: Leader Misty Frlg
+Gender: Female
+Music: Serious
+Items: Full Restore / Full Restore / Full Restore
+Double Battle: No
+AI: Smart Trainer
+
+Golduck @ Life Orb
+Level: 80
+Ability: Swift Swim
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Hydro Pump
+- Ice Beam
+- Focus Blast
+- Psychic
+
+Lapras @ Leftovers
+Level: 81
+Ability: Water Absorb
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Surf
+- Ice Beam
+- Thunderbolt
+- Confuse Ray
+
+Gyarados @ Lum Berry
+Level: 82
+Ability: Intimidate
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Waterfall
+- Bounce
+- Ice Fang
+- Dragon Dance
+
+Blastoise @ Sitrus Berry
+Level: 82
+Ability: Torrent
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Hydro Pump
+- Ice Beam
+- Dark Pulse
+- Aura Sphere
+
+Slowbro @ Slowbronite
+Level: 83
+Ability: Regenerator
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Scald
+- Psychic
+- Slack Off
+- Calm Mind
+
+Starmie @ Life Orb
+Level: 85
+Ability: Natural Cure
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Hydro Pump
+- Psychic
+- Thunderbolt
+- Ice Beam
+
+=== TRAINER_SFR_LT_SURGE_REMATCH ===
+Name: LT. SURGE
+Class: Leader Frlg
+Pic: Leader Lt Surge Frlg
+Gender: Male
+Music: Serious
+Items: Full Restore / Full Restore / Full Restore
+Double Battle: No
+AI: Smart Trainer
+
+Electrode @ Lum Berry
+Level: 80
+Ability: Static
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Thunderbolt
+- Volt Switch
+- Foul Play
+- Explosion
+
+Magnezone @ Air Balloon
+Level: 81
+Ability: Sturdy
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Thunderbolt
+- Flash Cannon
+- Volt Switch
+- Thunder Wave
+
+Electivire @ Expert Belt
+Level: 82
+Ability: Motor Drive
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Wild Charge
+- Cross Chop
+- Ice Punch
+- Earthquake
+
+Jolteon @ Choice Specs
+Level: 82
+Ability: Volt Absorb
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Thunderbolt
+- Shadow Ball
+- Volt Switch
+- Signal Beam
+
+Ampharos @ Ampharosite
+Level: 83
+Ability: Static
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Thunderbolt
+- Dragon Pulse
+- Focus Blast
+- Power Gem
+
+Raichu @ Life Orb
+Level: 85
+Ability: Lightning Rod
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Thunderbolt
+- Focus Blast
+- Grass Knot
+- Nasty Plot
+
+=== TRAINER_SFR_ERIKA_REMATCH ===
+Name: ERIKA
+Class: Leader Frlg
+Pic: Leader Erika Frlg
+Gender: Female
+Music: Serious
+Items: Full Restore / Full Restore / Full Restore
+Double Battle: No
+AI: Smart Trainer
+
+Victreebel @ Life Orb
+Level: 80
+Ability: Chlorophyll
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Power Whip
+- Sucker Punch
+- Sludge Bomb
+- Swords Dance
+
+Tangrowth @ Rocky Helmet
+Level: 81
+Ability: Regenerator
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Power Whip
+- Earthquake
+- Knock Off
+- Sleep Powder
+
+Roserade @ Focus Sash
+Level: 81
+Ability: Natural Cure
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Leaf Storm
+- Sludge Bomb
+- Shadow Ball
+- Spikes
+
+Bellossom @ Sitrus Berry
+Level: 82
+Ability: Chlorophyll
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Petal Dance
+- Moonblast
+- Quiver Dance
+- Giga Drain
+
+Venusaur @ Venusaurite
+Level: 84
+Ability: Overgrow
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Giga Drain
+- Sludge Bomb
+- Earth Power
+- Synthesis
+
+Vileplume @ Leftovers
+Level: 85
+Ability: Effect Spore
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Petal Blizzard
+- Sludge Bomb
+- Moonblast
+- Sleep Powder
+
+=== TRAINER_SFR_KOGA_REMATCH ===
+Name: KOGA
+Class: Leader Frlg
+Pic: Leader Koga Frlg
+Gender: Male
+Music: Serious
+Items: Full Restore / Full Restore / Full Restore
+Double Battle: No
+AI: Smart Trainer
+
+Venomoth @ Focus Sash
+Level: 80
+Ability: Tinted Lens
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Bug Buzz
+- Sludge Bomb
+- Quiver Dance
+- Sleep Powder
+
+Crobat @ Sharp Beak
+Level: 81
+Ability: Inner Focus
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Brave Bird
+- Cross Poison
+- U-turn
+- Super Fang
+
+Muk @ Black Sludge
+Level: 81
+Ability: Poison Touch
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Gunk Shot
+- Shadow Sneak
+- Ice Punch
+- Curse
+
+Nidoking @ Life Orb
+Level: 82
+Ability: Sheer Force
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Sludge Wave
+- Earth Power
+- Ice Beam
+- Thunderbolt
+
+Beedrill @ Beedrillite
+Level: 83
+Ability: Swarm
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Poison Jab
+- X-Scissor
+- Drill Run
+- U-turn
+
+Weezing @ Leftovers
+Level: 85
+Ability: Levitate
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Sludge Bomb
+- Flamethrower
+- Will-O-Wisp
+- Toxic Spikes
+
+=== TRAINER_SFR_SABRINA_REMATCH ===
+Name: SABRINA
+Class: Leader Frlg
+Pic: Leader Sabrina Frlg
+Gender: Female
+Music: Serious
+Items: Full Restore / Full Restore / Full Restore
+Double Battle: No
+AI: Smart Trainer
+
+Mr Mime @ Light Clay
+Level: 80
+Ability: Filter
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Psychic
+- Dazzling Gleam
+- Reflect
+- Light Screen
+
+Espeon @ Life Orb
+Level: 81
+Ability: Magic Bounce
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Psychic
+- Shadow Ball
+- Dazzling Gleam
+- Calm Mind
+
+Slowking @ Leftovers
+Level: 81
+Ability: Regenerator
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Psyshock
+- Scald
+- Slack Off
+- Nasty Plot
+
+Gardevoir @ Choice Specs
+Level: 82
+Ability: Trace
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Psychic
+- Moonblast
+- Focus Blast
+- Thunderbolt
+
+Metagross @ Assault Vest
+Level: 83
+Ability: Clear Body
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Zen Headbutt
+- Meteor Mash
+- Earthquake
+- Bullet Punch
+
+Alakazam @ Alakazite
+Level: 85
+Ability: Synchronize
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Psychic
+- Shadow Ball
+- Focus Blast
+- Calm Mind
+
+=== TRAINER_SFR_BLAINE_REMATCH ===
+Name: BLAINE
+Class: Leader Frlg
+Pic: Leader Blaine Frlg
+Gender: Male
+Music: Serious
+Items: Full Restore / Full Restore / Full Restore
+Double Battle: No
+AI: Smart Trainer
+
+Ninetales @ Heat Rock
+Level: 80
+Ability: Drought
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Fire Blast
+- Solar Beam
+- Nasty Plot
+- Will-O-Wisp
+
+Rapidash @ Life Orb
+Level: 80
+Ability: Flash Fire
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Flare Blitz
+- Wild Charge
+- Megahorn
+- Morning Sun
+
+Houndoom @ Expert Belt
+Level: 81
+Ability: Flash Fire
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Fire Blast
+- Dark Pulse
+- Sludge Bomb
+- Nasty Plot
+
+Magmortar @ Expert Belt
+Level: 82
+Ability: Flame Body
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Fire Blast
+- Thunderbolt
+- Psychic
+- Focus Blast
+
+Charizard @ Charizardite Y
+Level: 84
+Ability: Blaze
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Flamethrower
+- Solar Beam
+- Air Slash
+- Focus Blast
+
+Arcanine @ Sitrus Berry
+Level: 85
+Ability: Intimidate
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Flare Blitz
+- Extreme Speed
+- Wild Charge
+- Close Combat
+

@@ -5767,3 +5767,21 @@ bool8 CheckAddCoins(void)
     else
         return TRUE;
 }
+
+// Super Fire Red: TRUE when every obtainable species (tools/sfr/gen_obtainable_species.py) is caught
+#include "data/sfr_obtainable_species.h"
+
+void SfrHasCaughtAllObtainable(void)
+{
+    u32 i;
+
+    gSpecialVar_Result = TRUE;
+    for (i = 0; i < ARRAY_COUNT(sSfrObtainableDex); i++)
+    {
+        if (!GetSetPokedexFlag(sSfrObtainableDex[i], FLAG_GET_CAUGHT))
+        {
+            gSpecialVar_Result = FALSE;
+            return;
+        }
+    }
+}

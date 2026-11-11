@@ -15,6 +15,7 @@ AncientTomb_EventScript_TryRemoveRegisteel::
 	return
 
 AncientTomb_OnTransition:
+	call SFR_EventScript_SetupRegieleki @ Super Fire Red
 	setflag FLAG_LANDMARK_ANCIENT_TOMB
 	call_if_unset FLAG_DEFEATED_REGISTEEL, AncientTomb_EventScript_ShowRegisteel
 	end
@@ -61,7 +62,7 @@ AncientTomb_EventScript_Registeel::
 	playmoncry SPECIES_REGISTEEL, CRY_MODE_ENCOUNTER
 	delay 40
 	waitmoncry
-	setwildbattle SPECIES_REGISTEEL, 40
+	setwildbattle SPECIES_REGISTEEL, 70
 	setflag FLAG_SYS_CTRL_OBJ_DELETE
 	special StartRegiBattle
 	clearflag FLAG_SYS_CTRL_OBJ_DELETE
