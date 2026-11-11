@@ -295,11 +295,13 @@ static const struct MenuAction MultichoiceList_HowsFishing[] =
 };
 
 const u8 gText_LilycoveCity[] = _("LILYCOVE CITY");
+static const u8 sText_SfrVermilionCity[] = _("VERMILION CITY");
 
 static const struct MenuAction MultichoiceList_SSTidalSlateportWithBF[] =
 {
     {gText_LilycoveCity},
     {gText_BattleFrontier},
+    {sText_SfrVermilionCity},
     {gText_Exit},
 };
 
@@ -319,6 +321,7 @@ static const struct MenuAction MultichoiceList_RightLeft[] =
 static const struct MenuAction MultichoiceList_SSTidalSlateportNoBF[] =
 {
     {gText_LilycoveCity},
+    {sText_SfrVermilionCity},
     {gText_Exit},
 };
 

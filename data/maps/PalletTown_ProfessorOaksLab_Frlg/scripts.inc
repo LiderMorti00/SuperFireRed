@@ -115,6 +115,7 @@ PalletTown_ProfessorOaksLab_EventScript_NationalDexScene::
 	call_if_eq VAR_FACING, DIR_WEST, PalletTown_ProfessorOaksLab_EventScript_RivalExit
 	removeobject LOCALID_OAKS_LAB_RIVAL
 	fadedefaultbgm
+	call SFR_EventScript_OakAuthorizesHoennTrip @ Super Fire Red
 	setvar VAR_MAP_SCENE_PALLET_TOWN_PROFESSOR_OAKS_LAB, 8
 	releaseall
 	end

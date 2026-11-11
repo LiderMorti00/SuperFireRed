@@ -56,13 +56,13 @@
 #define FLAG_SFR_DEXNAV_SEARCHING   0x22 // Super Fire Red: DexNav
 #define FLAG_SFR_DEXNAV_GET         0x23 // Super Fire Red: DexNav shows in the start menu
 #define FLAG_SFR_DEXNAV_DETECTOR    0x24 // Super Fire Red: DexNav detector mode
-#define FLAG_UNUSED_0x025    0x25 // Unused Flag
-#define FLAG_UNUSED_0x026    0x26 // Unused Flag
-#define FLAG_UNUSED_0x027    0x27 // Unused Flag
-#define FLAG_UNUSED_0x028    0x28 // Unused Flag
-#define FLAG_UNUSED_0x029    0x29 // Unused Flag
-#define FLAG_UNUSED_0x02A    0x2A // Unused Flag
-#define FLAG_UNUSED_0x02B    0x2B // Unused Flag
+#define FLAG_SFR_HOENN_TRIP_AUTHORIZED          0x25 // Super Fire Red: Oak authorized the trip to Hoenn
+#define FLAG_SFR_HOENN_WORLD_INIT               0x26 // Super Fire Red: Hoenn set to its post-Emerald state
+#define FLAG_SFR_HOENN_GAME_CLEAR               0x27 // Super Fire Red: beat May at the Hoenn League
+#define FLAG_SFR_HIDE_SLATEPORT_HARBOR_BRENDAN  0x28 // Super Fire Red: Brendan at Slateport Harbor on arrival
+#define FLAG_SFR_RECEIVED_HOENN_STARTER         0x29 // Super Fire Red: got a starter from Birch
+#define FLAG_SFR_HIDE_BIRCHS_LAB_BRENDAN        0x2A // Super Fire Red: Brendan in Birch's lab
+#define FLAG_SFR_RECEIVED_POKENAV               0x2B // Super Fire Red: got the Pokenav and DexNav from Brendan
 #define FLAG_UNUSED_0x02C    0x2C // Unused Flag
 #define FLAG_UNUSED_0x02D    0x2D // Unused Flag
 #define FLAG_UNUSED_0x02E    0x2E // Unused Flag
