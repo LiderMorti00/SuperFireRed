@@ -142,3 +142,6 @@ This project follows the [all-contributors](https://github.com/all-contributors/
 ### Super Fire Red: Hoenn overworld sprites in FireRed style
 - "FRHoenn" pack, PokeCommunity thread https://www.pokecommunity.com/threads/436714 (imported with `tools/sfr/import_frhoenn.py`)
 - Its credits: Game Freak (original sprites and designs), The Spriters Resource, Kalarie (overworld references), Jaizu, Citrus Bolt, PokeCommunity Discord
+
+### Super Fire Red: Hoenn tilesets and maps in FireRed style
+- [Hoenn_FR_Style](https://github.com/Jaizu/Hoenn_FR_Style): Jaizu, Citrus Bolt, TheDeadHeroAlistair, Poffin_Case (special thanks: Syreldar)

@@ -31,6 +31,7 @@ static s32 MapPosToBgTilemapOffset(struct FieldCameraOffset *, s32, s32);
 static void DrawWholeMapViewInternal(int, int, const struct MapLayout *);
 static void DrawMetatileAt(const struct MapLayout *, u16, int, int);
 static void DrawMetatile(s32, const u16 *, u16);
+static void DrawTripleLayerMetatile(const u16 *, u16);
 static void CameraPanningCB_PanAhead(void);
 
 static struct FieldCameraOffset sFieldCameraOffset;
@@ -239,7 +240,31 @@ static void DrawMetatileAt(const struct MapLayout *mapLayout, u16 offset, int x,
         metatiles = mapLayout->secondaryTileset->metatiles;
         metatileId -= GetNumMetatilesInPrimary(mapLayout);
     }
-    DrawMetatile(MapGridGetMetatileLayerTypeAt(x, y), metatiles + metatileId * NUM_TILES_PER_METATILE, offset);
+    DrawTripleLayerMetatile(metatiles + metatileId * NUM_TILES_PER_METATILE, offset);
+}
+
+// Super Fire Red: every metatile has three layers. Bottom and middle are drawn under
+// object events, top covers them (Hoenn FR Style tilesets by Jaizu).
+static void DrawTripleLayerMetatile(const u16 *tiles, u16 offset)
+{
+    gOverworldTilemapBuffer_Bg3[offset] = tiles[0];
+    gOverworldTilemapBuffer_Bg3[offset + 1] = tiles[1];
+    gOverworldTilemapBuffer_Bg3[offset + 0x20] = tiles[2];
+    gOverworldTilemapBuffer_Bg3[offset + 0x21] = tiles[3];
+
+    gOverworldTilemapBuffer_Bg2[offset] = tiles[4];
+    gOverworldTilemapBuffer_Bg2[offset + 1] = tiles[5];
+    gOverworldTilemapBuffer_Bg2[offset + 0x20] = tiles[6];
+    gOverworldTilemapBuffer_Bg2[offset + 0x21] = tiles[7];
+
+    gOverworldTilemapBuffer_Bg1[offset] = tiles[8];
+    gOverworldTilemapBuffer_Bg1[offset + 1] = tiles[9];
+    gOverworldTilemapBuffer_Bg1[offset + 0x20] = tiles[10];
+    gOverworldTilemapBuffer_Bg1[offset + 0x21] = tiles[11];
+
+    ScheduleBgCopyTilemapToVram(1);
+    ScheduleBgCopyTilemapToVram(2);
+    ScheduleBgCopyTilemapToVram(3);
 }
 
 static void DrawMetatile(s32 metatileLayerType, const u16 *tiles, u16 offset)

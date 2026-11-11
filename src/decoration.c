@@ -2006,9 +2006,24 @@ static void SetDecorSelectionBoxTiles(struct PlaceDecorationGraphicsDataBuffer *
         CopyTile(&data->image[i * TILE_SIZE_4BPP], data->tiles[i]);
 }
 
+// Super Fire Red: metatiles have three layers; decorations still address the two layers in
+// use as 0-3 (lower) and 4-7 (upper), like dual-layer metatiles did.
+static u16 GetDualLayerEntry(const u16 *metatile, u32 index)
+{
+    u32 lower, upper;
+    if ((metatile[0] & 0x3FF) == 0 && (metatile[1] & 0x3FF) == 0 && (metatile[2] & 0x3FF) == 0 && (metatile[3] & 0x3FF) == 0)
+        lower = 4, upper = 8;
+    else if ((metatile[8] & 0x3FF) == 0 && (metatile[9] & 0x3FF) == 0 && (metatile[10] & 0x3FF) == 0 && (metatile[11] & 0x3FF) == 0)
+        lower = 0, upper = 4;
+    else
+        lower = 0, upper = 8;
+    return index < 4 ? metatile[lower + index] : metatile[upper + index - 4];
+}
+
 static u16 GetMetatile(u16 tile)
 {
-    return gTilesetPointer_SecretBaseRedCave->metatiles[tile] & 0xFFF;
+    const u16 *metatile = &gTilesetPointer_SecretBaseRedCave->metatiles[(tile / 8) * NUM_TILES_PER_METATILE];
+    return GetDualLayerEntry(metatile, tile % 8) & 0xFFF;
 }
 
 static void SetDecorSelectionMetatiles(struct PlaceDecorationGraphicsDataBuffer *data)
@@ -2019,7 +2034,7 @@ static void SetDecorSelectionMetatiles(struct PlaceDecorationGraphicsDataBuffer 
     shape = data->decoration->shape;
     for (i = 0; i < sDecorTilemaps[shape].size; i++)
     {
-        data->tiles[sDecorTilemaps[shape].tiles[i]] = GetMetatile(data->decoration->tiles[sDecorTilemaps[shape].y[i]] * NUM_TILES_PER_METATILE + sDecorTilemaps[shape].x[i]);
+        data->tiles[sDecorTilemaps[shape].tiles[i]] = GetMetatile(data->decoration->tiles[sDecorTilemaps[shape].y[i]] * 8 + sDecorTilemaps[shape].x[i]);
     }
 }
 
@@ -2079,7 +2094,7 @@ static u8 gpu_pal_decompress_alloc_tag_and_upload(struct PlaceDecorationGraphics
     SetDecorSelectionMetatiles(data);
     SetDecorSelectionBoxOamAttributes(data->decoration->shape);
     SetDecorSelectionBoxTiles(data);
-    CopyPalette(data->palette, gTilesetPointer_SecretBaseRedCave->metatiles[(data->decoration->tiles[0] * NUM_TILES_PER_METATILE) + 7] >> 12);
+    CopyPalette(data->palette, GetDualLayerEntry(&gTilesetPointer_SecretBaseRedCave->metatiles[data->decoration->tiles[0] * NUM_TILES_PER_METATILE], 7) >> 12);
     LoadSpritePalette(&sSpritePal_PlaceDecoration);
     return CreateSprite(&sDecorationSelectorSpriteTemplate, 0, 0, 0);
 }
@@ -2143,7 +2158,7 @@ static u8 AddDecorationIconObjectFromObjectEvent(u16 tilesTag, u16 paletteTag, u
         SetDecorSelectionMetatiles(&sPlaceDecorationGraphicsDataBuffer);
         SetDecorSelectionBoxOamAttributes(sPlaceDecorationGraphicsDataBuffer.decoration->shape);
         SetDecorSelectionBoxTiles(&sPlaceDecorationGraphicsDataBuffer);
-        CopyPalette(sPlaceDecorationGraphicsDataBuffer.palette, gTilesetPointer_SecretBaseRedCave->metatiles[(sPlaceDecorationGraphicsDataBuffer.decoration->tiles[0] * NUM_TILES_PER_METATILE) + 7] >> 12);
+        CopyPalette(sPlaceDecorationGraphicsDataBuffer.palette, GetDualLayerEntry(&gTilesetPointer_SecretBaseRedCave->metatiles[sPlaceDecorationGraphicsDataBuffer.decoration->tiles[0] * NUM_TILES_PER_METATILE], 7) >> 12);
         sheet.data = sPlaceDecorationGraphicsDataBuffer.image;
         sheet.size = sDecorShapes[sPlaceDecorationGraphicsDataBuffer.decoration->shape].size * TILE_SIZE_4BPP;
         sheet.tag = tilesTag;
