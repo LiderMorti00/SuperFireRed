@@ -37,6 +37,25 @@ CeladonCity_DepartmentStore_4F_Items::
 	.2byte ITEM_DUSK_STONE
 	.2byte ITEM_DAWN_STONE
 	.2byte ITEM_ICE_STONE
+	.2byte ITEM_METAL_COAT @ Super Fire Red: evolution items and breeding incenses
+	.2byte ITEM_DRAGON_SCALE
+	.2byte ITEM_UPGRADE
+	.2byte ITEM_DUBIOUS_DISC
+	.2byte ITEM_ELECTIRIZER
+	.2byte ITEM_MAGMARIZER
+	.2byte ITEM_PROTECTOR
+	.2byte ITEM_REAPER_CLOTH
+	.2byte ITEM_RAZOR_CLAW
+	.2byte ITEM_RAZOR_FANG
+	.2byte ITEM_BLACK_AUGURITE
+	.2byte ITEM_PEAT_BLOCK
+	.2byte ITEM_FULL_INCENSE
+	.2byte ITEM_LUCK_INCENSE
+	.2byte ITEM_ODD_INCENSE
+	.2byte ITEM_PURE_INCENSE
+	.2byte ITEM_ROCK_INCENSE
+	.2byte ITEM_ROSE_INCENSE
+	.2byte ITEM_WAVE_INCENSE
 	.2byte ITEM_NONE
 	release
 	end

@@ -88,7 +88,7 @@ def main():
         text = open(f).read()
         have |= set(re.findall(r'\b(?:setwildbattle|seteventmon|givemon|giveegg|createmon)\s+(SPECIES_\w+)', text))
         # starter choices pass the species through a variable before givemon
-        have |= set(re.findall(r'setvar (?:VAR_0x8004|VAR_TEMP_2), (SPECIES_\w+)', text))
+        have |= set(re.findall(r'setvar VAR_\w+, (SPECIES_\w+)', text))
     have |= set(re.findall(r'\.species\s*=\s*(SPECIES_\w+)', open('src/data/trade.h').read()))
     have |= set(re.findall(r'TryAddRoamer\((SPECIES_\w+)', open('src/roamer.c').read()))
     incense = {m[2]: m[1] for m in re.findall(r'\{\s*(SPECIES_\w+),\s*(ITEM_\w+),\s*(SPECIES_\w+)\s*\}', open('src/daycare.c').read())}
