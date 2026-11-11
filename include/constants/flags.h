@@ -71,14 +71,14 @@
 #define FLAG_BADGE14_GET                       0x31 // Super Fire Red: Hoenn badge 6 (Feather)
 #define FLAG_BADGE15_GET                       0x32 // Super Fire Red: Hoenn badge 7 (Mind)
 #define FLAG_BADGE16_GET                       0x33 // Super Fire Red: Hoenn badge 8 (Rain)
-#define FLAG_UNUSED_0x034    0x34 // Unused Flag
-#define FLAG_UNUSED_0x035    0x35 // Unused Flag
-#define FLAG_UNUSED_0x036    0x36 // Unused Flag
-#define FLAG_UNUSED_0x037    0x37 // Unused Flag
-#define FLAG_UNUSED_0x038    0x38 // Unused Flag
-#define FLAG_UNUSED_0x039    0x39 // Unused Flag
-#define FLAG_UNUSED_0x03A    0x3A // Unused Flag
-#define FLAG_UNUSED_0x03B    0x3B // Unused Flag
+#define FLAG_SFR_DEFEATED_BRENDAN_ROUTE103       0x34 // Super Fire Red
+#define FLAG_SFR_DEFEATED_BRENDAN_ROUTE110       0x35 // Super Fire Red
+#define FLAG_SFR_DEFEATED_BRENDAN_ROUTE119       0x36 // Super Fire Red
+#define FLAG_SFR_DEFEATED_BRENDAN_LILYCOVE       0x37 // Super Fire Red
+#define FLAG_SFR_DEFEATED_BRENDAN_VICTORY_ROAD   0x38 // Super Fire Red
+#define FLAG_SFR_HIDE_SHOAL_CAVE_ARCHIE          0x39 // Super Fire Red
+#define FLAG_SFR_HIDE_MT_CHIMNEY_MAXIE           0x3A // Super Fire Red
+#define FLAG_SFR_DEFEATED_WALLY_VERDANTURF       0x3B // Super Fire Red
 #define FLAG_UNUSED_0x03C    0x3C // Unused Flag
 #define FLAG_UNUSED_0x03D    0x3D // Unused Flag
 #define FLAG_UNUSED_0x03E    0x3E // Unused Flag

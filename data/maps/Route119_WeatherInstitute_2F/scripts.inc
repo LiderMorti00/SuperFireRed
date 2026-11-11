@@ -278,10 +278,13 @@ Route119_WeatherInstitute_2F_Text_WeHaveToHurryToMtPyre:
 	.string "TEAM MAGMA, just you wait!$"
 
 Route119_WeatherInstitute_2F_Text_ThanksPleaseTakePokemon:
-	.string "Thanks!\n"
-	.string "Thanks to you, we're safe!\p"
-	.string "It might be an odd way of thanking you,\n"
-	.string "but take this POKéMON.$"
+	.string "Oh, a TRAINER from KANTO?\n"
+	.string "Welcome to the WEATHER INSTITUTE!\p"
+	.string "Things are peaceful here now, but\n"
+	.string "we'll never forget the TRAINER who\l"
+	.string "saved us from TEAM AQUA.\p"
+	.string "In that spirit, please take this\n"
+	.string "POKéMON. It's one of our own!$"
 
 @ Unused
 Route119_WeatherInstitute_2F_Text_NoRoomForPokemon:

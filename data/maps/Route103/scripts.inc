@@ -4,6 +4,7 @@ Route103_MapScripts::
 	.byte 0
 
 Route103_OnTransition:
+	call SFR_EventScript_SetupBrendanRoute103 @ Super Fire Red
 	call Common_EventScript_SetupRivalGfxId
 	call ProfBirch_EventScript_UpdateLocation
 	end

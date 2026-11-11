@@ -43,6 +43,7 @@ SFR_EventScript_InitHoennWorld::
 	setvar VAR_ROUTE128_STATE, 2
 	setvar VAR_METEOR_FALLS_STATE, 1
 	setvar VAR_HAS_TALKED_TO_SEAFLOOR_CAVERN_ENTRANCE_GRUNT, 1
+	setvar VAR_VICTORY_ROAD_1F_STATE, 3
 	setflag FLAG_RESCUED_BIRCH
 	setflag FLAG_MET_RIVAL_MOM
 	setflag FLAG_BIRCH_AIDE_MET
@@ -194,7 +195,11 @@ SFR_EventScript_InitHoennWorld::
 	clearflag FLAG_HIDE_LILYCOVE_HARBOR_FERRY_SAILOR
 	clearflag FLAG_HIDE_BRINEYS_HOUSE_PEEKO
 	clearflag FLAG_HIDE_BRINEYS_HOUSE_MR_BRINEY
+	setflag FLAG_MR_BRINEY_SAILING_INTRO
 	setvar VAR_BRINEY_LOCATION, 1
+	@ Wally lives with his uncle in Verdanturf
+	clearflag FLAG_HIDE_VERDANTURF_TOWN_WANDAS_HOUSE_WALLY
+	clearflag FLAG_HIDE_VERDANTURF_TOWN_WANDAS_HOUSE_WALLYS_UNCLE
 	@ Captain Stern works at the harbor again
 	clearflag FLAG_HIDE_SLATEPORT_CITY_HARBOR_CAPTAIN_STERN
 	@ Rayquaza sleeps at the top of Sky Pillar
@@ -830,3 +835,609 @@ SFR_EventScript_CheckAllHoennBadges::
 	setvar VAR_RESULT, TRUE
 SFR_EventScript_CheckAllHoennBadgesDone::
 	return
+
+@ ---------------------------------------------------------------------------
+@ Brendan: five optional battles. He shows up once the player has enough Hoenn badges,
+@ and stays until beaten. Key items are handed over just for talking to him.
+
+@ VAR_RESULT = number of Hoenn badges
+SFR_EventScript_CountHoennBadges::
+	setvar VAR_RESULT, 0
+	call_if_set FLAG_BADGE09_GET, SFR_EventScript_AddOneToResult
+	call_if_set FLAG_BADGE10_GET, SFR_EventScript_AddOneToResult
+	call_if_set FLAG_BADGE11_GET, SFR_EventScript_AddOneToResult
+	call_if_set FLAG_BADGE12_GET, SFR_EventScript_AddOneToResult
+	call_if_set FLAG_BADGE13_GET, SFR_EventScript_AddOneToResult
+	call_if_set FLAG_BADGE14_GET, SFR_EventScript_AddOneToResult
+	call_if_set FLAG_BADGE15_GET, SFR_EventScript_AddOneToResult
+	call_if_set FLAG_BADGE16_GET, SFR_EventScript_AddOneToResult
+	return
+
+SFR_EventScript_AddOneToResult::
+	addvar VAR_RESULT, 1
+	return
+
+SFR_EventScript_SetupBrendanRoute103::
+	setflag FLAG_HIDE_ROUTE_103_RIVAL
+	goto_if_set FLAG_SFR_DEFEATED_BRENDAN_ROUTE103, SFR_EventScript_SetupBrendanRoute103Done
+	call SFR_EventScript_CountHoennBadges
+	goto_if_lt VAR_RESULT, 0, SFR_EventScript_SetupBrendanRoute103Done
+	clearflag FLAG_HIDE_ROUTE_103_RIVAL
+SFR_EventScript_SetupBrendanRoute103Done::
+	return
+
+SFR_EventScript_BrendanRoute103::
+	lock
+	faceplayer
+	playbgm MUS_ENCOUNTER_BRENDAN, FALSE
+	msgbox SFR_Text_BrendanRoute103Intro, MSGBOX_DEFAULT
+	switch VAR_SFR_HOENN_STARTER
+	case SPECIES_TREECKO, SFR_EventScript_BrendanRoute103Treecko
+	case SPECIES_TORCHIC, SFR_EventScript_BrendanRoute103Torchic
+	goto SFR_EventScript_BrendanRoute103Mudkip
+	end
+
+SFR_EventScript_BrendanRoute103Treecko::
+	trainerbattle_no_intro TRAINER_BRENDAN_ROUTE_103_TREECKO, SFR_Text_BrendanRoute103Defeat
+	goto SFR_EventScript_BrendanRoute103Defeated
+	end
+
+SFR_EventScript_BrendanRoute103Torchic::
+	trainerbattle_no_intro TRAINER_BRENDAN_ROUTE_103_TORCHIC, SFR_Text_BrendanRoute103Defeat
+	goto SFR_EventScript_BrendanRoute103Defeated
+	end
+
+SFR_EventScript_BrendanRoute103Mudkip::
+	trainerbattle_no_intro TRAINER_BRENDAN_ROUTE_103_MUDKIP, SFR_Text_BrendanRoute103Defeat
+	goto SFR_EventScript_BrendanRoute103Defeated
+	end
+
+SFR_EventScript_BrendanRoute103Defeated::
+	setflag FLAG_SFR_DEFEATED_BRENDAN_ROUTE103
+	msgbox SFR_Text_BrendanRoute103PostBattle, MSGBOX_DEFAULT
+	closemessage
+	fadescreen FADE_TO_BLACK
+	removeobject VAR_LAST_TALKED
+	setflag FLAG_HIDE_ROUTE_103_RIVAL
+	fadescreen FADE_FROM_BLACK
+	fadedefaultbgm
+	release
+	end
+
+SFR_EventScript_SetupBrendanRoute110::
+	setflag FLAG_HIDE_ROUTE_110_RIVAL
+	goto_if_set FLAG_SFR_DEFEATED_BRENDAN_ROUTE110, SFR_EventScript_SetupBrendanRoute110Done
+	call SFR_EventScript_CountHoennBadges
+	goto_if_lt VAR_RESULT, 2, SFR_EventScript_SetupBrendanRoute110Done
+	clearflag FLAG_HIDE_ROUTE_110_RIVAL
+SFR_EventScript_SetupBrendanRoute110Done::
+	return
+
+SFR_EventScript_BrendanRoute110::
+	lock
+	faceplayer
+	playbgm MUS_ENCOUNTER_BRENDAN, FALSE
+	goto_if_set FLAG_RECEIVED_GO_GOGGLES, SFR_EventScript_BrendanRoute110Battle
+	msgbox SFR_Text_BrendanRoute110Item, MSGBOX_DEFAULT
+	giveitem ITEM_GO_GOGGLES
+	setflag FLAG_RECEIVED_GO_GOGGLES
+SFR_EventScript_BrendanRoute110Battle::
+	msgbox SFR_Text_BrendanRoute110Intro, MSGBOX_DEFAULT
+	switch VAR_SFR_HOENN_STARTER
+	case SPECIES_TREECKO, SFR_EventScript_BrendanRoute110Treecko
+	case SPECIES_TORCHIC, SFR_EventScript_BrendanRoute110Torchic
+	goto SFR_EventScript_BrendanRoute110Mudkip
+	end
+
+SFR_EventScript_BrendanRoute110Treecko::
+	trainerbattle_no_intro TRAINER_BRENDAN_ROUTE_110_TREECKO, SFR_Text_BrendanRoute110Defeat
+	goto SFR_EventScript_BrendanRoute110Defeated
+	end
+
+SFR_EventScript_BrendanRoute110Torchic::
+	trainerbattle_no_intro TRAINER_BRENDAN_ROUTE_110_TORCHIC, SFR_Text_BrendanRoute110Defeat
+	goto SFR_EventScript_BrendanRoute110Defeated
+	end
+
+SFR_EventScript_BrendanRoute110Mudkip::
+	trainerbattle_no_intro TRAINER_BRENDAN_ROUTE_110_MUDKIP, SFR_Text_BrendanRoute110Defeat
+	goto SFR_EventScript_BrendanRoute110Defeated
+	end
+
+SFR_EventScript_BrendanRoute110Defeated::
+	setflag FLAG_SFR_DEFEATED_BRENDAN_ROUTE110
+	msgbox SFR_Text_BrendanRoute110PostBattle, MSGBOX_DEFAULT
+	closemessage
+	fadescreen FADE_TO_BLACK
+	removeobject VAR_LAST_TALKED
+	setflag FLAG_HIDE_ROUTE_110_RIVAL
+	fadescreen FADE_FROM_BLACK
+	fadedefaultbgm
+	release
+	end
+
+SFR_EventScript_SetupBrendanRoute119::
+	setflag FLAG_HIDE_ROUTE_119_RIVAL
+	goto_if_set FLAG_SFR_DEFEATED_BRENDAN_ROUTE119, SFR_EventScript_SetupBrendanRoute119Done
+	call SFR_EventScript_CountHoennBadges
+	goto_if_lt VAR_RESULT, 4, SFR_EventScript_SetupBrendanRoute119Done
+	clearflag FLAG_HIDE_ROUTE_119_RIVAL
+SFR_EventScript_SetupBrendanRoute119Done::
+	return
+
+SFR_EventScript_BrendanRoute119::
+	lock
+	faceplayer
+	playbgm MUS_ENCOUNTER_BRENDAN, FALSE
+	goto_if_set FLAG_RECEIVED_DEVON_SCOPE, SFR_EventScript_BrendanRoute119Battle
+	msgbox SFR_Text_BrendanRoute119Item, MSGBOX_DEFAULT
+	giveitem ITEM_DEVON_SCOPE
+	setflag FLAG_RECEIVED_DEVON_SCOPE
+SFR_EventScript_BrendanRoute119Battle::
+	msgbox SFR_Text_BrendanRoute119Intro, MSGBOX_DEFAULT
+	switch VAR_SFR_HOENN_STARTER
+	case SPECIES_TREECKO, SFR_EventScript_BrendanRoute119Treecko
+	case SPECIES_TORCHIC, SFR_EventScript_BrendanRoute119Torchic
+	goto SFR_EventScript_BrendanRoute119Mudkip
+	end
+
+SFR_EventScript_BrendanRoute119Treecko::
+	trainerbattle_no_intro TRAINER_BRENDAN_ROUTE_119_TREECKO, SFR_Text_BrendanRoute119Defeat
+	goto SFR_EventScript_BrendanRoute119Defeated
+	end
+
+SFR_EventScript_BrendanRoute119Torchic::
+	trainerbattle_no_intro TRAINER_BRENDAN_ROUTE_119_TORCHIC, SFR_Text_BrendanRoute119Defeat
+	goto SFR_EventScript_BrendanRoute119Defeated
+	end
+
+SFR_EventScript_BrendanRoute119Mudkip::
+	trainerbattle_no_intro TRAINER_BRENDAN_ROUTE_119_MUDKIP, SFR_Text_BrendanRoute119Defeat
+	goto SFR_EventScript_BrendanRoute119Defeated
+	end
+
+SFR_EventScript_BrendanRoute119Defeated::
+	setflag FLAG_SFR_DEFEATED_BRENDAN_ROUTE119
+	msgbox SFR_Text_BrendanRoute119PostBattle, MSGBOX_DEFAULT
+	closemessage
+	fadescreen FADE_TO_BLACK
+	removeobject VAR_LAST_TALKED
+	setflag FLAG_HIDE_ROUTE_119_RIVAL
+	fadescreen FADE_FROM_BLACK
+	fadedefaultbgm
+	release
+	end
+
+SFR_EventScript_SetupBrendanLilycove::
+	setflag FLAG_HIDE_LILYCOVE_CITY_RIVAL
+	goto_if_set FLAG_SFR_DEFEATED_BRENDAN_LILYCOVE, SFR_EventScript_SetupBrendanLilycoveDone
+	call SFR_EventScript_CountHoennBadges
+	goto_if_lt VAR_RESULT, 6, SFR_EventScript_SetupBrendanLilycoveDone
+	clearflag FLAG_HIDE_LILYCOVE_CITY_RIVAL
+SFR_EventScript_SetupBrendanLilycoveDone::
+	return
+
+SFR_EventScript_BrendanLilycove::
+	lock
+	faceplayer
+	playbgm MUS_ENCOUNTER_BRENDAN, FALSE
+	msgbox SFR_Text_BrendanLilycoveIntro, MSGBOX_DEFAULT
+	switch VAR_SFR_HOENN_STARTER
+	case SPECIES_TREECKO, SFR_EventScript_BrendanLilycoveTreecko
+	case SPECIES_TORCHIC, SFR_EventScript_BrendanLilycoveTorchic
+	goto SFR_EventScript_BrendanLilycoveMudkip
+	end
+
+SFR_EventScript_BrendanLilycoveTreecko::
+	trainerbattle_no_intro TRAINER_BRENDAN_LILYCOVE_TREECKO, SFR_Text_BrendanLilycoveDefeat
+	goto SFR_EventScript_BrendanLilycoveDefeated
+	end
+
+SFR_EventScript_BrendanLilycoveTorchic::
+	trainerbattle_no_intro TRAINER_BRENDAN_LILYCOVE_TORCHIC, SFR_Text_BrendanLilycoveDefeat
+	goto SFR_EventScript_BrendanLilycoveDefeated
+	end
+
+SFR_EventScript_BrendanLilycoveMudkip::
+	trainerbattle_no_intro TRAINER_BRENDAN_LILYCOVE_MUDKIP, SFR_Text_BrendanLilycoveDefeat
+	goto SFR_EventScript_BrendanLilycoveDefeated
+	end
+
+SFR_EventScript_BrendanLilycoveDefeated::
+	setflag FLAG_SFR_DEFEATED_BRENDAN_LILYCOVE
+	msgbox SFR_Text_BrendanLilycovePostBattle, MSGBOX_DEFAULT
+	closemessage
+	fadescreen FADE_TO_BLACK
+	removeobject VAR_LAST_TALKED
+	setflag FLAG_HIDE_LILYCOVE_CITY_RIVAL
+	fadescreen FADE_FROM_BLACK
+	fadedefaultbgm
+	release
+	end
+
+SFR_EventScript_SetupBrendanVictoryRoad::
+	setflag FLAG_HIDE_VICTORY_ROAD_ENTRANCE_WALLY
+	goto_if_set FLAG_SFR_DEFEATED_BRENDAN_VICTORY_ROAD, SFR_EventScript_SetupBrendanVictoryRoadDone
+	call SFR_EventScript_CountHoennBadges
+	goto_if_lt VAR_RESULT, 8, SFR_EventScript_SetupBrendanVictoryRoadDone
+	clearflag FLAG_HIDE_VICTORY_ROAD_ENTRANCE_WALLY
+SFR_EventScript_SetupBrendanVictoryRoadDone::
+	return
+
+SFR_EventScript_BrendanVictoryRoad::
+	lock
+	faceplayer
+	playbgm MUS_ENCOUNTER_BRENDAN, FALSE
+	msgbox SFR_Text_BrendanVictoryRoadIntro, MSGBOX_DEFAULT
+	switch VAR_SFR_HOENN_STARTER
+	case SPECIES_TREECKO, SFR_EventScript_BrendanVictoryRoadTreecko
+	case SPECIES_TORCHIC, SFR_EventScript_BrendanVictoryRoadTorchic
+	goto SFR_EventScript_BrendanVictoryRoadMudkip
+	end
+
+SFR_EventScript_BrendanVictoryRoadTreecko::
+	trainerbattle_no_intro TRAINER_BRENDAN_RUSTBORO_TREECKO, SFR_Text_BrendanVictoryRoadDefeat
+	goto SFR_EventScript_BrendanVictoryRoadDefeated
+	end
+
+SFR_EventScript_BrendanVictoryRoadTorchic::
+	trainerbattle_no_intro TRAINER_BRENDAN_RUSTBORO_TORCHIC, SFR_Text_BrendanVictoryRoadDefeat
+	goto SFR_EventScript_BrendanVictoryRoadDefeated
+	end
+
+SFR_EventScript_BrendanVictoryRoadMudkip::
+	trainerbattle_no_intro TRAINER_BRENDAN_RUSTBORO_MUDKIP, SFR_Text_BrendanVictoryRoadDefeat
+	goto SFR_EventScript_BrendanVictoryRoadDefeated
+	end
+
+SFR_EventScript_BrendanVictoryRoadDefeated::
+	setflag FLAG_SFR_DEFEATED_BRENDAN_VICTORY_ROAD
+	msgbox SFR_Text_BrendanVictoryRoadPostBattle, MSGBOX_DEFAULT
+	closemessage
+	fadescreen FADE_TO_BLACK
+	removeobject VAR_LAST_TALKED
+	setflag FLAG_HIDE_VICTORY_ROAD_ENTRANCE_WALLY
+	fadescreen FADE_FROM_BLACK
+	fadedefaultbgm
+	release
+	end
+
+
+SFR_Text_BrendanRoute103Intro:
+	.string "BRENDAN: Hey, {PLAYER}! You came!\p"
+	.string "I've been training here while I\n"
+	.string "waited for you.\p"
+	.string "Let's see how a TRAINER from KANTO\n"
+	.string "battles!$"
+
+SFR_Text_BrendanRoute103Defeat:
+	.string "Whoa! So that's KANTO's strength!$"
+
+SFR_Text_BrendanRoute103PostBattle:
+	.string "BRENDAN: You're really something,\n"
+	.string "{PLAYER}.\p"
+	.string "I'm going to keep training and help\n"
+	.string "Dad with his fieldwork.\p"
+	.string "Next time, I'll be the one who wins!\n"
+	.string "See you around!$"
+
+SFR_Text_BrendanRoute110Item:
+	.string "BRENDAN: {PLAYER}! You've got two\n"
+	.string "HOENN BADGES already? Nice!\p"
+	.string "Oh, before I forget. Here!\p"
+	.string "There's a desert past MAUVILLE where\n"
+	.string "sand flies everywhere.\p"
+	.string "You'll need these to get through it.$"
+
+SFR_Text_BrendanRoute110Intro:
+	.string "BRENDAN: My POKéMON have gotten a lot\n"
+	.string "stronger too. Let's battle!$"
+
+SFR_Text_BrendanRoute110Defeat:
+	.string "Aww, man! Not again!$"
+
+SFR_Text_BrendanRoute110PostBattle:
+	.string "BRENDAN: Those GO-GOGGLES protect\n"
+	.string "your eyes from sandstorms.\p"
+	.string "I'm off to MAUVILLE.\n"
+	.string "Catch you later, {PLAYER}!$"
+
+SFR_Text_BrendanRoute119Item:
+	.string "BRENDAN: {PLAYER}! Four BADGES now?\n"
+	.string "You're moving fast!\p"
+	.string "Here, take this. STEVEN asked me to\n"
+	.string "pass it on to a TRAINER who could\l"
+	.string "use it.\p"
+	.string "It's a DEVON SCOPE. It can reveal\n"
+	.string "POKéMON that are invisible.\p"
+	.string "There are some sneaky KECLEON\n"
+	.string "around FORTREE CITY, you know.$"
+
+SFR_Text_BrendanRoute119Intro:
+	.string "BRENDAN: Now that that's done…\n"
+	.string "Battle me, {PLAYER}!$"
+
+SFR_Text_BrendanRoute119Defeat:
+	.string "I thought I had you that time!$"
+
+SFR_Text_BrendanRoute119PostBattle:
+	.string "BRENDAN: The WEATHER INSTITUTE is\n"
+	.string "around here. Dad says they study\l"
+	.string "HOENN's weird weather.\p"
+	.string "See you, {PLAYER}!$"
+
+SFR_Text_BrendanLilycoveIntro:
+	.string "BRENDAN: {PLAYER}! Six BADGES!\n"
+	.string "You're almost ready for the LEAGUE.\p"
+	.string "But first, you've got to get past me!$"
+
+SFR_Text_BrendanLilycoveDefeat:
+	.string "Seriously? You're too strong!$"
+
+SFR_Text_BrendanLilycovePostBattle:
+	.string "BRENDAN: MAY is waiting at the top.\n"
+	.string "She's beaten me every single time.\p"
+	.string "Maybe you're the one who can\n"
+	.string "beat her, {PLAYER}.$"
+
+SFR_Text_BrendanVictoryRoadIntro:
+	.string "BRENDAN: I knew you'd come this way,\n"
+	.string "{PLAYER}.\p"
+	.string "Before you face MAY, I want one last\n"
+	.string "battle. Everything I've got!$"
+
+SFR_Text_BrendanVictoryRoadDefeat:
+	.string "That's it… You're ready.$"
+
+SFR_Text_BrendanVictoryRoadPostBattle:
+	.string "BRENDAN: Go on, {PLAYER}.\n"
+	.string "The POKéMON LEAGUE is just ahead.\p"
+	.string "Show MAY what you've got!$"
+
+@ ---------------------------------------------------------------------------
+@ Archie in Shoal Cave: tells what happened, apologizes, gives HM08 Dive and battles
+SFR_EventScript_ShoalCaveArchie::
+	lock
+	faceplayer
+	goto_if_set FLAG_RECEIVED_HM_DIVE, SFR_EventScript_ShoalCaveArchieBattle
+	msgbox SFR_Text_ArchieStory, MSGBOX_DEFAULT
+	giveitem ITEM_HM_DIVE
+	setflag FLAG_RECEIVED_HM_DIVE
+	msgbox SFR_Text_ArchieExplainDive, MSGBOX_DEFAULT
+SFR_EventScript_ShoalCaveArchieBattle::
+	msgbox SFR_Text_ArchieBattleIntro, MSGBOX_DEFAULT
+	trainerbattle_no_intro TRAINER_ARCHIE, SFR_Text_ArchieDefeat
+	msgbox SFR_Text_ArchiePostBattle, MSGBOX_DEFAULT
+	closemessage
+	fadescreen FADE_TO_BLACK
+	removeobject VAR_LAST_TALKED
+	setflag FLAG_SFR_HIDE_SHOAL_CAVE_ARCHIE
+	fadescreen FADE_FROM_BLACK
+	release
+	end
+
+SFR_Text_ArchieStory:
+	.string "Bwahahaha! A TRAINER, all the way\n"
+	.string "down here?\p"
+	.string "I'm ARCHIE. Once, I was the leader\n"
+	.string "of TEAM AQUA.\p"
+	.string "We wanted to expand the sea for the\n"
+	.string "sake of all POKéMON.\p"
+	.string "So we awakened KYOGRE…\n"
+	.string "And it nearly drowned all of HOENN.\p"
+	.string "TEAM MAGMA did the same with GROUDON.\n"
+	.string "The rain and the sun went wild.\p"
+	.string "In the end, RAYQUAZA came down from\n"
+	.string "the sky and calmed them both.\p"
+	.string "A young TRAINER named MAY stood up\n"
+	.string "to us. She was right, and we were\l"
+	.string "wrong.\p"
+	.string "TEAM AQUA is no more. I've been\n"
+	.string "living quietly by the sea since then.\p"
+	.string "…I'm sorry for everything we put\n"
+	.string "this region through.\p"
+	.string "Take this. I won't be needing it to\n"
+	.string "chase anything anymore.$"
+
+SFR_Text_ArchieExplainDive:
+	.string "That's DIVE. With it, your POKéMON\n"
+	.string "can carry you under the waves.\p"
+	.string "You'll need the BADGE from MOSSDEEP\n"
+	.string "to use it, though.$"
+
+SFR_Text_ArchieBattleIntro:
+	.string "ARCHIE: But I'm still a man of the\n"
+	.string "sea, and I can't let you leave\l"
+	.string "without a battle!\p"
+	.string "Show me what you've got!$"
+
+SFR_Text_ArchieDefeat:
+	.string "Bwahahaha! Like the tide,\n"
+	.string "you just keep coming!$"
+
+SFR_Text_ArchiePostBattle:
+	.string "ARCHIE: You remind me of her.\p"
+	.string "Take care of the sea out there,\n"
+	.string "TRAINER!$"
+
+@ ---------------------------------------------------------------------------
+@ Maxie at the top of Mt. Chimney: tells his side, apologizes and battles
+SFR_EventScript_MtChimneyMaxie::
+	lock
+	faceplayer
+	msgbox SFR_Text_MaxieStory, MSGBOX_DEFAULT
+	trainerbattle_no_intro TRAINER_MAXIE_MT_CHIMNEY, SFR_Text_MaxieDefeat
+	msgbox SFR_Text_MaxiePostBattle, MSGBOX_DEFAULT
+	closemessage
+	fadescreen FADE_TO_BLACK
+	removeobject VAR_LAST_TALKED
+	setflag FLAG_SFR_HIDE_MT_CHIMNEY_MAXIE
+	fadescreen FADE_FROM_BLACK
+	release
+	end
+
+SFR_Text_MaxieStory:
+	.string "…You're not from HOENN, are you?\p"
+	.string "I am MAXIE. I once led TEAM MAGMA.\p"
+	.string "I believed humanity needed more land\n"
+	.string "to prosper. So I woke GROUDON.\p"
+	.string "Here, on this very mountain, we tried\n"
+	.string "to use the METEORITE to make the\l"
+	.string "volcano erupt.\p"
+	.string "I told myself it was for everyone's\n"
+	.string "sake. In truth, I had stopped\l"
+	.string "listening to anyone but myself.\p"
+	.string "The drought nearly destroyed the\n"
+	.string "very people I meant to help.\p"
+	.string "TEAM MAGMA has disbanded.\n"
+	.string "I come here to remember my mistake.\p"
+	.string "I am truly sorry.\p"
+	.string "…Still, my POKéMON have never stopped\n"
+	.string "believing in me.\p"
+	.string "Will you battle us? I wish to see\n"
+	.string "the strength of a TRAINER who has\l"
+	.string "never strayed.$"
+
+SFR_Text_MaxieDefeat:
+	.string "I see… That is the strength of\n"
+	.string "someone who never loses sight of\l"
+	.string "what matters.$"
+
+SFR_Text_MaxiePostBattle:
+	.string "MAXIE: Thank you.\p"
+	.string "I will keep working to make amends,\n"
+	.string "one step at a time.$"
+
+@ ---------------------------------------------------------------------------
+@ Steven in Meteor Falls: optional battle, gives the Mega Ring when beaten
+SFR_EventScript_MeteorFallsSteven::
+	lock
+	goto_if_set FLAG_DEFEATED_METEOR_FALLS_STEVEN, SFR_EventScript_MeteorFallsStevenDefeated
+	waitse
+	playse SE_PIN
+	applymovement LOCALID_METEOR_FALLS_STEVEN, Common_Movement_ExclamationMark
+	waitmovement 0
+	applymovement LOCALID_METEOR_FALLS_STEVEN, Common_Movement_Delay48
+	waitmovement 0
+	applymovement LOCALID_METEOR_FALLS_STEVEN, Common_Movement_FacePlayer
+	waitmovement 0
+	msgbox SFR_Text_StevenIntro, MSGBOX_DEFAULT
+	trainerbattle_no_intro TRAINER_STEVEN, SFR_Text_StevenDefeat
+	setflag FLAG_DEFEATED_METEOR_FALLS_STEVEN
+	msgbox SFR_Text_StevenGiveMegaRing, MSGBOX_DEFAULT
+	giveitem ITEM_MEGA_RING
+	msgbox SFR_Text_StevenExplainMegaRing, MSGBOX_DEFAULT
+	release
+	end
+
+SFR_EventScript_MeteorFallsStevenDefeated::
+	applymovement LOCALID_METEOR_FALLS_STEVEN, Common_Movement_FacePlayer
+	waitmovement 0
+	msgbox SFR_Text_StevenPostBattle, MSGBOX_DEFAULT
+	release
+	end
+
+SFR_Text_StevenIntro:
+	.string "STEVEN: Oh? A visitor, all the way\n"
+	.string "back here?\p"
+	.string "You must be the TRAINER from KANTO\n"
+	.string "everyone's talking about.\p"
+	.string "I'm STEVEN. I used to be the CHAMPION\n"
+	.string "of HOENN, before WALLACE and MAY.\p"
+	.string "These days I'm studying MEGA\n"
+	.string "EVOLUTION and the stones behind it.\p"
+	.string "If you can beat me, I'll give you\n"
+	.string "something special. Ready?$"
+
+SFR_Text_StevenDefeat:
+	.string "Impressive. Truly impressive.$"
+
+SFR_Text_StevenGiveMegaRing:
+	.string "STEVEN: You've earned this.\n"
+	.string "Take it.$"
+
+SFR_Text_StevenExplainMegaRing:
+	.string "STEVEN: That's a MEGA RING.\p"
+	.string "When a POKéMON holds its MEGA STONE,\n"
+	.string "the ring lets it MEGA EVOLVE during\l"
+	.string "battle.\p"
+	.string "MEGA STONES are hidden all over\n"
+	.string "HOENN. Search well!$"
+
+SFR_Text_StevenPostBattle:
+	.string "STEVEN: Have you found any MEGA\n"
+	.string "STONES yet?\p"
+	.string "The bond between you and your\n"
+	.string "POKéMON is what makes them shine.$"
+
+@ ---------------------------------------------------------------------------
+@ Wally at his uncle's house in Verdanturf: optional battle
+SFR_EventScript_VerdanturfWally::
+	lock
+	faceplayer
+	goto_if_set FLAG_SFR_DEFEATED_WALLY_VERDANTURF, SFR_EventScript_VerdanturfWallyDefeated
+	msgbox SFR_Text_WallyIntro, MSGBOX_YESNO
+	goto_if_eq VAR_RESULT, NO, SFR_EventScript_VerdanturfWallyDecline
+	msgbox SFR_Text_WallyLetsGo, MSGBOX_DEFAULT
+	trainerbattle_no_intro TRAINER_WALLY_VR_1, SFR_Text_WallyDefeat
+	setflag FLAG_SFR_DEFEATED_WALLY_VERDANTURF
+	msgbox SFR_Text_WallyPostBattle, MSGBOX_DEFAULT
+	release
+	end
+
+SFR_EventScript_VerdanturfWallyDecline::
+	msgbox SFR_Text_WallyDecline, MSGBOX_DEFAULT
+	release
+	end
+
+SFR_EventScript_VerdanturfWallyDefeated::
+	msgbox SFR_Text_WallyPostBattle, MSGBOX_DEFAULT
+	release
+	end
+
+SFR_Text_WallyIntro:
+	.string "WALLY: Oh! Hello!\n"
+	.string "I'm WALLY.\p"
+	.string "The air here in VERDANTURF is so\n"
+	.string "clean. It's helped me get healthy.\p"
+	.string "I used to be too weak to even\n"
+	.string "travel. Now I train every day with\l"
+	.string "my POKéMON.\p"
+	.string "MAY taught me how to catch my very\n"
+	.string "first POKéMON, you know.\p"
+	.string "Um… Would you battle with me?$"
+
+SFR_Text_WallyLetsGo:
+	.string "WALLY: Thank you!\n"
+	.string "Here we go, GALLADE!$"
+
+SFR_Text_WallyDecline:
+	.string "WALLY: Oh… Okay. Come back when\n"
+	.string "you have time!$"
+
+SFR_Text_WallyDefeat:
+	.string "I lost… But I'm not sad at all!$"
+
+SFR_Text_WallyPostBattle:
+	.string "WALLY: Battling makes me feel so\n"
+	.string "alive!\p"
+	.string "I'll keep training, so let's battle\n"
+	.string "again someday!$"
+
+@ ---------------------------------------------------------------------------
+@ Juan, the new POKéMON CONTEST coordinator in Lilycove
+SFR_EventScript_ContestLobbyJuan::
+	msgbox SFR_Text_ContestLobbyJuan, MSGBOX_NPC
+	end
+
+SFR_Text_ContestLobbyJuan:
+	.string "JUAN: Ah, welcome, my friend.\p"
+	.string "I am JUAN. Once I led the GYM in\n"
+	.string "SOOTOPOLIS, but I have passed it\l"
+	.string "back to my pupil, WALLACE.\p"
+	.string "Now I coordinate the POKéMON\n"
+	.string "CONTESTS here in LILYCOVE.\p"
+	.string "Beauty, elegance, the art of\n"
+	.string "the stage… It is my true calling!\p"
+	.string "Do show me your POKéMON's charms\n"
+	.string "on stage sometime.$"

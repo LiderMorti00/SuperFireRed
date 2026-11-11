@@ -36,8 +36,8 @@ int GameClear(void)
 
     SetContinueGameWarpStatus();
 
-    // Super Fire Red: the player has no home in Hoenn; continue from the Pokémon League
-    SetContinueGameWarpToHealLocation(HEAL_LOCATION_EVER_GRANDE_CITY_POKEMON_LEAGUE);
+    // Super Fire Red: continue from Prof. Birch's lab
+    SetContinueGameWarpToHealLocation(HEAL_LOCATION_SFR_BIRCHS_LAB);
 
     ribbonGet = FALSE;
 

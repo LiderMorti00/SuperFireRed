@@ -46,6 +46,6 @@ EverGrandeCity_HallOfFame_EventScript_ReadyReceiveSSTicketEvent::
 	return
 
 EverGrandeCity_HallOfFame_EventScript_ReadyDexUpgradeEvent::
-	@ Super Fire Red: the player already has the National Dex; only the Johto starters remain
-	setvar VAR_DEX_UPGRADE_JOHTO_STARTER_STATE, 3
+	@ Super Fire Red: Birch gives a Johto starter right after beating May
+	setvar VAR_DEX_UPGRADE_JOHTO_STARTER_STATE, 4
 	return

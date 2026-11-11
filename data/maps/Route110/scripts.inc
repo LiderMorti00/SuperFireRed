@@ -9,6 +9,7 @@ Route110_OnResume:
 	end
 
 Route110_OnTransition:
+	call SFR_EventScript_SetupBrendanRoute110 @ Super Fire Red
 	call Common_EventScript_SetupRivalGfxId
 	call Common_EventScript_SetupRivalOnBikeGfxId
 	call_if_eq VAR_CYCLING_CHALLENGE_STATE, 1, Route110_EventScript_SaveCyclingMusic

@@ -1,4 +1,7 @@
 Common_EventScript_SetupRivalGfxId::
+	@ Super Fire Red: the rival is always Brendan
+	setvar VAR_OBJ_GFX_ID_0, OBJ_EVENT_GFX_RIVAL_BRENDAN_NORMAL
+	return
 	checkplayergender
 	goto_if_eq VAR_RESULT, MALE, EventScript_SetupRivalGfxIdFemale
 	goto_if_eq VAR_RESULT, FEMALE, EventScript_SetupRivalGfxIdMale

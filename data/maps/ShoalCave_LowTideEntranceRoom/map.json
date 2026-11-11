@@ -40,6 +40,20 @@
       "trainer_sight_or_berry_tree_id": "0",
       "script": "ShoalCave_LowTideEntranceRoom_EventScript_ShellBellExpert",
       "flag": "0"
+    },
+    {
+      "local_id": "LOCALID_SHOAL_CAVE_ARCHIE",
+      "graphics_id": "OBJ_EVENT_GFX_ARCHIE",
+      "x": 18,
+      "y": 27,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "SFR_EventScript_ShoalCaveArchie",
+      "flag": "FLAG_SFR_HIDE_SHOAL_CAVE_ARCHIE"
     }
   ],
   "warp_events": [

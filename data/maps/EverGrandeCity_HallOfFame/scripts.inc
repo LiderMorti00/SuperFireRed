@@ -44,7 +44,7 @@ EverGrandeCity_HallOfFame_EventScript_EnterHallOfFame::
 	setvar VAR_TEMP_1, 1
 	call EverGrandeCity_HallOfFame_EventScript_SetGameClearFlags
 	@ Super Fire Red: the player has no home in Hoenn
-	setrespawn HEAL_LOCATION_EVER_GRANDE_CITY_POKEMON_LEAGUE
+	setrespawn HEAL_LOCATION_SFR_BIRCHS_LAB
 	fadescreenspeed FADE_TO_BLACK, 24
 	special GameClear
 	releaseall

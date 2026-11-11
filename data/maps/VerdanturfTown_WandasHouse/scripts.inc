@@ -139,8 +139,8 @@ VerdanturfTown_WandasHouse_Text_DontWorryAboutWally:
 	.string "POKéMON with him, too.$"
 
 VerdanturfTown_WandasHouse_Text_CanSeeGirlfriendEveryDay:
-	.string "Thanks to you, I can see my girlfriend\n"
-	.string "every day.\l"
+	.string "Now that the tunnel's clear, I can\n"
+	.string "see my girlfriend every day.\l"
 	.string "Happy? You bet I am!$"
 
 VerdanturfTown_WandasHouse_Text_DaughtersBoyfriendDriven:
