@@ -138,3 +138,7 @@ This project follows the [all-contributors](https://github.com/all-contributors/
 - [Data Files](https://www.pokecommunity.com/showthread.php?t=417909)
 - [Complete FireRed Upgrade](https://github.com/Skeli789/Complete-Fire-Red-Upgrade)
 - [pokeemerald](https://github.com/pret/pokeemerald/)
+
+### Super Fire Red: Hoenn overworld sprites in FireRed style
+- "FRHoenn" pack, PokeCommunity thread https://www.pokecommunity.com/threads/436714 (imported with `tools/sfr/import_frhoenn.py`)
+- Its credits: Game Freak (original sprites and designs), The Spriters Resource, Kalarie (overworld references), Jaizu, Citrus Bolt, PokeCommunity Discord

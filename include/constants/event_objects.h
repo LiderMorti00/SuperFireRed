@@ -614,6 +614,40 @@ enum
 #define OBJ_EVENT_PAL_TAG_NEON_LIGHT              0x8004
 // Not a real OW palette tag; used for the white flash applied to followers
 #define OBJ_EVENT_PAL_TAG_WHITE                   (OBJ_EVENT_PAL_TAG_NONE - 1)
+// Super Fire Red: FRHoenn begin
+#define OBJ_EVENT_PAL_TAG_SFR_SIDNEY             0x1180
+#define OBJ_EVENT_PAL_TAG_SFR_GLACIA             0x1181
+#define OBJ_EVENT_PAL_TAG_SFR_DRAKE              0x1182
+#define OBJ_EVENT_PAL_TAG_SFR_BRAWLY             0x1183
+#define OBJ_EVENT_PAL_TAG_SFR_WATTSON            0x1184
+#define OBJ_EVENT_PAL_TAG_SFR_FLANNERY           0x1185
+#define OBJ_EVENT_PAL_TAG_SFR_NORMAN             0x1186
+#define OBJ_EVENT_PAL_TAG_SFR_LIZA               0x1187
+#define OBJ_EVENT_PAL_TAG_SFR_TATE               0x1188
+#define OBJ_EVENT_PAL_TAG_SFR_WALLACE            0x1189
+#define OBJ_EVENT_PAL_TAG_SFR_STEVEN             0x118A
+#define OBJ_EVENT_PAL_TAG_SFR_WALLY              0x118B
+#define OBJ_EVENT_PAL_TAG_SFR_HOT_SPRINGS_OLD_WOMAN 0x118C
+#define OBJ_EVENT_PAL_TAG_SFR_GAMEBOY_KID        0x118D
+#define OBJ_EVENT_PAL_TAG_SFR_ARCHIE             0x118E
+#define OBJ_EVENT_PAL_TAG_SFR_SCOTT              0x118F
+#define OBJ_EVENT_PAL_TAG_SFR_EXPERT_F           0x1190
+#define OBJ_EVENT_PAL_TAG_SFR_COOK               0x1191
+#define OBJ_EVENT_PAL_TAG_SFR_MANIAC             0x1192
+#define OBJ_EVENT_PAL_TAG_SFR_SWIMMER_M          0x1193
+#define OBJ_EVENT_PAL_TAG_SFR_BLACK_BELT         0x1194
+#define OBJ_EVENT_PAL_TAG_SFR_BEAUTY             0x1195
+#define OBJ_EVENT_PAL_TAG_SFR_SAILOR             0x1196
+#define OBJ_EVENT_PAL_TAG_SFR_CYCLING_TRIATHLETE_F 0x1197
+#define OBJ_EVENT_PAL_TAG_SFR_NURSE              0x1198
+#define OBJ_EVENT_PAL_TAG_SFR_MAN_5              0x1199
+#define OBJ_EVENT_PAL_TAG_SFR_ANABEL             0x119A
+#define OBJ_EVENT_PAL_TAG_SFR_TUCKER             0x119B
+#define OBJ_EVENT_PAL_TAG_SFR_GRETA              0x119C
+#define OBJ_EVENT_PAL_TAG_SFR_SPENSER            0x119D
+#define OBJ_EVENT_PAL_TAG_SFR_RIVAL_BRENDAN_NORMAL 0x119E
+#define OBJ_EVENT_PAL_TAG_SFR_RIVAL_MAY_NORMAL   0x119F
+// Super Fire Red: FRHoenn end
 #define OBJ_EVENT_PAL_TAG_NONE                    0x11FF
 
 // This + localId is used as the tileTag
