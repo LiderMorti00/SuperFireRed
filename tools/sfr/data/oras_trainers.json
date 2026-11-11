@@ -1,0 +1,8679 @@
+{
+ "battle-resort": [],
+ "dewford-town": [
+  {
+   "trainer": "Battle Girl Laura",
+   "party": [
+    [
+     "Meditite",
+     13
+    ]
+   ],
+   "notes": "",
+   "table": "Omega Ruby and Alpha Sapphire Trainers (Dewford Gym)"
+  },
+  {
+   "trainer": "Black Belt Hideki",
+   "party": [
+    [
+     "Machop",
+     13
+    ]
+   ],
+   "notes": "",
+   "table": "Omega Ruby and Alpha Sapphire Trainers (Dewford Gym)"
+  },
+  {
+   "trainer": "Battle Girl Tessa",
+   "party": [
+    [
+     "Meditite",
+     11
+    ],
+    [
+     "Machop",
+     11
+    ]
+   ],
+   "notes": "",
+   "table": "Omega Ruby and Alpha Sapphire Trainers (Dewford Gym)"
+  },
+  {
+   "trainer": "Brawly",
+   "party": [
+    [
+     "Machop",
+     14
+    ],
+    [
+     "Makuhita",
+     16
+    ]
+   ],
+   "notes": "He will give the player TM08 Bulk Up after the battle.",
+   "table": "Omega Ruby and Alpha Sapphire Trainers (Dewford Gym)"
+  }
+ ],
+ "ever-grande-city": [
+  {
+   "trainer": "Sidney",
+   "party": [
+    [
+     "Mightyena",
+     50
+    ],
+    [
+     "Shiftry",
+     50
+    ],
+    [
+     "Cacturne",
+     50
+    ],
+    [
+     "Sharpedo",
+     50
+    ],
+    [
+     "Absol",
+     52
+    ]
+   ],
+   "notes": "The first member of the Elite Four.",
+   "table": "Omega Ruby and Alpha Sapphire Trainers (Elite Four)"
+  },
+  {
+   "trainer": "Phoebe",
+   "party": [
+    [
+     "Dusclops",
+     51
+    ],
+    [
+     "Banette",
+     51
+    ],
+    [
+     "Sableye",
+     51
+    ],
+    [
+     "Banette",
+     51
+    ],
+    [
+     "Dusknoir",
+     53
+    ]
+   ],
+   "notes": "The second member of the Elite Four.",
+   "table": "Omega Ruby and Alpha Sapphire Trainers (Elite Four)"
+  },
+  {
+   "trainer": "Glacia",
+   "party": [
+    [
+     "Glalie",
+     52
+    ],
+    [
+     "Froslass",
+     52
+    ],
+    [
+     "Glalie",
+     52
+    ],
+    [
+     "Froslass",
+     52
+    ],
+    [
+     "Walrein",
+     54
+    ]
+   ],
+   "notes": "The third member of the Elite Four.",
+   "table": "Omega Ruby and Alpha Sapphire Trainers (Elite Four)"
+  },
+  {
+   "trainer": "Drake",
+   "party": [
+    [
+     "Altaria",
+     53
+    ],
+    [
+     "Flygon",
+     53
+    ],
+    [
+     "Kingdra",
+     53
+    ],
+    [
+     "Flygon",
+     53
+    ],
+    [
+     "Salamence",
+     55
+    ]
+   ],
+   "notes": "The fourth member of the Elite Four.",
+   "table": "Omega Ruby and Alpha Sapphire Trainers (Elite Four)"
+  },
+  {
+   "trainer": "Steven",
+   "party": [
+    [
+     "Skarmory",
+     57
+    ],
+    [
+     "Claydol",
+     57
+    ],
+    [
+     "Aggron",
+     57
+    ],
+    [
+     "Cradily",
+     57
+    ],
+    [
+     "Armaldo",
+     57
+    ],
+    [
+     "Metagross",
+     59
+    ]
+   ],
+   "notes": "The Champion of the Elite Four.",
+   "table": "Omega Ruby and Alpha Sapphire Trainers (Elite Four)"
+  },
+  {
+   "trainer": "Sidney",
+   "party": [
+    [
+     "Scrafty",
+     70
+    ],
+    [
+     "Shiftry",
+     70
+    ],
+    [
+     "Zoroark",
+     70
+    ],
+    [
+     "Sharpedo",
+     70
+    ],
+    [
+     "Mandibuzz",
+     70
+    ],
+    [
+     "Absol",
+     72
+    ]
+   ],
+   "notes": "The first member of the Elite Four.",
+   "table": "Omega Ruby and Alpha Sapphire Trainers (Elite Four Rematches)"
+  },
+  {
+   "trainer": "Phoebe",
+   "party": [
+    [
+     "Banette",
+     71
+    ],
+    [
+     "Mismagius",
+     71
+    ],
+    [
+     "Drifblim",
+     71
+    ],
+    [
+     "Chandelure",
+     71
+    ],
+    [
+     "Dusknoir",
+     71
+    ],
+    [
+     "Sableye",
+     73
+    ]
+   ],
+   "notes": "The second member of the Elite Four.",
+   "table": "Omega Ruby and Alpha Sapphire Trainers (Elite Four Rematches)"
+  },
+  {
+   "trainer": "Glacia",
+   "party": [
+    [
+     "Abomasnow",
+     72
+    ],
+    [
+     "Beartic",
+     72
+    ],
+    [
+     "Froslass",
+     72
+    ],
+    [
+     "Vanilluxe",
+     72
+    ],
+    [
+     "Walrein",
+     72
+    ],
+    [
+     "Glalie",
+     74
+    ]
+   ],
+   "notes": "The third member of the Elite Four.",
+   "table": "Omega Ruby and Alpha Sapphire Trainers (Elite Four Rematches)"
+  },
+  {
+   "trainer": "Drake",
+   "party": [
+    [
+     "Altaria",
+     73
+    ],
+    [
+     "Dragalge",
+     73
+    ],
+    [
+     "Kingdra",
+     73
+    ],
+    [
+     "Flygon",
+     73
+    ],
+    [
+     "Haxorus",
+     73
+    ],
+    [
+     "Salamence",
+     75
+    ]
+   ],
+   "notes": "The fourth member of the Elite Four.",
+   "table": "Omega Ruby and Alpha Sapphire Trainers (Elite Four Rematches)"
+  },
+  {
+   "trainer": "Steven",
+   "party": [
+    [
+     "Skarmory",
+     77
+    ],
+    [
+     "Claydol",
+     77
+    ],
+    [
+     "Aggron",
+     77
+    ],
+    [
+     "Carbink",
+     77
+    ],
+    [
+     "Aerodactyl",
+     77
+    ],
+    [
+     "Metagross",
+     79
+    ]
+   ],
+   "notes": "The Champion of the Elite Four.",
+   "table": "Omega Ruby and Alpha Sapphire Trainers (Elite Four Rematches)"
+  }
+ ],
+ "fortree-city": [
+  {
+   "trainer": "Aarune",
+   "party": [
+    [
+     "Flygon",
+     23
+    ]
+   ],
+   "notes": "In the Secret Base Guild. Only before defeating the Elite Four. This battle can be repeated indefinitely.",
+   "table": "Omega Ruby and Alpha Sapphire Trainers"
+  },
+  {
+   "trainer": "Aarune",
+   "party": [
+    [
+     "Flygon",
+     53
+    ]
+   ],
+   "notes": "In the Secret Base Guild. Only after defeating the Elite Four. This battle can be repeated indefinitely.",
+   "table": "Omega Ruby and Alpha Sapphire Trainers"
+  },
+  {
+   "trainer": "Bird Keeper Jared",
+   "party": [
+    [
+     "Swellow",
+     30
+    ],
+    [
+     "Skarmory",
+     30
+    ]
+   ],
+   "notes": "",
+   "table": "Omega Ruby and Alpha Sapphire Trainers (Fortree Gym)"
+  },
+  {
+   "trainer": "Picnicker Kylee",
+   "party": [
+    [
+     "Swablu",
+     31
+    ]
+   ],
+   "notes": "",
+   "table": "Omega Ruby and Alpha Sapphire Trainers (Fortree Gym)"
+  },
+  {
+   "trainer": "Camper Terrell",
+   "party": [
+    [
+     "Doduo",
+     28
+    ],
+    [
+     "Pelipper",
+     30
+    ]
+   ],
+   "notes": "",
+   "table": "Omega Ruby and Alpha Sapphire Trainers (Fortree Gym)"
+  },
+  {
+   "trainer": "Bird Keeper Will",
+   "party": [
+    [
+     "Dodrio",
+     32
+    ]
+   ],
+   "notes": "",
+   "table": "Omega Ruby and Alpha Sapphire Trainers (Fortree Gym)"
+  },
+  {
+   "trainer": "Bird Keeper Bran",
+   "party": [
+    [
+     "Pelipper",
+     32
+    ]
+   ],
+   "notes": "",
+   "table": "Omega Ruby and Alpha Sapphire Trainers (Fortree Gym)"
+  },
+  {
+   "trainer": "Winona",
+   "party": [
+    [
+     "Swellow",
+     33
+    ],
+    [
+     "Pelipper",
+     33
+    ],
+    [
+     "Skarmory",
+     33
+    ],
+    [
+     "Altaria",
+     35
+    ]
+   ],
+   "notes": "She will give the player TM19 Roost after the battle.",
+   "table": "Omega Ruby and Alpha Sapphire Trainers (Fortree Gym)"
+  }
+ ],
+ "granite-cave": [
+  {
+   "trainer": "Ruin Maniac Omari",
+   "party": [
+    [
+     "Sandshrew",
+     15
+    ]
+   ],
+   "notes": "On B2F.",
+   "table": "Omega Ruby and Alpha Sapphire Trainers"
+  },
+  {
+   "trainer": "Hiker Davian",
+   "party": [
+    [
+     "Geodude",
+     15
+    ]
+   ],
+   "notes": "On B2F.",
+   "table": "Omega Ruby and Alpha Sapphire Trainers"
+  },
+  {
+   "trainer": "Zinnia",
+   "party": [
+    [
+     "Tyrantrum",
+     55
+    ],
+    [
+     "Altaria",
+     55
+    ],
+    [
+     "Salamence",
+     57
+    ]
+   ],
+   "notes": "In Steven's room. This battle takes place during the Delta Episode. She will give the player the Meteorite Shard after the battle.",
+   "table": "Omega Ruby and Alpha Sapphire Trainers"
+  }
+ ],
+ "jagged-pass": [
+  {
+   "trainer": "Expert Shelby",
+   "party": [
+    [
+     "Meditite",
+     24
+    ],
+    [
+     "Hariyama",
+     26
+    ]
+   ],
+   "notes": "The player can register her in the PokéNav after the battle.",
+   "table": "Omega Ruby and Alpha Sapphire Trainers"
+  },
+  {
+   "trainer": "Hiker Eric",
+   "party": [
+    [
+     "Graveler",
+     25
+    ]
+   ],
+   "notes": "",
+   "table": "Omega Ruby and Alpha Sapphire Trainers"
+  },
+  {
+   "trainer": "Camper Ethan",
+   "party": [
+    [
+     "Gulpin",
+     24
+    ]
+   ],
+   "notes": "The player can register him in the PokéNav after the battle.",
+   "table": "Omega Ruby and Alpha Sapphire Trainers"
+  },
+  {
+   "trainer": "Fairy Tale Girl Nellie",
+   "party": [
+    [
+     "Skitty",
+     21
+    ],
+    [
+     "Jigglypuff",
+     23
+    ]
+   ],
+   "notes": "",
+   "table": "Omega Ruby and Alpha Sapphire Trainers"
+  },
+  {
+   "trainer": "Picnicker Diana",
+   "party": [
+    [
+     "Gloom",
+     22
+    ],
+    [
+     "Swablu",
+     22
+    ]
+   ],
+   "notes": "The player can register her in the PokéNav after the battle.",
+   "table": "Omega Ruby and Alpha Sapphire Trainers"
+  },
+  {
+   "trainer": "Expert Shelby",
+   "party": [
+    [
+     "Meditite",
+     33
+    ],
+    [
+     "Hariyama",
+     35
+    ]
+   ],
+   "notes": "Only after defeating Winona in Fortree Gym .",
+   "table": "Omega Ruby and Alpha Sapphire Trainers (Rematches)"
+  },
+  {
+   "trainer": "Expert Shelby",
+   "party": [
+    [
+     "Medicham",
+     40
+    ],
+    [
+     "Hariyama",
+     42
+    ]
+   ],
+   "notes": "Only after defeating Tate & Liza in Mossdeep Gym .",
+   "table": "Omega Ruby and Alpha Sapphire Trainers (Rematches)"
+  },
+  {
+   "trainer": "Expert Shelby",
+   "party": [
+    [
+     "Riolu",
+     44
+    ],
+    [
+     "Medicham",
+     44
+    ],
+    [
+     "Hariyama",
+     44
+    ]
+   ],
+   "notes": "Only after defeating Wallace in Sootopolis Gym .",
+   "table": "Omega Ruby and Alpha Sapphire Trainers (Rematches)"
+  },
+  {
+   "trainer": "Expert Shelby",
+   "party": [
+    [
+     "Medicham",
+     54
+    ],
+    [
+     "Hariyama",
+     55
+    ],
+    [
+     "Lucario",
+     56
+    ]
+   ],
+   "notes": "Only after defeating the Elite Four. She may give the player a Moon Stone after the battle.",
+   "table": "Omega Ruby and Alpha Sapphire Trainers (Rematches)"
+  },
+  {
+   "trainer": "Camper Ethan",
+   "party": [
+    [
+     "Swalot",
+     28
+    ]
+   ],
+   "notes": "Only after defeating Norman in Petalburg Gym .",
+   "table": "Omega Ruby and Alpha Sapphire Trainers (Rematches)"
+  },
+  {
+   "trainer": "Camper Ethan",
+   "party": [
+    [
+     "Swalot",
+     31
+    ],
+    [
+     "Golbat",
+     31
+    ]
+   ],
+   "notes": "Only after defeating Winona in Fortree Gym.",
+   "table": "Omega Ruby and Alpha Sapphire Trainers (Rematches)"
+  },
+  {
+   "trainer": "Camper Ethan",
+   "party": [
+    [
+     "Swalot",
+     38
+    ],
+    [
+     "Golbat",
+     38
+    ]
+   ],
+   "notes": "Only after defeating Tate & Liza in Mossdeep Gym.",
+   "table": "Omega Ruby and Alpha Sapphire Trainers (Rematches)"
+  },
+  {
+   "trainer": "Camper Ethan",
+   "party": [
+    [
+     "Swalot",
+     47
+    ],
+    [
+     "Skuntank",
+     47
+    ],
+    [
+     "Crobat",
+     47
+    ]
+   ],
+   "notes": "Only after defeating the Elite Four. He may give the player a Tiny Mushroom after the battle.",
+   "table": "Omega Ruby and Alpha Sapphire Trainers (Rematches)"
+  },
+  {
+   "trainer": "Picnicker Diana",
+   "party": [
+    [
+     "Gloom",
+     26
+    ],
+    [
+     "Swablu",
+     26
+    ]
+   ],
+   "notes": "Only after defeating Norman in Petalburg Gym.",
+   "table": "Omega Ruby and Alpha Sapphire Trainers (Rematches)"
+  },
+  {
+   "trainer": "Picnicker Diana",
+   "party": [
+    [
+     "Gloom",
+     31
+    ],
+    [
+     "Swablu",
+     31
+    ]
+   ],
+   "notes": "Only after defeating Winona in Fortree Gym.",
+   "table": "Omega Ruby and Alpha Sapphire Trainers (Rematches)"
+  },
+  {
+   "trainer": "Picnicker Diana",
+   "party": [
+    [
+     "Gloom",
+     38
+    ],
+    [
+     "Altaria",
+     38
+    ]
+   ],
+   "notes": "Only after defeating Tate & Liza in Mossdeep Gym.",
+   "table": "Omega Ruby and Alpha Sapphire Trainers (Rematches)"
+  },
+  {
+   "trainer": "Picnicker Diana",
+   "party": [
+    [
+     "Vileplume",
+     48
+    ],
+    [
+     "Altaria",
+     48
+    ]
+   ],
+   "notes": "Only after defeating the Elite Four. She may give the player a Tiny Mushroom after the battle.",
+   "table": "Omega Ruby and Alpha Sapphire Trainers (Rematches)"
+  }
+ ],
+ "lavaridge-town": [
+  {
+   "trainer": "Kindler Cole",
+   "party": [
+    [
+     "Numel",
+     23
+    ],
+    [
+     "Slugma",
+     23
+    ]
+   ],
+   "notes": "",
+   "table": "Omega Ruby and Alpha Sapphire Trainers"
+  },
+  {
+   "trainer": "Ninja Boy Hiromichi",
+   "party": [
+    [
+     "Koffing",
+     24
+    ]
+   ],
+   "notes": "",
+   "table": "Omega Ruby and Alpha Sapphire Trainers"
+  },
+  {
+   "trainer": "Kindler Axle",
+   "party": [
+    [
+     "Slugma",
+     25
+    ]
+   ],
+   "notes": "",
+   "table": "Omega Ruby and Alpha Sapphire Trainers"
+  },
+  {
+   "trainer": "Battle Girl Sadie",
+   "party": [
+    [
+     "Meditite",
+     26
+    ]
+   ],
+   "notes": "",
+   "table": "Omega Ruby and Alpha Sapphire Trainers"
+  },
+  {
+   "trainer": "Ninja Boy Shoji",
+   "party": [
+    [
+     "Koffing",
+     24
+    ]
+   ],
+   "notes": "",
+   "table": "Omega Ruby and Alpha Sapphire Trainers"
+  },
+  {
+   "trainer": "Ace Trainer Zane",
+   "party": [
+    [
+     "Slugma",
+     24
+    ],
+    [
+     "Kecleon",
+     26
+    ]
+   ],
+   "notes": "",
+   "table": "Omega Ruby and Alpha Sapphire Trainers"
+  },
+  {
+   "trainer": "Kindler Andy",
+   "party": [
+    [
+     "Numel",
+     25
+    ]
+   ],
+   "notes": "",
+   "table": "Omega Ruby and Alpha Sapphire Trainers"
+  },
+  {
+   "trainer": "Flannery",
+   "party": [
+    [
+     "Slugma",
+     26
+    ],
+    [
+     "Numel",
+     26
+    ],
+    [
+     "Torkoal",
+     28
+    ]
+   ],
+   "notes": "She will give the player TM50 Overheat after the battle.",
+   "table": "Omega Ruby and Alpha Sapphire Trainers"
+  }
+ ],
+ "lilycove-city": [
+  {
+   "trainer": "Brendan/May",
+   "party": [
+    [
+     "Swellow",
+     37
+    ],
+    [
+     "Elemental 1",
+     37
+    ],
+    [
+     "Elemental 2",
+     37
+    ],
+    [
+     "Starter (3rd stage)",
+     39
+    ]
+   ],
+   "notes": "In front of the Lilycove Department Store. Elemental 1 is one of Breloom, Magcargo, or Wailord; whichever has the type weak against the player's starter. Elemental 2 is one of Breloom, Magcargo, or Wailord; whichever has the same type as the player's starter. Their starter is the one whose type is strong against the player's starter.",
+   "table": "Omega Ruby and Alpha Sapphire Trainers"
+  }
+ ],
+ "mauville-city": [
+  {
+   "trainer": "Wally",
+   "party": [
+    [
+     "Ralts",
+     17
+    ]
+   ],
+   "notes": "He challenges the player outside the Gym.",
+   "table": "Omega Ruby and Alpha Sapphire Trainers"
+  },
+  {
+   "trainer": "Guitarist Kirk",
+   "party": [
+    [
+     "Magnemite",
+     16
+    ],
+    [
+     "Electrike",
+     16
+    ]
+   ],
+   "notes": "On 1F.",
+   "table": "Omega Ruby and Alpha Sapphire Trainers"
+  },
+  {
+   "trainer": "Youngster Ben",
+   "party": [
+    [
+     "Electrike",
+     17
+    ]
+   ],
+   "notes": "On 2F.",
+   "table": "Omega Ruby and Alpha Sapphire Trainers"
+  },
+  {
+   "trainer": "Battle Girl Vivian",
+   "party": [
+    [
+     "Meditite",
+     19
+    ]
+   ],
+   "notes": "On 2F.",
+   "table": "Omega Ruby and Alpha Sapphire Trainers"
+  },
+  {
+   "trainer": "Guitarist Shawn",
+   "party": [
+    [
+     "Voltorb",
+     15
+    ],
+    [
+     "Voltorb",
+     17
+    ]
+   ],
+   "notes": "On 2F.",
+   "table": "Omega Ruby and Alpha Sapphire Trainers"
+  },
+  {
+   "trainer": "Wattson",
+   "party": [
+    [
+     "Magnemite",
+     19
+    ],
+    [
+     "Voltorb",
+     19
+    ],
+    [
+     "Magneton",
+     21
+    ]
+   ],
+   "notes": "He will give the player TM72 Volt Switch after the battle.",
+   "table": "Omega Ruby and Alpha Sapphire Trainers"
+  },
+  {
+   "trainer": "Rotation Girl Circie",
+   "party": [
+    [
+     "Simisage",
+     42
+    ],
+    [
+     "Simisear",
+     42
+    ],
+    [
+     "Simipour",
+     42
+    ]
+   ],
+   "notes": "In Apartment 1. This is a Rotation Battle. She can be battled once per day.",
+   "table": "Omega Ruby and Alpha Sapphire Trainers"
+  }
+ ],
+ "meteor-falls": [
+  {
+   "trainer": "Dragon Tamer Nicolas",
+   "party": [
+    [
+     "Noivern",
+     50
+    ],
+    [
+     "Druddigon",
+     50
+    ],
+    [
+     "Flygon",
+     50
+    ]
+   ],
+   "notes": "Only after defeating the Elite Four. He may give the player a Full Restore after the battle.",
+   "table": "Omega Ruby and Alpha Sapphire Trainers (Rematches)"
+  },
+  {
+   "trainer": "Old Couple John & Jay",
+   "party": [
+    [
+     "Medicham",
+     58
+    ],
+    [
+     "Hariyama",
+     58
+    ]
+   ],
+   "notes": "Only after defeating the Elite Four. They may give the player a PP Max after the battle.",
+   "table": "Omega Ruby and Alpha Sapphire Trainers (Rematches)"
+  }
+ ],
+ "mossdeep-city": [
+  {
+   "trainer": "Psychic Preston",
+   "party": [
+    [
+     "Kadabra",
+     42
+    ]
+   ],
+   "notes": "",
+   "table": "Omega Ruby and Alpha Sapphire Trainers (Mossdeep Gym)"
+  },
+  {
+   "trainer": "Psychic Joshua",
+   "party": [
+    [
+     "Kadabra",
+     40
+    ],
+    [
+     "Medicham",
+     40
+    ]
+   ],
+   "notes": "",
+   "table": "Omega Ruby and Alpha Sapphire Trainers (Mossdeep Gym)"
+  },
+  {
+   "trainer": "Hex Maniac Kindra",
+   "party": [
+    [
+     "Kirlia",
+     39
+    ],
+    [
+     "Grumpig",
+     39
+    ]
+   ],
+   "notes": "",
+   "table": "Omega Ruby and Alpha Sapphire Trainers (Mossdeep Gym)"
+  },
+  {
+   "trainer": "Psychic Fritz",
+   "party": [
+    [
+     "Claydol",
+     39
+    ],
+    [
+     "Starmie",
+     41
+    ]
+   ],
+   "notes": "",
+   "table": "Omega Ruby and Alpha Sapphire Trainers (Mossdeep Gym)"
+  },
+  {
+   "trainer": "Hex Maniac Patricia",
+   "party": [
+    [
+     "Chimecho",
+     41
+    ]
+   ],
+   "notes": "",
+   "table": "Omega Ruby and Alpha Sapphire Trainers (Mossdeep Gym)"
+  },
+  {
+   "trainer": "Psychic Virgil",
+   "party": [
+    [
+     "Kadabra",
+     40
+    ],
+    [
+     "Girafarig",
+     40
+    ]
+   ],
+   "notes": "",
+   "table": "Omega Ruby and Alpha Sapphire Trainers (Mossdeep Gym)"
+  },
+  {
+   "trainer": "Tate & Liza",
+   "party": [
+    [
+     "Lunatone",
+     45
+    ],
+    [
+     "Solrock",
+     45
+    ]
+   ],
+   "notes": "This is a Double Battle. They will give the player TM04 Calm Mind after the battle.",
+   "table": "Omega Ruby and Alpha Sapphire Trainers (Mossdeep Gym)"
+  }
+ ],
+ "mt-chimney": [],
+ "mt-pyre": [
+  {
+   "trainer": "Poké Maniac Mark",
+   "party": [
+    [
+     "Lairon",
+     36
+    ]
+   ],
+   "notes": "",
+   "table": "Omega Ruby and Alpha Sapphire Trainers (1F)"
+  },
+  {
+   "trainer": "Psychic William",
+   "party": [
+    [
+     "Staryu",
+     35
+    ],
+    [
+     "Grumpig",
+     35
+    ]
+   ],
+   "notes": "",
+   "table": "Omega Ruby and Alpha Sapphire Trainers (1F)"
+  },
+  {
+   "trainer": "Hex Maniac Valerie",
+   "party": [
+    [
+     "Sableye",
+     36
+    ]
+   ],
+   "notes": "The player can register her in the PokéNav after the battle.",
+   "table": "Omega Ruby and Alpha Sapphire Trainers (1F)"
+  },
+  {
+   "trainer": "Black Belt Atsushi",
+   "party": [
+    [
+     "Machoke",
+     37
+    ]
+   ],
+   "notes": "",
+   "table": "Omega Ruby and Alpha Sapphire Trainers (2F)"
+  },
+  {
+   "trainer": "Fairy Tale Girl Momo",
+   "party": [
+    [
+     "Jigglypuff",
+     35
+    ]
+   ],
+   "notes": "The player can register her in the PokéNav after the battle.",
+   "table": "Omega Ruby and Alpha Sapphire Trainers (2F)"
+  },
+  {
+   "trainer": "Young Couple Dez & Luke",
+   "party": [
+    [
+     "Delcatty",
+     36
+    ],
+    [
+     "Manectric",
+     36
+    ]
+   ],
+   "notes": "This is a Double Battle.",
+   "table": "Omega Ruby and Alpha Sapphire Trainers (2F)"
+  },
+  {
+   "trainer": "Mysterious Sisters Elle & Aya",
+   "party": [
+    [
+     "Girafarig",
+     36
+    ],
+    [
+     "Mawile",
+     35
+    ]
+   ],
+   "notes": "This is a Double Battle.",
+   "table": "Omega Ruby and Alpha Sapphire Trainers (3F)"
+  },
+  {
+   "trainer": "Hex Maniac Tasha",
+   "party": [
+    [
+     "Shuppet",
+     34
+    ],
+    [
+     "Xatu",
+     34
+    ]
+   ],
+   "notes": "",
+   "table": "Omega Ruby and Alpha Sapphire Trainers (3F)"
+  },
+  {
+   "trainer": "Backpacker Darnell",
+   "party": [
+    [
+     "Kecleon",
+     36
+    ]
+   ],
+   "notes": "",
+   "table": "Omega Ruby and Alpha Sapphire Trainers (3F)"
+  },
+  {
+   "trainer": "Hex Maniac Valerie",
+   "party": [
+    [
+     "Sableye",
+     41
+    ]
+   ],
+   "notes": "Only after defeating Tate & Liza in Mossdeep Gym .",
+   "table": "Omega Ruby and Alpha Sapphire Trainers (Rematches)"
+  },
+  {
+   "trainer": "Hex Maniac Valerie",
+   "party": [
+    [
+     "Sableye",
+     41
+    ],
+    [
+     "Banette",
+     42
+    ],
+    [
+     "Misdreavus",
+     43
+    ]
+   ],
+   "notes": "Only after defeating Wallace in Sootopolis Gym .",
+   "table": "Omega Ruby and Alpha Sapphire Trainers (Rematches)"
+  },
+  {
+   "trainer": "Hex Maniac Valerie",
+   "party": [
+    [
+     "Sableye",
+     47
+    ],
+    [
+     "Banette",
+     48
+    ],
+    [
+     "Mismagius",
+     49
+    ]
+   ],
+   "notes": "Only after defeating the Elite Four. She may give the player a Dusk Stone after the battle.",
+   "table": "Omega Ruby and Alpha Sapphire Trainers (Rematches)"
+  },
+  {
+   "trainer": "Fairy Tale Girl Momo",
+   "party": [
+    [
+     "Wigglytuff",
+     40
+    ]
+   ],
+   "notes": "Only after defeating Tate & Liza in Mossdeep Gym.",
+   "table": "Omega Ruby and Alpha Sapphire Trainers (Rematches)"
+  },
+  {
+   "trainer": "Fairy Tale Girl Momo",
+   "party": [
+    [
+     "Wigglytuff",
+     42
+    ],
+    [
+     "Clefairy",
+     42
+    ]
+   ],
+   "notes": "Only after defeating Wallace in Sootopolis Gym.",
+   "table": "Omega Ruby and Alpha Sapphire Trainers (Rematches)"
+  },
+  {
+   "trainer": "Fairy Tale Girl Momo",
+   "party": [
+    [
+     "Wigglytuff",
+     48
+    ],
+    [
+     "Clefable",
+     48
+    ]
+   ],
+   "notes": "Only after defeating the Elite Four. She may give the player a Shiny Stone after the battle.",
+   "table": "Omega Ruby and Alpha Sapphire Trainers (Rematches)"
+  }
+ ],
+ "petalburg-city": [
+  {
+   "trainer": "Ace Trainer Randall",
+   "party": [
+    [
+     "Delcatty",
+     28
+    ]
+   ],
+   "notes": "Speed Room",
+   "table": "Omega Ruby and Alpha Sapphire Trainers"
+  },
+  {
+   "trainer": "Ace Trainer Mary",
+   "party": [
+    [
+     "Delcatty",
+     28
+    ]
+   ],
+   "notes": "Accuracy Room",
+   "table": "Omega Ruby and Alpha Sapphire Trainers"
+  },
+  {
+   "trainer": "Ace Trainer Parker",
+   "party": [
+    [
+     "Linoone",
+     28
+    ]
+   ],
+   "notes": "Zero Reduction Room",
+   "table": "Omega Ruby and Alpha Sapphire Trainers"
+  },
+  {
+   "trainer": "Ace Trainer Lori",
+   "party": [
+    [
+     "Linoone",
+     28
+    ]
+   ],
+   "notes": "Defense Room",
+   "table": "Omega Ruby and Alpha Sapphire Trainers"
+  },
+  {
+   "trainer": "Ace Trainer George",
+   "party": [
+    [
+     "Linoone",
+     28
+    ]
+   ],
+   "notes": "Recovery Room",
+   "table": "Omega Ruby and Alpha Sapphire Trainers"
+  },
+  {
+   "trainer": "Ace Trainer Jody",
+   "party": [
+    [
+     "Zangoose",
+     28
+    ]
+   ],
+   "notes": "Strength Room",
+   "table": "Omega Ruby and Alpha Sapphire Trainers"
+  },
+  {
+   "trainer": "Ace Trainer Berke",
+   "party": [
+    [
+     "Zangoose",
+     28
+    ]
+   ],
+   "notes": "One-Hit KO Room",
+   "table": "Omega Ruby and Alpha Sapphire Trainers"
+  },
+  {
+   "trainer": "Norman",
+   "party": [
+    [
+     "Slaking",
+     28
+    ],
+    [
+     "Vigoroth",
+     28
+    ],
+    [
+     "Slaking",
+     30
+    ]
+   ],
+   "notes": "He will give the player TM67 Retaliate after the battle.",
+   "table": "Omega Ruby and Alpha Sapphire Trainers"
+  }
+ ],
+ "petalburg-woods": [
+  {
+   "trainer": "Bug Catcher Lyle",
+   "party": [
+    [
+     "Wurmple",
+     5
+    ],
+    [
+     "Wurmple",
+     5
+    ],
+    [
+     "Wurmple",
+     5
+    ]
+   ],
+   "notes": "",
+   "table": "Omega Ruby and Alpha Sapphire Trainers"
+  },
+  {
+   "trainer": "Team Magma/Aqua Grunt",
+   "party": [
+    [
+     "Poochyena",
+     9
+    ]
+   ],
+   "notes": "",
+   "table": "Omega Ruby and Alpha Sapphire Trainers"
+  },
+  {
+   "trainer": "Bug Catcher James",
+   "party": [
+    [
+     "Nincada",
+     8
+    ]
+   ],
+   "notes": "The player can register him in the PokéNav after the battle.",
+   "table": "Omega Ruby and Alpha Sapphire Trainers"
+  },
+  {
+   "trainer": "Bug Catcher James",
+   "party": [
+    [
+     "Surskit",
+     10
+    ],
+    [
+     "Nincada",
+     10
+    ]
+   ],
+   "notes": "Only after defeating Roxanne in Rustboro Gym .",
+   "table": "Omega Ruby and Alpha Sapphire Trainers (Rematches)"
+  },
+  {
+   "trainer": "Bug Catcher James",
+   "party": [
+    [
+     "Surskit",
+     12
+    ],
+    [
+     "Nincada",
+     12
+    ]
+   ],
+   "notes": "Only after defeating Brawly in Dewford Gym .",
+   "table": "Omega Ruby and Alpha Sapphire Trainers (Rematches)"
+  },
+  {
+   "trainer": "Bug Catcher James",
+   "party": [
+    [
+     "Surskit",
+     24
+    ],
+    [
+     "Ninjask",
+     24
+    ]
+   ],
+   "notes": "Only after defeating Flannery in Lavaridge Gym .",
+   "table": "Omega Ruby and Alpha Sapphire Trainers (Rematches)"
+  },
+  {
+   "trainer": "Bug Catcher James",
+   "party": [
+    [
+     "Masquerain",
+     46
+    ],
+    [
+     "Ariados",
+     46
+    ],
+    [
+     "Ninjask",
+     46
+    ],
+    [
+     "Ledian",
+     46
+    ]
+   ],
+   "notes": "Only after defeating the Elite Four. He may give the player a Net Ball after the battle.",
+   "table": "Omega Ruby and Alpha Sapphire Trainers (Rematches)"
+  }
+ ],
+ "route-102": [
+  {
+   "trainer": "Youngster Calvin",
+   "party": [
+    [
+     "Zigzagoon",
+     4
+    ]
+   ],
+   "notes": "The player can register him in the PokéNav after the battle.",
+   "table": "Omega Ruby and Alpha Sapphire Trainers"
+  },
+  {
+   "trainer": "Bug Catcher Rick",
+   "party": [
+    [
+     "Wurmple",
+     4
+    ]
+   ],
+   "notes": "",
+   "table": "Omega Ruby and Alpha Sapphire Trainers"
+  },
+  {
+   "trainer": "Youngster Allen",
+   "party": [
+    [
+     "Poochyena",
+     4
+    ],
+    [
+     "Taillow",
+     2
+    ]
+   ],
+   "notes": "",
+   "table": "Omega Ruby and Alpha Sapphire Trainers"
+  },
+  {
+   "trainer": "Lass Tiana",
+   "party": [
+    [
+     "Zigzagoon",
+     5
+    ]
+   ],
+   "notes": "",
+   "table": "Omega Ruby and Alpha Sapphire Trainers"
+  },
+  {
+   "trainer": "Youngster Calvin",
+   "party": [
+    [
+     "Zigzagoon",
+     12
+    ]
+   ],
+   "notes": "Only after defeating Roxanne in Rustboro Gym .",
+   "table": "Omega Ruby and Alpha Sapphire Trainers (Rematches)"
+  },
+  {
+   "trainer": "Youngster Calvin",
+   "party": [
+    [
+     "Taillow",
+     13
+    ],
+    [
+     "Zigzagoon",
+     15
+    ]
+   ],
+   "notes": "Only after defeating Wattson in Mauville Gym .",
+   "table": "Omega Ruby and Alpha Sapphire Trainers (Rematches)"
+  },
+  {
+   "trainer": "Youngster Calvin",
+   "party": [
+    [
+     "Swellow",
+     25
+    ],
+    [
+     "Linoone",
+     27
+    ]
+   ],
+   "notes": "Only after defeating Norman in Petalburg Gym .",
+   "table": "Omega Ruby and Alpha Sapphire Trainers (Rematches)"
+  },
+  {
+   "trainer": "Youngster Calvin",
+   "party": [
+    [
+     "Swellow",
+     47
+    ],
+    [
+     "Linoone",
+     47
+    ],
+    [
+     "Lickilicky",
+     47
+    ]
+   ],
+   "notes": "Only after defeating the Elite Four. He may give the player an Ultra Ball after the battle.",
+   "table": "Omega Ruby and Alpha Sapphire Trainers (Rematches)"
+  }
+ ],
+ "route-103": [
+  {
+   "trainer": "Brendan/May",
+   "party": [
+    [
+     "Starter (1st stage)",
+     5
+    ]
+   ],
+   "notes": "On the western side. Their starter is the one whose type is strong against the player's starter.",
+   "table": "Omega Ruby and Alpha Sapphire Trainers"
+  },
+  {
+   "trainer": "Brendan/May",
+   "party": [
+    [
+     "Swellow",
+     48
+    ],
+    [
+     "Raichu",
+     48
+    ],
+    [
+     "Elemental 1",
+     48
+    ],
+    [
+     "Elemental 2",
+     48
+    ],
+    [
+     "Starter (3rd stage)",
+     50
+    ]
+   ],
+   "notes": "On the western side. Only after defeating the Elite Four. Elemental 1 is one of Breloom, Magcargo, or Wailord; whichever has the type weak against the player's starter. Elemental 2 is one of Breloom, Magcargo, or Wailord; whichever has the same type as the player's starter. Their starter is the one whose type is strong against the player's starter.",
+   "table": "Omega Ruby and Alpha Sapphire Trainers"
+  },
+  {
+   "trainer": "Aroma Lady Daisy",
+   "party": [
+    [
+     "Roselia",
+     17
+    ]
+   ],
+   "notes": "On the eastern side.",
+   "table": "Omega Ruby and Alpha Sapphire Trainers"
+  },
+  {
+   "trainer": "Twins Amy & Liv",
+   "party": [
+    [
+     "Plusle",
+     16
+    ],
+    [
+     "Minun",
+     16
+    ]
+   ],
+   "notes": "On the eastern side. This is a Double Battle. The player can register them in the PokéNav after the battle.",
+   "table": "Omega Ruby and Alpha Sapphire Trainers"
+  },
+  {
+   "trainer": "Poké Fan Miguel",
+   "party": [
+    [
+     "Skitty",
+     17
+    ]
+   ],
+   "notes": "On the eastern side. The player can register him in the PokéNav after the battle.",
+   "table": "Omega Ruby and Alpha Sapphire Trainers"
+  },
+  {
+   "trainer": "Fisherman Andrew",
+   "party": [
+    [
+     "Magikarp",
+     14
+    ],
+    [
+     "Magikarp",
+     16
+    ]
+   ],
+   "notes": "On the eastern side.",
+   "table": "Omega Ruby and Alpha Sapphire Trainers"
+  },
+  {
+   "trainer": "Twins Amy & Liv",
+   "party": [
+    [
+     "Plusle",
+     26
+    ],
+    [
+     "Minun",
+     26
+    ]
+   ],
+   "notes": "Only after defeating Flannery in Lavaridge Gym .",
+   "table": "Omega Ruby and Alpha Sapphire Trainers (Rematches)"
+  },
+  {
+   "trainer": "Twins Amy & Liv",
+   "party": [
+    [
+     "Plusle",
+     33
+    ],
+    [
+     "Minun",
+     33
+    ]
+   ],
+   "notes": "Only after defeating Winona in Fortree Gym .",
+   "table": "Omega Ruby and Alpha Sapphire Trainers (Rematches)"
+  },
+  {
+   "trainer": "Twins Amy & Liv",
+   "party": [
+    [
+     "Plusle",
+     40
+    ],
+    [
+     "Minun",
+     40
+    ]
+   ],
+   "notes": "Only after defeating Tate & Liza in Mossdeep Gym .",
+   "table": "Omega Ruby and Alpha Sapphire Trainers (Rematches)"
+  },
+  {
+   "trainer": "Twins Amy & Liv",
+   "party": [
+    [
+     "Plusle",
+     50
+    ],
+    [
+     "Minun",
+     50
+    ]
+   ],
+   "notes": "Only after defeating the Elite Four. They may give the player a Poké Doll after the battle.",
+   "table": "Omega Ruby and Alpha Sapphire Trainers (Rematches)"
+  },
+  {
+   "trainer": "Poké Fan Miguel",
+   "party": [
+    [
+     "Skitty",
+     27
+    ]
+   ],
+   "notes": "Only after defeating Flannery in Lavaridge Gym.",
+   "table": "Omega Ruby and Alpha Sapphire Trainers (Rematches)"
+  },
+  {
+   "trainer": "Poké Fan Miguel",
+   "party": [
+    [
+     "Skitty",
+     29
+    ]
+   ],
+   "notes": "Only after defeating Norman in Petalburg Gym .",
+   "table": "Omega Ruby and Alpha Sapphire Trainers (Rematches)"
+  },
+  {
+   "trainer": "Poké Fan Miguel",
+   "party": [
+    [
+     "Skitty",
+     34
+    ]
+   ],
+   "notes": "Only after defeating Winona in Fortree Gym.",
+   "table": "Omega Ruby and Alpha Sapphire Trainers (Rematches)"
+  },
+  {
+   "trainer": "Poké Fan Miguel",
+   "party": [
+    [
+     "Delcatty",
+     51
+    ]
+   ],
+   "notes": "Only after defeating the Elite Four. He may give the player a Heal Ball after the battle.",
+   "table": "Omega Ruby and Alpha Sapphire Trainers (Rematches)"
+  }
+ ],
+ "route-104": [
+  {
+   "trainer": "Youngster Billy",
+   "party": [
+    [
+     "Seedot",
+     4
+    ],
+    [
+     "Taillow",
+     6
+    ]
+   ],
+   "notes": "On the southern half.",
+   "table": "Omega Ruby and Alpha Sapphire Trainers"
+  },
+  {
+   "trainer": "Rich Boy Winston",
+   "party": [
+    [
+     "Zigzagoon",
+     8
+    ]
+   ],
+   "notes": "On the southern half. The player can register him in the PokéNav after the battle.",
+   "table": "Omega Ruby and Alpha Sapphire Trainers"
+  },
+  {
+   "trainer": "Lady Cindy",
+   "party": [
+    [
+     "Zigzagoon",
+     10
+    ]
+   ],
+   "notes": "On the northern half. The player can register her in the PokéNav after the battle.",
+   "table": "Omega Ruby and Alpha Sapphire Trainers"
+  },
+  {
+   "trainer": "Lass Haley",
+   "party": [
+    [
+     "Lotad",
+     6
+    ],
+    [
+     "Shroomish",
+     8
+    ]
+   ],
+   "notes": "On the northern half. The player can register her in the PokéNav after the battle.",
+   "table": "Omega Ruby and Alpha Sapphire Trainers"
+  },
+  {
+   "trainer": "Twins Gina & Mia",
+   "party": [
+    [
+     "Lotad",
+     9
+    ],
+    [
+     "Seedot",
+     9
+    ]
+   ],
+   "notes": "On the northern half. This is a Double Battle.",
+   "table": "Omega Ruby and Alpha Sapphire Trainers"
+  },
+  {
+   "trainer": "Fisherman Ivan",
+   "party": [
+    [
+     "Magikarp",
+     7
+    ],
+    [
+     "Magikarp",
+     7
+    ],
+    [
+     "Magikarp",
+     7
+    ]
+   ],
+   "notes": "On the northern half.",
+   "table": "Omega Ruby and Alpha Sapphire Trainers"
+  },
+  {
+   "trainer": "Rich Boy Winston",
+   "party": [
+    [
+     "Zigzagoon",
+     13
+    ]
+   ],
+   "notes": "Only after defeating Roxanne in Rustboro Gym .",
+   "table": "Omega Ruby and Alpha Sapphire Trainers (Rematches)"
+  },
+  {
+   "trainer": "Rich Boy Winston",
+   "party": [
+    [
+     "Zigzagoon",
+     17
+    ]
+   ],
+   "notes": "Only after defeating Wattson in Mauville Gym .",
+   "table": "Omega Ruby and Alpha Sapphire Trainers (Rematches)"
+  },
+  {
+   "trainer": "Rich Boy Winston",
+   "party": [
+    [
+     "Linoone",
+     29
+    ]
+   ],
+   "notes": "Only after defeating Norman in Petalburg Gym .",
+   "table": "Omega Ruby and Alpha Sapphire Trainers (Rematches)"
+  },
+  {
+   "trainer": "Rich Boy Winston",
+   "party": [
+    [
+     "Linoone",
+     49
+    ],
+    [
+     "Pyroar",
+     49
+    ]
+   ],
+   "notes": "Only after defeating the Elite Four. He may give the player a Luxury Ball after the battle.",
+   "table": "Omega Ruby and Alpha Sapphire Trainers (Rematches)"
+  },
+  {
+   "trainer": "Lady Cindy",
+   "party": [
+    [
+     "Zigzagoon",
+     13
+    ]
+   ],
+   "notes": "Only after defeating Roxanne in Rustboro Gym.",
+   "table": "Omega Ruby and Alpha Sapphire Trainers (Rematches)"
+  },
+  {
+   "trainer": "Lady Cindy",
+   "party": [
+    [
+     "Zigzagoon",
+     17
+    ]
+   ],
+   "notes": "Only after defeating Wattson in Mauville Gym..",
+   "table": "Omega Ruby and Alpha Sapphire Trainers (Rematches)"
+  },
+  {
+   "trainer": "Lady Cindy",
+   "party": [
+    [
+     "Linoone",
+     29
+    ]
+   ],
+   "notes": "Only after defeating Norman in Petalburg Gym.",
+   "table": "Omega Ruby and Alpha Sapphire Trainers (Rematches)"
+  },
+  {
+   "trainer": "Lady Cindy",
+   "party": [
+    [
+     "Linoone",
+     49
+    ],
+    [
+     "Pyroar",
+     49
+    ]
+   ],
+   "notes": "Only after defeating the Elite Four. She may give the player a Luxury Ball after the battle.",
+   "table": "Omega Ruby and Alpha Sapphire Trainers (Rematches)"
+  },
+  {
+   "trainer": "Lass Haley",
+   "party": [
+    [
+     "Lotad",
+     9
+    ],
+    [
+     "Shroomish",
+     11
+    ]
+   ],
+   "notes": "Only after defeating Roxanne in Rustboro Gym.",
+   "table": "Omega Ruby and Alpha Sapphire Trainers (Rematches)"
+  },
+  {
+   "trainer": "Lass Haley",
+   "party": [
+    [
+     "Lombre",
+     14
+    ],
+    [
+     "Shroomish",
+     15
+    ]
+   ],
+   "notes": "Only after defeating Wattson in Mauville Gym.",
+   "table": "Omega Ruby and Alpha Sapphire Trainers (Rematches)"
+  },
+  {
+   "trainer": "Lass Haley",
+   "party": [
+    [
+     "Lombre",
+     23
+    ],
+    [
+     "Breloom",
+     25
+    ]
+   ],
+   "notes": "Only after defeating Flannery in Lavaridge Gym .",
+   "table": "Omega Ruby and Alpha Sapphire Trainers (Rematches)"
+  },
+  {
+   "trainer": "Lass Haley",
+   "party": [
+    [
+     "Whimsicott",
+     47
+    ],
+    [
+     "Breloom",
+     47
+    ],
+    [
+     "Ludicolo",
+     47
+    ]
+   ],
+   "notes": "Only after defeating the Elite Four. She may give the player an Ultra Ball after the battle.",
+   "table": "Omega Ruby and Alpha Sapphire Trainers (Rematches)"
+  }
+ ],
+ "route-105": [
+  {
+   "trainer": "Swimmer♀ Beverly",
+   "party": [
+    [
+     "Wailmer",
+     25
+    ],
+    [
+     "Azumarill",
+     25
+    ]
+   ],
+   "notes": "",
+   "table": "Omega Ruby and Alpha Sapphire Trainers"
+  },
+  {
+   "trainer": "Triathlete Vin",
+   "party": [
+    [
+     "Wailmer",
+     25
+    ],
+    [
+     "Spheal",
+     25
+    ]
+   ],
+   "notes": "",
+   "table": "Omega Ruby and Alpha Sapphire Trainers"
+  },
+  {
+   "trainer": "Swimmer♀ Dawn",
+   "party": [
+    [
+     "Azumarill",
+     27
+    ]
+   ],
+   "notes": "",
+   "table": "Omega Ruby and Alpha Sapphire Trainers"
+  },
+  {
+   "trainer": "Ruin Maniac Foster",
+   "party": [
+    [
+     "Nosepass",
+     27
+    ]
+   ],
+   "notes": "",
+   "table": "Omega Ruby and Alpha Sapphire Trainers"
+  },
+  {
+   "trainer": "Swimmer♂ Luis",
+   "party": [
+    [
+     "Carvanha",
+     27
+    ]
+   ],
+   "notes": "",
+   "table": "Omega Ruby and Alpha Sapphire Trainers"
+  },
+  {
+   "trainer": "Swimmer♂ Austin",
+   "party": [
+    [
+     "Wingull",
+     24
+    ],
+    [
+     "Pelipper",
+     26
+    ]
+   ],
+   "notes": "",
+   "table": "Omega Ruby and Alpha Sapphire Trainers"
+  }
+ ],
+ "route-106": [
+  {
+   "trainer": "Fisherman Ned",
+   "party": [
+    [
+     "Tentacool",
+     13
+    ]
+   ],
+   "notes": "",
+   "table": "Omega Ruby and Alpha Sapphire Trainers"
+  },
+  {
+   "trainer": "Backpacker Graeme",
+   "party": [
+    [
+     "Slakoth",
+     13
+    ]
+   ],
+   "notes": "The player can register him in the PokéNav after the battle.",
+   "table": "Omega Ruby and Alpha Sapphire Trainers"
+  },
+  {
+   "trainer": "Fisherman Elliot",
+   "party": [
+    [
+     "Magikarp",
+     10
+    ],
+    [
+     "Tentacool",
+     12
+    ]
+   ],
+   "notes": "The player can register him in the PokéNav after the battle.",
+   "table": "Omega Ruby and Alpha Sapphire Trainers"
+  },
+  {
+   "trainer": "Swimmer♀ Nicole",
+   "party": [
+    [
+     "Goldeen",
+     27
+    ]
+   ],
+   "notes": "Requires Surf.",
+   "table": "Omega Ruby and Alpha Sapphire Trainers"
+  },
+  {
+   "trainer": "Swimmer♂ Douglas",
+   "party": [
+    [
+     "Gyarados",
+     27
+    ]
+   ],
+   "notes": "Requires Surf.",
+   "table": "Omega Ruby and Alpha Sapphire Trainers"
+  },
+  {
+   "trainer": "Triathlete Caleb",
+   "party": [
+    [
+     "Wailmer",
+     27
+    ]
+   ],
+   "notes": "Requires Surf.",
+   "table": "Omega Ruby and Alpha Sapphire Trainers"
+  },
+  {
+   "trainer": "Backpacker Graeme",
+   "party": [
+    [
+     "Slakoth",
+     17
+    ]
+   ],
+   "notes": "Only after defeating Wattson in Mauville Gym .",
+   "table": "Omega Ruby and Alpha Sapphire Trainers (Rematches)"
+  },
+  {
+   "trainer": "Backpacker Graeme",
+   "party": [
+    [
+     "Vigoroth",
+     27
+    ]
+   ],
+   "notes": "Only after defeating Flannery in Lavaridge Gym .",
+   "table": "Omega Ruby and Alpha Sapphire Trainers (Rematches)"
+  },
+  {
+   "trainer": "Backpacker Graeme",
+   "party": [
+    [
+     "Vigoroth",
+     34
+    ]
+   ],
+   "notes": "Only after defeating Winona in Fortree Gym .",
+   "table": "Omega Ruby and Alpha Sapphire Trainers (Rematches)"
+  },
+  {
+   "trainer": "Backpacker Graeme",
+   "party": [
+    [
+     "Slaking",
+     51
+    ]
+   ],
+   "notes": "Only after defeating the Elite Four. He may give the player a Max Repel after the battle.",
+   "table": "Omega Ruby and Alpha Sapphire Trainers (Rematches)"
+  },
+  {
+   "trainer": "Fisherman Elliot",
+   "party": [
+    [
+     "Magikarp",
+     12
+    ],
+    [
+     "Tentacool",
+     14
+    ]
+   ],
+   "notes": "Only after defeating Brawly in Dewford Gym.",
+   "table": "Omega Ruby and Alpha Sapphire Trainers (Rematches)"
+  },
+  {
+   "trainer": "Fisherman Elliot",
+   "party": [
+    [
+     "Tentacool",
+     26
+    ],
+    [
+     "Gyarados",
+     28
+    ]
+   ],
+   "notes": "Only after defeating Norman in Petalburg Gym .",
+   "table": "Omega Ruby and Alpha Sapphire Trainers (Rematches)"
+  },
+  {
+   "trainer": "Fisherman Elliot",
+   "party": [
+    [
+     "Tentacruel",
+     37
+    ],
+    [
+     "Whiscash",
+     38
+    ],
+    [
+     "Gyarados",
+     39
+    ]
+   ],
+   "notes": "Only after defeating Tate & Liza in Mossdeep Gym .",
+   "table": "Omega Ruby and Alpha Sapphire Trainers (Rematches)"
+  },
+  {
+   "trainer": "Fisherman Elliot",
+   "party": [
+    [
+     "Tentacruel",
+     46
+    ],
+    [
+     "Octillery",
+     47
+    ],
+    [
+     "Whiscash",
+     47
+    ],
+    [
+     "Gyarados",
+     48
+    ]
+   ],
+   "notes": "Only after defeating the Elite Four. He may give the player a Water Stone after the battle.",
+   "table": "Omega Ruby and Alpha Sapphire Trainers (Rematches)"
+  }
+ ],
+ "route-107": [
+  {
+   "trainer": "Swimmer♀ Beth",
+   "party": [
+    [
+     "Pelipper",
+     27
+    ]
+   ],
+   "notes": "",
+   "table": "Omega Ruby and Alpha Sapphire Trainers"
+  },
+  {
+   "trainer": "Swimmer♀ Denise",
+   "party": [
+    [
+     "Goldeen",
+     25
+    ],
+    [
+     "Wailmer",
+     25
+    ]
+   ],
+   "notes": "",
+   "table": "Omega Ruby and Alpha Sapphire Trainers"
+  },
+  {
+   "trainer": "Swimmer♂ Darrin",
+   "party": [
+    [
+     "Barboach",
+     27
+    ]
+   ],
+   "notes": "",
+   "table": "Omega Ruby and Alpha Sapphire Trainers"
+  },
+  {
+   "trainer": "Sis & Bro Lisa & Ray",
+   "party": [
+    [
+     "Goldeen",
+     27
+    ],
+    [
+     "Corphish",
+     26
+    ]
+   ],
+   "notes": "This is a Double Battle.",
+   "table": "Omega Ruby and Alpha Sapphire Trainers"
+  },
+  {
+   "trainer": "Swimmer♂ Tony",
+   "party": [
+    [
+     "Tentacool",
+     27
+    ]
+   ],
+   "notes": "The player can register him in the PokéNav after the battle.",
+   "table": "Omega Ruby and Alpha Sapphire Trainers"
+  },
+  {
+   "trainer": "Scuba Diver Keaton",
+   "party": [
+    [
+     "Wailmer",
+     38
+    ],
+    [
+     "Wailord",
+     40
+    ]
+   ],
+   "notes": "Requires Dive.",
+   "table": "Omega Ruby and Alpha Sapphire Trainers"
+  },
+  {
+   "trainer": "Free Diver Hollie",
+   "party": [
+    [
+     "Lanturn",
+     41
+    ]
+   ],
+   "notes": "Requires Dive.",
+   "table": "Omega Ruby and Alpha Sapphire Trainers"
+  },
+  {
+   "trainer": "Swimmer♂ Tony",
+   "party": [
+    [
+     "Tentacruel",
+     34
+    ]
+   ],
+   "notes": "Only after defeating Winona in Fortree Gym .",
+   "table": "Omega Ruby and Alpha Sapphire Trainers (Rematches)"
+  },
+  {
+   "trainer": "Swimmer♂ Tony",
+   "party": [
+    [
+     "Tentacruel",
+     41
+    ]
+   ],
+   "notes": "Only after defeating Tate & Liza in Mossdeep Gym .",
+   "table": "Omega Ruby and Alpha Sapphire Trainers (Rematches)"
+  },
+  {
+   "trainer": "Swimmer♂ Tony",
+   "party": [
+    [
+     "Tentacruel",
+     45
+    ]
+   ],
+   "notes": "Only after defeating Wallace in Sootopolis Gym .",
+   "table": "Omega Ruby and Alpha Sapphire Trainers (Rematches)"
+  },
+  {
+   "trainer": "Swimmer♂ Tony",
+   "party": [
+    [
+     "Tentacruel",
+     49
+    ],
+    [
+     "Jellicent",
+     49
+    ]
+   ],
+   "notes": "Only after defeating the Elite Four. He may give the player a Pearl after the battle.",
+   "table": "Omega Ruby and Alpha Sapphire Trainers (Rematches)"
+  }
+ ],
+ "route-108": [
+  {
+   "trainer": "Swimmer♂ Jerome",
+   "party": [
+    [
+     "Tentacool",
+     25
+    ],
+    [
+     "Pelipper",
+     25
+    ]
+   ],
+   "notes": "",
+   "table": "Omega Ruby and Alpha Sapphire Trainers"
+  },
+  {
+   "trainer": "Swimmer♀ Missy",
+   "party": [
+    [
+     "Wingull",
+     24
+    ],
+    [
+     "Barboach",
+     24
+    ],
+    [
+     "Wailmer",
+     24
+    ]
+   ],
+   "notes": "",
+   "table": "Omega Ruby and Alpha Sapphire Trainers"
+  },
+  {
+   "trainer": "Swimmer♀ Tara",
+   "party": [
+    [
+     "Wailmer",
+     27
+    ]
+   ],
+   "notes": "",
+   "table": "Omega Ruby and Alpha Sapphire Trainers"
+  },
+  {
+   "trainer": "Ace Trainer Constance",
+   "party": [
+    [
+     "Seviper",
+     26
+    ],
+    [
+     "Swellow",
+     28
+    ]
+   ],
+   "notes": "",
+   "table": "Omega Ruby and Alpha Sapphire Trainers"
+  },
+  {
+   "trainer": "Ace Trainer Neville",
+   "party": [
+    [
+     "Zangoose",
+     26
+    ],
+    [
+     "Breloom",
+     28
+    ]
+   ],
+   "notes": "The player can register him in the PokéNav after the battle.",
+   "table": "Omega Ruby and Alpha Sapphire Trainers"
+  },
+  {
+   "trainer": "Swimmer♂ Matthew",
+   "party": [
+    [
+     "Lombre",
+     27
+    ]
+   ],
+   "notes": "",
+   "table": "Omega Ruby and Alpha Sapphire Trainers"
+  },
+  {
+   "trainer": "Ace Trainer Neville",
+   "party": [
+    [
+     "Zangoose",
+     34
+    ],
+    [
+     "Breloom",
+     36
+    ]
+   ],
+   "notes": "Only after defeating Winona in Fortree Gym .",
+   "table": "Omega Ruby and Alpha Sapphire Trainers (Rematches)"
+  },
+  {
+   "trainer": "Ace Trainer Neville",
+   "party": [
+    [
+     "Zangoose",
+     40
+    ],
+    [
+     "Breloom",
+     42
+    ]
+   ],
+   "notes": "Only after defeating Tate & Liza in Mossdeep Gym .",
+   "table": "Omega Ruby and Alpha Sapphire Trainers (Rematches)"
+  },
+  {
+   "trainer": "Ace Trainer Neville",
+   "party": [
+    [
+     "Zangoose",
+     45
+    ],
+    [
+     "Breloom",
+     47
+    ]
+   ],
+   "notes": "Only after defeating Wallace in Sootopolis Gym .",
+   "table": "Omega Ruby and Alpha Sapphire Trainers (Rematches)"
+  },
+  {
+   "trainer": "Ace Trainer Neville",
+   "party": [
+    [
+     "Zangoose",
+     52
+    ],
+    [
+     "Breloom",
+     53
+    ],
+    [
+     "Chandelure",
+     54
+    ]
+   ],
+   "notes": "Only after defeating the Elite Four. He may give the player a PP Up after the battle.",
+   "table": "Omega Ruby and Alpha Sapphire Trainers (Rematches)"
+  }
+ ],
+ "route-109": [
+  {
+   "trainer": "Sailor Huey",
+   "party": [
+    [
+     "Machop",
+     15
+    ]
+   ],
+   "notes": "",
+   "table": "Omega Ruby and Alpha Sapphire Trainers"
+  },
+  {
+   "trainer": "Sailor Edmond",
+   "party": [
+    [
+     "Wingull",
+     12
+    ],
+    [
+     "Machop",
+     14
+    ]
+   ],
+   "notes": "",
+   "table": "Omega Ruby and Alpha Sapphire Trainers"
+  },
+  {
+   "trainer": "Tuber Ricky",
+   "party": [
+    [
+     "Zigzagoon",
+     14
+    ]
+   ],
+   "notes": "The player can register him in the PokéNav after the battle.",
+   "table": "Omega Ruby and Alpha Sapphire Trainers"
+  },
+  {
+   "trainer": "Tuber Lola",
+   "party": [
+    [
+     "Azurill",
+     14
+    ]
+   ],
+   "notes": "The player can register her in the PokéNav after the battle.",
+   "table": "Omega Ruby and Alpha Sapphire Trainers"
+  },
+  {
+   "trainer": "Tuber Gwen",
+   "party": [
+    [
+     "Azumarill",
+     26
+    ]
+   ],
+   "notes": "Requires Surf.",
+   "table": "Omega Ruby and Alpha Sapphire Trainers"
+  },
+  {
+   "trainer": "Tuber Carmen",
+   "party": [
+    [
+     "Azumarill",
+     26
+    ]
+   ],
+   "notes": "Requires Surf.",
+   "table": "Omega Ruby and Alpha Sapphire Trainers"
+  },
+  {
+   "trainer": "Ace Trainer Portia",
+   "party": [
+    [
+     "Kecleon",
+     26
+    ],
+    [
+     "Magcargo",
+     28
+    ]
+   ],
+   "notes": "Requires Surf. The player can register her in the PokéNav after the battle.",
+   "table": "Omega Ruby and Alpha Sapphire Trainers"
+  },
+  {
+   "trainer": "Swimmer♀ Alice",
+   "party": [
+    [
+     "Goldeen",
+     25
+    ],
+    [
+     "Wailmer",
+     25
+    ]
+   ],
+   "notes": "Requires Surf.",
+   "table": "Omega Ruby and Alpha Sapphire Trainers"
+  },
+  {
+   "trainer": "Swimmer♂ David",
+   "party": [
+    [
+     "Corphish",
+     24
+    ],
+    [
+     "Carvanha",
+     26
+    ]
+   ],
+   "notes": "Requires Surf.",
+   "table": "Omega Ruby and Alpha Sapphire Trainers"
+  },
+  {
+   "trainer": "Young Couple Mel & Paul",
+   "party": [
+    [
+     "Beautifly",
+     27
+    ],
+    [
+     "Dustox",
+     27
+    ]
+   ],
+   "notes": "Requires Surf. This is a Double Battle.",
+   "table": "Omega Ruby and Alpha Sapphire Trainers"
+  },
+  {
+   "trainer": "Fisherman Carter",
+   "party": [
+    [
+     "Tentacool",
+     27
+    ]
+   ],
+   "notes": "Requires Surf.",
+   "table": "Omega Ruby and Alpha Sapphire Trainers"
+  },
+  {
+   "trainer": "Tuber Simon",
+   "party": [
+    [
+     "Azurill",
+     14
+    ]
+   ],
+   "notes": "In the Seashore House.",
+   "table": "Omega Ruby and Alpha Sapphire Trainers"
+  },
+  {
+   "trainer": "Delinquent Destinee",
+   "party": [
+    [
+     "Sableye",
+     15
+    ]
+   ],
+   "notes": "In the Seashore House.",
+   "table": "Omega Ruby and Alpha Sapphire Trainers"
+  },
+  {
+   "trainer": "Street Thug Blair",
+   "party": [
+    [
+     "Poochyena",
+     12
+    ],
+    [
+     "Carvanha",
+     14
+    ]
+   ],
+   "notes": "In the Seashore House.",
+   "table": "Omega Ruby and Alpha Sapphire Trainers"
+  },
+  {
+   "trainer": "Beauty Johanna",
+   "party": [
+    [
+     "Goldeen",
+     15
+    ]
+   ],
+   "notes": "In the Seashore House.",
+   "table": "Omega Ruby and Alpha Sapphire Trainers"
+  },
+  {
+   "trainer": "Sailor Dwayne",
+   "party": [
+    [
+     "Tentacool",
+     13
+    ],
+    [
+     "Machop",
+     13
+    ]
+   ],
+   "notes": "In the Seashore House.",
+   "table": "Omega Ruby and Alpha Sapphire Trainers"
+  },
+  {
+   "trainer": "Tuber Ricky",
+   "party": [
+    [
+     "Linoone",
+     26
+    ]
+   ],
+   "notes": "Only after defeating Flannery in Lavaridge Gym .",
+   "table": "Omega Ruby and Alpha Sapphire Trainers (Rematches)"
+  },
+  {
+   "trainer": "Tuber Ricky",
+   "party": [
+    [
+     "Linoone",
+     33
+    ]
+   ],
+   "notes": "Only after defeating Winona in Fortree Gym .",
+   "table": "Omega Ruby and Alpha Sapphire Trainers (Rematches)"
+  },
+  {
+   "trainer": "Tuber Ricky",
+   "party": [
+    [
+     "Linoone",
+     40
+    ]
+   ],
+   "notes": "Only after defeating Tate & Liza in Mossdeep Gym .",
+   "table": "Omega Ruby and Alpha Sapphire Trainers (Rematches)"
+  },
+  {
+   "trainer": "Tuber Ricky",
+   "party": [
+    [
+     "Linoone",
+     50
+    ]
+   ],
+   "notes": "Only after defeating the Elite Four. He may give the player Stardust after the battle.",
+   "table": "Omega Ruby and Alpha Sapphire Trainers (Rematches)"
+  },
+  {
+   "trainer": "Tuber Lola",
+   "party": [
+    [
+     "Marill",
+     26
+    ]
+   ],
+   "notes": "Only after defeating Flannery in Lavaridge Gym.",
+   "table": "Omega Ruby and Alpha Sapphire Trainers (Rematches)"
+  },
+  {
+   "trainer": "Tuber Lola",
+   "party": [
+    [
+     "Marill",
+     33
+    ]
+   ],
+   "notes": "Only after defeating Winona in Fortree Gym.",
+   "table": "Omega Ruby and Alpha Sapphire Trainers (Rematches)"
+  },
+  {
+   "trainer": "Tuber Lola",
+   "party": [
+    [
+     "Marill",
+     40
+    ]
+   ],
+   "notes": "Only after defeating Tate & Liza in Mossdeep Gym.",
+   "table": "Omega Ruby and Alpha Sapphire Trainers (Rematches)"
+  },
+  {
+   "trainer": "Tuber Lola",
+   "party": [
+    [
+     "Azumarill",
+     50
+    ]
+   ],
+   "notes": "Only after defeating the Elite Four. She may give the player Stardust after the battle.",
+   "table": "Omega Ruby and Alpha Sapphire Trainers (Rematches)"
+  },
+  {
+   "trainer": "Ace Trainer Portia",
+   "party": [
+    [
+     "Kecleon",
+     33
+    ],
+    [
+     "Magcargo",
+     35
+    ]
+   ],
+   "notes": "Only after defeating Winona in Fortree City.",
+   "table": "Omega Ruby and Alpha Sapphire Trainers (Rematches)"
+  },
+  {
+   "trainer": "Ace Trainer Portia",
+   "party": [
+    [
+     "Kecleon",
+     40
+    ],
+    [
+     "Magcargo",
+     42
+    ]
+   ],
+   "notes": "Only after defeating Tate & Liza in Mossdeep Gym.",
+   "table": "Omega Ruby and Alpha Sapphire Trainers (Rematches)"
+  },
+  {
+   "trainer": "Ace Trainer Portia",
+   "party": [
+    [
+     "Kecleon",
+     44
+    ],
+    [
+     "Vanillish",
+     46
+    ],
+    [
+     "Magcargo",
+     44
+    ]
+   ],
+   "notes": "Only after defeating Wallace in Sootopolis Gym .",
+   "table": "Omega Ruby and Alpha Sapphire Trainers (Rematches)"
+  },
+  {
+   "trainer": "Ace Trainer Portia",
+   "party": [
+    [
+     "Kecleon",
+     52
+    ],
+    [
+     "Magcargo",
+     53
+    ],
+    [
+     "Vanilluxe",
+     54
+    ]
+   ],
+   "notes": "Only after defeating the Elite Four. She may give the player a PP Up after the battle.",
+   "table": "Omega Ruby and Alpha Sapphire Trainers (Rematches)"
+  }
+ ],
+ "route-110": [
+  {
+   "trainer": "Poké Fan Isabel",
+   "party": [
+    [
+     "Plusle",
+     15
+    ],
+    [
+     "Minun",
+     15
+    ]
+   ],
+   "notes": "The player can register her in the PokéNav after the battle.",
+   "table": "Omega Ruby and Alpha Sapphire Trainers"
+  },
+  {
+   "trainer": "Youngster Timmy",
+   "party": [
+    [
+     "Poochyena",
+     12
+    ],
+    [
+     "Aron",
+     13
+    ],
+    [
+     "Electrike",
+     14
+    ]
+   ],
+   "notes": "",
+   "table": "Omega Ruby and Alpha Sapphire Trainers"
+  },
+  {
+   "trainer": "Brendan/May",
+   "party": [
+    [
+     "Elemental 1",
+     18
+    ],
+    [
+     "Elemental 2",
+     18
+    ],
+    [
+     "Starter (2nd stage)",
+     20
+    ]
+   ],
+   "notes": "Elemental 1 is one of Shroomish, Slugma, or Wailmer; whichever has the type weak against the player's starter. Elemental 2 is one of Shroomish, Slugma, or Wailmer; whichever has the same type as the player's starter. Their starter is the one whose type is strong against the player's starter. Brendan/May will restore the player Pokémon's health after the battle.",
+   "table": "Omega Ruby and Alpha Sapphire Trainers"
+  },
+  {
+   "trainer": "Collector Edwin",
+   "party": [
+    [
+     "Lombre",
+     15
+    ],
+    [
+     "Nuzleaf",
+     15
+    ]
+   ],
+   "notes": "The player can register him in the PokéNav after the battle.",
+   "table": "Omega Ruby and Alpha Sapphire Trainers"
+  },
+  {
+   "trainer": "Psychic Edward",
+   "party": [
+    [
+     "Abra",
+     17
+    ]
+   ],
+   "notes": "",
+   "table": "Omega Ruby and Alpha Sapphire Trainers"
+  },
+  {
+   "trainer": "Fisherman Dale",
+   "party": [
+    [
+     "Tentacool",
+     14
+    ],
+    [
+     "Wailmer",
+     16
+    ]
+   ],
+   "notes": "",
+   "table": "Omega Ruby and Alpha Sapphire Trainers"
+  },
+  {
+   "trainer": "Beauty Melissa",
+   "party": [
+    [
+     "Goldeen",
+     17
+    ]
+   ],
+   "notes": "On Seaside Cycling Road.",
+   "table": "Omega Ruby and Alpha Sapphire Trainers"
+  },
+  {
+   "trainer": "Triathlete Sloan",
+   "party": [
+    [
+     "Plusle",
+     17
+    ]
+   ],
+   "notes": "On Seaside Cycling Road.",
+   "table": "Omega Ruby and Alpha Sapphire Trainers"
+  },
+  {
+   "trainer": "Triathlete Jacob",
+   "party": [
+    [
+     "Voltorb",
+     14
+    ]
+   ],
+   "notes": "On Seaside Cycling Road.",
+   "table": "Omega Ruby and Alpha Sapphire Trainers"
+  },
+  {
+   "trainer": "Triathlete Anthony",
+   "party": [
+    [
+     "Magnemite",
+     17
+    ]
+   ],
+   "notes": "On Seaside Cycling Road.",
+   "table": "Omega Ruby and Alpha Sapphire Trainers"
+  },
+  {
+   "trainer": "Triathlete Benjamin",
+   "party": [
+    [
+     "Voltorb",
+     17
+    ]
+   ],
+   "notes": "On Seaside Cycling Road. The player can register him in the PokéNav after the battle.",
+   "table": "Omega Ruby and Alpha Sapphire Trainers"
+  },
+  {
+   "trainer": "Triathlete Dolph",
+   "party": [
+    [
+     "Minun",
+     17
+    ]
+   ],
+   "notes": "On Seaside Cycling Road.",
+   "table": "Omega Ruby and Alpha Sapphire Trainers"
+  },
+  {
+   "trainer": "Poké Fan Isabel",
+   "party": [
+    [
+     "Plusle",
+     25
+    ],
+    [
+     "Minun",
+     25
+    ]
+   ],
+   "notes": "Only after defeating Flannery in Lavaridge Gym .",
+   "table": "Omega Ruby and Alpha Sapphire Trainers (Rematches)"
+  },
+  {
+   "trainer": "Poké Fan Isabel",
+   "party": [
+    [
+     "Plusle",
+     27
+    ],
+    [
+     "Minun",
+     27
+    ]
+   ],
+   "notes": "Only after defeating Norman in Petalburg Gym .",
+   "table": "Omega Ruby and Alpha Sapphire Trainers (Rematches)"
+  },
+  {
+   "trainer": "Poké Fan Isabel",
+   "party": [
+    [
+     "Plusle",
+     32
+    ],
+    [
+     "Minun",
+     32
+    ]
+   ],
+   "notes": "Only after defeating Winona in Fortree Gym .",
+   "table": "Omega Ruby and Alpha Sapphire Trainers (Rematches)"
+  },
+  {
+   "trainer": "Poké Fan Isabel",
+   "party": [
+    [
+     "Plusle",
+     49
+    ],
+    [
+     "Minun",
+     49
+    ]
+   ],
+   "notes": "Only after defeating the Elite Four. She may give the player a Heal Ball after the battle.",
+   "table": "Omega Ruby and Alpha Sapphire Trainers (Rematches)"
+  },
+  {
+   "trainer": "Collector Edwin",
+   "party": [
+    [
+     "Lombre",
+     25
+    ],
+    [
+     "Nuzleaf",
+     25
+    ]
+   ],
+   "notes": "Only after defeating Flannery in Lavaridge Gym.",
+   "table": "Omega Ruby and Alpha Sapphire Trainers (Rematches)"
+  },
+  {
+   "trainer": "Collector Edwin",
+   "party": [
+    [
+     "Ludicolo",
+     39
+    ],
+    [
+     "Shiftry",
+     39
+    ]
+   ],
+   "notes": "Only after defeating Tate & Liza in Mossdeep Gym .",
+   "table": "Omega Ruby and Alpha Sapphire Trainers (Rematches)"
+  },
+  {
+   "trainer": "Collector Edwin",
+   "party": [
+    [
+     "Ludicolo",
+     43
+    ],
+    [
+     "Shiftry",
+     43
+    ]
+   ],
+   "notes": "Only after defeating Wallace in Sootopolis Gym .",
+   "table": "Omega Ruby and Alpha Sapphire Trainers (Rematches)"
+  },
+  {
+   "trainer": "Collector Edwin",
+   "party": [
+    [
+     "Ludicolo",
+     49
+    ],
+    [
+     "Shiftry",
+     49
+    ]
+   ],
+   "notes": "Only after defeating the Elite Four. He may give the player a Repeat Ball after the battle.",
+   "table": "Omega Ruby and Alpha Sapphire Trainers (Rematches)"
+  },
+  {
+   "trainer": "Triathlete Benjamin",
+   "party": [
+    [
+     "Voltorb",
+     27
+    ]
+   ],
+   "notes": "Only after defeating Flannery in Lavaridge Gym.",
+   "table": "Omega Ruby and Alpha Sapphire Trainers (Rematches)"
+  },
+  {
+   "trainer": "Triathlete Benjamin",
+   "party": [
+    [
+     "Electrode",
+     34
+    ]
+   ],
+   "notes": "Only after defeating Winona in Fortree Gym.",
+   "table": "Omega Ruby and Alpha Sapphire Trainers (Rematches)"
+  },
+  {
+   "trainer": "Triathlete Benjamin",
+   "party": [
+    [
+     "Electrode",
+     42
+    ],
+    [
+     "Klang",
+     42
+    ]
+   ],
+   "notes": "Only after defeating Wallace in Sootopolis Gym.",
+   "table": "Omega Ruby and Alpha Sapphire Trainers (Rematches)"
+  },
+  {
+   "trainer": "Triathlete Benjamin",
+   "party": [
+    [
+     "Electrode",
+     49
+    ],
+    [
+     "Klinklang",
+     49
+    ]
+   ],
+   "notes": "Only after defeating the Elite Four. He may give the player an Iron after the battle.",
+   "table": "Omega Ruby and Alpha Sapphire Trainers (Rematches)"
+  }
+ ],
+ "route-111": [
+  {
+   "trainer": "The Winstrates' Victor",
+   "party": [
+    [
+     "Taillow",
+     17
+    ],
+    [
+     "Zigzagoon",
+     19
+    ]
+   ],
+   "notes": "In the Winstrate House.",
+   "table": "Omega Ruby and Alpha Sapphire Trainers (Southern section)"
+  },
+  {
+   "trainer": "The Winstrates' Victoria",
+   "party": [
+    [
+     "Roselia",
+     20
+    ]
+   ],
+   "notes": "In the Winstrate House.",
+   "table": "Omega Ruby and Alpha Sapphire Trainers (Southern section)"
+  },
+  {
+   "trainer": "The Winstrates' Vivi",
+   "party": [
+    [
+     "Goldeen",
+     16
+    ],
+    [
+     "Shroomish",
+     16
+    ],
+    [
+     "Numel",
+     16
+    ]
+   ],
+   "notes": "In the Winstrate House.",
+   "table": "Omega Ruby and Alpha Sapphire Trainers (Southern section)"
+  },
+  {
+   "trainer": "The Winstrates' Vicky",
+   "party": [
+    [
+     "Meditite",
+     22
+    ]
+   ],
+   "notes": "In the Winstrate House.",
+   "table": "Omega Ruby and Alpha Sapphire Trainers (Southern section)"
+  },
+  {
+   "trainer": "Interviewers Gabby & Ty",
+   "party": [
+    [
+     "Magnemite",
+     20
+    ],
+    [
+     "Whismur",
+     20
+    ]
+   ],
+   "notes": "",
+   "table": "Omega Ruby and Alpha Sapphire Trainers (Southern section)"
+  },
+  {
+   "trainer": "Picnicker Irene",
+   "party": [
+    [
+     "Plusle",
+     16
+    ],
+    [
+     "Illumise",
+     18
+    ]
+   ],
+   "notes": "",
+   "table": "Omega Ruby and Alpha Sapphire Trainers (Southern section)"
+  },
+  {
+   "trainer": "Camper Travis",
+   "party": [
+    [
+     "Sandshrew",
+     19
+    ]
+   ],
+   "notes": "",
+   "table": "Omega Ruby and Alpha Sapphire Trainers (Southern section)"
+  },
+  {
+   "trainer": "Backpacker Emory",
+   "party": [
+    [
+     "Taillow",
+     21
+    ]
+   ],
+   "notes": "",
+   "table": "Omega Ruby and Alpha Sapphire Trainers (Southern section)"
+  },
+  {
+   "trainer": "Camper Cliff",
+   "party": [
+    [
+     "Sandslash",
+     26
+    ]
+   ],
+   "notes": "Requires the Go-Goggles.",
+   "table": "Omega Ruby and Alpha Sapphire Trainers (Desert)"
+  },
+  {
+   "trainer": "Picnicker Heidi",
+   "party": [
+    [
+     "Sandslash",
+     26
+    ]
+   ],
+   "notes": "Requires the Go-Goggles.",
+   "table": "Omega Ruby and Alpha Sapphire Trainers (Desert)"
+  },
+  {
+   "trainer": "Camper Drew",
+   "party": [
+    [
+     "Graveler",
+     26
+    ]
+   ],
+   "notes": "Requires the Go-Goggles.",
+   "table": "Omega Ruby and Alpha Sapphire Trainers (Desert)"
+  },
+  {
+   "trainer": "Ruin Maniac Dusty",
+   "party": [
+    [
+     "Baltoy",
+     24
+    ],
+    [
+     "Sandslash",
+     26
+    ]
+   ],
+   "notes": "Requires the Go-Goggles. The player can register him in the PokéNav after the battle.",
+   "table": "Omega Ruby and Alpha Sapphire Trainers (Desert)"
+  },
+  {
+   "trainer": "Picnicker Becky",
+   "party": [
+    [
+     "Cacnea",
+     26
+    ]
+   ],
+   "notes": "Requires the Go-Goggles.",
+   "table": "Omega Ruby and Alpha Sapphire Trainers (Desert)"
+  },
+  {
+   "trainer": "Black Belt Daisuke",
+   "party": [
+    [
+     "Machoke",
+     28
+    ]
+   ],
+   "notes": "Requires the Go-Goggles and the Mach Bike.",
+   "table": "Omega Ruby and Alpha Sapphire Trainers (Desert)"
+  },
+  {
+   "trainer": "Ace Trainer Wilton",
+   "party": [
+    [
+     "Electrike",
+     20
+    ],
+    [
+     "Makuhita",
+     20
+    ],
+    [
+     "Bagon",
+     20
+    ]
+   ],
+   "notes": "The player can register him in the PokéNav after the battle.",
+   "table": "Omega Ruby and Alpha Sapphire Trainers (Northern section)"
+  },
+  {
+   "trainer": "Fairy Tale Girl Cece",
+   "party": [
+    [
+     "Spoink",
+     19
+    ],
+    [
+     "Mawile",
+     19
+    ]
+   ],
+   "notes": "",
+   "table": "Omega Ruby and Alpha Sapphire Trainers (Northern section)"
+  },
+  {
+   "trainer": "Backpacker Deon",
+   "party": [
+    [
+     "Linoone",
+     21
+    ]
+   ],
+   "notes": "Requires the Mach Bike.",
+   "table": "Omega Ruby and Alpha Sapphire Trainers (Northern section)"
+  },
+  {
+   "trainer": "Ace Trainer Brooke",
+   "party": [
+    [
+     "Wingull",
+     20
+    ],
+    [
+     "Numel",
+     20
+    ],
+    [
+     "Roselia",
+     20
+    ]
+   ],
+   "notes": "The player can register her in the PokéNav after the battle.",
+   "table": "Omega Ruby and Alpha Sapphire Trainers (Northern section)"
+  },
+  {
+   "trainer": "Ace Trainer Wilton",
+   "party": [
+    [
+     "Manectric",
+     26
+    ],
+    [
+     "Wailmer",
+     26
+    ],
+    [
+     "Hariyama",
+     26
+    ]
+   ],
+   "notes": "Only after defeating Flannery in Lavaridge Gym .",
+   "table": "Omega Ruby and Alpha Sapphire Trainers (Rematches)"
+  },
+  {
+   "trainer": "Ace Trainer Wilton",
+   "party": [
+    [
+     "Manectric",
+     33
+    ],
+    [
+     "Wailmer",
+     33
+    ],
+    [
+     "Hariyama",
+     33
+    ]
+   ],
+   "notes": "Only after defeating Winona in Fortree Gym .",
+   "table": "Omega Ruby and Alpha Sapphire Trainers (Rematches)"
+  },
+  {
+   "trainer": "Ace Trainer Wilton",
+   "party": [
+    [
+     "Manectric",
+     43
+    ],
+    [
+     "Fraxure",
+     43
+    ],
+    [
+     "Hariyama",
+     43
+    ],
+    [
+     "Wailord",
+     43
+    ]
+   ],
+   "notes": "Only after defeating Wallace in Sootopolis Gym .",
+   "table": "Omega Ruby and Alpha Sapphire Trainers (Rematches)"
+  },
+  {
+   "trainer": "Ace Trainer Wilton",
+   "party": [
+    [
+     "Talonflame",
+     50
+    ],
+    [
+     "Manectric",
+     51
+    ],
+    [
+     "Wailord",
+     51
+    ],
+    [
+     "Hariyama",
+     51
+    ],
+    [
+     "Haxorus",
+     52
+    ]
+   ],
+   "notes": "Only after defeating the Elite Four. He may give the player a PP Up after the battle.",
+   "table": "Omega Ruby and Alpha Sapphire Trainers (Rematches)"
+  },
+  {
+   "trainer": "Ace Trainer Brooke",
+   "party": [
+    [
+     "Pelipper",
+     26
+    ],
+    [
+     "Numel",
+     26
+    ],
+    [
+     "Roselia",
+     26
+    ]
+   ],
+   "notes": "Only after defeating Flannery in Lavaridge Gym.",
+   "table": "Omega Ruby and Alpha Sapphire Trainers (Rematches)"
+  },
+  {
+   "trainer": "Ace Trainer Brooke",
+   "party": [
+    [
+     "Pelipper",
+     33
+    ],
+    [
+     "Camerupt",
+     33
+    ],
+    [
+     "Roselia",
+     33
+    ]
+   ],
+   "notes": "Only after defeating Winona in Fortree Gym.",
+   "table": "Omega Ruby and Alpha Sapphire Trainers (Rematches)"
+  },
+  {
+   "trainer": "Ace Trainer Brooke",
+   "party": [
+    [
+     "Pelipper",
+     44
+    ],
+    [
+     "Camerupt",
+     44
+    ],
+    [
+     "Roserade",
+     44
+    ]
+   ],
+   "notes": "Only after defeating Wallace in Sootopolis Gym.",
+   "table": "Omega Ruby and Alpha Sapphire Trainers (Rematches)"
+  },
+  {
+   "trainer": "Ace Trainer Brooke",
+   "party": [
+    [
+     "Purugly",
+     50
+    ],
+    [
+     "Pelipper",
+     51
+    ],
+    [
+     "Camerupt",
+     51
+    ],
+    [
+     "Roserade",
+     51
+    ],
+    [
+     "Lapras",
+     52
+    ]
+   ],
+   "notes": "Only after defeating the Elite Four. She may give the player a PP Up after the battle.",
+   "table": "Omega Ruby and Alpha Sapphire Trainers (Rematches)"
+  },
+  {
+   "trainer": "Ruin Maniac Dusty",
+   "party": [
+    [
+     "Baltoy",
+     27
+    ],
+    [
+     "Sandslash",
+     27
+    ]
+   ],
+   "notes": "Only after defeating Norman in Petalburg Gym .",
+   "table": "Omega Ruby and Alpha Sapphire Trainers (Rematches)"
+  },
+  {
+   "trainer": "Ruin Maniac Dusty",
+   "party": [
+    [
+     "Baltoy",
+     32
+    ],
+    [
+     "Sandslash",
+     32
+    ]
+   ],
+   "notes": "Only after defeating Winona in Fortree Gym.",
+   "table": "Omega Ruby and Alpha Sapphire Trainers (Rematches)"
+  },
+  {
+   "trainer": "Ruin Maniac Dusty",
+   "party": [
+    [
+     "Sandslash",
+     39
+    ],
+    [
+     "Claydol",
+     39
+    ]
+   ],
+   "notes": "Only after defeating Tate & Liza in Mossdeep Gym .",
+   "table": "Omega Ruby and Alpha Sapphire Trainers (Rematches)"
+  },
+  {
+   "trainer": "Ruin Maniac Dusty",
+   "party": [
+    [
+     "Sandslash",
+     46
+    ],
+    [
+     "Tyrantrum",
+     46
+    ],
+    [
+     "Aurorus",
+     46
+    ],
+    [
+     "Claydol",
+     46
+    ],
+    [
+     "Aerodactyl",
+     46
+    ]
+   ],
+   "notes": "Only after defeating the Elite Four. He may give the player a Star Piece after the battle.",
+   "table": "Omega Ruby and Alpha Sapphire Trainers (Rematches)"
+  }
+ ],
+ "route-112": [
+  {
+   "trainer": "Camper Larry",
+   "party": [
+    [
+     "Taillow",
+     16
+    ],
+    [
+     "Zubat",
+     18
+    ]
+   ],
+   "notes": "",
+   "table": "Omega Ruby and Alpha Sapphire Trainers"
+  },
+  {
+   "trainer": "Picnicker Carol",
+   "party": [
+    [
+     "Gulpin",
+     19
+    ]
+   ],
+   "notes": "",
+   "table": "Omega Ruby and Alpha Sapphire Trainers"
+  },
+  {
+   "trainer": "Hiker Trent",
+   "party": [
+    [
+     "Geodude",
+     17
+    ],
+    [
+     "Geodude",
+     17
+    ],
+    [
+     "Geodude",
+     17
+    ]
+   ],
+   "notes": "The player can register him in the PokéNav after the battle.",
+   "table": "Omega Ruby and Alpha Sapphire Trainers"
+  },
+  {
+   "trainer": "Hiker Brice",
+   "party": [
+    [
+     "Numel",
+     18
+    ],
+    [
+     "Machop",
+     18
+    ]
+   ],
+   "notes": "",
+   "table": "Omega Ruby and Alpha Sapphire Trainers"
+  },
+  {
+   "trainer": "Street Thug Jaylin",
+   "party": [
+    [
+     "Mightyena",
+     21
+    ]
+   ],
+   "notes": "",
+   "table": "Omega Ruby and Alpha Sapphire Trainers"
+  },
+  {
+   "trainer": "Hiker Trent",
+   "party": [
+    [
+     "Geodude",
+     24
+    ],
+    [
+     "Geodude",
+     24
+    ],
+    [
+     "Geodude",
+     24
+    ]
+   ],
+   "notes": "Only after defeating Flannery in Lavaridge Gym .",
+   "table": "Omega Ruby and Alpha Sapphire Trainers (Rematches)"
+  },
+  {
+   "trainer": "Hiker Trent",
+   "party": [
+    [
+     "Graveler",
+     31
+    ],
+    [
+     "Graveler",
+     31
+    ],
+    [
+     "Graveler",
+     31
+    ]
+   ],
+   "notes": "Only after defeating Winona in Fortree Gym .",
+   "table": "Omega Ruby and Alpha Sapphire Trainers (Rematches)"
+  },
+  {
+   "trainer": "Hiker Trent",
+   "party": [
+    [
+     "Graveler",
+     42
+    ],
+    [
+     "Graveler",
+     42
+    ],
+    [
+     "Golem",
+     42
+    ]
+   ],
+   "notes": "Only after defeating Wallace in Sootopolis Gym .",
+   "table": "Omega Ruby and Alpha Sapphire Trainers (Rematches)"
+  },
+  {
+   "trainer": "Hiker Trent",
+   "party": [
+    [
+     "Golem",
+     48
+    ],
+    [
+     "Golem",
+     48
+    ],
+    [
+     "Golem",
+     48
+    ]
+   ],
+   "notes": "Only after defeating the Elite Four. He may give the player a Big Mushroom after the battle.",
+   "table": "Omega Ruby and Alpha Sapphire Trainers (Rematches)"
+  }
+ ],
+ "route-113": [
+  {
+   "trainer": "Youngster Neal",
+   "party": [
+    [
+     "Trapinch",
+     19
+    ],
+    [
+     "Electrike",
+     19
+    ]
+   ],
+   "notes": "",
+   "table": "Omega Ruby and Alpha Sapphire Trainers"
+  },
+  {
+   "trainer": "Fairy Tale Girl Franny",
+   "party": [
+    [
+     "Kirlia",
+     22
+    ]
+   ],
+   "notes": "",
+   "table": "Omega Ruby and Alpha Sapphire Trainers"
+  },
+  {
+   "trainer": "Ninja Boy Lao",
+   "party": [
+    [
+     "Koffing",
+     16
+    ],
+    [
+     "Koffing",
+     17
+    ],
+    [
+     "Koffing",
+     18
+    ]
+   ],
+   "notes": "The player can register him in the PokéNav after the battle.",
+   "table": "Omega Ruby and Alpha Sapphire Trainers"
+  },
+  {
+   "trainer": "Parasol Lady Madeline",
+   "party": [
+    [
+     "Numel",
+     22
+    ]
+   ],
+   "notes": "The player can register her in the PokéNav after the battle.",
+   "table": "Omega Ruby and Alpha Sapphire Trainers"
+  },
+  {
+   "trainer": "Youngster Dillion",
+   "party": [
+    [
+     "Aron",
+     21
+    ]
+   ],
+   "notes": "",
+   "table": "Omega Ruby and Alpha Sapphire Trainers"
+  },
+  {
+   "trainer": "Ninja Boy Lung",
+   "party": [
+    [
+     "Nincada",
+     18
+    ],
+    [
+     "Ninjask",
+     20
+    ]
+   ],
+   "notes": "",
+   "table": "Omega Ruby and Alpha Sapphire Trainers"
+  },
+  {
+   "trainer": "Ninja Boy Lao",
+   "party": [
+    [
+     "Koffing",
+     22
+    ],
+    [
+     "Koffing",
+     23
+    ],
+    [
+     "Koffing",
+     24
+    ]
+   ],
+   "notes": "Only after defeating Flannery in Lavaridge Gym .",
+   "table": "Omega Ruby and Alpha Sapphire Trainers (Rematches)"
+  },
+  {
+   "trainer": "Ninja Boy Lao",
+   "party": [
+    [
+     "Koffing",
+     29
+    ],
+    [
+     "Koffing",
+     30
+    ],
+    [
+     "Koffing",
+     31
+    ]
+   ],
+   "notes": "Only after defeating Winona in Fortree Gym .",
+   "table": "Omega Ruby and Alpha Sapphire Trainers (Rematches)"
+  },
+  {
+   "trainer": "Ninja Boy Lao",
+   "party": [
+    [
+     "Weezing",
+     40
+    ],
+    [
+     "Weezing",
+     41
+    ],
+    [
+     "Weezing",
+     42
+    ]
+   ],
+   "notes": "Only after defeating Wallace in Sootopolis Gym .",
+   "table": "Omega Ruby and Alpha Sapphire Trainers (Rematches)"
+  },
+  {
+   "trainer": "Ninja Boy Lao",
+   "party": [
+    [
+     "Weezing",
+     46
+    ],
+    [
+     "Weezing",
+     47
+    ],
+    [
+     "Weezing",
+     48
+    ]
+   ],
+   "notes": "Only after defeating the Elite Four. He may give the player a Revive after the battle.",
+   "table": "Omega Ruby and Alpha Sapphire Trainers (Rematches)"
+  },
+  {
+   "trainer": "Parasol Lady Madeline",
+   "party": [
+    [
+     "Numel",
+     27
+    ]
+   ],
+   "notes": "Only after defeating Flannery in Lavaridge Gym.",
+   "table": "Omega Ruby and Alpha Sapphire Trainers (Rematches)"
+  },
+  {
+   "trainer": "Parasol Lady Madeline",
+   "party": [
+    [
+     "Staryu",
+     31
+    ],
+    [
+     "Spheal",
+     31
+    ],
+    [
+     "Numel",
+     31
+    ]
+   ],
+   "notes": "Only after defeating Winona in Fortree Gym.",
+   "table": "Omega Ruby and Alpha Sapphire Trainers (Rematches)"
+  },
+  {
+   "trainer": "Parasol Lady Madeline",
+   "party": [
+    [
+     "Starmie",
+     42
+    ],
+    [
+     "Sealeo",
+     42
+    ],
+    [
+     "Camerupt",
+     42
+    ]
+   ],
+   "notes": "Only after defeating Wallace in Sootopolis Gym.",
+   "table": "Omega Ruby and Alpha Sapphire Trainers (Rematches)"
+  },
+  {
+   "trainer": "Parasol Lady Madeline",
+   "party": [
+    [
+     "Starmie",
+     48
+    ],
+    [
+     "Walrein",
+     48
+    ],
+    [
+     "Camerupt",
+     48
+    ]
+   ],
+   "notes": "Only after defeating the Elite Four. She may give the player a Max Repel after the battle.",
+   "table": "Omega Ruby and Alpha Sapphire Trainers (Rematches)"
+  }
+ ],
+ "route-114": [
+  {
+   "trainer": "Fisherman Claude",
+   "party": [
+    [
+     "Corphish",
+     21
+    ],
+    [
+     "Wailmer",
+     21
+    ]
+   ],
+   "notes": "",
+   "table": "Omega Ruby and Alpha Sapphire Trainers"
+  },
+  {
+   "trainer": "Fisherman Nolan",
+   "party": [
+    [
+     "Gyarados",
+     23
+    ]
+   ],
+   "notes": "",
+   "table": "Omega Ruby and Alpha Sapphire Trainers"
+  },
+  {
+   "trainer": "Teammates Tyra & Ivy",
+   "party": [
+    [
+     "Roselia",
+     21
+    ],
+    [
+     "Azumarill",
+     23
+    ]
+   ],
+   "notes": "This is a Double Battle.",
+   "table": "Omega Ruby and Alpha Sapphire Trainers"
+  },
+  {
+   "trainer": "Poké Maniac Steve",
+   "party": [
+    [
+     "Aron",
+     23
+    ]
+   ],
+   "notes": "The player can register him in the PokéNav after the battle.",
+   "table": "Omega Ruby and Alpha Sapphire Trainers"
+  },
+  {
+   "trainer": "Camper Shane",
+   "party": [
+    [
+     "Minun",
+     20
+    ],
+    [
+     "Volbeat",
+     20
+    ]
+   ],
+   "notes": "",
+   "table": "Omega Ruby and Alpha Sapphire Trainers"
+  },
+  {
+   "trainer": "Kindler Bernie",
+   "party": [
+    [
+     "Slugma",
+     20
+    ],
+    [
+     "Wingull",
+     22
+    ]
+   ],
+   "notes": "The player can register him in the PokéNav after the battle.",
+   "table": "Omega Ruby and Alpha Sapphire Trainers"
+  },
+  {
+   "trainer": "Hiker Lucas",
+   "party": [
+    [
+     "Geodude",
+     22
+    ],
+    [
+     "Geodude",
+     20
+    ]
+   ],
+   "notes": "",
+   "table": "Omega Ruby and Alpha Sapphire Trainers"
+  },
+  {
+   "trainer": "Hiker Lenny",
+   "party": [
+    [
+     "Machop",
+     23
+    ]
+   ],
+   "notes": "",
+   "table": "Omega Ruby and Alpha Sapphire Trainers"
+  },
+  {
+   "trainer": "Poké Maniac Steve",
+   "party": [
+    [
+     "Lairon",
+     32
+    ],
+    [
+     "Rhyhorn",
+     32
+    ]
+   ],
+   "notes": "Only after defeating Winona in Fortree Gym .",
+   "table": "Omega Ruby and Alpha Sapphire Trainers (Rematches)"
+  },
+  {
+   "trainer": "Poké Maniac Steve",
+   "party": [
+    [
+     "Rhyhorn",
+     39
+    ],
+    [
+     "Lairon",
+     39
+    ]
+   ],
+   "notes": "Only after defeating Tate & Liza in Mossdeep Gym .",
+   "table": "Omega Ruby and Alpha Sapphire Trainers (Rematches)"
+  },
+  {
+   "trainer": "Poké Maniac Steve",
+   "party": [
+    [
+     "Rhydon",
+     43
+    ],
+    [
+     "Aggron",
+     43
+    ]
+   ],
+   "notes": "Only after defeating Wallace in Sootopolis Gym .",
+   "table": "Omega Ruby and Alpha Sapphire Trainers (Rematches)"
+  },
+  {
+   "trainer": "Poké Maniac Steve",
+   "party": [
+    [
+     "Ampharos",
+     47
+    ],
+    [
+     "Slowbro",
+     47
+    ],
+    [
+     "Aggron",
+     47
+    ],
+    [
+     "Rhyperior",
+     47
+    ]
+   ],
+   "notes": "Only after defeating the Elite Four. He may give the player a Quick Ball after the battle.",
+   "table": "Omega Ruby and Alpha Sapphire Trainers (Rematches)"
+  },
+  {
+   "trainer": "Kindler Bernie",
+   "party": [
+    [
+     "Slugma",
+     24
+    ]
+   ],
+   "notes": "Only after defeating Flannery in Lavaridge Gym .",
+   "table": "Omega Ruby and Alpha Sapphire Trainers (Rematches)"
+  },
+  {
+   "trainer": "Kindler Bernie",
+   "party": [
+    [
+     "Slugma",
+     31
+    ],
+    [
+     "Pelipper",
+     33
+    ]
+   ],
+   "notes": "Only after defeating Winona in Fortree Gym.",
+   "table": "Omega Ruby and Alpha Sapphire Trainers (Rematches)"
+  },
+  {
+   "trainer": "Kindler Bernie",
+   "party": [
+    [
+     "Magcargo",
+     38
+    ],
+    [
+     "Pelipper",
+     40
+    ]
+   ],
+   "notes": "Only after defeating Tate & Liza in Mossdeep Gym.",
+   "table": "Omega Ruby and Alpha Sapphire Trainers (Rematches)"
+  },
+  {
+   "trainer": "Kindler Bernie",
+   "party": [
+    [
+     "Magcargo",
+     48
+    ],
+    [
+     "Pelipper",
+     50
+    ]
+   ],
+   "notes": "Only after defeating the Elite Four. He may give the player a Fire Stone after the battle.",
+   "table": "Omega Ruby and Alpha Sapphire Trainers (Rematches)"
+  }
+ ],
+ "route-115": [
+  {
+   "trainer": "Black Belt Nob",
+   "party": [
+    [
+     "Machoke",
+     30
+    ]
+   ],
+   "notes": "Only after defeating Norman in Petalburg Gym .",
+   "table": "Omega Ruby and Alpha Sapphire Trainers (Rematches)"
+  },
+  {
+   "trainer": "Black Belt Nob",
+   "party": [
+    [
+     "Machoke",
+     35
+    ]
+   ],
+   "notes": "Only after defeating Winona in Fortree Gym .",
+   "table": "Omega Ruby and Alpha Sapphire Trainers (Rematches)"
+  },
+  {
+   "trainer": "Black Belt Nob",
+   "party": [
+    [
+     "Machamp",
+     46
+    ]
+   ],
+   "notes": "Only after defeating Wallace in Sootopolis Gym .",
+   "table": "Omega Ruby and Alpha Sapphire Trainers (Rematches)"
+  },
+  {
+   "trainer": "Black Belt Nob",
+   "party": [
+    [
+     "Primeape",
+     50
+    ],
+    [
+     "Hitmonlee",
+     50
+    ],
+    [
+     "Machamp",
+     50
+    ]
+   ],
+   "notes": "Only after defeating the Elite Four. He may give the player a Protein after the battle.",
+   "table": "Omega Ruby and Alpha Sapphire Trainers (Rematches)"
+  },
+  {
+   "trainer": "Battle Girl Cyndy",
+   "party": [
+    [
+     "Meditite",
+     30
+    ]
+   ],
+   "notes": "Only after defeating Norman in Petalburg Gym.",
+   "table": "Omega Ruby and Alpha Sapphire Trainers (Rematches)"
+  },
+  {
+   "trainer": "Battle Girl Cyndy",
+   "party": [
+    [
+     "Medicham",
+     42
+    ]
+   ],
+   "notes": "Only after defeating Tate & Liza in Mossdeep Gym .",
+   "table": "Omega Ruby and Alpha Sapphire Trainers (Rematches)"
+  },
+  {
+   "trainer": "Battle Girl Cyndy",
+   "party": [
+    [
+     "Medicham",
+     46
+    ]
+   ],
+   "notes": "Only after defeating Wallace in Sootopolis Gym.",
+   "table": "Omega Ruby and Alpha Sapphire Trainers (Rematches)"
+  },
+  {
+   "trainer": "Battle Girl Cyndy",
+   "party": [
+    [
+     "Hitmonchan",
+     50
+    ],
+    [
+     "Medicham",
+     52
+    ]
+   ],
+   "notes": "Only after defeating the Elite Four. She may give the player a Carbos after the battle.",
+   "table": "Omega Ruby and Alpha Sapphire Trainers (Rematches)"
+  },
+  {
+   "trainer": "Expert Timothy",
+   "party": [
+    [
+     "Hariyama",
+     31
+    ]
+   ],
+   "notes": "Only after defeating Norman in Petalburg Gym.",
+   "table": "Omega Ruby and Alpha Sapphire Trainers (Rematches)"
+  },
+  {
+   "trainer": "Expert Timothy",
+   "party": [
+    [
+     "Hariyama",
+     43
+    ]
+   ],
+   "notes": "Only after defeating Tate & Liza in Mossdeep Gym.",
+   "table": "Omega Ruby and Alpha Sapphire Trainers (Rematches)"
+  },
+  {
+   "trainer": "Expert Timothy",
+   "party": [
+    [
+     "Gurdurr",
+     45
+    ],
+    [
+     "Hariyama",
+     45
+    ]
+   ],
+   "notes": "Only after defeating Wallace in Sootopolis Gym.",
+   "table": "Omega Ruby and Alpha Sapphire Trainers (Rematches)"
+  },
+  {
+   "trainer": "Expert Timothy",
+   "party": [
+    [
+     "Hawlucha",
+     54
+    ],
+    [
+     "Hariyama",
+     55
+    ],
+    [
+     "Conkeldurr",
+     56
+    ]
+   ],
+   "notes": "Only after defeating the Elite Four. He may give the player a Sun Stone after the battle.",
+   "table": "Omega Ruby and Alpha Sapphire Trainers (Rematches)"
+  }
+ ],
+ "route-116": [
+  {
+   "trainer": "Youngster Joey",
+   "party": [
+    [
+     "Zigzagoon",
+     7
+    ],
+    [
+     "Machop",
+     9
+    ]
+   ],
+   "notes": "",
+   "table": "Omega Ruby and Alpha Sapphire Trainers"
+  },
+  {
+   "trainer": "Bug Catcher Jose",
+   "party": [
+    [
+     "Wurmple",
+     7
+    ],
+    [
+     "Silcoon",
+     7
+    ],
+    [
+     "Nincada",
+     7
+    ]
+   ],
+   "notes": "",
+   "table": "Omega Ruby and Alpha Sapphire Trainers"
+  },
+  {
+   "trainer": "Lass Janice",
+   "party": [
+    [
+     "Marill",
+     10
+    ]
+   ],
+   "notes": "",
+   "table": "Omega Ruby and Alpha Sapphire Trainers"
+  },
+  {
+   "trainer": "Hiker Clark",
+   "party": [
+    [
+     "Geodude",
+     8
+    ],
+    [
+     "Geodude",
+     10
+    ]
+   ],
+   "notes": "",
+   "table": "Omega Ruby and Alpha Sapphire Trainers"
+  },
+  {
+   "trainer": "Schoolkid Jerry",
+   "party": [
+    [
+     "Ralts",
+     10
+    ]
+   ],
+   "notes": "Requires Cut. The player can register him in the PokéNav after the battle.",
+   "table": "Omega Ruby and Alpha Sapphire Trainers"
+  },
+  {
+   "trainer": "Schoolkid Karen",
+   "party": [
+    [
+     "Shroomish",
+     8
+    ],
+    [
+     "Whismur",
+     8
+    ]
+   ],
+   "notes": "Requires Cut. The player can register her in the PokéNav after the battle.",
+   "table": "Omega Ruby and Alpha Sapphire Trainers"
+  },
+  {
+   "trainer": "Schoolkid Jerry",
+   "party": [
+    [
+     "Ralts",
+     14
+    ]
+   ],
+   "notes": "Only after defeating Brawly in Dewford Gym .",
+   "table": "Omega Ruby and Alpha Sapphire Trainers (Rematches)"
+  },
+  {
+   "trainer": "Schoolkid Jerry",
+   "party": [
+    [
+     "Kirlia",
+     26
+    ]
+   ],
+   "notes": "Only after defeating Flannery in Lavaridge Gym .",
+   "table": "Omega Ruby and Alpha Sapphire Trainers (Rematches)"
+  },
+  {
+   "trainer": "Schoolkid Jerry",
+   "party": [
+    [
+     "Kirlia",
+     32
+    ],
+    [
+     "Meditite",
+     30
+    ]
+   ],
+   "notes": "Only after defeating Winona in Fortree Gym .",
+   "table": "Omega Ruby and Alpha Sapphire Trainers (Rematches)"
+  },
+  {
+   "trainer": "Schoolkid Jerry",
+   "party": [
+    [
+     "Gardevoir",
+     48
+    ],
+    [
+     "Medicham",
+     47
+    ],
+    [
+     "Bisharp",
+     46
+    ]
+   ],
+   "notes": "Only after defeating the Elite Four. He may give the player a Nest Ball after the battle.",
+   "table": "Omega Ruby and Alpha Sapphire Trainers (Rematches)"
+  },
+  {
+   "trainer": "Schoolkid Karen",
+   "party": [
+    [
+     "Shroomish",
+     12
+    ],
+    [
+     "Whismur",
+     12
+    ]
+   ],
+   "notes": "Only after defeating Brawly in Dewford Gym .",
+   "table": "Omega Ruby and Alpha Sapphire Trainers (Rematches)"
+  },
+  {
+   "trainer": "Schoolkid Karen",
+   "party": [
+    [
+     "Breloom",
+     24
+    ],
+    [
+     "Loudred",
+     24
+    ]
+   ],
+   "notes": "Only after defeating Flannery in Lavaridge Gym.",
+   "table": "Omega Ruby and Alpha Sapphire Trainers (Rematches)"
+  },
+  {
+   "trainer": "Schoolkid Karen",
+   "party": [
+    [
+     "Breloom",
+     31
+    ],
+    [
+     "Loudred",
+     31
+    ]
+   ],
+   "notes": "Only after defeating Winona in Fortree Gym.",
+   "table": "Omega Ruby and Alpha Sapphire Trainers (Rematches)"
+  },
+  {
+   "trainer": "Schoolkid Karen",
+   "party": [
+    [
+     "Breloom",
+     47
+    ],
+    [
+     "Dewgong",
+     47
+    ],
+    [
+     "Exploud",
+     47
+    ]
+   ],
+   "notes": "Only after defeating the Elite Four. She may give the player a Nest Ball after the battle.",
+   "table": "Omega Ruby and Alpha Sapphire Trainers (Rematches)"
+  }
+ ],
+ "route-117": [
+  {
+   "trainer": "Teammates Anna & Meg",
+   "party": [
+    [
+     "Zigzagoon",
+     17
+    ],
+    [
+     "Makuhita",
+     18
+    ]
+   ],
+   "notes": "This is a Double Battle. The player can register them in the PokéNav after the battle.",
+   "table": "Omega Ruby and Alpha Sapphire Trainers"
+  },
+  {
+   "trainer": "Triathlete Dylan",
+   "party": [
+    [
+     "Doduo",
+     18
+    ]
+   ],
+   "notes": "The player can register him in the PokéNav after the battle.",
+   "table": "Omega Ruby and Alpha Sapphire Trainers"
+  },
+  {
+   "trainer": "Pokémon Breeder Lydia",
+   "party": [
+    [
+     "Wingull",
+     17
+    ],
+    [
+     "Shroomish",
+     17
+    ],
+    [
+     "Azurill",
+     17
+    ],
+    [
+     "Goldeen",
+     17
+    ],
+    [
+     "Budew",
+     17
+    ],
+    [
+     "Skitty",
+     17
+    ]
+   ],
+   "notes": "The player can register her in the PokéNav after the battle.",
+   "table": "Omega Ruby and Alpha Sapphire Trainers"
+  },
+  {
+   "trainer": "Bug Maniac Derek",
+   "party": [
+    [
+     "Nincada",
+     15
+    ],
+    [
+     "Dustox",
+     15
+    ],
+    [
+     "Beautifly",
+     15
+    ]
+   ],
+   "notes": "",
+   "table": "Omega Ruby and Alpha Sapphire Trainers"
+  },
+  {
+   "trainer": "Pokémon Breeder Isaac",
+   "party": [
+    [
+     "Whismur",
+     17
+    ],
+    [
+     "Zigzagoon",
+     17
+    ],
+    [
+     "Aron",
+     17
+    ],
+    [
+     "Poochyena",
+     17
+    ],
+    [
+     "Taillow",
+     17
+    ],
+    [
+     "Makuhita",
+     17
+    ]
+   ],
+   "notes": "The player can register him in the PokéNav after the battle.",
+   "table": "Omega Ruby and Alpha Sapphire Trainers"
+  },
+  {
+   "trainer": "Teammates Anna & Meg",
+   "party": [
+    [
+     "Linoone",
+     26
+    ],
+    [
+     "Hariyama",
+     27
+    ]
+   ],
+   "notes": "Only after defeating Flannery in Lavaridge Gym .",
+   "table": "Omega Ruby and Alpha Sapphire Trainers (Rematches)"
+  },
+  {
+   "trainer": "Teammates Anna & Meg",
+   "party": [
+    [
+     "Linoone",
+     28
+    ],
+    [
+     "Hariyama",
+     29
+    ]
+   ],
+   "notes": "Only after defeating Norman in Petalburg Gym .",
+   "table": "Omega Ruby and Alpha Sapphire Trainers (Rematches)"
+  },
+  {
+   "trainer": "Teammates Anna & Meg",
+   "party": [
+    [
+     "Linoone",
+     40
+    ],
+    [
+     "Hariyama",
+     41
+    ]
+   ],
+   "notes": "Only after defeating Tate & Liza in Mossdeep Gym .",
+   "table": "Omega Ruby and Alpha Sapphire Trainers (Rematches)"
+  },
+  {
+   "trainer": "Teammates Anna & Meg",
+   "party": [
+    [
+     "Linoone",
+     50
+    ],
+    [
+     "Hariyama",
+     51
+    ]
+   ],
+   "notes": "Only after defeating the Elite Four. They may give the player an Ultra Ball after the battle.",
+   "table": "Omega Ruby and Alpha Sapphire Trainers (Rematches)"
+  },
+  {
+   "trainer": "Triathlete Dylan",
+   "party": [
+    [
+     "Doduo",
+     27
+    ]
+   ],
+   "notes": "Only after defeating Flannery in Lavaridge Gym.",
+   "table": "Omega Ruby and Alpha Sapphire Trainers (Rematches)"
+  },
+  {
+   "trainer": "Triathlete Dylan",
+   "party": [
+    [
+     "Dodrio",
+     34
+    ]
+   ],
+   "notes": "Only after defeating Winona in Fortree Gym .",
+   "table": "Omega Ruby and Alpha Sapphire Trainers (Rematches)"
+  },
+  {
+   "trainer": "Triathlete Dylan",
+   "party": [
+    [
+     "Dodrio",
+     41
+    ]
+   ],
+   "notes": "Only after defeating Wallace in Sootopolis Gym .",
+   "table": "Omega Ruby and Alpha Sapphire Trainers (Rematches)"
+  },
+  {
+   "trainer": "Triathlete Dylan",
+   "party": [
+    [
+     "Dodrio",
+     48
+    ],
+    [
+     "Arcanine",
+     50
+    ]
+   ],
+   "notes": "Only after defeating the Elite Four.",
+   "table": "Omega Ruby and Alpha Sapphire Trainers (Rematches)"
+  },
+  {
+   "trainer": "Pokémon Breeder Lydia",
+   "party": [
+    [
+     "Wingull",
+     26
+    ],
+    [
+     "Shroomish",
+     26
+    ],
+    [
+     "Azurill",
+     26
+    ],
+    [
+     "Budew",
+     26
+    ],
+    [
+     "Skitty",
+     26
+    ],
+    [
+     "Goldeen",
+     26
+    ]
+   ],
+   "notes": "Only after defeating Flannery in Lavaridge Gym.",
+   "table": "Omega Ruby and Alpha Sapphire Trainers (Rematches)"
+  },
+  {
+   "trainer": "Pokémon Breeder Lydia",
+   "party": [
+    [
+     "Wingull",
+     28
+    ],
+    [
+     "Shroomish",
+     28
+    ],
+    [
+     "Azurill",
+     28
+    ],
+    [
+     "Budew",
+     28
+    ],
+    [
+     "Skitty",
+     28
+    ],
+    [
+     "Goldeen",
+     28
+    ]
+   ],
+   "notes": "Only after defeating Norman in Petalburg Gym.",
+   "table": "Omega Ruby and Alpha Sapphire Trainers (Rematches)"
+  },
+  {
+   "trainer": "Pokémon Breeder Lydia",
+   "party": [
+    [
+     "Wingull",
+     40
+    ],
+    [
+     "Shroomish",
+     40
+    ],
+    [
+     "Azurill",
+     40
+    ],
+    [
+     "Budew",
+     40
+    ],
+    [
+     "Skitty",
+     40
+    ],
+    [
+     "Goldeen",
+     40
+    ]
+   ],
+   "notes": "Only after defeating Tate & Liza in Mossdeep Gym.",
+   "table": "Omega Ruby and Alpha Sapphire Trainers (Rematches)"
+  },
+  {
+   "trainer": "Pokémon Breeder Lydia",
+   "party": [
+    [
+     "Wingull",
+     50
+    ],
+    [
+     "Shroomish",
+     50
+    ],
+    [
+     "Azurill",
+     50
+    ],
+    [
+     "Budew",
+     50
+    ],
+    [
+     "Skitty",
+     50
+    ],
+    [
+     "Goldeen",
+     50
+    ]
+   ],
+   "notes": "Only after defeating the Elite Four. She may give the player a Rare Candy after the battle.",
+   "table": "Omega Ruby and Alpha Sapphire Trainers (Rematches)"
+  },
+  {
+   "trainer": "Pokémon Breeder Isaac",
+   "party": [
+    [
+     "Whismur",
+     26
+    ],
+    [
+     "Zigzagoon",
+     26
+    ],
+    [
+     "Aron",
+     26
+    ],
+    [
+     "Poochyena",
+     26
+    ],
+    [
+     "Taillow",
+     26
+    ],
+    [
+     "Makuhita",
+     26
+    ]
+   ],
+   "notes": "Only after defeating Flannery in Lavaridge Gym.",
+   "table": "Omega Ruby and Alpha Sapphire Trainers (Rematches)"
+  },
+  {
+   "trainer": "Pokémon Breeder Isaac",
+   "party": [
+    [
+     "Whismur",
+     29
+    ],
+    [
+     "Zigzagoon",
+     29
+    ],
+    [
+     "Aron",
+     29
+    ],
+    [
+     "Poochyena",
+     29
+    ],
+    [
+     "Taillow",
+     29
+    ],
+    [
+     "Makuhita",
+     29
+    ]
+   ],
+   "notes": "Only after defeating Norman in Petalburg Gym.",
+   "table": "Omega Ruby and Alpha Sapphire Trainers (Rematches)"
+  },
+  {
+   "trainer": "Pokémon Breeder Isaac",
+   "party": [
+    [
+     "Whismur",
+     40
+    ],
+    [
+     "Zigzagoon",
+     40
+    ],
+    [
+     "Aron",
+     40
+    ],
+    [
+     "Poochyena",
+     40
+    ],
+    [
+     "Taillow",
+     40
+    ],
+    [
+     "Makuhita",
+     40
+    ]
+   ],
+   "notes": "Only after defeating Tate & Liza in Mossdeep Gym.",
+   "table": "Omega Ruby and Alpha Sapphire Trainers (Rematches)"
+  },
+  {
+   "trainer": "Pokémon Breeder Isaac",
+   "party": [
+    [
+     "Whismur",
+     50
+    ],
+    [
+     "Zigzagoon",
+     50
+    ],
+    [
+     "Aron",
+     50
+    ],
+    [
+     "Poochyena",
+     50
+    ],
+    [
+     "Taillow",
+     50
+    ],
+    [
+     "Makuhita",
+     50
+    ]
+   ],
+   "notes": "Only after defeating the Elite Four. He may give the player a Rare Candy after the battle.",
+   "table": "Omega Ruby and Alpha Sapphire Trainers (Rematches)"
+  }
+ ],
+ "route-118": [
+  {
+   "trainer": "Aroma Lady Rose",
+   "party": [
+    [
+     "Oddish",
+     16
+    ],
+    [
+     "Roselia",
+     16
+    ]
+   ],
+   "notes": "On the western side. The player can register her in the PokéNav after the battle.",
+   "table": "Omega Ruby and Alpha Sapphire Trainers"
+  },
+  {
+   "trainer": "Fisherman Wade",
+   "party": [
+    [
+     "Carvanha",
+     17
+    ]
+   ],
+   "notes": "On the western side.",
+   "table": "Omega Ruby and Alpha Sapphire Trainers"
+  },
+  {
+   "trainer": "Guitarist Dalton",
+   "party": [
+    [
+     "Magnemite",
+     16
+    ],
+    [
+     "Whismur",
+     16
+    ]
+   ],
+   "notes": "On the western side. The player can register him in the PokéNav after the battle.",
+   "table": "Omega Ruby and Alpha Sapphire Trainers"
+  },
+  {
+   "trainer": "Fisherman Barny",
+   "party": [
+    [
+     "Carvanha",
+     26
+    ],
+    [
+     "Gyarados",
+     26
+    ]
+   ],
+   "notes": "On the eastern side. Requires Surf.",
+   "table": "Omega Ruby and Alpha Sapphire Trainers"
+  },
+  {
+   "trainer": "Bird Keeper Perry",
+   "party": [
+    [
+     "Pelipper",
+     29
+    ]
+   ],
+   "notes": "On the eastern side. Requires Surf.",
+   "table": "Omega Ruby and Alpha Sapphire Trainers"
+  },
+  {
+   "trainer": "Bird Keeper Chester",
+   "party": [
+    [
+     "Swablu",
+     26
+    ],
+    [
+     "Swellow",
+     28
+    ]
+   ],
+   "notes": "On the eastern side. Requires Surf.",
+   "table": "Omega Ruby and Alpha Sapphire Trainers"
+  },
+  {
+   "trainer": "Delinquent Miley",
+   "party": [
+    [
+     "Cacnea",
+     26
+    ],
+    [
+     "Mightyena",
+     28
+    ]
+   ],
+   "notes": "On the eastern side. Requires Surf.",
+   "table": "Omega Ruby and Alpha Sapphire Trainers"
+  },
+  {
+   "trainer": "Aroma Lady Rose",
+   "party": [
+    [
+     "Gloom",
+     25
+    ],
+    [
+     "Roselia",
+     25
+    ]
+   ],
+   "notes": "Only after defeating Flannery in Lavaridge Gym .",
+   "table": "Omega Ruby and Alpha Sapphire Trainers (Rematches)"
+  },
+  {
+   "trainer": "Aroma Lady Rose",
+   "party": [
+    [
+     "Gloom",
+     32
+    ],
+    [
+     "Roselia",
+     32
+    ]
+   ],
+   "notes": "Only after defeating Winona in Fortree Gym .",
+   "table": "Omega Ruby and Alpha Sapphire Trainers (Rematches)"
+  },
+  {
+   "trainer": "Aroma Lady Rose",
+   "party": [
+    [
+     "Sunkern",
+     42
+    ],
+    [
+     "Roselia",
+     42
+    ],
+    [
+     "Bellossom",
+     42
+    ]
+   ],
+   "notes": "Only after defeating Wallace in Sootopolis Gym .",
+   "table": "Omega Ruby and Alpha Sapphire Trainers (Rematches)"
+  },
+  {
+   "trainer": "Aroma Lady Rose",
+   "party": [
+    [
+     "Bellossom",
+     48
+    ],
+    [
+     "Sunflora",
+     48
+    ],
+    [
+     "Roserade",
+     48
+    ]
+   ],
+   "notes": "Only after defeating the Elite Four. She may give the player a Leaf Stone after the battle.",
+   "table": "Omega Ruby and Alpha Sapphire Trainers (Rematches)"
+  },
+  {
+   "trainer": "Guitarist Dalton",
+   "party": [
+    [
+     "Magnemite",
+     25
+    ],
+    [
+     "Loudred",
+     25
+    ]
+   ],
+   "notes": "Only after defeating Flannery in Lavaridge Gym.",
+   "table": "Omega Ruby and Alpha Sapphire Trainers (Rematches)"
+  },
+  {
+   "trainer": "Guitarist Dalton",
+   "party": [
+    [
+     "Magneton",
+     32
+    ],
+    [
+     "Loudred",
+     32
+    ]
+   ],
+   "notes": "Only after defeating Winona in Fortree Gym.",
+   "table": "Omega Ruby and Alpha Sapphire Trainers (Rematches)"
+  },
+  {
+   "trainer": "Guitarist Dalton",
+   "party": [
+    [
+     "Magneton",
+     43
+    ],
+    [
+     "Exploud",
+     43
+    ]
+   ],
+   "notes": "Only after defeating Wallace in Sootopolis Gym.",
+   "table": "Omega Ruby and Alpha Sapphire Trainers (Rematches)"
+  },
+  {
+   "trainer": "Guitarist Dalton",
+   "party": [
+    [
+     "Chatot",
+     48
+    ],
+    [
+     "Exploud",
+     48
+    ],
+    [
+     "Magnezone",
+     48
+    ]
+   ],
+   "notes": "Only after defeating the Elite Four. He may give the player a Thunder Stone after the battle.",
+   "table": "Omega Ruby and Alpha Sapphire Trainers (Rematches)"
+  }
+ ],
+ "route-119": [
+  {
+   "trainer": "Bug Catcher Kent",
+   "party": [
+    [
+     "Dustox",
+     29
+    ]
+   ],
+   "notes": "",
+   "table": "Omega Ruby and Alpha Sapphire Trainers"
+  },
+  {
+   "trainer": "Bug Maniac Donald",
+   "party": [
+    [
+     "Beautifly",
+     30
+    ]
+   ],
+   "notes": "",
+   "table": "Omega Ruby and Alpha Sapphire Trainers"
+  },
+  {
+   "trainer": "Bug Catcher Greg",
+   "party": [
+    [
+     "Beautifly",
+     29
+    ]
+   ],
+   "notes": "",
+   "table": "Omega Ruby and Alpha Sapphire Trainers"
+  },
+  {
+   "trainer": "Bug Maniac Taylor",
+   "party": [
+    [
+     "Dustox",
+     30
+    ]
+   ],
+   "notes": "",
+   "table": "Omega Ruby and Alpha Sapphire Trainers"
+  },
+  {
+   "trainer": "Bug Catcher Doug",
+   "party": [
+    [
+     "Volbeat",
+     26
+    ],
+    [
+     "Illumise",
+     28
+    ]
+   ],
+   "notes": "",
+   "table": "Omega Ruby and Alpha Sapphire Trainers"
+  },
+  {
+   "trainer": "Bug Maniac Brent",
+   "party": [
+    [
+     "Masquerain",
+     28
+    ],
+    [
+     "Ninjask",
+     28
+    ]
+   ],
+   "notes": "",
+   "table": "Omega Ruby and Alpha Sapphire Trainers"
+  },
+  {
+   "trainer": "Pokémon Ranger Catherine",
+   "party": [
+    [
+     "Breloom",
+     31
+    ]
+   ],
+   "notes": "The player can register her in the PokéNav after the battle.",
+   "table": "Omega Ruby and Alpha Sapphire Trainers"
+  },
+  {
+   "trainer": "Fisherman Eugene",
+   "party": [
+    [
+     "Carvanha",
+     27
+    ],
+    [
+     "Carvanha",
+     27
+    ],
+    [
+     "Feebas",
+     27
+    ]
+   ],
+   "notes": "Requires Surf.",
+   "table": "Omega Ruby and Alpha Sapphire Trainers"
+  },
+  {
+   "trainer": "Brains & Brawn Jael & Kael",
+   "party": [
+    [
+     "Kadabra",
+     31
+    ],
+    [
+     "Machoke",
+     31
+    ]
+   ],
+   "notes": "This is a Double Battle. The player can register them in the PokéNav after the battle.",
+   "table": "Omega Ruby and Alpha Sapphire Trainers"
+  },
+  {
+   "trainer": "Pokémon Ranger Jackson",
+   "party": [
+    [
+     "Seviper",
+     29
+    ],
+    [
+     "Vigoroth",
+     29
+    ]
+   ],
+   "notes": "The player can register him in the PokéNav after the battle.",
+   "table": "Omega Ruby and Alpha Sapphire Trainers"
+  },
+  {
+   "trainer": "Bird Keeper Phil",
+   "party": [
+    [
+     "Doduo",
+     30
+    ]
+   ],
+   "notes": "",
+   "table": "Omega Ruby and Alpha Sapphire Trainers"
+  },
+  {
+   "trainer": "Ninja Boy Takashi",
+   "party": [
+    [
+     "Koffing",
+     29
+    ]
+   ],
+   "notes": "",
+   "table": "Omega Ruby and Alpha Sapphire Trainers"
+  },
+  {
+   "trainer": "Bird Keeper Hugh",
+   "party": [
+    [
+     "Swellow",
+     30
+    ]
+   ],
+   "notes": "",
+   "table": "Omega Ruby and Alpha Sapphire Trainers"
+  },
+  {
+   "trainer": "Ninja Boy Yasu",
+   "party": [
+    [
+     "Ninjask",
+     27
+    ]
+   ],
+   "notes": "",
+   "table": "Omega Ruby and Alpha Sapphire Trainers"
+  },
+  {
+   "trainer": "Ninja Boy Hideo",
+   "party": [
+    [
+     "Koffing",
+     27
+    ],
+    [
+     "Koffing",
+     27
+    ]
+   ],
+   "notes": "Requires the Acro Bike, Surf, and Waterfall.",
+   "table": "Omega Ruby and Alpha Sapphire Trainers"
+  },
+  {
+   "trainer": "Brendan/May",
+   "party": [
+    [
+     "Elemental 1",
+     31
+    ],
+    [
+     "Elemental 2",
+     31
+    ],
+    [
+     "Starter (2nd stage)",
+     33
+    ]
+   ],
+   "notes": "Elemental 1 is one of Shroomish, Slugma, or Wailmer; whichever has the type weak against the player's starter. Elemental 2 is one of Shroomish, Slugma, or Wailmer; whichever has the same type as the player's starter. Their starter is the one whose type is strong against the player's starter.",
+   "table": "Omega Ruby and Alpha Sapphire Trainers"
+  },
+  {
+   "trainer": "Pokémon Ranger Catherine",
+   "party": [
+    [
+     "Breloom",
+     35
+    ]
+   ],
+   "notes": "Only after defeating Winona in Fortree Gym .",
+   "table": "Omega Ruby and Alpha Sapphire Trainers (Rematches)"
+  },
+  {
+   "trainer": "Pokémon Ranger Catherine",
+   "party": [
+    [
+     "Pikachu",
+     40
+    ],
+    [
+     "Breloom",
+     40
+    ]
+   ],
+   "notes": "Only after defeating Tate & Liza in Mossdeep Gym .",
+   "table": "Omega Ruby and Alpha Sapphire Trainers (Rematches)"
+  },
+  {
+   "trainer": "Pokémon Ranger Catherine",
+   "party": [
+    [
+     "Breloom",
+     44
+    ],
+    [
+     "Raichu",
+     44
+    ]
+   ],
+   "notes": "Only after defeating Wallace in Sootopolis Gym .",
+   "table": "Omega Ruby and Alpha Sapphire Trainers (Rematches)"
+  },
+  {
+   "trainer": "Pokémon Ranger Catherine",
+   "party": [
+    [
+     "Breloom",
+     49
+    ],
+    [
+     "Raichu",
+     49
+    ],
+    [
+     "Excadrill",
+     49
+    ]
+   ],
+   "notes": "Only after defeating the Elite Four. She may give the player a Timer Ball after the battle.",
+   "table": "Omega Ruby and Alpha Sapphire Trainers (Rematches)"
+  },
+  {
+   "trainer": "Brains & Brawn Jael & Kael",
+   "party": [
+    [
+     "Kadabra",
+     35
+    ],
+    [
+     "Machoke",
+     35
+    ]
+   ],
+   "notes": "Only after defeating Winona in Fortree Gym.",
+   "table": "Omega Ruby and Alpha Sapphire Trainers (Rematches)"
+  },
+  {
+   "trainer": "Brains & Brawn Jael & Kael",
+   "party": [
+    [
+     "Kadabra",
+     42
+    ],
+    [
+     "Machoke",
+     42
+    ]
+   ],
+   "notes": "Only after defeating Tate & Liza in Mossdeep Gym.",
+   "table": "Omega Ruby and Alpha Sapphire Trainers (Rematches)"
+  },
+  {
+   "trainer": "Brains & Brawn Jael & Kael",
+   "party": [
+    [
+     "Alakazam",
+     46
+    ],
+    [
+     "Machamp",
+     46
+    ]
+   ],
+   "notes": "Only after defeating Wallace in Sootopolis Gym.",
+   "table": "Omega Ruby and Alpha Sapphire Trainers (Rematches)"
+  },
+  {
+   "trainer": "Brains & Brawn Jael & Kael",
+   "party": [
+    [
+     "Alakazam",
+     53
+    ],
+    [
+     "Machamp",
+     53
+    ]
+   ],
+   "notes": "Only after defeating the Elite Four. They may give the player a PP Max after the battle.",
+   "table": "Omega Ruby and Alpha Sapphire Trainers (Rematches)"
+  },
+  {
+   "trainer": "Pokémon Ranger Jackson",
+   "party": [
+    [
+     "Seviper",
+     33
+    ],
+    [
+     "Vigoroth",
+     33
+    ]
+   ],
+   "notes": "Only after defeating Winona in Fortree Gym.",
+   "table": "Omega Ruby and Alpha Sapphire Trainers (Rematches)"
+  },
+  {
+   "trainer": "Pokémon Ranger Jackson",
+   "party": [
+    [
+     "Seviper",
+     40
+    ],
+    [
+     "Slaking",
+     40
+    ]
+   ],
+   "notes": "Only after defeating Tate & Liza in Mossdeep Gym.",
+   "table": "Omega Ruby and Alpha Sapphire Trainers (Rematches)"
+  },
+  {
+   "trainer": "Pokémon Ranger Jackson",
+   "party": [
+    [
+     "Seviper",
+     44
+    ],
+    [
+     "Slaking",
+     44
+    ]
+   ],
+   "notes": "Only after defeating Wallace in Sootopolis Gym.",
+   "table": "Omega Ruby and Alpha Sapphire Trainers (Rematches)"
+  },
+  {
+   "trainer": "Pokémon Ranger Jackson",
+   "party": [
+    [
+     "Seviper",
+     49
+    ],
+    [
+     "Unfezant",
+     49
+    ],
+    [
+     "Slaking",
+     49
+    ]
+   ],
+   "notes": "Only after defeating the Elite Four. He may give the player a Timer Ball after the battle.",
+   "table": "Omega Ruby and Alpha Sapphire Trainers (Rematches)"
+  }
+ ],
+ "route-120": [
+  {
+   "trainer": "Parasol Lady Clarissa",
+   "party": [
+    [
+     "Goldeen",
+     31
+    ],
+    [
+     "Seaking",
+     33
+    ]
+   ],
+   "notes": "",
+   "table": "Omega Ruby and Alpha Sapphire Trainers"
+  },
+  {
+   "trainer": "Bird Keeper Robert",
+   "party": [
+    [
+     "Swablu",
+     34
+    ]
+   ],
+   "notes": "The player can register him in the PokéNav after the battle.",
+   "table": "Omega Ruby and Alpha Sapphire Trainers"
+  },
+  {
+   "trainer": "Bird Keeper Colin",
+   "party": [
+    [
+     "Swellow",
+     32
+    ],
+    [
+     "Xatu",
+     32
+    ]
+   ],
+   "notes": "",
+   "table": "Omega Ruby and Alpha Sapphire Trainers"
+  },
+  {
+   "trainer": "Ninja Boy Tsunao",
+   "party": [
+    [
+     "Koffing",
+     29
+    ],
+    [
+     "Koffing",
+     30
+    ],
+    [
+     "Koffing",
+     31
+    ]
+   ],
+   "notes": "",
+   "table": "Omega Ruby and Alpha Sapphire Trainers"
+  },
+  {
+   "trainer": "Parasol Lady Angelica",
+   "party": [
+    [
+     "Castform",
+     34
+    ]
+   ],
+   "notes": "",
+   "table": "Omega Ruby and Alpha Sapphire Trainers"
+  },
+  {
+   "trainer": "Ace Trainer Jennifer",
+   "party": [
+    [
+     "Milotic",
+     36
+    ]
+   ],
+   "notes": "",
+   "table": "Omega Ruby and Alpha Sapphire Trainers"
+  },
+  {
+   "trainer": "Bug Maniac Brandon",
+   "party": [
+    [
+     "Masquerain",
+     34
+    ]
+   ],
+   "notes": "The player can register him in the PokéNav after the battle.",
+   "table": "Omega Ruby and Alpha Sapphire Trainers"
+  },
+  {
+   "trainer": "Street Thug Gomez",
+   "party": [
+    [
+     "Cacturne",
+     34
+    ]
+   ],
+   "notes": "The player can register him in the PokéNav after the battle.",
+   "table": "Omega Ruby and Alpha Sapphire Trainers"
+  },
+  {
+   "trainer": "Delinquent Sharlene",
+   "party": [
+    [
+     "Sharpedo",
+     34
+    ]
+   ],
+   "notes": "The player can register her in the PokéNav after the battle.",
+   "table": "Omega Ruby and Alpha Sapphire Trainers"
+  },
+  {
+   "trainer": "Ninja Boy Keigo",
+   "party": [
+    [
+     "Ninjask",
+     32
+    ],
+    [
+     "Koffing",
+     30
+    ]
+   ],
+   "notes": "",
+   "table": "Omega Ruby and Alpha Sapphire Trainers"
+  },
+  {
+   "trainer": "Ruin Maniac Chip",
+   "party": [
+    [
+     "Baltoy",
+     32
+    ],
+    [
+     "Nosepass",
+     32
+    ]
+   ],
+   "notes": "",
+   "table": "Omega Ruby and Alpha Sapphire Trainers"
+  },
+  {
+   "trainer": "Pokémon Ranger Carlos",
+   "party": [
+    [
+     "Nuzleaf",
+     33
+    ],
+    [
+     "Manectric",
+     33
+    ]
+   ],
+   "notes": "",
+   "table": "Omega Ruby and Alpha Sapphire Trainers"
+  },
+  {
+   "trainer": "Pokémon Ranger Jenna",
+   "party": [
+    [
+     "Lombre",
+     33
+    ],
+    [
+     "Grumpig",
+     33
+    ]
+   ],
+   "notes": "",
+   "table": "Omega Ruby and Alpha Sapphire Trainers"
+  },
+  {
+   "trainer": "Bird Keeper Robert",
+   "party": [
+    [
+     "Altaria",
+     41
+    ]
+   ],
+   "notes": "Only after defeating Tate & Liza in Mossdeep Gym .",
+   "table": "Omega Ruby and Alpha Sapphire Trainers (Rematches)"
+  },
+  {
+   "trainer": "Bird Keeper Robert",
+   "party": [
+    [
+     "Fearow",
+     43
+    ],
+    [
+     "Altaria",
+     43
+    ]
+   ],
+   "notes": "Only after defeating Wallace in Sootopolis Gym .",
+   "table": "Omega Ruby and Alpha Sapphire Trainers (Rematches)"
+  },
+  {
+   "trainer": "Bird Keeper Robert",
+   "party": [
+    [
+     "Fearow",
+     47
+    ],
+    [
+     "Altaria",
+     48
+    ],
+    [
+     "Staraptor",
+     49
+    ]
+   ],
+   "notes": "Only after defeating the Elite Four. He may give the player a Full Restore after the battle.",
+   "table": "Omega Ruby and Alpha Sapphire Trainers (Rematches)"
+  },
+  {
+   "trainer": "Bug Maniac Brandon",
+   "party": [
+    [
+     "Masquerain",
+     39
+    ],
+    [
+     "Pinsir",
+     39
+    ]
+   ],
+   "notes": "Only after defeating Tate & Liza in Mossdeep Gym.",
+   "table": "Omega Ruby and Alpha Sapphire Trainers (Rematches)"
+  },
+  {
+   "trainer": "Bug Maniac Brandon",
+   "party": [
+    [
+     "Masquerain",
+     43
+    ],
+    [
+     "Pinsir",
+     43
+    ]
+   ],
+   "notes": "Only after defeating Wallace in Sootopolis Gym.",
+   "table": "Omega Ruby and Alpha Sapphire Trainers (Rematches)"
+  },
+  {
+   "trainer": "Bug Maniac Brandon",
+   "party": [
+    [
+     "Masquerain",
+     47
+    ],
+    [
+     "Kricketune",
+     47
+    ],
+    [
+     "Pinsir",
+     47
+    ],
+    [
+     "Vespiquen",
+     47
+    ]
+   ],
+   "notes": "Only after defeating the Elite Four. He may give the player a Net Ball after the battle.",
+   "table": "Omega Ruby and Alpha Sapphire Trainers (Rematches)"
+  },
+  {
+   "trainer": "Street Thug Gomez",
+   "party": [
+    [
+     "Cacturne",
+     41
+    ]
+   ],
+   "notes": "Only after defeating Tate & Liza in Mossdeep Gym.",
+   "table": "Omega Ruby and Alpha Sapphire Trainers (Rematches)"
+  },
+  {
+   "trainer": "Street Thug Gomez",
+   "party": [
+    [
+     "Murkrow",
+     43
+    ],
+    [
+     "Cacturne",
+     43
+    ]
+   ],
+   "notes": "Only after defeating Wallace in Sootopolis Gym.",
+   "table": "Omega Ruby and Alpha Sapphire Trainers (Rematches)"
+  },
+  {
+   "trainer": "Street Thug Gomez",
+   "party": [
+    [
+     "Houndoom",
+     48
+    ],
+    [
+     "Cacturne",
+     48
+    ],
+    [
+     "Honchkrow",
+     48
+    ]
+   ],
+   "notes": "Only after defeating the Elite Four. He may give the player a Dusk Ball after the battle.",
+   "table": "Omega Ruby and Alpha Sapphire Trainers (Rematches)"
+  },
+  {
+   "trainer": "Delinquent Sharlene",
+   "party": [
+    [
+     "Sharpedo",
+     41
+    ]
+   ],
+   "notes": "Only after defeating Tate & Liza in Mossdeep Gym.",
+   "table": "Omega Ruby and Alpha Sapphire Trainers (Rematches)"
+  },
+  {
+   "trainer": "Delinquent Sharlene",
+   "party": [
+    [
+     "Sharpedo",
+     43
+    ],
+    [
+     "Sneasel",
+     43
+    ]
+   ],
+   "notes": "Only after defeating Wallace in Sootopolis Gym.",
+   "table": "Omega Ruby and Alpha Sapphire Trainers (Rematches)"
+  },
+  {
+   "trainer": "Delinquent Sharlene",
+   "party": [
+    [
+     "Sharpedo",
+     49
+    ],
+    [
+     "Weavile",
+     49
+    ]
+   ],
+   "notes": "Only after defeating the Elite Four. She may give the player a Dusk Ball after the battle.",
+   "table": "Omega Ruby and Alpha Sapphire Trainers (Rematches)"
+  }
+ ],
+ "route-121": [
+  {
+   "trainer": "Hex Maniac Tammy",
+   "party": [
+    [
+     "Duskull",
+     33
+    ],
+    [
+     "Sableye",
+     33
+    ]
+   ],
+   "notes": "",
+   "table": "Omega Ruby and Alpha Sapphire Trainers"
+  },
+  {
+   "trainer": "Beauty Jessica",
+   "party": [
+    [
+     "Kecleon",
+     32
+    ],
+    [
+     "Seviper",
+     34
+    ]
+   ],
+   "notes": "The player can register her in the PokéNav after the battle.",
+   "table": "Omega Ruby and Alpha Sapphire Trainers"
+  },
+  {
+   "trainer": "Teammates Kate & Joy",
+   "party": [
+    [
+     "Spinda",
+     34
+    ],
+    [
+     "Slaking",
+     35
+    ]
+   ],
+   "notes": "This is a Double Battle.",
+   "table": "Omega Ruby and Alpha Sapphire Trainers"
+  },
+  {
+   "trainer": "Gentleman Walter",
+   "party": [
+    [
+     "Manectric",
+     35
+    ]
+   ],
+   "notes": "The player can register him in the PokéNav after the battle.",
+   "table": "Omega Ruby and Alpha Sapphire Trainers"
+  },
+  {
+   "trainer": "Poké Fan Vanessa",
+   "party": [
+    [
+     "Pikachu",
+     35
+    ]
+   ],
+   "notes": "",
+   "table": "Omega Ruby and Alpha Sapphire Trainers"
+  },
+  {
+   "trainer": "Beauty Jessica",
+   "party": [
+    [
+     "Kecleon",
+     38
+    ],
+    [
+     "Seviper",
+     40
+    ]
+   ],
+   "notes": "Only after defeating Tate & Liza in Mossdeep Gym .",
+   "table": "Omega Ruby and Alpha Sapphire Trainers (Rematches)"
+  },
+  {
+   "trainer": "Beauty Jessica",
+   "party": [
+    [
+     "Kecleon",
+     42
+    ],
+    [
+     "Seviper",
+     44
+    ]
+   ],
+   "notes": "Only after defeating Wallace in Sootopolis Gym .",
+   "table": "Omega Ruby and Alpha Sapphire Trainers (Rematches)"
+  },
+  {
+   "trainer": "Beauty Jessica",
+   "party": [
+    [
+     "Kecleon",
+     47
+    ],
+    [
+     "Seviper",
+     48
+    ],
+    [
+     "Krookodile",
+     49
+    ]
+   ],
+   "notes": "Only after defeating the Elite Four. She may give the player a Pearl after the battle.",
+   "table": "Omega Ruby and Alpha Sapphire Trainers (Rematches)"
+  },
+  {
+   "trainer": "Gentleman Walter",
+   "party": [
+    [
+     "Manectric",
+     41
+    ]
+   ],
+   "notes": "Only after defeating Tate & Liza in Mossdeep Gym.",
+   "table": "Omega Ruby and Alpha Sapphire Trainers (Rematches)"
+  },
+  {
+   "trainer": "Gentleman Walter",
+   "party": [
+    [
+     "Manectric",
+     45
+    ]
+   ],
+   "notes": "Only after defeating Wallace in Sootopolis Gym.",
+   "table": "Omega Ruby and Alpha Sapphire Trainers (Rematches)"
+  },
+  {
+   "trainer": "Gentleman Walter",
+   "party": [
+    [
+     "Manectric",
+     48
+    ],
+    [
+     "Stoutland",
+     50
+    ]
+   ],
+   "notes": "Only after defeating the Elite Four. He may give the player a Nugget after the battle.",
+   "table": "Omega Ruby and Alpha Sapphire Trainers (Rematches)"
+  }
+ ],
+ "route-123": [
+  {
+   "trainer": "Aroma Lady Violet",
+   "party": [
+    [
+     "Vileplume",
+     36
+    ]
+   ],
+   "notes": "",
+   "table": "Omega Ruby and Alpha Sapphire Trainers"
+  },
+  {
+   "trainer": "Twins Miu & Yuki",
+   "party": [
+    [
+     "Beautifly",
+     35
+    ],
+    [
+     "Dustox",
+     35
+    ]
+   ],
+   "notes": "This is a Double Battle.",
+   "table": "Omega Ruby and Alpha Sapphire Trainers"
+  },
+  {
+   "trainer": "Psychic Cameron",
+   "party": [
+    [
+     "Kadabra",
+     34
+    ],
+    [
+     "Solrock",
+     36
+    ]
+   ],
+   "notes": "Requires Cut. The player can register him in the PokéNav after the battle.",
+   "table": "Omega Ruby and Alpha Sapphire Trainers"
+  },
+  {
+   "trainer": "Picnicker Martha",
+   "party": [
+    [
+     "Illumise",
+     33
+    ],
+    [
+     "Wigglytuff",
+     33
+    ]
+   ],
+   "notes": "",
+   "table": "Omega Ruby and Alpha Sapphire Trainers"
+  },
+  {
+   "trainer": "Ace Trainer Wendy",
+   "party": [
+    [
+     "Rhyhorn",
+     36
+    ],
+    [
+     "Tropius",
+     36
+    ]
+   ],
+   "notes": "",
+   "table": "Omega Ruby and Alpha Sapphire Trainers"
+  },
+  {
+   "trainer": "Street Thug Hannibal",
+   "party": [
+    [
+     "Crawdaunt",
+     36
+    ]
+   ],
+   "notes": "Requires Cut.",
+   "table": "Omega Ruby and Alpha Sapphire Trainers"
+  },
+  {
+   "trainer": "Ace Trainer Julie",
+   "party": [
+    [
+     "Ninetales",
+     35
+    ],
+    [
+     "Bellossom",
+     37
+    ]
+   ],
+   "notes": "Requires Cut.",
+   "table": "Omega Ruby and Alpha Sapphire Trainers"
+  },
+  {
+   "trainer": "Delinquent Kylie",
+   "party": [
+    [
+     "Mightyena",
+     36
+    ]
+   ],
+   "notes": "",
+   "table": "Omega Ruby and Alpha Sapphire Trainers"
+  },
+  {
+   "trainer": "Ace Trainer Clyde",
+   "party": [
+    [
+     "Vibrava",
+     35
+    ],
+    [
+     "Skarmory",
+     37
+    ]
+   ],
+   "notes": "",
+   "table": "Omega Ruby and Alpha Sapphire Trainers"
+  },
+  {
+   "trainer": "Fisherman Timin",
+   "party": [
+    [
+     "Seaking",
+     36
+    ]
+   ],
+   "notes": "Requires Cut.",
+   "table": "Omega Ruby and Alpha Sapphire Trainers"
+  },
+  {
+   "trainer": "Fisherman Fisher",
+   "party": [
+    [
+     "Whiscash",
+     36
+    ]
+   ],
+   "notes": "Requires Cut.",
+   "table": "Omega Ruby and Alpha Sapphire Trainers"
+  },
+  {
+   "trainer": "Fisherman Finley",
+   "party": [
+    [
+     "Crawdaunt",
+     34
+    ],
+    [
+     "Gyarados",
+     34
+    ]
+   ],
+   "notes": "Requires Cut.",
+   "table": "Omega Ruby and Alpha Sapphire Trainers"
+  },
+  {
+   "trainer": "Psychic Cameron",
+   "party": [
+    [
+     "Solrock",
+     40
+    ],
+    [
+     "Alakazam",
+     42
+    ]
+   ],
+   "notes": "Only after defeating Tate & Liza in Mossdeep Gym .",
+   "table": "Omega Ruby and Alpha Sapphire Trainers (Rematches)"
+  },
+  {
+   "trainer": "Psychic Cameron",
+   "party": [
+    [
+     "Exeggcute",
+     42
+    ],
+    [
+     "Solrock",
+     43
+    ],
+    [
+     "Alakazam",
+     44
+    ]
+   ],
+   "notes": "Only after defeating Wallace in Sootopolis Gym .",
+   "table": "Omega Ruby and Alpha Sapphire Trainers (Rematches)"
+  },
+  {
+   "trainer": "Psychic Cameron",
+   "party": [
+    [
+     "Solrock",
+     49
+    ],
+    [
+     "Exeggutor",
+     50
+    ],
+    [
+     "Alakazam",
+     51
+    ]
+   ],
+   "notes": "Only after defeating the Elite Four. He may give the player a Calcium after the battle.",
+   "table": "Omega Ruby and Alpha Sapphire Trainers (Rematches)"
+  }
+ ],
+ "route-124": [
+  {
+   "trainer": "Swimmer♀ Jenny",
+   "party": [
+    [
+     "Luvdisc",
+     39
+    ]
+   ],
+   "notes": "The player can register her in the PokéNav after the battle.",
+   "table": "Omega Ruby and Alpha Sapphire Trainers"
+  },
+  {
+   "trainer": "Swimmer♂ Roland",
+   "party": [
+    [
+     "Sealeo",
+     39
+    ]
+   ],
+   "notes": "",
+   "table": "Omega Ruby and Alpha Sapphire Trainers"
+  },
+  {
+   "trainer": "Swimmer♀ Grace",
+   "party": [
+    [
+     "Wailmer",
+     36
+    ],
+    [
+     "Azumarill",
+     38
+    ]
+   ],
+   "notes": "",
+   "table": "Omega Ruby and Alpha Sapphire Trainers"
+  },
+  {
+   "trainer": "Sis & Bro Rita & Sam",
+   "party": [
+    [
+     "Pelipper",
+     39
+    ],
+    [
+     "Whiscash",
+     38
+    ]
+   ],
+   "notes": "This is a Double Battle. The player can register them in the PokéNav after the battle.",
+   "table": "Omega Ruby and Alpha Sapphire Trainers"
+  },
+  {
+   "trainer": "Swimmer♂ Spencer",
+   "party": [
+    [
+     "Staryu",
+     37
+    ],
+    [
+     "Tentacruel",
+     37
+    ]
+   ],
+   "notes": "",
+   "table": "Omega Ruby and Alpha Sapphire Trainers"
+  },
+  {
+   "trainer": "Swimmer♂ Chad",
+   "party": [
+    [
+     "Golduck",
+     39
+    ]
+   ],
+   "notes": "",
+   "table": "Omega Ruby and Alpha Sapphire Trainers"
+  },
+  {
+   "trainer": "Scuba Diver Dmitry",
+   "party": [
+    [
+     "Starmie",
+     41
+    ]
+   ],
+   "notes": "Requires Dive.",
+   "table": "Omega Ruby and Alpha Sapphire Trainers"
+  },
+  {
+   "trainer": "Scuba Diver Kylan",
+   "party": [
+    [
+     "Seadra",
+     41
+    ]
+   ],
+   "notes": "Requires Dive. The player can register him in the PokéNav after the battle.",
+   "table": "Omega Ruby and Alpha Sapphire Trainers"
+  },
+  {
+   "trainer": "Free Diver Rischel",
+   "party": [
+    [
+     "Seaking",
+     41
+    ]
+   ],
+   "notes": "Requires Dive.",
+   "table": "Omega Ruby and Alpha Sapphire Trainers"
+  },
+  {
+   "trainer": "Free Diver Arzu",
+   "party": [
+    [
+     "Clamperl",
+     39
+    ],
+    [
+     "Clamperl",
+     39
+    ]
+   ],
+   "notes": "Requires Dive. The player can register her in the PokéNav after the battle.",
+   "table": "Omega Ruby and Alpha Sapphire Trainers"
+  },
+  {
+   "trainer": "Swimmer♀ Jenny",
+   "party": [
+    [
+     "Luvdisc",
+     45
+    ]
+   ],
+   "notes": "Only after defeating Wallace in Sootopolis Gym .",
+   "table": "Omega Ruby and Alpha Sapphire Trainers (Rematches)"
+  },
+  {
+   "trainer": "Swimmer♀ Jenny",
+   "party": [
+    [
+     "Luvdisc",
+     49
+    ],
+    [
+     "Alomomola",
+     49
+    ]
+   ],
+   "notes": "Only after defeating the Elite Four. She may give the player a Pearl after the battle.",
+   "table": "Omega Ruby and Alpha Sapphire Trainers (Rematches)"
+  },
+  {
+   "trainer": "Sis & Bro Rita & Sam",
+   "party": [
+    [
+     "Pelipper",
+     41
+    ],
+    [
+     "Whiscash",
+     39
+    ]
+   ],
+   "notes": "Only after defeating Tate & Liza in Mossdeep Gym .",
+   "table": "Omega Ruby and Alpha Sapphire Trainers (Rematches)"
+  },
+  {
+   "trainer": "Sis & Bro Rita & Sam",
+   "party": [
+    [
+     "Pelipper",
+     45
+    ],
+    [
+     "Whiscash",
+     44
+    ]
+   ],
+   "notes": "Only after defeating Wallace in Sootopolis Gym.",
+   "table": "Omega Ruby and Alpha Sapphire Trainers (Rematches)"
+  },
+  {
+   "trainer": "Sis & Bro Rita & Sam",
+   "party": [
+    [
+     "Pelipper",
+     51
+    ],
+    [
+     "Whiscash",
+     50
+    ]
+   ],
+   "notes": "Only after defeating the Elite Four. They may give the player a Big Pearl after the battle.",
+   "table": "Omega Ruby and Alpha Sapphire Trainers (Rematches)"
+  },
+  {
+   "trainer": "Scuba Diver Kylan",
+   "party": [
+    [
+     "Seadra",
+     45
+    ]
+   ],
+   "notes": "Only after defeating Wallace in Sootopolis Gym.",
+   "table": "Omega Ruby and Alpha Sapphire Trainers (Rematches)"
+  },
+  {
+   "trainer": "Scuba Diver Kylan",
+   "party": [
+    [
+     "Kingler",
+     49
+    ],
+    [
+     "Kingdra",
+     49
+    ]
+   ],
+   "notes": "Only after defeating the Elite Four. He may give the player a Heart Scale after the battle.",
+   "table": "Omega Ruby and Alpha Sapphire Trainers (Rematches)"
+  },
+  {
+   "trainer": "Free Diver Arzu",
+   "party": [
+    [
+     "Huntail",
+     43
+    ],
+    [
+     "Gorebyss",
+     43
+    ]
+   ],
+   "notes": "Only after defeating Wallace in Sootopolis Gym.",
+   "table": "Omega Ruby and Alpha Sapphire Trainers (Rematches)"
+  },
+  {
+   "trainer": "Free Diver Arzu",
+   "party": [
+    [
+     "Huntail",
+     48
+    ],
+    [
+     "Gorebyss",
+     48
+    ],
+    [
+     "Cloyster",
+     48
+    ]
+   ],
+   "notes": "Only after defeating the Elite Four. She may give the player a Heart Scale after the battle.",
+   "table": "Omega Ruby and Alpha Sapphire Trainers (Rematches)"
+  }
+ ],
+ "route-125": [
+  {
+   "trainer": "Swimmer♂ Stan",
+   "party": [
+    [
+     "Seadra",
+     39
+    ]
+   ],
+   "notes": "",
+   "table": "Omega Ruby and Alpha Sapphire Trainers"
+  },
+  {
+   "trainer": "Sailor Ernest",
+   "party": [
+    [
+     "Wailmer",
+     36
+    ],
+    [
+     "Tentacruel",
+     36
+    ],
+    [
+     "Machoke",
+     36
+    ]
+   ],
+   "notes": "The player can register him in the PokéNav after the battle.",
+   "table": "Omega Ruby and Alpha Sapphire Trainers"
+  },
+  {
+   "trainer": "Teammates Kim & Iris",
+   "party": [
+    [
+     "Altaria",
+     38
+    ],
+    [
+     "Camerupt",
+     39
+    ]
+   ],
+   "notes": "This is a Double Battle.",
+   "table": "Omega Ruby and Alpha Sapphire Trainers"
+  },
+  {
+   "trainer": "Swimmer♀ Tanya",
+   "party": [
+    [
+     "Luvdisc",
+     39
+    ]
+   ],
+   "notes": "",
+   "table": "Omega Ruby and Alpha Sapphire Trainers"
+  },
+  {
+   "trainer": "Swimmer♀ Sharon",
+   "party": [
+    [
+     "Clamperl",
+     38
+    ],
+    [
+     "Seaking",
+     36
+    ]
+   ],
+   "notes": "",
+   "table": "Omega Ruby and Alpha Sapphire Trainers"
+  },
+  {
+   "trainer": "Swimmer♂ Cody",
+   "party": [
+    [
+     "Staryu",
+     37
+    ],
+    [
+     "Staryu",
+     37
+    ]
+   ],
+   "notes": "",
+   "table": "Omega Ruby and Alpha Sapphire Trainers"
+  },
+  {
+   "trainer": "Sailor Ernest",
+   "party": [
+    [
+     "Tentacruel",
+     42
+    ],
+    [
+     "Machoke",
+     42
+    ],
+    [
+     "Wailord",
+     42
+    ]
+   ],
+   "notes": "Only after defeating Wallace in Sootopolis Gym .",
+   "table": "Omega Ruby and Alpha Sapphire Trainers (Rematches)"
+  },
+  {
+   "trainer": "Sailor Ernest",
+   "party": [
+    [
+     "Tentacruel",
+     48
+    ],
+    [
+     "Wailord",
+     48
+    ],
+    [
+     "Machamp",
+     48
+    ]
+   ],
+   "notes": "Only after defeating the Elite Four. He may give the player a Dive Ball after the battle.",
+   "table": "Omega Ruby and Alpha Sapphire Trainers (Rematches)"
+  }
+ ],
+ "route-126": [
+  {
+   "trainer": "Triathlete Denzel",
+   "party": [
+    [
+     "Azumarill",
+     39
+    ]
+   ],
+   "notes": "",
+   "table": "Omega Ruby and Alpha Sapphire Trainers"
+  },
+  {
+   "trainer": "Swimmer♂ Barry",
+   "party": [
+    [
+     "Gyarados",
+     39
+    ]
+   ],
+   "notes": "",
+   "table": "Omega Ruby and Alpha Sapphire Trainers"
+  },
+  {
+   "trainer": "Swimmer♀ Brenda",
+   "party": [
+    [
+     "Ludicolo",
+     39
+    ]
+   ],
+   "notes": "",
+   "table": "Omega Ruby and Alpha Sapphire Trainers"
+  },
+  {
+   "trainer": "Ace Trainer Leopold",
+   "party": [
+    [
+     "Vibrava",
+     39
+    ],
+    [
+     "Rhydon",
+     39
+    ]
+   ],
+   "notes": "",
+   "table": "Omega Ruby and Alpha Sapphire Trainers"
+  },
+  {
+   "trainer": "Ace Trainer Harriet",
+   "party": [
+    [
+     "Crobat",
+     41
+    ]
+   ],
+   "notes": "",
+   "table": "Omega Ruby and Alpha Sapphire Trainers"
+  },
+  {
+   "trainer": "Swimmer♂ Dean",
+   "party": [
+    [
+     "Wailmer",
+     35
+    ],
+    [
+     "Staryu",
+     36
+    ],
+    [
+     "Golduck",
+     37
+    ]
+   ],
+   "notes": "",
+   "table": "Omega Ruby and Alpha Sapphire Trainers"
+  },
+  {
+   "trainer": "Swimmer♀ Nikki",
+   "party": [
+    [
+     "Luvdisc",
+     36
+    ],
+    [
+     "Tentacruel",
+     38
+    ]
+   ],
+   "notes": "Requires Dive.",
+   "table": "Omega Ruby and Alpha Sapphire Trainers"
+  },
+  {
+   "trainer": "Scuba Diver Yutaka",
+   "party": [
+    [
+     "Pelipper",
+     39
+    ],
+    [
+     "Lanturn",
+     39
+    ]
+   ],
+   "notes": "Requires Dive.",
+   "table": "Omega Ruby and Alpha Sapphire Trainers"
+  },
+  {
+   "trainer": "Scuba Diver Tristan",
+   "party": [
+    [
+     "Wailord",
+     41
+    ]
+   ],
+   "notes": "Requires Dive.",
+   "table": "Omega Ruby and Alpha Sapphire Trainers"
+  },
+  {
+   "trainer": "Free Diver Jillian",
+   "party": [
+    [
+     "Azumarill",
+     41
+    ]
+   ],
+   "notes": "Requires Dive.",
+   "table": "Omega Ruby and Alpha Sapphire Trainers"
+  }
+ ],
+ "route-127": [
+  {
+   "trainer": "Bird Keeper Byron",
+   "party": [
+    [
+     "Dodrio",
+     38
+    ],
+    [
+     "Xatu",
+     38
+    ]
+   ],
+   "notes": "",
+   "table": "Omega Ruby and Alpha Sapphire Trainers"
+  },
+  {
+   "trainer": "Fisherman Jonah",
+   "party": [
+    [
+     "Luvdisc",
+     37
+    ],
+    [
+     "Relicanth",
+     37
+    ]
+   ],
+   "notes": "",
+   "table": "Omega Ruby and Alpha Sapphire Trainers"
+  },
+  {
+   "trainer": "Fisherman Henry",
+   "party": [
+    [
+     "Tentacruel",
+     39
+    ]
+   ],
+   "notes": "",
+   "table": "Omega Ruby and Alpha Sapphire Trainers"
+  },
+  {
+   "trainer": "Fisherman Roger",
+   "party": [
+    [
+     "Wailmer",
+     37
+    ],
+    [
+     "Sharpedo",
+     37
+    ]
+   ],
+   "notes": "",
+   "table": "Omega Ruby and Alpha Sapphire Trainers"
+  },
+  {
+   "trainer": "Ace Trainer Hisato",
+   "party": [
+    [
+     "Pinsir",
+     41
+    ]
+   ],
+   "notes": "",
+   "table": "Omega Ruby and Alpha Sapphire Trainers"
+  },
+  {
+   "trainer": "Ace Trainer Claudia",
+   "party": [
+    [
+     "Snorunt",
+     38
+    ],
+    [
+     "Masquerain",
+     38
+    ],
+    [
+     "Dusclops",
+     38
+    ]
+   ],
+   "notes": "",
+   "table": "Omega Ruby and Alpha Sapphire Trainers"
+  },
+  {
+   "trainer": "Triathlete Jaylon",
+   "party": [
+    [
+     "Tentacruel",
+     39
+    ]
+   ],
+   "notes": "",
+   "table": "Omega Ruby and Alpha Sapphire Trainers"
+  },
+  {
+   "trainer": "Black Belt Koji",
+   "party": [
+    [
+     "Machoke",
+     37
+    ],
+    [
+     "Hariyama",
+     39
+    ]
+   ],
+   "notes": "",
+   "table": "Omega Ruby and Alpha Sapphire Trainers"
+  },
+  {
+   "trainer": "Scuba Diver Javier",
+   "party": [
+    [
+     "Relicanth",
+     41
+    ]
+   ],
+   "notes": "Requires Dive.",
+   "table": "Omega Ruby and Alpha Sapphire Trainers"
+  },
+  {
+   "trainer": "Free Diver Kailyn",
+   "party": [
+    [
+     "Starmie",
+     41
+    ]
+   ],
+   "notes": "Requires Dive.",
+   "table": "Omega Ruby and Alpha Sapphire Trainers"
+  },
+  {
+   "trainer": "Free Diver Aileen",
+   "party": [
+    [
+     "Sealeo",
+     41
+    ]
+   ],
+   "notes": "Requires Dive.",
+   "table": "Omega Ruby and Alpha Sapphire Trainers"
+  }
+ ],
+ "route-128": [
+  {
+   "trainer": "Ace Trainer Cornelius",
+   "party": [
+    [
+     "Golem",
+     39
+    ],
+    [
+     "Raichu",
+     39
+    ]
+   ],
+   "notes": "",
+   "table": "Omega Ruby and Alpha Sapphire Trainers"
+  },
+  {
+   "trainer": "Fisherman Wayne",
+   "party": [
+    [
+     "Wailmer",
+     37
+    ],
+    [
+     "Seadra",
+     37
+    ]
+   ],
+   "notes": "",
+   "table": "Omega Ruby and Alpha Sapphire Trainers"
+  },
+  {
+   "trainer": "Tuber Delmar",
+   "party": [
+    [
+     "Luvdisc",
+     38
+    ]
+   ],
+   "notes": "",
+   "table": "Omega Ruby and Alpha Sapphire Trainers"
+  },
+  {
+   "trainer": "Tuber Marlene",
+   "party": [
+    [
+     "Luvdisc",
+     38
+    ]
+   ],
+   "notes": "",
+   "table": "Omega Ruby and Alpha Sapphire Trainers"
+  },
+  {
+   "trainer": "Triathlete Isaiah",
+   "party": [
+    [
+     "Starmie",
+     36
+    ]
+   ],
+   "notes": "The player can register him in the PokéNav after the battle.",
+   "table": "Omega Ruby and Alpha Sapphire Trainers"
+  },
+  {
+   "trainer": "Free Diver Mayu",
+   "party": [
+    [
+     "Luvdisc",
+     39
+    ],
+    [
+     "Luvdisc",
+     39
+    ]
+   ],
+   "notes": "Requires Dive.",
+   "table": "Omega Ruby and Alpha Sapphire Trainers"
+  },
+  {
+   "trainer": "Triathlete Isaiah",
+   "party": [
+    [
+     "Starmie",
+     41
+    ]
+   ],
+   "notes": "Only after defeating Tate & Liza in Mossdeep Gym .",
+   "table": "Omega Ruby and Alpha Sapphire Trainers (Rematches)"
+  },
+  {
+   "trainer": "Triathlete Isaiah",
+   "party": [
+    [
+     "Starmie",
+     45
+    ]
+   ],
+   "notes": "Only after defeating Wallace in Sootopolis Gym .",
+   "table": "Omega Ruby and Alpha Sapphire Trainers (Rematches)"
+  },
+  {
+   "trainer": "Triathlete Isaiah",
+   "party": [
+    [
+     "Floatzel",
+     49
+    ],
+    [
+     "Starmie",
+     49
+    ]
+   ],
+   "notes": "Only after defeating the Elite Four. He may give the player a Zinc after the battle.",
+   "table": "Omega Ruby and Alpha Sapphire Trainers (Rematches)"
+  }
+ ],
+ "route-129": [
+  {
+   "trainer": "Fisherman Fisk",
+   "party": [
+    [
+     "Lanturn",
+     39
+    ]
+   ],
+   "notes": "",
+   "table": "Omega Ruby and Alpha Sapphire Trainers"
+  },
+  {
+   "trainer": "Fisherman Sheaffer",
+   "party": [
+    [
+     "Sharpedo",
+     37
+    ],
+    [
+     "Whiscash",
+     37
+    ]
+   ],
+   "notes": "",
+   "table": "Omega Ruby and Alpha Sapphire Trainers"
+  },
+  {
+   "trainer": "Ace Trainer Honor",
+   "party": [
+    [
+     "Torkoal",
+     39
+    ],
+    [
+     "Medicham",
+     39
+    ]
+   ],
+   "notes": "",
+   "table": "Omega Ruby and Alpha Sapphire Trainers"
+  },
+  {
+   "trainer": "Triathlete Chase",
+   "party": [
+    [
+     "Seadra",
+     39
+    ]
+   ],
+   "notes": "",
+   "table": "Omega Ruby and Alpha Sapphire Trainers"
+  },
+  {
+   "trainer": "Swimmer♀ Tisha",
+   "party": [
+    [
+     "Luvdisc",
+     36
+    ],
+    [
+     "Azumarill",
+     36
+    ],
+    [
+     "Corsola",
+     36
+    ]
+   ],
+   "notes": "",
+   "table": "Omega Ruby and Alpha Sapphire Trainers"
+  },
+  {
+   "trainer": "Swimmer♂ Reed",
+   "party": [
+    [
+     "Pelipper",
+     37
+    ],
+    [
+     "Seadra",
+     37
+    ]
+   ],
+   "notes": "",
+   "table": "Omega Ruby and Alpha Sapphire Trainers"
+  },
+  {
+   "trainer": "Scuba Diver Jason",
+   "party": [
+    [
+     "Lanturn",
+     41
+    ]
+   ],
+   "notes": "Requires Dive.",
+   "table": "Omega Ruby and Alpha Sapphire Trainers"
+  },
+  {
+   "trainer": "Scuba Diver Colten",
+   "party": [
+    [
+     "Golduck",
+     38
+    ],
+    [
+     "Gyarados",
+     40
+    ]
+   ],
+   "notes": "Requires Dive.",
+   "table": "Omega Ruby and Alpha Sapphire Trainers"
+  },
+  {
+   "trainer": "Free Diver Coral",
+   "party": [
+    [
+     "Clamperl",
+     38
+    ],
+    [
+     "Tentacruel",
+     40
+    ]
+   ],
+   "notes": "Requires Dive.",
+   "table": "Omega Ruby and Alpha Sapphire Trainers"
+  }
+ ],
+ "route-130": [
+  {
+   "trainer": "Swimmer♀ Katie",
+   "party": [
+    [
+     "Golduck",
+     38
+    ],
+    [
+     "Seaking",
+     36
+    ]
+   ],
+   "notes": "",
+   "table": "Omega Ruby and Alpha Sapphire Trainers"
+  },
+  {
+   "trainer": "Triathlete Karsen",
+   "party": [
+    [
+     "Golduck",
+     37
+    ],
+    [
+     "Tentacruel",
+     37
+    ]
+   ],
+   "notes": "",
+   "table": "Omega Ruby and Alpha Sapphire Trainers"
+  },
+  {
+   "trainer": "Swimmer♂ Rodney",
+   "party": [
+    [
+     "Crawdaunt",
+     39
+    ]
+   ],
+   "notes": "",
+   "table": "Omega Ruby and Alpha Sapphire Trainers"
+  },
+  {
+   "trainer": "Scuba Diver Silas",
+   "party": [
+    [
+     "Sealeo",
+     39
+    ],
+    [
+     "Whiscash",
+     39
+    ]
+   ],
+   "notes": "Requires Dive.",
+   "table": "Omega Ruby and Alpha Sapphire Trainers"
+  },
+  {
+   "trainer": "Free Diver Cordura",
+   "party": [
+    [
+     "Corsola",
+     41
+    ]
+   ],
+   "notes": "Requires Dive.",
+   "table": "Omega Ruby and Alpha Sapphire Trainers"
+  }
+ ],
+ "route-131": [
+  {
+   "trainer": "Swimmer♀ Kara",
+   "party": [
+    [
+     "Clamperl",
+     39
+    ]
+   ],
+   "notes": "",
+   "table": "Omega Ruby and Alpha Sapphire Trainers"
+  },
+  {
+   "trainer": "Swimmer♂ Richard",
+   "party": [
+    [
+     "Wailmer",
+     39
+    ]
+   ],
+   "notes": "",
+   "table": "Omega Ruby and Alpha Sapphire Trainers"
+  },
+  {
+   "trainer": "Swimmer♂ Herman",
+   "party": [
+    [
+     "Seadra",
+     37
+    ],
+    [
+     "Gyarados",
+     37
+    ]
+   ],
+   "notes": "",
+   "table": "Omega Ruby and Alpha Sapphire Trainers"
+  },
+  {
+   "trainer": "Swimmer♀ Susie",
+   "party": [
+    [
+     "Starmie",
+     39
+    ]
+   ],
+   "notes": "",
+   "table": "Omega Ruby and Alpha Sapphire Trainers"
+  },
+  {
+   "trainer": "Sis & Bro Rell & Ian",
+   "party": [
+    [
+     "Azumarill",
+     39
+    ],
+    [
+     "Sealeo",
+     38
+    ]
+   ],
+   "notes": "This is a Double Battle.",
+   "table": "Omega Ruby and Alpha Sapphire Trainers"
+  },
+  {
+   "trainer": "Wallace",
+   "party": [
+    [
+     "Wailord",
+     55
+    ],
+    [
+     "Tentacruel",
+     55
+    ],
+    [
+     "Ludicolo",
+     55
+    ],
+    [
+     "Whiscash",
+     55
+    ],
+    [
+     "Gyarados",
+     55
+    ],
+    [
+     "Milotic",
+     57
+    ]
+   ],
+   "notes": "This battle takes place during the Delta Episode.",
+   "table": "Omega Ruby and Alpha Sapphire Trainers"
+  }
+ ],
+ "route-132": [
+  {
+   "trainer": "Swimmer♂ Gilbert",
+   "party": [
+    [
+     "Tentacruel",
+     37
+    ],
+    [
+     "Sharpedo",
+     37
+    ]
+   ],
+   "notes": "",
+   "table": "Omega Ruby and Alpha Sapphire Trainers"
+  },
+  {
+   "trainer": "Black Belt Kiyo",
+   "party": [
+    [
+     "Machamp",
+     40
+    ]
+   ],
+   "notes": "",
+   "table": "Omega Ruby and Alpha Sapphire Trainers"
+  },
+  {
+   "trainer": "Fisherman Ronald",
+   "party": [
+    [
+     "Gyarados",
+     36
+    ],
+    [
+     "Gyarados",
+     36
+    ],
+    [
+     "Gyarados",
+     36
+    ]
+   ],
+   "notes": "",
+   "table": "Omega Ruby and Alpha Sapphire Trainers"
+  }
+ ],
+ "route-133": [
+  {
+   "trainer": "Fisherman River",
+   "party": [
+    [
+     "Seadra",
+     39
+    ]
+   ],
+   "notes": "",
+   "table": "Omega Ruby and Alpha Sapphire Trainers"
+  },
+  {
+   "trainer": "Bird Keeper Beck",
+   "party": [
+    [
+     "Skarmory",
+     39
+    ]
+   ],
+   "notes": "",
+   "table": "Omega Ruby and Alpha Sapphire Trainers"
+  },
+  {
+   "trainer": "Ace Trainer Warren",
+   "party": [
+    [
+     "Lairon",
+     38
+    ],
+    [
+     "Alakazam",
+     38
+    ],
+    [
+     "Manectric",
+     38
+    ]
+   ],
+   "notes": "",
+   "table": "Omega Ruby and Alpha Sapphire Trainers"
+  },
+  {
+   "trainer": "Backpacker Grayson",
+   "party": [
+    [
+     "Girafarig",
+     39
+    ]
+   ],
+   "notes": "",
+   "table": "Omega Ruby and Alpha Sapphire Trainers"
+  },
+  {
+   "trainer": "Swimmer♀ Debra",
+   "party": [
+    [
+     "Corsola",
+     39
+    ]
+   ],
+   "notes": "",
+   "table": "Omega Ruby and Alpha Sapphire Trainers"
+  },
+  {
+   "trainer": "Swimmer♂ Franklin",
+   "party": [
+    [
+     "Whiscash",
+     38
+    ],
+    [
+     "Seadra",
+     36
+    ]
+   ],
+   "notes": "",
+   "table": "Omega Ruby and Alpha Sapphire Trainers"
+  },
+  {
+   "trainer": "Swimmer♀ Linda",
+   "party": [
+    [
+     "Pelipper",
+     37
+    ],
+    [
+     "Seaking",
+     37
+    ]
+   ],
+   "notes": "",
+   "table": "Omega Ruby and Alpha Sapphire Trainers"
+  },
+  {
+   "trainer": "Swimmer♀ Sheryl",
+   "party": [
+    [
+     "Luvdisc",
+     36
+    ],
+    [
+     "Pelipper",
+     38
+    ]
+   ],
+   "notes": "",
+   "table": "Omega Ruby and Alpha Sapphire Trainers"
+  }
+ ],
+ "route-134": [
+  {
+   "trainer": "Swimmer♂ Jack",
+   "party": [
+    [
+     "Staryu",
+     36
+    ],
+    [
+     "Sharpedo",
+     38
+    ]
+   ],
+   "notes": "",
+   "table": "Omega Ruby and Alpha Sapphire Trainers"
+  },
+  {
+   "trainer": "Swimmer♀ Laurel",
+   "party": [
+    [
+     "Luvdisc",
+     36
+    ],
+    [
+     "Luvdisc",
+     36
+    ],
+    [
+     "Luvdisc",
+     36
+    ]
+   ],
+   "notes": "",
+   "table": "Omega Ruby and Alpha Sapphire Trainers"
+  },
+  {
+   "trainer": "Bird Keeper Alex",
+   "party": [
+    [
+     "Swellow",
+     37
+    ],
+    [
+     "Altaria",
+     37
+    ]
+   ],
+   "notes": "",
+   "table": "Omega Ruby and Alpha Sapphire Trainers"
+  },
+  {
+   "trainer": "Black Belt Hitoshi",
+   "party": [
+    [
+     "Machoke",
+     37
+    ],
+    [
+     "Heracross",
+     39
+    ]
+   ],
+   "notes": "",
+   "table": "Omega Ruby and Alpha Sapphire Trainers"
+  },
+  {
+   "trainer": "Dragon Tamer Aaron",
+   "party": [
+    [
+     "Shelgon",
+     39
+    ],
+    [
+     "Kingdra",
+     39
+    ]
+   ],
+   "notes": "",
+   "table": "Omega Ruby and Alpha Sapphire Trainers"
+  },
+  {
+   "trainer": "Ace Trainer Elaine",
+   "party": [
+    [
+     "Lairon",
+     38
+    ],
+    [
+     "Tropius",
+     40
+    ]
+   ],
+   "notes": "",
+   "table": "Omega Ruby and Alpha Sapphire Trainers"
+  }
+ ],
+ "rustboro-city": [
+  {
+   "trainer": "Youngster Josh",
+   "party": [
+    [
+     "Geodude",
+     7
+    ],
+    [
+     "Geodude",
+     9
+    ]
+   ],
+   "notes": "",
+   "table": "Omega Ruby and Alpha Sapphire Trainers"
+  },
+  {
+   "trainer": "Youngster Tommy",
+   "party": [
+    [
+     "Geodude",
+     10
+    ]
+   ],
+   "notes": "",
+   "table": "Omega Ruby and Alpha Sapphire Trainers"
+  },
+  {
+   "trainer": "Schoolkid Georgia",
+   "party": [
+    [
+     "Geodude",
+     10
+    ]
+   ],
+   "notes": "",
+   "table": "Omega Ruby and Alpha Sapphire Trainers"
+  },
+  {
+   "trainer": "Roxanne",
+   "party": [
+    [
+     "Geodude",
+     12
+    ],
+    [
+     "Nosepass",
+     14
+    ]
+   ],
+   "notes": "She will give the player TM39 Rock Tomb after the battle.",
+   "table": "Omega Ruby and Alpha Sapphire Trainers"
+  }
+ ],
+ "rusturf-tunnel": [
+  {
+   "trainer": "Team Magma/Aqua Grunt",
+   "party": [
+    [
+     "Poochyena",
+     13
+    ]
+   ],
+   "notes": "Only after defeating Roxanne in Rustboro Gym .",
+   "table": "Omega Ruby and Alpha Sapphire Trainers"
+  },
+  {
+   "trainer": "Hiker Mike",
+   "party": [
+    [
+     "Geodude",
+     16
+    ],
+    [
+     "Machop",
+     16
+    ]
+   ],
+   "notes": "Accessible from the easternmost entrance, or after using Rock Smash on the central rocks.",
+   "table": "Omega Ruby and Alpha Sapphire Trainers"
+  }
+ ],
+ "sea-mauville": [
+  {
+   "trainer": "Sailor Duncan",
+   "party": [
+    [
+     "Wailmer",
+     26
+    ],
+    [
+     "Machoke",
+     28
+    ]
+   ],
+   "notes": "On the outside.",
+   "table": "Omega Ruby and Alpha Sapphire Trainers"
+  },
+  {
+   "trainer": "Tuber Charlie",
+   "party": [
+    [
+     "Corphish",
+     28
+    ]
+   ],
+   "notes": "On the outside.",
+   "table": "Omega Ruby and Alpha Sapphire Trainers"
+  },
+  {
+   "trainer": "Young Couple Lois & Hal",
+   "party": [
+    [
+     "Illumise",
+     29
+    ],
+    [
+     "Volbeat",
+     29
+    ]
+   ],
+   "notes": "Inside Sea Mauville, in the northeasternmost room in the hall with Rooms 1 and 2. This is a Double Battle. The player can register them in the PokéNav after the battle.",
+   "table": "Omega Ruby and Alpha Sapphire Trainers"
+  },
+  {
+   "trainer": "Mysterious Sisters Scall & Ion",
+   "party": [
+    [
+     "Chingling",
+     29
+    ],
+    [
+     "Kirlia",
+     28
+    ]
+   ],
+   "notes": "In Room 1. Requires Dive. This is a Double Battle. The player can register them in the PokéNav after the battle.",
+   "table": "Omega Ruby and Alpha Sapphire Trainers"
+  },
+  {
+   "trainer": "Young Couple Lois & Hal",
+   "party": [
+    [
+     "Illumise",
+     34
+    ],
+    [
+     "Volbeat",
+     34
+    ]
+   ],
+   "notes": "Only after defeating Winona in Fortree Gym .",
+   "table": "Omega Ruby and Alpha Sapphire Trainers (Rematches)"
+  },
+  {
+   "trainer": "Young Couple Lois & Hal",
+   "party": [
+    [
+     "Illumise",
+     41
+    ],
+    [
+     "Volbeat",
+     41
+    ]
+   ],
+   "notes": "Only after defeating Tate & Liza in Mossdeep Gym .",
+   "table": "Omega Ruby and Alpha Sapphire Trainers (Rematches)"
+  },
+  {
+   "trainer": "Young Couple Lois & Hal",
+   "party": [
+    [
+     "Illumise",
+     45
+    ],
+    [
+     "Volbeat",
+     45
+    ]
+   ],
+   "notes": "Only after defeating Wallace in Sootopolis Gym .",
+   "table": "Omega Ruby and Alpha Sapphire Trainers (Rematches)"
+  },
+  {
+   "trainer": "Young Couple Lois & Hal",
+   "party": [
+    [
+     "Illumise",
+     51
+    ],
+    [
+     "Volbeat",
+     51
+    ]
+   ],
+   "notes": "Only after defeating the Elite Four. They may give the player a Destiny Knot after the battle.",
+   "table": "Omega Ruby and Alpha Sapphire Trainers (Rematches)"
+  },
+  {
+   "trainer": "Mysterious Sisters Scall & Ion",
+   "party": [
+    [
+     "Chimecho",
+     41
+    ],
+    [
+     "Gardevoir",
+     40
+    ]
+   ],
+   "notes": "First rematch.",
+   "table": "Omega Ruby and Alpha Sapphire Trainers (Rematches)"
+  },
+  {
+   "trainer": "Mysterious Sisters Scall & Ion",
+   "party": [
+    [
+     "Chimecho",
+     45
+    ],
+    [
+     "Gardevoir",
+     44
+    ]
+   ],
+   "notes": "Only after defeating Wallace in Sootopolis Gym.",
+   "table": "Omega Ruby and Alpha Sapphire Trainers (Rematches)"
+  },
+  {
+   "trainer": "Mysterious Sisters Scall & Ion",
+   "party": [
+    [
+     "Chimecho",
+     51
+    ],
+    [
+     "Gardevoir",
+     50
+    ]
+   ],
+   "notes": "Only after defeating the Elite Four. They may give the player a Dawn Stone after the battle.",
+   "table": "Omega Ruby and Alpha Sapphire Trainers (Rematches)"
+  }
+ ],
+ "seafloor-cavern": [],
+ "sky-pillar": [
+  {
+   "trainer": "Zinnia",
+   "party": [
+    [
+     "Goodra",
+     60
+    ],
+    [
+     "Tyrantrum",
+     60
+    ],
+    [
+     "Altaria",
+     60
+    ],
+    [
+     "Noivern",
+     60
+    ],
+    [
+     "Salamence",
+     62
+    ]
+   ],
+   "notes": "",
+   "table": "Omega Ruby and Alpha Sapphire Trainers"
+  }
+ ],
+ "slateport-city": [],
+ "sootopolis-city": [
+  {
+   "trainer": "Poké Fan Marissa",
+   "party": [
+    [
+     "Azumarill",
+     43
+    ]
+   ],
+   "notes": "On 1F.",
+   "table": "Omega Ruby and Alpha Sapphire Trainers (Sootopolis Gym)"
+  },
+  {
+   "trainer": "Lass Crissy",
+   "party": [
+    [
+     "Luvdisc",
+     39
+    ],
+    [
+     "Seadra",
+     41
+    ]
+   ],
+   "notes": "On 1F.",
+   "table": "Omega Ruby and Alpha Sapphire Trainers (Sootopolis Gym)"
+  },
+  {
+   "trainer": "Lass Andrea",
+   "party": [
+    [
+     "Ludicolo",
+     42
+    ]
+   ],
+   "notes": "On B1F.",
+   "table": "Omega Ruby and Alpha Sapphire Trainers (Sootopolis Gym)"
+  },
+  {
+   "trainer": "Beauty Tiffany",
+   "party": [
+    [
+     "Golduck",
+     41
+    ],
+    [
+     "Wailord",
+     41
+    ]
+   ],
+   "notes": "On B1F.",
+   "table": "Omega Ruby and Alpha Sapphire Trainers (Sootopolis Gym)"
+  },
+  {
+   "trainer": "Beauty Bridget",
+   "party": [
+    [
+     "Gorebyss",
+     43
+    ]
+   ],
+   "notes": "On B1F.",
+   "table": "Omega Ruby and Alpha Sapphire Trainers (Sootopolis Gym)"
+  },
+  {
+   "trainer": "Beauty Connie",
+   "party": [
+    [
+     "Huntail",
+     43
+    ]
+   ],
+   "notes": "On B1F.",
+   "table": "Omega Ruby and Alpha Sapphire Trainers (Sootopolis Gym)"
+  },
+  {
+   "trainer": "Beauty Olivia",
+   "party": [
+    [
+     "Starmie",
+     43
+    ]
+   ],
+   "notes": "On B1F.",
+   "table": "Omega Ruby and Alpha Sapphire Trainers (Sootopolis Gym)"
+  },
+  {
+   "trainer": "Lady Brianna",
+   "party": [
+    [
+     "Clamperl",
+     41
+    ],
+    [
+     "Corsola",
+     41
+    ]
+   ],
+   "notes": "On B1F.",
+   "table": "Omega Ruby and Alpha Sapphire Trainers (Sootopolis Gym)"
+  },
+  {
+   "trainer": "Wallace",
+   "party": [
+    [
+     "Luvdisc",
+     44
+    ],
+    [
+     "Whiscash",
+     44
+    ],
+    [
+     "Sealeo",
+     44
+    ],
+    [
+     "Seaking",
+     44
+    ],
+    [
+     "Milotic",
+     46
+    ]
+   ],
+   "notes": "He will give the player HM05 Waterfall after the battle.",
+   "table": "Omega Ruby and Alpha Sapphire Trainers (Sootopolis Gym)"
+  }
+ ],
+ "southern-island": [],
+ "ss-tidal": [
+  {
+   "trainer": "Gentleman Tucker",
+   "party": [
+    [
+     "Rapidash",
+     49
+    ],
+    [
+     "Zebstrika",
+     49
+    ]
+   ],
+   "notes": "In Cabin 4.",
+   "table": "Omega Ruby and Alpha Sapphire Trainers"
+  },
+  {
+   "trainer": "Rich Boy Garret",
+   "party": [
+    [
+     "Furfrou",
+     51
+    ]
+   ],
+   "notes": "In Cabin 3.",
+   "table": "Omega Ruby and Alpha Sapphire Trainers"
+  },
+  {
+   "trainer": "Gentleman Thomas",
+   "party": [
+    [
+     "Braviary",
+     51
+    ]
+   ],
+   "notes": "In Cabin 7.",
+   "table": "Omega Ruby and Alpha Sapphire Trainers"
+  },
+  {
+   "trainer": "Lady Anette",
+   "party": [
+    [
+     "Persian",
+     51
+    ]
+   ],
+   "notes": "In Cabin 6.",
+   "table": "Omega Ruby and Alpha Sapphire Trainers"
+  },
+  {
+   "trainer": "Young Couple Lea & Jed",
+   "party": [
+    [
+     "Miltank",
+     51
+    ],
+    [
+     "Tauros",
+     51
+    ]
+   ],
+   "notes": "In Cabin 1. This is a Double Battle.",
+   "table": "Omega Ruby and Alpha Sapphire Trainers"
+  },
+  {
+   "trainer": "Poké Fan Colton",
+   "party": [
+    [
+     "Delcatty",
+     48
+    ],
+    [
+     "Delcatty",
+     48
+    ],
+    [
+     "Delcatty",
+     48
+    ]
+   ],
+   "notes": "In Cabin 5.",
+   "table": "Omega Ruby and Alpha Sapphire Trainers"
+  },
+  {
+   "trainer": "Sailor Phillip",
+   "party": [
+    [
+     "Qwilfish",
+     48
+    ],
+    [
+     "Machamp",
+     50
+    ]
+   ],
+   "notes": "In the storage room.",
+   "table": "Omega Ruby and Alpha Sapphire Trainers"
+  },
+  {
+   "trainer": "Sailor Leonard",
+   "party": [
+    [
+     "Floatzel",
+     49
+    ],
+    [
+     "Pelipper",
+     49
+    ]
+   ],
+   "notes": "In the storage room.",
+   "table": "Omega Ruby and Alpha Sapphire Trainers"
+  }
+ ],
+ "team-magma-aqua-hideout": [],
+ "victory-road": [
+  {
+   "trainer": "Ace Trainer Albert",
+   "party": [
+    [
+     "Sigilyph",
+     45
+    ],
+    [
+     "Rhyperior",
+     45
+    ]
+   ],
+   "notes": "On 1F.",
+   "table": "Omega Ruby and Alpha Sapphire Trainers"
+  },
+  {
+   "trainer": "Ace Trainer Hope",
+   "party": [
+    [
+     "Froslass",
+     47
+    ]
+   ],
+   "notes": "On 1F.",
+   "table": "Omega Ruby and Alpha Sapphire Trainers"
+  },
+  {
+   "trainer": "Ace Trainer Edgar",
+   "party": [
+    [
+     "Mawile",
+     47
+    ]
+   ],
+   "notes": "On 1F.",
+   "table": "Omega Ruby and Alpha Sapphire Trainers"
+  },
+  {
+   "trainer": "Street Thug Regan",
+   "party": [
+    [
+     "Houndoom",
+     43
+    ],
+    [
+     "Shiftry",
+     43
+    ]
+   ],
+   "notes": "",
+   "table": "Omega Ruby and Alpha Sapphire Trainers"
+  },
+  {
+   "trainer": "Brains & Brawn Aden & Finn",
+   "party": [
+    [
+     "Musharna",
+     47
+    ],
+    [
+     "Primeape",
+     47
+    ]
+   ],
+   "notes": "On 1F. This is a Double Battle.",
+   "table": "Omega Ruby and Alpha Sapphire Trainers"
+  },
+  {
+   "trainer": "Expert Bryn",
+   "party": [
+    [
+     "Hitmontop",
+     45
+    ],
+    [
+     "Throh",
+     45
+    ]
+   ],
+   "notes": "On B1F.",
+   "table": "Omega Ruby and Alpha Sapphire Trainers"
+  },
+  {
+   "trainer": "Ace Duo Jude & Rory",
+   "party": [
+    [
+     "Armaldo",
+     47
+    ],
+    [
+     "Cradily",
+     47
+    ]
+   ],
+   "notes": "On B1F. This is a Double Battle. The player can register them in the PokéNav after the battle.",
+   "table": "Omega Ruby and Alpha Sapphire Trainers"
+  },
+  {
+   "trainer": "Expert Theodore",
+   "party": [
+    [
+     "Sawk",
+     47
+    ]
+   ],
+   "notes": "On B1F.",
+   "table": "Omega Ruby and Alpha Sapphire Trainers"
+  },
+  {
+   "trainer": "Ace Trainer Vito",
+   "party": [
+    [
+     "Electrode",
+     44
+    ],
+    [
+     "Darmanitan",
+     44
+    ],
+    [
+     "Swalot",
+     44
+    ]
+   ],
+   "notes": "On B1F.",
+   "table": "Omega Ruby and Alpha Sapphire Trainers"
+  },
+  {
+   "trainer": "Dragon Tamer Egon",
+   "party": [
+    [
+     "Kingdra",
+     47
+    ]
+   ],
+   "notes": "On B1F.",
+   "table": "Omega Ruby and Alpha Sapphire Trainers"
+  },
+  {
+   "trainer": "Wally",
+   "party": [
+    [
+     "Altaria",
+     46
+    ],
+    [
+     "Delcatty",
+     46
+    ],
+    [
+     "Roselia",
+     46
+    ],
+    [
+     "Magneton",
+     46
+    ],
+    [
+     "Gallade",
+     48
+    ]
+   ],
+   "notes": "On 2F.",
+   "table": "Omega Ruby and Alpha Sapphire Trainers"
+  },
+  {
+   "trainer": "Ace Duo Jude & Rory",
+   "party": [
+    [
+     "Armaldo",
+     56
+    ],
+    [
+     "Cradily",
+     56
+    ]
+   ],
+   "notes": "Only after defeating the Elite Four. They may give the player a PP Max after the battle.",
+   "table": "Omega Ruby and Alpha Sapphire Trainers (Rematches)"
+  }
+ ]
+}

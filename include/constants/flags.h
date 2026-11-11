@@ -664,48 +664,48 @@
 #define FLAG_HIDDEN_ITEM_ROUTE_123_RARE_CANDY                (FLAG_HIDDEN_ITEMS_START + 0x6E)
 #define FLAG_HIDDEN_ITEM_ROUTE_105_BIG_PEARL                 (FLAG_HIDDEN_ITEMS_START + 0x6F)
 
-#define FLAG_UNUSED_0x264  0x264 // Unused Flag
-#define FLAG_UNUSED_0x265  0x265 // Unused Flag
-#define FLAG_UNUSED_0x266  0x266 // Unused Flag
-#define FLAG_UNUSED_0x267  0x267 // Unused Flag
-#define FLAG_UNUSED_0x268  0x268 // Unused Flag
-#define FLAG_UNUSED_0x269  0x269 // Unused Flag
-#define FLAG_UNUSED_0x26A  0x26A // Unused Flag
-#define FLAG_UNUSED_0x26B  0x26B // Unused Flag
-#define FLAG_UNUSED_0x26C  0x26C // Unused Flag
-#define FLAG_UNUSED_0x26D  0x26D // Unused Flag
-#define FLAG_UNUSED_0x26E  0x26E // Unused Flag
-#define FLAG_UNUSED_0x26F  0x26F // Unused Flag
-#define FLAG_UNUSED_0x270  0x270 // Unused Flag
-#define FLAG_UNUSED_0x271  0x271 // Unused Flag
-#define FLAG_UNUSED_0x272  0x272 // Unused Flag
-#define FLAG_UNUSED_0x273  0x273 // Unused Flag
-#define FLAG_UNUSED_0x274  0x274 // Unused Flag
-#define FLAG_UNUSED_0x275  0x275 // Unused Flag
-#define FLAG_UNUSED_0x276  0x276 // Unused Flag
-#define FLAG_UNUSED_0x277  0x277 // Unused Flag
-#define FLAG_UNUSED_0x278  0x278 // Unused Flag
-#define FLAG_UNUSED_0x279  0x279 // Unused Flag
-#define FLAG_UNUSED_0x27A  0x27A // Unused Flag
-#define FLAG_UNUSED_0x27B  0x27B // Unused Flag
-#define FLAG_UNUSED_0x27C  0x27C // Unused Flag
-#define FLAG_UNUSED_0x27D  0x27D // Unused Flag
-#define FLAG_UNUSED_0x27E  0x27E // Unused Flag
-#define FLAG_UNUSED_0x27F  0x27F // Unused Flag
-#define FLAG_UNUSED_0x280  0x280 // Unused Flag
-#define FLAG_UNUSED_0x281  0x281 // Unused Flag
-#define FLAG_UNUSED_0x282  0x282 // Unused Flag
-#define FLAG_UNUSED_0x283  0x283 // Unused Flag
-#define FLAG_UNUSED_0x284  0x284 // Unused Flag
-#define FLAG_UNUSED_0x285  0x285 // Unused Flag
-#define FLAG_UNUSED_0x286  0x286 // Unused Flag
-#define FLAG_UNUSED_0x287  0x287 // Unused Flag
-#define FLAG_UNUSED_0x288  0x288 // Unused Flag
-#define FLAG_UNUSED_0x289  0x289 // Unused Flag
-#define FLAG_UNUSED_0x28A  0x28A // Unused Flag
-#define FLAG_UNUSED_0x28B  0x28B // Unused Flag
-#define FLAG_UNUSED_0x28C  0x28C // Unused Flag
-#define FLAG_UNUSED_0x28D  0x28D // Unused Flag
+#define FLAG_SFR_ITEM_ABOMASITE                  0x264 // Super Fire Red: Mega Stone
+#define FLAG_SFR_ITEM_ABSOLITE                   0x265 // Super Fire Red: Mega Stone
+#define FLAG_SFR_ITEM_AERODACTYLITE              0x266 // Super Fire Red: Mega Stone
+#define FLAG_SFR_ITEM_AGGRONITE                  0x267 // Super Fire Red: Mega Stone
+#define FLAG_SFR_ITEM_ALAKAZITE                  0x268 // Super Fire Red: Mega Stone
+#define FLAG_SFR_ITEM_ALTARIANITE                0x269 // Super Fire Red: Mega Stone
+#define FLAG_SFR_ITEM_AMPHAROSITE                0x26A // Super Fire Red: Mega Stone
+#define FLAG_SFR_ITEM_AUDINITE                   0x26B // Super Fire Red: Mega Stone
+#define FLAG_SFR_ITEM_BANETTITE                  0x26C // Super Fire Red: Mega Stone
+#define FLAG_SFR_ITEM_BEEDRILLITE                0x26D // Super Fire Red: Mega Stone
+#define FLAG_SFR_ITEM_BLASTOISINITE              0x26E // Super Fire Red: Mega Stone
+#define FLAG_SFR_ITEM_BLAZIKENITE                0x26F // Super Fire Red: Mega Stone
+#define FLAG_SFR_ITEM_SCEPTILITE                 0x270 // Super Fire Red: Mega Stone
+#define FLAG_SFR_ITEM_SWAMPERTITE                0x271 // Super Fire Red: Mega Stone
+#define FLAG_SFR_ITEM_CHARIZARDITE_X             0x272 // Super Fire Red: Mega Stone
+#define FLAG_SFR_ITEM_CHARIZARDITE_Y             0x273 // Super Fire Red: Mega Stone
+#define FLAG_SFR_ITEM_GALLADITE                  0x274 // Super Fire Red: Mega Stone
+#define FLAG_SFR_ITEM_GARCHOMPITE                0x275 // Super Fire Red: Mega Stone
+#define FLAG_SFR_ITEM_GARDEVOIRITE               0x276 // Super Fire Red: Mega Stone
+#define FLAG_SFR_ITEM_GENGARITE                  0x277 // Super Fire Red: Mega Stone
+#define FLAG_SFR_ITEM_GLALITITE                  0x278 // Super Fire Red: Mega Stone
+#define FLAG_SFR_ITEM_GYARADOSITE                0x279 // Super Fire Red: Mega Stone
+#define FLAG_SFR_ITEM_HERACRONITE                0x27A // Super Fire Red: Mega Stone
+#define FLAG_SFR_ITEM_HOUNDOOMINITE              0x27B // Super Fire Red: Mega Stone
+#define FLAG_SFR_ITEM_KANGASKHANITE              0x27C // Super Fire Red: Mega Stone
+#define FLAG_SFR_ITEM_LATIASITE                  0x27D // Super Fire Red: Mega Stone
+#define FLAG_SFR_ITEM_LOPUNNITE                  0x27E // Super Fire Red: Mega Stone
+#define FLAG_SFR_ITEM_LUCARIONITE                0x27F // Super Fire Red: Mega Stone
+#define FLAG_SFR_ITEM_MANECTITE                  0x280 // Super Fire Red: Mega Stone
+#define FLAG_SFR_ITEM_MAWILITE                   0x281 // Super Fire Red: Mega Stone
+#define FLAG_SFR_ITEM_MEDICHAMITE                0x282 // Super Fire Red: Mega Stone
+#define FLAG_SFR_ITEM_MEWTWONITE_X               0x283 // Super Fire Red: Mega Stone
+#define FLAG_SFR_ITEM_MEWTWONITE_Y               0x284 // Super Fire Red: Mega Stone
+#define FLAG_SFR_ITEM_PIDGEOTITE                 0x285 // Super Fire Red: Mega Stone
+#define FLAG_SFR_ITEM_PINSIRITE                  0x286 // Super Fire Red: Mega Stone
+#define FLAG_SFR_ITEM_SABLENITE                  0x287 // Super Fire Red: Mega Stone
+#define FLAG_SFR_ITEM_SALAMENCITE                0x288 // Super Fire Red: Mega Stone
+#define FLAG_SFR_ITEM_SCIZORITE                  0x289 // Super Fire Red: Mega Stone
+#define FLAG_SFR_ITEM_SLOWBRONITE                0x28A // Super Fire Red: Mega Stone
+#define FLAG_SFR_ITEM_STEELIXITE                 0x28B // Super Fire Red: Mega Stone
+#define FLAG_SFR_ITEM_TYRANITARITE               0x28C // Super Fire Red: Mega Stone
+#define FLAG_SFR_ITEM_VENUSAURITE                0x28D // Super Fire Red: Mega Stone
 #define FLAG_UNUSED_0x28E  0x28E // Unused Flag
 #define FLAG_UNUSED_0x28F  0x28F // Unused Flag
 #define FLAG_UNUSED_0x290  0x290 // Unused Flag

@@ -1208,6 +1208,7 @@ SFR_EventScript_ShoalCaveArchieBattle::
 	msgbox SFR_Text_ArchieBattleIntro, MSGBOX_DEFAULT
 	trainerbattle_no_intro TRAINER_ARCHIE, SFR_Text_ArchieDefeat
 	msgbox SFR_Text_ArchiePostBattle, MSGBOX_DEFAULT
+	giveitem ITEM_SHARPEDONITE
 	closemessage
 	fadescreen FADE_TO_BLACK
 	removeobject VAR_LAST_TALKED
@@ -1257,8 +1258,8 @@ SFR_Text_ArchieDefeat:
 
 SFR_Text_ArchiePostBattle:
 	.string "ARCHIE: You remind me of her.\p"
-	.string "Take care of the sea out there,\n"
-	.string "TRAINER!$"
+	.string "Here, take this stone too. My\n"
+	.string "SHARPEDO won't need it anymore.$"
 
 @ ---------------------------------------------------------------------------
 @ Maxie at the top of Mt. Chimney: tells his side, apologizes and battles
@@ -1268,6 +1269,7 @@ SFR_EventScript_MtChimneyMaxie::
 	msgbox SFR_Text_MaxieStory, MSGBOX_DEFAULT
 	trainerbattle_no_intro TRAINER_MAXIE_MT_CHIMNEY, SFR_Text_MaxieDefeat
 	msgbox SFR_Text_MaxiePostBattle, MSGBOX_DEFAULT
+	giveitem ITEM_CAMERUPTITE
 	closemessage
 	fadescreen FADE_TO_BLACK
 	removeobject VAR_LAST_TALKED
@@ -1306,7 +1308,9 @@ SFR_Text_MaxieDefeat:
 SFR_Text_MaxiePostBattle:
 	.string "MAXIE: Thank you.\p"
 	.string "I will keep working to make amends,\n"
-	.string "one step at a time.$"
+	.string "one step at a time.\p"
+	.string "Please, take this. Use it better\n"
+	.string "than I did.$"
 
 @ ---------------------------------------------------------------------------
 @ Steven in Meteor Falls: optional battle, gives the Mega Ring when beaten
@@ -1327,6 +1331,7 @@ SFR_EventScript_MeteorFallsSteven::
 	msgbox SFR_Text_StevenGiveMegaRing, MSGBOX_DEFAULT
 	giveitem ITEM_MEGA_RING
 	msgbox SFR_Text_StevenExplainMegaRing, MSGBOX_DEFAULT
+	giveitem ITEM_METAGROSSITE
 	release
 	end
 
@@ -1362,7 +1367,9 @@ SFR_Text_StevenExplainMegaRing:
 	.string "the ring lets it MEGA EVOLVE during\l"
 	.string "battle.\p"
 	.string "MEGA STONES are hidden all over\n"
-	.string "HOENN. Search well!$"
+	.string "HOENN. Search well!\p"
+	.string "And take this one as well.\n"
+	.string "It's METAGROSS's stone.$"
 
 SFR_Text_StevenPostBattle:
 	.string "STEVEN: Have you found any MEGA\n"

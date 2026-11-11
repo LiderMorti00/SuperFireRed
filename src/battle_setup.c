@@ -1882,6 +1882,13 @@ static void SetRematchIdForTrainer(const struct RematchTrainer *table, u32 table
 #if FREE_MATCH_CALL == FALSE
     s32 i;
 
+    // Super Fire Red: Hoenn trainers only ask for rematches after beating May
+    if (!FlagGet(FLAG_SFR_HOENN_GAME_CLEAR))
+    {
+        gSaveBlock1Ptr->trainerRematches[tableId] = 0;
+        return;
+    }
+
     for (i = 1; i < REMATCHES_COUNT; i++)
     {
         u16 trainerId = table[tableId].trainerIds[i];
