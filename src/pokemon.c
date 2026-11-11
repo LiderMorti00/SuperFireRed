@@ -4492,6 +4492,10 @@ enum Species GetEvolutionTargetSpecies(struct Pokemon *mon, enum EvolutionMode m
                 if (evolutions[i].param == evolutionItem)
                     conditionsMet = TRUE;
                 break;
+            case EVO_TRADE: // Super Fire Red: the Linking Cord works as a trade
+                if (evolutionItem == ITEM_LINKING_CORD)
+                    conditionsMet = TRUE;
+                break;
             }
 
             if (conditionsMet && DoesMonMeetAdditionalConditions(mon, evolutions[i].params, NULL, PARTY_SLOT_NONE, canStopEvo, evoState))

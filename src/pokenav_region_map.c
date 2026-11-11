@@ -84,6 +84,7 @@ extern const u32 gRegionMapCityZoomText_Gfx[];
 static const u16 sMapSecInfoWindow_Pal[] = INCGFX_U16("graphics/pokenav/region_map/info_window.pal", ".gbapal");
 static const u32 sRegionMapCityZoomTiles_Gfx[] = INCGFX_U32("graphics/pokenav/region_map/zoom_tiles.png", ".4bpp.smol");
 
+#include "regions.h"
 #include "data/region_map/city_map_tilemaps.h"
 
 static const struct BgTemplate sRegionMapBgTemplates[3] =
@@ -182,7 +183,8 @@ u32 PokenavCallback_Init_RegionMap(void)
     if (!AllocSubstruct(POKENAV_SUBSTRUCT_REGION_MAP, sizeof(struct RegionMap)))
         return FALSE;
 
-    state->zoomDisabled = IsEventIslandMapSecId(gMapHeader.regionMapSectionId);
+    // Super Fire Red: the Kanto map has no city zoom
+    state->zoomDisabled = IsEventIslandMapSecId(gMapHeader.regionMapSectionId) || IsInKanto();
     if (!state->zoomDisabled)
         state->callback = HandleRegionMapInput;
     else
@@ -772,7 +774,15 @@ void UpdateRegionMapHelpBarText(void)
 {
     struct RegionMap* regionMap = GetSubstructPtr(POKENAV_SUBSTRUCT_REGION_MAP);
 
-    if (regionMap->mapSecType == MAPSECTYPE_CITY_CANFLY && FlagGet(OW_FLAG_POKE_RIDER)
+    if (IsInKanto()) // Super Fire Red: no zoom on the Kanto map
+    {
+        if (regionMap->mapSecType == MAPSECTYPE_CITY_CANFLY && FlagGet(OW_FLAG_POKE_RIDER)
+            && Overworld_MapTypeAllowsTeleportAndFly(gMapHeader.mapType) == TRUE)
+            PrintHelpBarText(HELPBAR_MAP_NO_ZOOM_CANFLY);
+        else
+            PrintHelpBarText(HELPBAR_MAP_NO_ZOOM);
+    }
+    else if (regionMap->mapSecType == MAPSECTYPE_CITY_CANFLY && FlagGet(OW_FLAG_POKE_RIDER)
         && Overworld_MapTypeAllowsTeleportAndFly(gMapHeader.mapType) == TRUE)
     {
         if (IsRegionMapZoomed())

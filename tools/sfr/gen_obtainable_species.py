@@ -5,7 +5,8 @@ A species counts as obtainable when it:
 - appears in any wild table (src/data/wild_encounters.json), or
 - is given, hatched, met in an overworld battle or traded for in a script / in-game trade, or
 - evolves from an obtainable species with a method the game supports (no regional-form
-  evolutions, no trade evolutions, and evolution items must be obtainable somewhere), or
+  evolutions; trade evolutions through the Linking Cord; evolution and held items must be
+  obtainable somewhere), or
 - hatches from an obtainable species (incense babies only if the incense is obtainable).
 
 Obtainable items: item balls, hidden items, giveitem in scripts and Poke Mart lists.
@@ -20,7 +21,7 @@ REGIONAL = ('_ALOLA', '_GALAR', '_HISUI', '_PALDEA')
 BAD_CONDITIONS = ('IF_REGION', 'IF_IN_MAPSEC', 'IF_IN_MAP', 'IF_RECOIL_DAMAGE_GE', 'IF_CURRENT_DAMAGE_GE',
                   'IF_TRADE_PARTNER_SPECIES', 'IF_USED_MOVE_X_TIMES', 'IF_DEFEAT_X_WITH_ITEMS',
                   'IF_PID_UPPER_MODULO_10_EQ', 'IF_PID_UPPER_MODULO_10_GT', 'IF_PID_UPPER_MODULO_10_LT')
-OK_METHODS = ('EVO_LEVEL', 'EVO_ITEM', 'EVO_LEVEL_BATTLE_ONLY', 'EVO_SPLIT_FROM_EVO', 'EVO_BATTLE_END')
+OK_METHODS = ('EVO_LEVEL', 'EVO_ITEM', 'EVO_TRADE', 'EVO_LEVEL_BATTLE_ONLY', 'EVO_SPLIT_FROM_EVO', 'EVO_BATTLE_END')
 
 
 def obtainable_items():
@@ -37,7 +38,7 @@ def obtainable_items():
         s = open(f).read()
         items |= set(re.findall(r'\b(?:giveitem|giveitem_msg[^,]*,|additem|checkitemspace)\s+(ITEM_\w+)', s))
         for mart in re.findall(r'pokemart\s+(\w+)', s):
-            m = re.search(rf'^{mart}:\n((?:\s*\.2byte .*\n)+)', s, re.M)
+            m = re.search(rf'^{mart}::?\n((?:\s*\.2byte .*\n)+)', s, re.M)
             if m:
                 items |= set(re.findall(r'ITEM_\w+', m.group(1)))
         items |= set(re.findall(r'^\s*pokemartlistend\s*$|^\s*\.2byte (ITEM_\w+)', s, re.M)) - {''}
@@ -112,6 +113,8 @@ def main():
                 if any(c in one for c in BAD_CONDITIONS):
                     continue
                 if method == 'EVO_ITEM' and param not in items:
+                    continue
+                if method == 'EVO_TRADE' and 'ITEM_LINKING_CORD' not in items:   # Linking Cord works as a trade
                     continue
                 held = re.findall(r'IF_HOLD_ITEM,\s*(ITEM_\w+)', one)
                 if any(i not in items for i in held):

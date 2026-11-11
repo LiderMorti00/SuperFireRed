@@ -25,7 +25,9 @@
 {% endif %}
 ## endfor
 
+#ifndef NUM_HIDDEN_MONS_ENCOUNTER_SLOTS // Super Fire Red: now defined by the hidden_mons field
 #define NUM_HIDDEN_MONS_ENCOUNTER_SLOTS   3
+#endif
 
 #define WILD_CHECK_REPEL    (1 << 0)
 #define WILD_CHECK_KEEN_EYE (1 << 1)

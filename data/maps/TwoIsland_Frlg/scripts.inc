@@ -117,6 +117,7 @@ TwoIsland_EventScript_ShopInitial::
 TwoIsland_Items_ShopInitial::
 	.2byte ITEM_GREAT_BALL
 	.2byte ITEM_FRESH_WATER
+	.2byte ITEM_LINKING_CORD @ Super Fire Red
 	.2byte ITEM_NONE
 	release
 	end
@@ -133,6 +134,7 @@ TwoIsland_Items_ShopExpanded1::
 	.2byte ITEM_GREAT_BALL
 	.2byte ITEM_SODA_POP
 	.2byte ITEM_FRESH_WATER
+	.2byte ITEM_LINKING_CORD @ Super Fire Red
 	.2byte ITEM_NONE
 	release
 	end
@@ -151,6 +153,7 @@ TwoIsland_Items_ShopExpanded2::
 	.2byte ITEM_SODA_POP
 	.2byte ITEM_FRESH_WATER
 	.2byte ITEM_MOOMOO_MILK
+	.2byte ITEM_LINKING_CORD @ Super Fire Red
 	.2byte ITEM_NONE
 	release
 	end
@@ -171,6 +174,7 @@ TwoIsland_Items_ShopExpanded3::
 	.2byte ITEM_FRESH_WATER
 	.2byte ITEM_MOOMOO_MILK
 	.2byte ITEM_LAVA_COOKIE
+	.2byte ITEM_LINKING_CORD @ Super Fire Red
 	.2byte ITEM_NONE
 	release
 	end
