@@ -2776,36 +2776,6 @@
         {
           "map": "MAP_UNDERWATER_ROUTE126",
           "base_label": "gUnderwater_Route126",
-          "water_mons": {
-            "encounter_rate": 4,
-            "mons": [
-              {
-                "min_level": 20,
-                "max_level": 30,
-                "species": "SPECIES_CLAMPERL"
-              },
-              {
-                "min_level": 20,
-                "max_level": 30,
-                "species": "SPECIES_CHINCHOU"
-              },
-              {
-                "min_level": 30,
-                "max_level": 35,
-                "species": "SPECIES_CLAMPERL"
-              },
-              {
-                "min_level": 30,
-                "max_level": 35,
-                "species": "SPECIES_RELICANTH"
-              },
-              {
-                "min_level": 30,
-                "max_level": 35,
-                "species": "SPECIES_RELICANTH"
-              }
-            ]
-          },
           "land_mons": {
             "encounter_rate": 20,
             "mons": [
@@ -2867,6 +2837,36 @@
               {
                 "min_level": 62,
                 "max_level": 64,
+                "species": "SPECIES_RELICANTH"
+              }
+            ]
+          },
+          "water_mons": {
+            "encounter_rate": 4,
+            "mons": [
+              {
+                "min_level": 20,
+                "max_level": 30,
+                "species": "SPECIES_CLAMPERL"
+              },
+              {
+                "min_level": 20,
+                "max_level": 30,
+                "species": "SPECIES_CHINCHOU"
+              },
+              {
+                "min_level": 30,
+                "max_level": 35,
+                "species": "SPECIES_CLAMPERL"
+              },
+              {
+                "min_level": 30,
+                "max_level": 35,
+                "species": "SPECIES_RELICANTH"
+              },
+              {
+                "min_level": 30,
+                "max_level": 35,
                 "species": "SPECIES_RELICANTH"
               }
             ]
@@ -8309,36 +8309,6 @@
               }
             ]
           },
-          "rock_smash_mons": {
-            "encounter_rate": 25,
-            "mons": [
-              {
-                "min_level": 10,
-                "max_level": 15,
-                "species": "SPECIES_GEODUDE"
-              },
-              {
-                "min_level": 5,
-                "max_level": 10,
-                "species": "SPECIES_GEODUDE"
-              },
-              {
-                "min_level": 15,
-                "max_level": 20,
-                "species": "SPECIES_GEODUDE"
-              },
-              {
-                "min_level": 20,
-                "max_level": 25,
-                "species": "SPECIES_GEODUDE"
-              },
-              {
-                "min_level": 25,
-                "max_level": 30,
-                "species": "SPECIES_GEODUDE"
-              }
-            ]
-          },
           "water_mons": {
             "encounter_rate": 4,
             "mons": [
@@ -8366,6 +8336,36 @@
                 "min_level": 56,
                 "max_level": 62,
                 "species": "SPECIES_PSYDUCK"
+              }
+            ]
+          },
+          "rock_smash_mons": {
+            "encounter_rate": 25,
+            "mons": [
+              {
+                "min_level": 10,
+                "max_level": 15,
+                "species": "SPECIES_GEODUDE"
+              },
+              {
+                "min_level": 5,
+                "max_level": 10,
+                "species": "SPECIES_GEODUDE"
+              },
+              {
+                "min_level": 15,
+                "max_level": 20,
+                "species": "SPECIES_GEODUDE"
+              },
+              {
+                "min_level": 20,
+                "max_level": 25,
+                "species": "SPECIES_GEODUDE"
+              },
+              {
+                "min_level": 25,
+                "max_level": 30,
+                "species": "SPECIES_GEODUDE"
               }
             ]
           },
@@ -8647,36 +8647,6 @@
               }
             ]
           },
-          "rock_smash_mons": {
-            "encounter_rate": 20,
-            "mons": [
-              {
-                "min_level": 30,
-                "max_level": 40,
-                "species": "SPECIES_GRAVELER"
-              },
-              {
-                "min_level": 30,
-                "max_level": 40,
-                "species": "SPECIES_GEODUDE"
-              },
-              {
-                "min_level": 35,
-                "max_level": 40,
-                "species": "SPECIES_GRAVELER"
-              },
-              {
-                "min_level": 35,
-                "max_level": 40,
-                "species": "SPECIES_GRAVELER"
-              },
-              {
-                "min_level": 35,
-                "max_level": 40,
-                "species": "SPECIES_GRAVELER"
-              }
-            ]
-          },
           "water_mons": {
             "encounter_rate": 4,
             "mons": [
@@ -8704,6 +8674,36 @@
                 "min_level": 59,
                 "max_level": 67,
                 "species": "SPECIES_GOLBAT"
+              }
+            ]
+          },
+          "rock_smash_mons": {
+            "encounter_rate": 20,
+            "mons": [
+              {
+                "min_level": 30,
+                "max_level": 40,
+                "species": "SPECIES_GRAVELER"
+              },
+              {
+                "min_level": 30,
+                "max_level": 40,
+                "species": "SPECIES_GEODUDE"
+              },
+              {
+                "min_level": 35,
+                "max_level": 40,
+                "species": "SPECIES_GRAVELER"
+              },
+              {
+                "min_level": 35,
+                "max_level": 40,
+                "species": "SPECIES_GRAVELER"
+              },
+              {
+                "min_level": 35,
+                "max_level": 40,
+                "species": "SPECIES_GRAVELER"
               }
             ]
           },
@@ -9715,6 +9715,36 @@
               }
             ]
           },
+          "rock_smash_mons": {
+            "encounter_rate": 20,
+            "mons": [
+              {
+                "min_level": 62,
+                "max_level": 64,
+                "species": "SPECIES_GRAVELER"
+              },
+              {
+                "min_level": 62,
+                "max_level": 64,
+                "species": "SPECIES_GRAVELER"
+              },
+              {
+                "min_level": 62,
+                "max_level": 64,
+                "species": "SPECIES_GRAVELER"
+              },
+              {
+                "min_level": 62,
+                "max_level": 64,
+                "species": "SPECIES_GRAVELER"
+              },
+              {
+                "min_level": 62,
+                "max_level": 64,
+                "species": "SPECIES_GRAVELER"
+              }
+            ]
+          },
           "fishing_mons": {
             "encounter_rate": 10,
             "mons": [
@@ -9767,36 +9797,6 @@
                 "min_level": 40,
                 "max_level": 45,
                 "species": "SPECIES_WAILMER"
-              }
-            ]
-          },
-          "rock_smash_mons": {
-            "encounter_rate": 20,
-            "mons": [
-              {
-                "min_level": 62,
-                "max_level": 64,
-                "species": "SPECIES_GRAVELER"
-              },
-              {
-                "min_level": 62,
-                "max_level": 64,
-                "species": "SPECIES_GRAVELER"
-              },
-              {
-                "min_level": 62,
-                "max_level": 64,
-                "species": "SPECIES_GRAVELER"
-              },
-              {
-                "min_level": 62,
-                "max_level": 64,
-                "species": "SPECIES_GRAVELER"
-              },
-              {
-                "min_level": 62,
-                "max_level": 64,
-                "species": "SPECIES_GRAVELER"
               }
             ]
           }
@@ -10008,6 +10008,36 @@
               }
             ]
           },
+          "rock_smash_mons": {
+            "encounter_rate": 20,
+            "mons": [
+              {
+                "min_level": 60,
+                "max_level": 62,
+                "species": "SPECIES_GRAVELER"
+              },
+              {
+                "min_level": 60,
+                "max_level": 62,
+                "species": "SPECIES_GRAVELER"
+              },
+              {
+                "min_level": 60,
+                "max_level": 62,
+                "species": "SPECIES_GRAVELER"
+              },
+              {
+                "min_level": 60,
+                "max_level": 62,
+                "species": "SPECIES_GRAVELER"
+              },
+              {
+                "min_level": 60,
+                "max_level": 62,
+                "species": "SPECIES_GRAVELER"
+              }
+            ]
+          },
           "fishing_mons": {
             "encounter_rate": 10,
             "mons": [
@@ -10060,36 +10090,6 @@
                 "min_level": 67,
                 "max_level": 67,
                 "species": "SPECIES_STARYU"
-              }
-            ]
-          },
-          "rock_smash_mons": {
-            "encounter_rate": 20,
-            "mons": [
-              {
-                "min_level": 60,
-                "max_level": 62,
-                "species": "SPECIES_GRAVELER"
-              },
-              {
-                "min_level": 60,
-                "max_level": 62,
-                "species": "SPECIES_GRAVELER"
-              },
-              {
-                "min_level": 60,
-                "max_level": 62,
-                "species": "SPECIES_GRAVELER"
-              },
-              {
-                "min_level": 60,
-                "max_level": 62,
-                "species": "SPECIES_GRAVELER"
-              },
-              {
-                "min_level": 60,
-                "max_level": 62,
-                "species": "SPECIES_GRAVELER"
               }
             ]
           }
@@ -10631,36 +10631,6 @@
         {
           "map": "MAP_UNDERWATER_ROUTE124",
           "base_label": "gUnderwater_Route124",
-          "water_mons": {
-            "encounter_rate": 4,
-            "mons": [
-              {
-                "min_level": 20,
-                "max_level": 30,
-                "species": "SPECIES_CLAMPERL"
-              },
-              {
-                "min_level": 20,
-                "max_level": 30,
-                "species": "SPECIES_CHINCHOU"
-              },
-              {
-                "min_level": 30,
-                "max_level": 35,
-                "species": "SPECIES_CLAMPERL"
-              },
-              {
-                "min_level": 30,
-                "max_level": 35,
-                "species": "SPECIES_RELICANTH"
-              },
-              {
-                "min_level": 30,
-                "max_level": 35,
-                "species": "SPECIES_RELICANTH"
-              }
-            ]
-          },
           "land_mons": {
             "encounter_rate": 20,
             "mons": [
@@ -10722,6 +10692,36 @@
               {
                 "min_level": 62,
                 "max_level": 64,
+                "species": "SPECIES_RELICANTH"
+              }
+            ]
+          },
+          "water_mons": {
+            "encounter_rate": 4,
+            "mons": [
+              {
+                "min_level": 20,
+                "max_level": 30,
+                "species": "SPECIES_CLAMPERL"
+              },
+              {
+                "min_level": 20,
+                "max_level": 30,
+                "species": "SPECIES_CHINCHOU"
+              },
+              {
+                "min_level": 30,
+                "max_level": 35,
+                "species": "SPECIES_CLAMPERL"
+              },
+              {
+                "min_level": 30,
+                "max_level": 35,
+                "species": "SPECIES_RELICANTH"
+              },
+              {
+                "min_level": 30,
+                "max_level": 35,
                 "species": "SPECIES_RELICANTH"
               }
             ]
