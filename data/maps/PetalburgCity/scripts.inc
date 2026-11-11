@@ -703,8 +703,8 @@ PetalburgCity_Text_WhereIsWally:
 	.string "very soon…$"
 
 PetalburgCity_Text_AreYouRookieTrainer:
-	.string "Hiya! Are you maybe…\n"
-	.string "A rookie TRAINER?\p"
+	.string "Hiya! You're not from around\n"
+	.string "here, are you?\p"
 	.string "Do you know what POKéMON TRAINERS\n"
 	.string "do when they reach a new town?\p"
 	.string "They first check what kind of GYM\n"

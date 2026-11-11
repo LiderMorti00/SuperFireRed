@@ -124,6 +124,7 @@ static void CB2_LoadMap2(void);
 static void VBlankCB_Field(void);
 static void SpriteCB_LinkPlayer(struct Sprite *);
 static void ChooseAmbientCrySpecies(void);
+static void SfrEnsureHoennWorld(void);
 static void DoMapLoadLoop(u8 *);
 static bool32 LoadMapInStepsLocal(u8 *, bool32);
 static bool32 LoadMapInStepsLink(u8 *);
@@ -904,6 +905,7 @@ void LoadMapFromCameraTransition(u8 mapGroup, u8 mapNum)
     ChooseAmbientCrySpecies();
     SetDefaultFlashLevel();
     Overworld_ClearSavedMusic();
+    SfrEnsureHoennWorld();
     RunOnTransitionMapScript();
     InitMap();
     CopySecondaryTilesetToVramUsingHeap(gMapHeader.mapLayout);
@@ -974,6 +976,7 @@ static void LoadMapFromWarp(bool32 a1)
         FlagClear(FLAG_SYS_USE_FLASH);
     SetDefaultFlashLevel();
     Overworld_ClearSavedMusic();
+    SfrEnsureHoennWorld();
     RunOnTransitionMapScript();
     UpdateLocationHistoryForRoamer();
     MoveAllRoamersToOtherLocationSets();
@@ -1790,6 +1793,18 @@ bool32 CurrentMapHasShadows(void)
     // Add all conditionals here for maps that shouldn't have shadows
     // By default only cave maps are excluded from having shadows under object events
     return (gMapHeader.mapType != MAP_TYPE_UNDERGROUND);
+}
+
+// Super Fire Red: whatever way the player reaches Hoenn (ferry, Fly, debug warp), the region
+// must already be in its post-Emerald state before any map script or object event runs.
+static void SfrEnsureHoennWorld(void)
+{
+    if (IsInKanto())
+        return;
+    if (!FlagGet(FLAG_SFR_HOENN_WORLD_INIT))
+        RunScriptImmediately(SFR_EventScript_InitHoennWorldImmediate);
+    if (VarGet(VAR_SFR_HOENN_STATE) != 1)
+        FlagSet(FLAG_SFR_HIDE_SLATEPORT_HARBOR_BRENDAN); // he only waits there for the arrival scene
 }
 
 // Update & mix day / night bg palettes (into unfaded)

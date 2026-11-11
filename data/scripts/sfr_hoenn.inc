@@ -3,6 +3,11 @@
 @ event counts as already done: story vars get their final value, Team Aqua/Magma and
 @ the NPCs of the old story scenes are hidden, and the story flags are set.
 
+@ Run from C (SfrEnsureHoennWorld) on entering any Hoenn map.
+SFR_EventScript_InitHoennWorldImmediate::
+	call SFR_EventScript_InitHoennWorld
+	end
+
 SFR_EventScript_InitHoennWorld::
 	goto_if_set FLAG_SFR_HOENN_WORLD_INIT, SFR_EventScript_InitHoennWorldDone
 	setvar VAR_LITTLEROOT_INTRO_STATE, 7
@@ -334,7 +339,7 @@ SFR_EventScript_SlateportFerryToVermilion::
 	msgbox SFR_Text_VermilionItIs, MSGBOX_YESNO
 	goto_if_eq VAR_RESULT, NO, SlateportCity_Harbor_EventScript_ChooseNewDestination
 	call SlateportCity_Harbor_EventScript_BoardFerry
-	warp MAP_VERMILION_CITY, 25, 32
+	warp MAP_VERMILION_CITY, 23, 32
 	waitstate
 	release
 	end

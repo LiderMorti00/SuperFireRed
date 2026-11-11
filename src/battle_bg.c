@@ -870,6 +870,32 @@ static u8 GetBattleEnvironmentByMapScene(u8 mapBattleScene)
     return BATTLE_ENVIRONMENT_PLAIN;
 }
 
+// Super Fire Red: outdoor battle backgrounds follow the overworld's time of day
+static void SfrTintBattleEnvironmentPalette(u32 environment)
+{
+    if (!MapHasNaturalLight(gMapHeader.mapType))
+        return;
+    switch (environment)
+    {
+    case BATTLE_ENVIRONMENT_GRASS:
+    case BATTLE_ENVIRONMENT_LONG_GRASS:
+    case BATTLE_ENVIRONMENT_SAND:
+    case BATTLE_ENVIRONMENT_WATER:
+    case BATTLE_ENVIRONMENT_POND:
+    case BATTLE_ENVIRONMENT_MOUNTAIN:
+    case BATTLE_ENVIRONMENT_PLAIN:
+    case BATTLE_ENVIRONMENT_PUDDLE:
+    case BATTLE_ENVIRONMENT_MARSH:
+    case BATTLE_ENVIRONMENT_SWAMP:
+    case BATTLE_ENVIRONMENT_SNOW:
+        break;
+    default:
+        return;
+    }
+    TimeMixPalettes(0x7, &gPlttBufferUnfaded[BG_PLTT_ID(2)], &gPlttBufferUnfaded[BG_PLTT_ID(2)], &gTimeBlend.startBlend, &gTimeBlend.endBlend, gTimeBlend.weight);
+    CpuCopy16(&gPlttBufferUnfaded[BG_PLTT_ID(2)], &gPlttBufferFaded[BG_PLTT_ID(2)], 3 * PLTT_SIZE_4BPP);
+}
+
 // Loads the initial battle environment.
 static void LoadBattleEnvironmentGfx(u16 environment)
 {
@@ -879,6 +905,7 @@ static void LoadBattleEnvironmentGfx(u16 environment)
     DecompressDataWithHeaderVram(gBattleEnvironmentInfo[environment].background.tileset, (void *)(BG_CHAR_ADDR(2)));
     DecompressDataWithHeaderVram(gBattleEnvironmentInfo[environment].background.tilemap, (void *)(BG_SCREEN_ADDR(26)));
     LoadPalette(gBattleEnvironmentInfo[environment].palette, BG_PLTT_ID(2), 3 * PLTT_SIZE_4BPP);
+    SfrTintBattleEnvironmentPalette(environment);
 }
 
 // Loads the entry associated with the battle environment.
@@ -1345,6 +1372,7 @@ bool8 LoadChosenBattleElement(u8 caseId)
         break;
     case 5:
         LoadPalette(gBattleEnvironmentInfo[GetBattleEnvironmentOverride()].palette, BG_PLTT_ID(2), 3 * PLTT_SIZE_4BPP);
+        SfrTintBattleEnvironmentPalette(GetBattleEnvironmentOverride());
         break;
     case 6:
         LoadBattleMenuWindowGfx();
