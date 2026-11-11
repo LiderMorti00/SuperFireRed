@@ -724,3 +724,109 @@ SFR_Text_MaysMomAfterLeague:
 	.string "your battle!\p"
 	.string "She said she's never had so much\n"
 	.string "fun losing. Thank you, dear!$"
+
+@ ---------------------------------------------------------------------------
+@ Sootopolis Gym: Wallace also hands over HM07 Waterfall (needed for Victory Road)
+SFR_EventScript_WallaceGiveWaterfall::
+	checkitem ITEM_HM_WATERFALL
+	goto_if_eq VAR_RESULT, TRUE, SFR_EventScript_WallaceGiveWaterfallDone
+	msgbox SFR_Text_WallaceTakeWaterfall, MSGBOX_DEFAULT
+	giveitem ITEM_HM_WATERFALL
+	setflag FLAG_RECEIVED_HM_WATERFALL
+	msgbox SFR_Text_WallaceExplainWaterfall, MSGBOX_DEFAULT
+SFR_EventScript_WallaceGiveWaterfallDone::
+	return
+
+SFR_Text_WallaceTakeWaterfall:
+	.string "WALLACE: And one more thing.\n"
+	.string "You'll need this on the way to\l"
+	.string "the POKéMON LEAGUE.$"
+
+SFR_Text_WallaceExplainWaterfall:
+	.string "WALLACE: That HM contains WATERFALL.\p"
+	.string "It lets your POKéMON climb up\n"
+	.string "walls of cascading water.$"
+
+@ ---------------------------------------------------------------------------
+@ Pokémon League: May, the Champion
+SFR_Text_MayChampionIntro:
+	.string "MAY: {PLAYER}! I knew you'd make it\n"
+	.string "all the way here!\p"
+	.string "Dad told me all about your battle\n"
+	.string "in PETALBURG.\p"
+	.string "When I first set out, I was just a\n"
+	.string "girl from LITTLEROOT TOWN.\p"
+	.string "Since then I've traveled all over\n"
+	.string "HOENN, faced the worst trouble this\l"
+	.string "region has ever seen…\p"
+	.string "And I became the CHAMPION!\p"
+	.string "You beat the KANTO LEAGUE, right?\n"
+	.string "Then this is a battle between\l"
+	.string "two CHAMPIONS!\p"
+	.string "My POKéMON and I won't hold back.\n"
+	.string "Here I come!$"
+
+SFR_Text_MayChampionDefeat:
+	.string "That was amazing…\n"
+	.string "You really are the real deal!$"
+
+SFR_Text_MayChampionPostBattle:
+	.string "MAY: …I lost.\p"
+	.string "But you know what? I'm not even\n"
+	.string "upset. That was the most fun I've\l"
+	.string "had in a battle in ages!\p"
+	.string "{PLAYER}, you're the new CHAMPION\n"
+	.string "of the HOENN LEAGUE!$"
+
+SFR_Text_ChampionsRoomBrendanArrives:
+	.string "BRENDAN: {PLAYER}! Did you…\p"
+	.string "MAY, you lost?!$"
+
+SFR_Text_ChampionsRoomBrendanYouWon:
+	.string "BRENDAN: Wow… You actually beat\n"
+	.string "MAY!\p"
+	.string "I knew you were strong ever since\n"
+	.string "that first battle on ROUTE 103!$"
+
+SFR_Text_ChampionsRoomBirchCongratulations:
+	.string "PROF. BIRCH: There you are!\p"
+	.string "When BRENDAN ran off, I just had\n"
+	.string "to come and see for myself.\p"
+	.string "Congratulations, {PLAYER}!\p"
+	.string "I can't wait to tell PROF. OAK!\n"
+	.string "His friend from KANTO has become\l"
+	.string "HOENN's new CHAMPION!$"
+
+SFR_Text_MayComeWithMe:
+	.string "MAY: {PLAYER}, please come with me.\n"
+	.string "There's a place I want to show you.$"
+
+SFR_Text_ChampionsRoomBrendanGoOn:
+	.string "BRENDAN: Go on, {PLAYER}!\n"
+	.string "We'll wait for you outside.$"
+
+SFR_Text_HallOfFameMayHonor:
+	.string "MAY: This room…\p"
+	.string "This is where the POKéMON LEAGUE\n"
+	.string "honors its CHAMPIONS and the POKéMON\l"
+	.string "that battled alongside them.$"
+
+SFR_Text_HallOfFameMayRecord:
+	.string "MAY: Come on, let's record your name\n"
+	.string "and the names of your partners!$"
+
+@ ---------------------------------------------------------------------------
+@ VAR_RESULT = TRUE if the player has all eight Hoenn badges (FLAG_BADGE09_GET-FLAG_BADGE16_GET)
+SFR_EventScript_CheckAllHoennBadges::
+	setvar VAR_RESULT, FALSE
+	goto_if_unset FLAG_BADGE09_GET, SFR_EventScript_CheckAllHoennBadgesDone
+	goto_if_unset FLAG_BADGE10_GET, SFR_EventScript_CheckAllHoennBadgesDone
+	goto_if_unset FLAG_BADGE11_GET, SFR_EventScript_CheckAllHoennBadgesDone
+	goto_if_unset FLAG_BADGE12_GET, SFR_EventScript_CheckAllHoennBadgesDone
+	goto_if_unset FLAG_BADGE13_GET, SFR_EventScript_CheckAllHoennBadgesDone
+	goto_if_unset FLAG_BADGE14_GET, SFR_EventScript_CheckAllHoennBadgesDone
+	goto_if_unset FLAG_BADGE15_GET, SFR_EventScript_CheckAllHoennBadgesDone
+	goto_if_unset FLAG_BADGE16_GET, SFR_EventScript_CheckAllHoennBadgesDone
+	setvar VAR_RESULT, TRUE
+SFR_EventScript_CheckAllHoennBadgesDone::
+	return

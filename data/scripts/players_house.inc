@@ -329,7 +329,7 @@ PlayersHouse_1F_EventScript_TryRegisterMom::
 	end
 
 PlayersHouse_1F_EventScript_CheckGiveAmuletCoin::
-	goto_if_set FLAG_BADGE05_GET, PlayersHouse_1F_EventScript_TryGiveAmuletCoin
+	goto_if_set FLAG_BADGE13_GET, PlayersHouse_1F_EventScript_TryGiveAmuletCoin
 	goto PlayersHouse_1F_EventScript_MomHealsParty
 
 PlayersHouse_1F_EventScript_TryGiveAmuletCoin::

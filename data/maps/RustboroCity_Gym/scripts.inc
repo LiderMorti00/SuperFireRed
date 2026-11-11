@@ -16,12 +16,10 @@ RustboroCity_Gym_EventScript_RoxanneDefeated::
 	call Common_EventScript_PlayGymBadgeFanfare
 	msgbox RustboroCity_Gym_Text_StoneBadgeInfoTakeThis, MSGBOX_DEFAULT
 	setflag FLAG_DEFEATED_RUSTBORO_GYM
-	setflag FLAG_BADGE01_GET
+	setflag FLAG_BADGE09_GET
 	setvar VAR_RUSTBORO_CITY_STATE, 1
-	addvar VAR_PETALBURG_GYM_STATE, 1
 	setvar VAR_0x8008, 1
 	call Common_EventScript_SetGymTrainers
-	call_if_eq VAR_PETALBURG_GYM_STATE, 6, Common_EventScript_ReadyPetalburgGymForBattle
 	goto RustboroCity_Gym_EventScript_GiveRockTomb
 	end
 
@@ -68,13 +66,13 @@ RustboroCity_Gym_EventScript_GymGuidePostVictory::
 
 RustboroCity_Gym_EventScript_LeftGymStatue::
 	lockall
-	goto_if_set FLAG_BADGE01_GET, RustboroCity_Gym_EventScript_GymStatueCertified
+	goto_if_set FLAG_BADGE09_GET, RustboroCity_Gym_EventScript_GymStatueCertified
 	goto RustboroCity_Gym_EventScript_GymStatue
 	end
 
 RustboroCity_Gym_EventScript_RightGymStatue::
 	lockall
-	goto_if_set FLAG_BADGE01_GET, RustboroCity_Gym_EventScript_GymStatueCertified
+	goto_if_set FLAG_BADGE09_GET, RustboroCity_Gym_EventScript_GymStatueCertified
 	goto RustboroCity_Gym_EventScript_GymStatue
 	end
 

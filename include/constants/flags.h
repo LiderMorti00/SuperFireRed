@@ -63,14 +63,14 @@
 #define FLAG_SFR_RECEIVED_HOENN_STARTER         0x29 // Super Fire Red: got a starter from Birch
 #define FLAG_SFR_HIDE_BIRCHS_LAB_BRENDAN        0x2A // Super Fire Red: Brendan in Birch's lab
 #define FLAG_SFR_RECEIVED_POKENAV               0x2B // Super Fire Red: got the Pokenav and DexNav from Brendan
-#define FLAG_UNUSED_0x02C    0x2C // Unused Flag
-#define FLAG_UNUSED_0x02D    0x2D // Unused Flag
-#define FLAG_UNUSED_0x02E    0x2E // Unused Flag
-#define FLAG_UNUSED_0x02F    0x2F // Unused Flag
-#define FLAG_UNUSED_0x030    0x30 // Unused Flag
-#define FLAG_UNUSED_0x031    0x31 // Unused Flag
-#define FLAG_UNUSED_0x032    0x32 // Unused Flag
-#define FLAG_UNUSED_0x033    0x33 // Unused Flag
+#define FLAG_BADGE09_GET                       0x2C // Super Fire Red: Hoenn badge 1 (Stone)
+#define FLAG_BADGE10_GET                       0x2D // Super Fire Red: Hoenn badge 2 (Knuckle)
+#define FLAG_BADGE11_GET                       0x2E // Super Fire Red: Hoenn badge 3 (Dynamo)
+#define FLAG_BADGE12_GET                       0x2F // Super Fire Red: Hoenn badge 4 (Heat)
+#define FLAG_BADGE13_GET                       0x30 // Super Fire Red: Hoenn badge 5 (Balance)
+#define FLAG_BADGE14_GET                       0x31 // Super Fire Red: Hoenn badge 6 (Feather)
+#define FLAG_BADGE15_GET                       0x32 // Super Fire Red: Hoenn badge 7 (Mind)
+#define FLAG_BADGE16_GET                       0x33 // Super Fire Red: Hoenn badge 8 (Rain)
 #define FLAG_UNUSED_0x034    0x34 // Unused Flag
 #define FLAG_UNUSED_0x035    0x35 // Unused Flag
 #define FLAG_UNUSED_0x036    0x36 // Unused Flag

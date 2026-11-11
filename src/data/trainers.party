@@ -5076,10 +5076,11 @@ IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
 - Psychic
 - Flamethrower
 
+/* Super Fire Red: Wallace is the Sootopolis Gym Leader again (ORAS gym team) */
 === TRAINER_JUAN_1 ===
-Name: JUAN
+Name: WALLACE
 Class: Leader
-Pic: Leader Juan
+Pic: Champion Wallace
 Gender: Male
 Music: Male
 Items: Hyper Potion / Hyper Potion
@@ -5087,44 +5088,44 @@ Double Battle: No
 AI: Basic Trainer
 
 Luvdisc
-Level: 41
+Level: 58
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 - Water Pulse
 - Attract
 - Sweet Kiss
-- Flail
+- Draining Kiss
 
 Whiscash
-Level: 41
+Level: 58
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-- Rain Dance
-- Water Pulse
-- Amnesia
+- Waterfall
 - Earthquake
+- Amnesia
+- Rain Dance
 
 Sealeo
-Level: 43
+Level: 59
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-- Encore
-- Body Slam
 - Aurora Beam
 - Water Pulse
+- Body Slam
+- Encore
 
-Crawdaunt
-Level: 43
+Seaking
+Level: 59
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-- Water Pulse
-- Crabhammer
-- Taunt
-- Leer
+- Waterfall
+- Megahorn
+- Drill Run
+- Agility
 
-Kingdra @ Chesto Berry
-Level: 46
+Milotic @ Sitrus Berry
+Level: 62
 IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
 - Water Pulse
-- Double Team
 - Ice Beam
-- Rest
+- Dragon Pulse
+- Recover
 
 === TRAINER_JERRY_1 ===
 Name: JERRY
@@ -12323,80 +12324,221 @@ Marshtomp
 Level: 34
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 
+/* Super Fire Red: May, Hoenn Champion (player chose Mudkip). Based on her 5th ORAS battle. */
 === TRAINER_MAY_LILYCOVE_MUDKIP ===
 Name: MAY
-Class: Rival
+Class: Champion
 Pic: May
 Gender: Female
 Music: Female
+Items: Full Restore / Full Restore / Full Restore / Full Restore
 Double Battle: No
-AI: Basic Trainer
+AI: Smart Trainer
+Mugshot: Pink
 
-Tropius
-Level: 31
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+Swellow @ Flame Orb
+Level: 78
+Ability: Guts
+Nature: Jolly
+EVs: 252 Atk / 252 Spe
+- Facade
+- Brave Bird
+- U-turn
+- Quick Attack
 
-Slugma
-Level: 32
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+Tropius @ Sitrus Berry
+Level: 78
+Ability: Harvest
+Nature: Modest
+EVs: 252 HP / 252 SpA
+- Air Slash
+- Giga Drain
+- Dragon Pulse
+- Synthesis
 
-Pelipper
-Level: 32
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+Breloom @ Focus Sash
+Level: 78
+Ability: Technician
+Nature: Adamant
+EVs: 252 Atk / 252 Spe
+- Mach Punch
+- Bullet Seed
+- Rock Tomb
+- Spore
 
-Grovyle
-Level: 34
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+Magcargo @ White Herb
+Level: 78
+Ability: Flame Body
+Nature: Modest
+EVs: 252 HP / 252 SpA
+- Shell Smash
+- Flamethrower
+- Earth Power
+- Ancient Power
 
+Wailord @ Leftovers
+Level: 79
+Ability: Water Veil
+Nature: Modest
+EVs: 252 HP / 252 SpA
+- Water Spout
+- Hydro Pump
+- Ice Beam
+- Amnesia
+
+Sceptile @ Sceptilite
+Level: 80
+Ability: Overgrow
+Nature: Timid
+EVs: 252 SpA / 252 Spe
+- Leaf Storm
+- Dragon Pulse
+- Focus Blast
+- Earthquake
+
+/* Super Fire Red: May, Hoenn Champion (player chose Treecko). Based on her 5th ORAS battle. */
 === TRAINER_MAY_LILYCOVE_TREECKO ===
 Name: MAY
-Class: Rival
+Class: Champion
 Pic: May
 Gender: Female
 Music: Female
+Items: Full Restore / Full Restore / Full Restore / Full Restore
 Double Battle: No
-AI: Basic Trainer
+AI: Smart Trainer
+Mugshot: Pink
 
-Tropius
-Level: 31
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+Swellow @ Flame Orb
+Level: 78
+Ability: Guts
+Nature: Jolly
+EVs: 252 Atk / 252 Spe
+- Facade
+- Brave Bird
+- U-turn
+- Quick Attack
 
-Pelipper
-Level: 32
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+Tropius @ Sitrus Berry
+Level: 78
+Ability: Harvest
+Nature: Modest
+EVs: 252 HP / 252 SpA
+- Air Slash
+- Giga Drain
+- Dragon Pulse
+- Synthesis
 
-Ludicolo
-Level: 32
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+Breloom @ Focus Sash
+Level: 78
+Ability: Technician
+Nature: Adamant
+EVs: 252 Atk / 252 Spe
+- Mach Punch
+- Bullet Seed
+- Rock Tomb
+- Spore
 
-Combusken
-Level: 34
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+Magcargo @ White Herb
+Level: 78
+Ability: Flame Body
+Nature: Modest
+EVs: 252 HP / 252 SpA
+- Shell Smash
+- Flamethrower
+- Earth Power
+- Ancient Power
 
+Wailord @ Leftovers
+Level: 79
+Ability: Water Veil
+Nature: Modest
+EVs: 252 HP / 252 SpA
+- Water Spout
+- Hydro Pump
+- Ice Beam
+- Amnesia
+
+Blaziken @ Blazikenite
+Level: 80
+Ability: Speed Boost
+Nature: Adamant
+EVs: 252 Atk / 252 Spe
+- Flare Blitz
+- Close Combat
+- Thunder Punch
+- Swords Dance
+
+/* Super Fire Red: May, Hoenn Champion (player chose Torchic). Based on her 5th ORAS battle. */
 === TRAINER_MAY_LILYCOVE_TORCHIC ===
 Name: MAY
-Class: Rival
+Class: Champion
 Pic: May
 Gender: Female
 Music: Female
+Items: Full Restore / Full Restore / Full Restore / Full Restore
 Double Battle: No
-AI: Basic Trainer
+AI: Smart Trainer
+Mugshot: Pink
 
-Tropius
-Level: 31
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+Swellow @ Flame Orb
+Level: 78
+Ability: Guts
+Nature: Jolly
+EVs: 252 Atk / 252 Spe
+- Facade
+- Brave Bird
+- U-turn
+- Quick Attack
 
-Ludicolo
-Level: 32
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+Tropius @ Sitrus Berry
+Level: 78
+Ability: Harvest
+Nature: Modest
+EVs: 252 HP / 252 SpA
+- Air Slash
+- Giga Drain
+- Dragon Pulse
+- Synthesis
 
-Slugma
-Level: 32
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+Breloom @ Focus Sash
+Level: 78
+Ability: Technician
+Nature: Adamant
+EVs: 252 Atk / 252 Spe
+- Mach Punch
+- Bullet Seed
+- Rock Tomb
+- Spore
 
-Marshtomp
-Level: 34
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+Magcargo @ White Herb
+Level: 78
+Ability: Flame Body
+Nature: Modest
+EVs: 252 HP / 252 SpA
+- Shell Smash
+- Flamethrower
+- Earth Power
+- Ancient Power
+
+Wailord @ Leftovers
+Level: 79
+Ability: Water Veil
+Nature: Modest
+EVs: 252 HP / 252 SpA
+- Water Spout
+- Hydro Pump
+- Ice Beam
+- Amnesia
+
+Swampert @ Swampertite
+Level: 80
+Ability: Damp
+Nature: Adamant
+EVs: 252 HP / 252 Atk
+- Waterfall
+- Earthquake
+- Ice Punch
+- Rain Dance
 
 === TRAINER_JONAH ===
 Name: JONAH
@@ -15608,9 +15750,9 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Flamethrower
 
 === TRAINER_JUAN_2 ===
-Name: JUAN
+Name: WALLACE
 Class: Leader
-Pic: Leader Juan
+Pic: Champion Wallace
 Gender: Male
 Music: Male
 Items: Full Restore / Full Restore / Full Restore
@@ -15658,9 +15800,9 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Rest
 
 === TRAINER_JUAN_3 ===
-Name: JUAN
+Name: WALLACE
 Class: Leader
-Pic: Leader Juan
+Pic: Champion Wallace
 Gender: Male
 Music: Male
 Items: Full Restore / Full Restore / Full Restore
@@ -15708,9 +15850,9 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Rest
 
 === TRAINER_JUAN_4 ===
-Name: JUAN
+Name: WALLACE
 Class: Leader
-Pic: Leader Juan
+Pic: Champion Wallace
 Gender: Male
 Music: Male
 Items: Full Restore / Full Restore / Full Restore
@@ -15766,9 +15908,9 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Rest
 
 === TRAINER_JUAN_5 ===
-Name: JUAN
+Name: WALLACE
 Class: Leader
-Pic: Leader Juan
+Pic: Champion Wallace
 Gender: Male
 Music: Male
 Items: Full Restore / Full Restore / Full Restore

@@ -21,14 +21,14 @@ int GameClear(void)
 
     HealPlayerParty();
 
-    if (FlagGet(FLAG_SYS_GAME_CLEAR) == TRUE)
+    if (FlagGet(FLAG_SFR_HOENN_GAME_CLEAR) == TRUE)
     {
         gHasHallOfFameRecords = TRUE;
     }
     else
     {
         gHasHallOfFameRecords = FALSE;
-        FlagSet(FLAG_SYS_GAME_CLEAR);
+        FlagSet(FLAG_SFR_HOENN_GAME_CLEAR);
     }
 
     if (GetGameStat(GAME_STAT_FIRST_HOF_PLAY_TIME) == 0)
@@ -36,10 +36,8 @@ int GameClear(void)
 
     SetContinueGameWarpStatus();
 
-    if (gSaveBlock2Ptr->playerGender == MALE)
-        SetContinueGameWarpToHealLocation(HEAL_LOCATION_LITTLEROOT_TOWN_BRENDANS_HOUSE_2F);
-    else
-        SetContinueGameWarpToHealLocation(HEAL_LOCATION_LITTLEROOT_TOWN_MAYS_HOUSE_2F);
+    // Super Fire Red: the player has no home in Hoenn; continue from the Pokémon League
+    SetContinueGameWarpToHealLocation(HEAL_LOCATION_EVER_GRANDE_CITY_POKEMON_LEAGUE);
 
     ribbonGet = FALSE;
 

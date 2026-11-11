@@ -4,6 +4,7 @@
 #include "fldeff.h"
 #include "fldeff_misc.h"
 #include "party_menu.h"
+#include "regions.h"
 #include "strings.h"
 #include "constants/field_move.h"
 #include "constants/moves.h"
@@ -21,6 +22,9 @@ static bool32 IsAlwaysTrue(enum FieldMove fieldMove)
 
 static bool32 HasBadgeForFieldMove(enum FieldMove fieldMove)
 {
+    // Super Fire Red: every field move works in Hoenn, except Dive, which needs the Mind Badge
+    if (!IsInKanto())
+        return fieldMove != FIELD_MOVE_DIVE || FlagGet(FLAG_BADGE15_GET);
     return FlagGet(gFieldMoveInfo[fieldMove].arg + FLAG_BADGE01_GET);
 }
 
