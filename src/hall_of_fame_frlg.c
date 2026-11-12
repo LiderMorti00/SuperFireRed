@@ -697,12 +697,10 @@ static void Task_Hof_HandleExit(u8 taskId)
     }
 }
 
+// Super Emerald: as in HGSS, no credits after beating Red; the player goes home to Pallet Town
 static void SetWarpsToRollCredits(void)
 {
-    VarSet(VAR_MAP_SCENE_INDIGO_PLATEAU_EXTERIOR, 1);
-    FlagSet(FLAG_HIDE_MAP_NAME_POPUP);
-    gDisableMapMusicChangeOnMapLoad = MUSIC_DISABLE_KEEP;
-    SetWarpDestination(MAP_GROUP(MAP_INDIGO_PLATEAU_EXTERIOR), MAP_NUM(MAP_INDIGO_PLATEAU_EXTERIOR), -1, 11, 6);
+    SetWarpDestination(MAP_GROUP(MAP_PALLET_TOWN), MAP_NUM(MAP_PALLET_TOWN), -1, 6, 8);
     DoWarp();
     ResetInitialPlayerAvatarState();
 }

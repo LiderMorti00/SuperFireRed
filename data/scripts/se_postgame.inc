@@ -248,7 +248,7 @@ SFR_Text_KantoRematchAfter:
 	.string "Come challenge me again anytime.$"
 
 @ ---------------------------------------------------------------------------
-@ Prof. Oak after beating May: a Sinnoh starter, then the Shiny Charm for a complete Pokédex
+@ Prof. Oak after beating Red: a Sinnoh starter, then the Shiny Charm
 @ ---------------------------------------------------------------------------
 @ Oak: Sinnoh starter and Shiny Charm
 SFR_EventScript_OakAfterHoenn::
