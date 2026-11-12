@@ -672,6 +672,46 @@ SE_EventScript_InitKantoPostgame::
 	setflag FLAG_HIDE_FIVE_ISLAND_ROCKETS
 	setflag FLAG_HIDE_MT_EMBER_EXTERIOR_ROCKETS
 	setflag FLAG_HIDE_ICEFALL_CAVE_ROCKETS
+	@ Sevii Islands: exploration only, the Bill/Celio story is already over
+	setflag FLAG_SYS_SEVII_MAP_123
+	setflag FLAG_SYS_SEVII_MAP_4567
+	setflag FLAG_SEVII_DETOUR_FINISHED
+	setvar VAR_MAP_SCENE_CINNABAR_ISLAND_2, 2
+	setvar VAR_MAP_SCENE_ONE_ISLAND_HARBOR, 3
+	setvar VAR_MAP_SCENE_ONE_ISLAND_POKEMON_CENTER_1F, 7
+	setflag FLAG_HIDE_CINNABAR_BILL
+	setflag FLAG_HIDE_CINNABAR_POKECENTER_BILL
+	setflag FLAG_HIDE_ONE_ISLAND_BILL
+	setflag FLAG_HIDE_ONE_ISLAND_POKECENTER_BILL
+	@ Two and Three Island: Lostelle is home, the bikers are gone
+	setvar VAR_MAP_SCENE_TWO_ISLAND_JOYFUL_GAME_CORNER, 4
+	setflag FLAG_RESCUED_LOSTELLE
+	setflag FLAG_GOT_MOON_STONE_FROM_JOYFUL_GAME_CORNER
+	setflag FLAG_HIDE_LOSTELLE_IN_BERRY_FOREST
+	setflag FLAG_HIDE_TWO_ISLAND_GAME_CORNER_LOSTELLE
+	setflag FLAG_HIDE_TWO_ISLAND_GAME_CORNER_BIKER
+	clearflag FLAG_HIDE_LOSTELLE_IN_HER_HOME
+	setvar VAR_MAP_SCENE_THREE_ISLAND, 4
+	setflag FLAG_HIDE_THREE_ISLAND_BIKERS
+	setflag FLAG_HIDE_THREE_ISLAND_LONE_BIKER
+	setflag FLAG_HIDE_THREE_ISLAND_ANTIBIKERS
+	@ Four Island: Lorelei is at home, no rival
+	setvar VAR_MAP_SCENE_FOUR_ISLAND, 1
+	setvar VAR_MAP_SCENE_ICEFALL_CAVE_BACK, 1
+	setflag FLAG_HIDE_FOUR_ISLAND_RIVAL
+	setflag FLAG_HIDE_ICEFALL_CAVE_LORELEI
+	clearflag FLAG_HIDE_LORELEI_IN_HER_HOUSE
+	@ Five Island: the warehouse is empty and open
+	setvar VAR_MAP_SCENE_ROCKET_WAREHOUSE, 1
+	setflag FLAG_UNLOCKED_ROCKET_WAREHOUSE
+	setflag FLAG_DEFEATED_ROCKETS_IN_WAREHOUSE
+	@ Mt. Ember and Six Island: no RUBY, no SAPPHIRE, no thief
+	setvar VAR_MAP_SCENE_MT_EMBER_EXTERIOR, 2
+	setflag FLAG_HIDE_RUBY
+	setflag FLAG_HIDE_SAPPHIRE
+	setflag FLAG_HIDE_DOTTED_HOLE_SCIENTIST
+	setvar VAR_MAP_SCENE_SIX_ISLAND_POKEMON_CENTER_1F, 1
+	setflag FLAG_HIDE_SIX_ISLAND_POKECENTER_RIVAL
 	return
 
 @ ---------------------------------------------------------------------------
@@ -753,6 +793,8 @@ SE_EventScript_OakReceivedKantoStarter::
 	return
 
 SE_EventScript_OakKantoStarterEnd::
+	msgbox SE_Text_VermilionOakRainbowPass, MSGBOX_DEFAULT
+	giveitem ITEM_RAINBOW_PASS
 	msgbox SE_Text_VermilionOakGoodbye, MSGBOX_DEFAULT
 	closemessage
 	applymovement LOCALID_VERMILION_SE_OAK, SE_Movement_VermilionOakLeave
@@ -796,6 +838,13 @@ SE_Text_OakWhichKantoStarter:
 SE_Text_ReceivedKantoStarter:
 	.string "{PLAYER} received the {STR_VAR_1}\n"
 	.string "from PROF. OAK!$"
+
+SE_Text_VermilionOakRainbowPass:
+	.string "OAK: Oh, and take this as well.\p"
+	.string "It's a RAINBOW PASS. Show it to the\n"
+	.string "SEAGALLOP crew here in VERMILION.\p"
+	.string "The ferry will take you to all of\n"
+	.string "the SEVII ISLANDS.$"
 
 SE_Text_VermilionOakGoodbye:
 	.string "OAK: My lab is in PALLET TOWN.\n"

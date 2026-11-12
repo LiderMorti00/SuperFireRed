@@ -102,7 +102,7 @@
       "trainer_type": "TRAINER_TYPE_NORMAL",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "FiveIsland_RocketWarehouse_EventScript_Gideon",
-      "flag": "0"
+      "flag": "FLAG_HIDE_DOTTED_HOLE_SCIENTIST"
     },
     {
       "type": "object",

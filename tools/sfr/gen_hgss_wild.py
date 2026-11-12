@@ -14,7 +14,7 @@ src/data/wild_encounters.json.
   Safari Zone, Route 23, S.S. Anne dock) get their Fire Red species back, with the curve.
 - Grass, water or rocks that Fire Red has and HGSS lacks in that area keep the Fire Red
   species, with the curve.
-- The Sevii Islands are not touched.
+- The Sevii Islands (and Mt. Ember) keep their Fire Red species, with the curve.
 
 Usage (repo root): python3 tools/sfr/gen_hgss_wild.py <pokeheartgold>/files/fielddata/encountdata/gs_enc_data.json
 """
@@ -119,7 +119,7 @@ def main(src):
         if not enc['base_label'].endswith('_FireRed'):
             continue
         m = enc['map']
-        if m in FIRE_RED_ONLY:
+        if m in FIRE_RED_ONLY or m not in AREAS:  # Fire Red only areas and the Sevii Islands
             orig = fr_upstream.get(enc['base_label'])
             if orig:
                 for f in ('land_mons', 'water_mons', 'rock_smash_mons', 'fishing_mons'):
