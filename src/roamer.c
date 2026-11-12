@@ -219,9 +219,9 @@ void InitRoamer(void)
         }
     }
     else if (gSpecialVar_0x8004 == 0) // Red
-        TryAddRoamer(SPECIES_LATIAS, 70);
+        TryAddRoamer(SPECIES_LATIAS, 75); // Super Emerald: postgame legendaries at 75
     else
-        TryAddRoamer(SPECIES_LATIOS, 70);
+        TryAddRoamer(SPECIES_LATIOS, 75);
 }
 
 void UpdateLocationHistoryForRoamer(void)

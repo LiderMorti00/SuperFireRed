@@ -1,7 +1,7 @@
-# Super Fire Red: Hoenn Gym Leader rematch teams (after beating May). Double battles, single type.
+# Hoenn Gym Leader rematch teams (Super Emerald postgame). Double battles, single type.
 # One base team per leader; tools/sfr/gen_hoenn_rematch.py builds the 4 rematch tiers from it:
-#   _2: last 5 mons, base level, Mega Stone swapped for Life Orb
-#   _3: all 6 mons, +3 levels;  _4: +6 levels;  _5: +10 levels
+#   _2: last 5 mons, base level - 18, Mega Stone swapped for Life Orb
+#   _3: all 6 mons, base - 14;  _4: base - 11;  _5: base - 7  (aces 64 / 68 / 71 / 75)
 # Format: Species @ Item | Base level | Ability (or -) | moves separated by /
 
 == ROXANNE
@@ -61,9 +61,10 @@ Solrock @ Life Orb | 81 | Levitate | Zen Headbutt / Rock Slide / Flare Blitz / E
 Metagross @ Metagrossite | 82 | Clear Body | Meteor Mash / Zen Headbutt / Bullet Punch / Earthquake
 
 == JUAN
-Whiscash @ Sitrus Berry | 78 | Oblivious | Earthquake / Waterfall / Stone Edge / Dragon Dance
-Walrein @ Leftovers | 79 | Thick Fat | Surf / Blizzard / Body Slam / Protect
+# Super Emerald: Wallace is the Sootopolis Gym Leader (Juan's trainer slots)
+Wailord @ Sitrus Berry | 78 | Water Veil | Water Spout / Hydro Pump / Ice Beam / Protect
+Tentacruel @ Black Sludge | 79 | Clear Body | Scald / Sludge Bomb / Toxic Spikes / Rapid Spin
 Ludicolo @ Life Orb | 79 | Swift Swim | Surf / Giga Drain / Ice Beam / Fake Out
-Kingdra @ Choice Specs | 80 | Swift Swim | Muddy Water / Draco Meteor / Ice Beam / Hydro Pump
-Sharpedo @ Sharpedonite | 81 | Speed Boost | Waterfall / Crunch / Ice Fang / Protect
+Whiscash @ Leftovers | 80 | Oblivious | Earthquake / Waterfall / Stone Edge / Dragon Dance
+Gyarados @ Gyaradosite | 81 | Intimidate | Waterfall / Crunch / Ice Fang / Dragon Dance
 Milotic @ Flame Orb | 82 | Marvel Scale | Scald / Ice Beam / Recover / Hypnosis

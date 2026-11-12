@@ -163,6 +163,7 @@ SlateportCity_Harbor_EventScript_FerryAttendant::
 
 SlateportCity_Harbor_EventScript_AskForTicket::
 	msgbox SlateportCity_Harbor_Text_MayISeeYourTicket, MSGBOX_DEFAULT
+	call SE_EventScript_SlateportOfferKanto @ Super Emerald: Kanto Ticket
 	message SlateportCity_Harbor_Text_FlashedTicketWhereTo
 	waitmessage
 	goto SlateportCity_Harbor_EventScript_ChooseDestination

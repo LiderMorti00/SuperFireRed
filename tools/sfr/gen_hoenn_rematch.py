@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Super Fire Red: writes the Hoenn Gym Leader rematch teams (TRAINER_<LEADER>_2.._5)
+"""Super Emerald: writes the Hoenn Gym Leader rematch teams (TRAINER_<LEADER>_2.._5)
 from tools/sfr/data/hoenn_rematch.txt into src/data/trainers.party.
 Usage (repo root): python3 tools/sfr/gen_hoenn_rematch.py
 """
@@ -38,9 +38,9 @@ def tier(team, n):
         for mon, lvl, ab, mv in team[1:]:
             if ' @ ' in mon and MEGA_RE.search(mon.split(' @ ')[1]):
                 mon = mon.split(' @ ')[0] + ' @ Life Orb'
-            res.append(fmt(mon, lvl, ab, mv))
+            res.append(fmt(mon, lvl - 18, ab, mv))
         return res
-    add = {3: 3, 4: 6, 5: 10}[n]
+    add = {3: -14, 4: -11, 5: -7}[n]   # Super Emerald: aces 64 / 68 / 71 / 75
     return [fmt(mon, lvl + add, ab, mv) for mon, lvl, ab, mv in team]
 
 

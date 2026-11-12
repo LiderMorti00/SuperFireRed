@@ -42,7 +42,9 @@ EverGrandeCity_GlaciasRoom_EventScript_Glacia::
 	goto_if_set FLAG_DEFEATED_ELITE_4_GLACIA, EverGrandeCity_GlaciasRoom_EventScript_PostBattleSpeech
 	playbgm MUS_ENCOUNTER_ELITE_FOUR, FALSE
 	msgbox EverGrandeCity_GlaciasRoom_Text_IntroSpeech, MSGBOX_DEFAULT
+	goto_if_set FLAG_SYS_GAME_CLEAR, EverGrandeCity_GlaciasRoom_EventScript_RematchBattle @ Super Emerald: ORAS League rematch
 	trainerbattle_no_intro TRAINER_GLACIA, EverGrandeCity_GlaciasRoom_Text_Defeat
+EverGrandeCity_GlaciasRoom_EventScript_AfterBattle::
 	goto EverGrandeCity_GlaciasRoom_EventScript_Defeated
 	end
 
@@ -81,3 +83,7 @@ EverGrandeCity_GlaciasRoom_Text_PostBattleSpeech:
 	.string "And there, confirm the truly fearsome\n"
 	.string "side of the POKéMON LEAGUE.$"
 
+
+EverGrandeCity_GlaciasRoom_EventScript_RematchBattle::
+	trainerbattle_no_intro TRAINER_SE_GLACIA_REMATCH, EverGrandeCity_GlaciasRoom_Text_Defeat
+	goto EverGrandeCity_GlaciasRoom_EventScript_AfterBattle

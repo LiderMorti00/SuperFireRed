@@ -36,6 +36,35 @@ SFR_Text_VermilionSailorComeBackAnytime:
 	.string "to set sail.$"
 
 @ ---------------------------------------------------------------------------
+@ Slateport / Lilycove harbors: S.S. Tidal to Vermilion City with the Kanto Ticket
+SE_EventScript_SlateportOfferKanto::
+	checkitem ITEM_KANTO_TICKET
+	goto_if_eq VAR_RESULT, FALSE, Common_EventScript_NopReturn
+	msgbox SE_Text_HarborKantoTicket, MSGBOX_YESNO
+	goto_if_eq VAR_RESULT, NO, Common_EventScript_NopReturn
+	call SlateportCity_Harbor_EventScript_BoardFerry
+	warp MAP_VERMILION_CITY, 23, 32
+	waitstate
+	release
+	end
+
+SE_EventScript_LilycoveOfferKanto::
+	checkitem ITEM_KANTO_TICKET
+	goto_if_eq VAR_RESULT, FALSE, Common_EventScript_NopReturn
+	msgbox SE_Text_HarborKantoTicket, MSGBOX_YESNO
+	goto_if_eq VAR_RESULT, NO, Common_EventScript_NopReturn
+	call LilycoveCity_Harbor_EventScript_BoardFerry
+	warp MAP_VERMILION_CITY, 23, 32
+	waitstate
+	release
+	end
+
+SE_Text_HarborKantoTicket:
+	.string "Oh, that's a KANTO TICKET!\p"
+	.string "Would you like to sail to\n"
+	.string "VERMILION CITY in KANTO?$"
+
+@ ---------------------------------------------------------------------------
 @ Kanto Gym Leader rematches
 SFR_EventScript_BrockRematch::
 	lock
@@ -366,7 +395,7 @@ SFR_EventScript_Regieleki::
 	playmoncry SPECIES_REGIELEKI, CRY_MODE_ENCOUNTER
 	delay 40
 	waitmoncry
-	setwildbattle SPECIES_REGIELEKI, 72
+	setwildbattle SPECIES_REGIELEKI, 75
 	setflag FLAG_SYS_CTRL_OBJ_DELETE
 	special StartRegiBattle
 	clearflag FLAG_SYS_CTRL_OBJ_DELETE
@@ -398,7 +427,7 @@ SFR_EventScript_Regidrago::
 	playmoncry SPECIES_REGIDRAGO, CRY_MODE_ENCOUNTER
 	delay 40
 	waitmoncry
-	setwildbattle SPECIES_REGIDRAGO, 72
+	setwildbattle SPECIES_REGIDRAGO, 75
 	setflag FLAG_SYS_CTRL_OBJ_DELETE
 	special StartRegiBattle
 	clearflag FLAG_SYS_CTRL_OBJ_DELETE
@@ -448,3 +477,80 @@ SFR_EventScript_RegigigasRan::
 	end
 
 
+
+@ ---------------------------------------------------------------------------
+@ Event tickets after becoming Champion
+SE_EventScript_RivalEonTicket::
+	goto_if_set FLAG_SFR_RECEIVED_EON_TICKET, Common_EventScript_NopReturn
+	msgbox SE_Text_RivalEonTicket, MSGBOX_DEFAULT
+	giveitem ITEM_EON_TICKET
+	goto_if_eq VAR_RESULT, FALSE, Common_EventScript_NopReturn
+	setflag FLAG_SFR_RECEIVED_EON_TICKET
+	setflag FLAG_ENABLE_SHIP_SOUTHERN_ISLAND
+	msgbox SE_Text_TicketUseAtLilycove, MSGBOX_DEFAULT
+	return
+
+SE_EventScript_BrineyOldSeaMap::
+	goto_if_set FLAG_SFR_RECEIVED_OLD_SEA_MAP, Common_EventScript_NopReturn
+	msgbox SE_Text_BrineyOldSeaMap, MSGBOX_DEFAULT
+	giveitem ITEM_OLD_SEA_MAP
+	goto_if_eq VAR_RESULT, FALSE, Common_EventScript_NopReturn
+	setflag FLAG_SFR_RECEIVED_OLD_SEA_MAP
+	setflag FLAG_ENABLE_SHIP_FARAWAY_ISLAND
+	msgbox SE_Text_TicketUseAtLilycove, MSGBOX_DEFAULT
+	return
+
+SE_EventScript_CozmoAuroraTicket::
+	goto_if_set FLAG_SFR_RECEIVED_AURORA_TICKET, Common_EventScript_NopReturn
+	msgbox SE_Text_CozmoAuroraTicket, MSGBOX_DEFAULT
+	giveitem ITEM_AURORA_TICKET
+	goto_if_eq VAR_RESULT, FALSE, Common_EventScript_NopReturn
+	setflag FLAG_SFR_RECEIVED_AURORA_TICKET
+	setflag FLAG_ENABLE_SHIP_BIRTH_ISLAND
+	msgbox SE_Text_TicketUseAtLilycove, MSGBOX_DEFAULT
+	return
+
+SE_EventScript_WallyMysticTicket::
+	goto_if_set FLAG_SFR_RECEIVED_MYSTIC_TICKET, Common_EventScript_NopReturn
+	msgbox SE_Text_WallyMysticTicket, MSGBOX_DEFAULT
+	giveitem ITEM_MYSTIC_TICKET
+	goto_if_eq VAR_RESULT, FALSE, Common_EventScript_NopReturn
+	setflag FLAG_SFR_RECEIVED_MYSTIC_TICKET
+	setflag FLAG_ENABLE_SHIP_NAVEL_ROCK
+	msgbox SE_Text_TicketUseAtLilycove, MSGBOX_DEFAULT
+	return
+
+SE_Text_RivalEonTicket:
+	.string "{RIVAL}: {PLAYER}{KUN}! Congratulations,\n"
+	.string "CHAMPION!\p"
+	.string "Dad got this from a friend, but I\n"
+	.string "think you should have it.\p"
+	.string "It's an EON TICKET. It takes you to\n"
+	.string "an island in the south where a rare\l"
+	.string "POKéMON is said to live.$"
+
+SE_Text_BrineyOldSeaMap:
+	.string "MR. BRINEY: Ahoy, CHAMPION!\p"
+	.string "While tidying up, I found this old\n"
+	.string "map. It shows an island I've never\l"
+	.string "sailed to.\p"
+	.string "An adventurer like you should have\n"
+	.string "it!$"
+
+SE_Text_CozmoAuroraTicket:
+	.string "PROF. COZMO: Ah, the new CHAMPION!\p"
+	.string "I've been studying a strange island\n"
+	.string "where meteorites fall.\p"
+	.string "I can't go there myself, but perhaps\n"
+	.string "you could. Please take this ticket!$"
+
+SE_Text_WallyMysticTicket:
+	.string "WALLY: {PLAYER}! You're the CHAMPION\n"
+	.string "now. That's amazing!\p"
+	.string "My uncle got this ticket, but I'm\n"
+	.string "not strong enough to use it yet.\p"
+	.string "I want you to have it!$"
+
+SE_Text_TicketUseAtLilycove:
+	.string "Show it at LILYCOVE CITY's harbor\n"
+	.string "to set sail.$"

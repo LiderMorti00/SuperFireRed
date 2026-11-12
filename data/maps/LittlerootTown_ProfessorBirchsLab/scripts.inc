@@ -28,11 +28,8 @@ LittlerootTown_ProfessorBirchsLab_OnTransition:
 	end
 
 LittlerootTown_ProfessorBirchsLab_EventScript_CheckReadyForJohtoStarter::
-	specialvar VAR_RESULT, HasAllHoennMons
-	goto_if_eq VAR_RESULT, TRUE, LittlerootTown_ProfessorBirchsLab_EventScript_SetReadyForJohtoStarter
-	setobjectmovementtype LOCALID_BIRCHS_LAB_RIVAL, MOVEMENT_TYPE_WANDER_UP_AND_DOWN
-	setobjectxyperm LOCALID_BIRCHS_LAB_RIVAL, 5, 10
-	end
+	@ Super Emerald: the Johto starter and the Kanto Ticket come right after the National Dex
+	goto LittlerootTown_ProfessorBirchsLab_EventScript_SetReadyForJohtoStarter
 
 LittlerootTown_ProfessorBirchsLab_EventScript_SetReadyForJohtoStarter::
 	setvar VAR_DEX_UPGRADE_JOHTO_STARTER_STATE, 4
@@ -333,7 +330,7 @@ LittlerootTown_ProfessorBirchsLab_EventScript_TakeYourTime::
 LittlerootTown_ProfessorBirchsLab_EventScript_GiveCyndaquil::
 	bufferspeciesname STR_VAR_1, SPECIES_CYNDAQUIL
 	setvar VAR_TEMP_TRANSFERRED_SPECIES, SPECIES_CYNDAQUIL
-	givemon SPECIES_CYNDAQUIL, 5
+	givemon SPECIES_CYNDAQUIL, 45, ITEM_EVERSTONE @ Super Emerald
 	goto_if_eq VAR_RESULT, MON_GIVEN_TO_PARTY, LittlerootTown_ProfessorBirchsLab_EventScript_SendCyndaquilToParty
 	goto_if_eq VAR_RESULT, MON_GIVEN_TO_PC, LittlerootTown_ProfessorBirchsLab_EventScript_SendCyndaquilToPC
 	hidemonpic
@@ -366,6 +363,7 @@ LittlerootTown_ProfessorBirchsLab_EventScript_CyndaquilTransferredToPC::
 
 LittlerootTown_ProfessorBirchsLab_EventScript_ReceivedCyndaquil::
 	hidemonpic
+	call LittlerootTown_ProfessorBirchsLab_EventScript_GiveKantoTicket
 	msgbox LittlerootTown_ProfessorBirchsLab_Text_GrassyPatchWaiting, MSGBOX_DEFAULT
 	setvar VAR_DEX_UPGRADE_JOHTO_STARTER_STATE, 6
 	releaseall
@@ -374,7 +372,7 @@ LittlerootTown_ProfessorBirchsLab_EventScript_ReceivedCyndaquil::
 LittlerootTown_ProfessorBirchsLab_EventScript_GiveTotodile::
 	bufferspeciesname STR_VAR_1, SPECIES_TOTODILE
 	setvar VAR_TEMP_TRANSFERRED_SPECIES, SPECIES_TOTODILE
-	givemon SPECIES_TOTODILE, 5
+	givemon SPECIES_TOTODILE, 45, ITEM_EVERSTONE @ Super Emerald
 	goto_if_eq VAR_RESULT, MON_GIVEN_TO_PARTY, LittlerootTown_ProfessorBirchsLab_EventScript_SendTotodileToParty
 	goto_if_eq VAR_RESULT, MON_GIVEN_TO_PC, LittlerootTown_ProfessorBirchsLab_EventScript_SendTotodileToPC
 	hidemonpic
@@ -407,6 +405,7 @@ LittlerootTown_ProfessorBirchsLab_EventScript_TotodileTransferredToPC::
 
 LittlerootTown_ProfessorBirchsLab_EventScript_ReceivedTotodile::
 	hidemonpic
+	call LittlerootTown_ProfessorBirchsLab_EventScript_GiveKantoTicket
 	msgbox LittlerootTown_ProfessorBirchsLab_Text_GrassyPatchWaiting, MSGBOX_DEFAULT
 	setvar VAR_DEX_UPGRADE_JOHTO_STARTER_STATE, 6
 	releaseall
@@ -415,7 +414,7 @@ LittlerootTown_ProfessorBirchsLab_EventScript_ReceivedTotodile::
 LittlerootTown_ProfessorBirchsLab_EventScript_GiveChikorita::
 	bufferspeciesname STR_VAR_1, SPECIES_CHIKORITA
 	setvar VAR_TEMP_TRANSFERRED_SPECIES, SPECIES_CHIKORITA
-	givemon SPECIES_CHIKORITA, 5
+	givemon SPECIES_CHIKORITA, 45, ITEM_EVERSTONE @ Super Emerald
 	goto_if_eq VAR_RESULT, MON_GIVEN_TO_PARTY, LittlerootTown_ProfessorBirchsLab_EventScript_SendChikoritaToParty
 	goto_if_eq VAR_RESULT, MON_GIVEN_TO_PC, LittlerootTown_ProfessorBirchsLab_EventScript_SendChikoritaToPC
 	hidemonpic
@@ -448,6 +447,7 @@ LittlerootTown_ProfessorBirchsLab_EventScript_ChikoritaTransferredToPC::
 
 LittlerootTown_ProfessorBirchsLab_EventScript_ReceivedChikorita::
 	hidemonpic
+	call LittlerootTown_ProfessorBirchsLab_EventScript_GiveKantoTicket
 	msgbox LittlerootTown_ProfessorBirchsLab_Text_GrassyPatchWaiting, MSGBOX_DEFAULT
 	setvar VAR_DEX_UPGRADE_JOHTO_STARTER_STATE, 6
 	releaseall
@@ -575,6 +575,7 @@ LittlerootTown_ProfessorBirchsLab_EventScript_Rival::
 	lock
 	faceplayer
 	goto_if_eq VAR_DEX_UPGRADE_JOHTO_STARTER_STATE, 5, LittlerootTown_ProfessorBirchsLab_EventScript_RivalFuturePlans
+	call_if_ge VAR_DEX_UPGRADE_JOHTO_STARTER_STATE, 6, SE_EventScript_RivalEonTicket @ Super Emerald
 	goto_if_ge VAR_DEX_UPGRADE_JOHTO_STARTER_STATE, 6, LittlerootTown_ProfessorBirchsLab_EventScript_RivalHaveYouGoneToBattleFrontier
 	goto_if_ge VAR_DEX_UPGRADE_JOHTO_STARTER_STATE, 2, LittlerootTown_ProfessorBirchsLab_EventScript_RivalTakeBreakFromFieldwork
 	checkplayergender
@@ -857,10 +858,8 @@ LittlerootTown_ProfessorBirchsLab_Text_GrassyPatchWaiting2:
 	.string "PROF. BIRCH: But listen.\n"
 	.string "You've become the CHAMPION,\l"
 	.string "but your POKéMON journey isn't over.\p"
-	.string "There is no end to the road\n"
-	.string "that is POKéMON.\p"
-	.string "Somewhere, there is a grassy patch\n"
-	.string "that's waiting for you!$"
+	.string "Come back and see me later.\n"
+	.string "I'll have something special for you!$"
 
 LittlerootTown_ProfessorBirchsLab_Text_MayTakeBreakFromFieldwork:
 	.string "MAY: I think I'll take a short break\n"
@@ -876,18 +875,16 @@ LittlerootTown_ProfessorBirchsLab_Text_BrendanTakeBreakFromFieldwork:
 
 LittlerootTown_ProfessorBirchsLab_Text_CompletedDexChoosePokemon:
 	.string "PROF. BIRCH: Oh, {PLAYER}{KUN}!\n"
-	.string "Let's have a look at your POKéDEX.\p"
-	.string "… … … … … …\n"
-	.string "… … … … … …\p"
-	.string "Yes, there's no doubt about it.\p"
-	.string "You really have completed the HOENN\n"
-	.string "region's POKéDEX.\p"
+	.string "I was waiting for you.\p"
+	.string "You've become the CHAMPION of HOENN.\n"
 	.string "That's more than just impressive.\p"
 	.string "I have a gift for you.\p"
 	.string "Consider it my show of appreciation\n"
 	.string "for the fantastic work you've done.\p"
-	.string "My gift is a rare POKéMON only found\n"
-	.string "in another region!\p"
+	.string "My gift is a rare POKéMON from the\n"
+	.string "JOHTO region, already well trained!\p"
+	.string "It holds an EVERSTONE, so it won't\n"
+	.string "evolve until you decide it should.\p"
 	.string "You can have any one of these\n"
 	.string "three POKéMON!$"
 
@@ -936,7 +933,7 @@ LittlerootTown_ProfessorBirchsLab_Text_NicknameJohtoStarter:
 
 LittlerootTown_ProfessorBirchsLab_Text_GrassyPatchWaiting:
 	.string "PROF. BIRCH: Listen, {PLAYER}{KUN}.\n"
-	.string "You've completed the HOENN POKéDEX,\l"
+	.string "You've become the CHAMPION,\l"
 	.string "but your POKéMON journey isn't over.\p"
 	.string "There is no end to the road\n"
 	.string "that is POKéMON.\p"
@@ -992,3 +989,25 @@ LittlerootTown_ProfessorBirchsLab_Text_ScottAboardSSTidalCall:
 	.string "we meet. I'll be waiting!\p"
 	.string "… … … … … …\n"
 	.string "… … … … … Click!$"
+
+@ Super Emerald: Prof. Birch's ticket to Kanto
+LittlerootTown_ProfessorBirchsLab_EventScript_GiveKantoTicket::
+	msgbox LittlerootTown_ProfessorBirchsLab_Text_TakeKantoTicket, MSGBOX_DEFAULT
+	giveitem ITEM_KANTO_TICKET
+	msgbox LittlerootTown_ProfessorBirchsLab_Text_ExplainKantoTicket, MSGBOX_DEFAULT
+	return
+
+LittlerootTown_ProfessorBirchsLab_Text_TakeKantoTicket:
+	.string "PROF. BIRCH: Oh, and one more thing.\p"
+	.string "My old friend PROF. OAK lives in\n"
+	.string "KANTO, far to the north.\p"
+	.string "I told him all about you, and he'd\n"
+	.string "love to meet the CHAMPION of HOENN.\p"
+	.string "So take this ticket!$"
+
+LittlerootTown_ProfessorBirchsLab_Text_ExplainKantoTicket:
+	.string "PROF. BIRCH: With that KANTO TICKET,\n"
+	.string "the S.S. TIDAL will take you to\l"
+	.string "VERMILION CITY.\p"
+	.string "It sails from SLATEPORT and LILYCOVE.\n"
+	.string "Say hello to PROF. OAK for me!$"

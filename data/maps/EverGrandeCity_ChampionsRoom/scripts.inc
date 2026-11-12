@@ -39,8 +39,15 @@ EverGrandeCity_ChampionsRoom_Movement_PlayerApproachWallace:
 
 EverGrandeCity_ChampionsRoom_EventScript_Wallace::
 	playbgm MUS_ENCOUNTER_CHAMPION, FALSE
+	goto_if_set FLAG_SYS_GAME_CLEAR, EverGrandeCity_ChampionsRoom_EventScript_StevenRematch @ Super Emerald: ORAS League rematch
 	msgbox EverGrandeCity_ChampionsRoom_Text_IntroSpeech, MSGBOX_DEFAULT
 	trainerbattle_no_intro TRAINER_WALLACE, EverGrandeCity_ChampionsRoom_Text_Defeat
+	goto EverGrandeCity_ChampionsRoom_EventScript_Defeated
+	end
+
+EverGrandeCity_ChampionsRoom_EventScript_StevenRematch::
+	msgbox EverGrandeCity_ChampionsRoom_Text_StevenRematchIntro, MSGBOX_DEFAULT
+	trainerbattle_no_intro TRAINER_STEVEN, EverGrandeCity_ChampionsRoom_Text_Defeat
 	goto EverGrandeCity_ChampionsRoom_EventScript_Defeated
 	end
 
@@ -322,3 +329,11 @@ EverGrandeCity_ChampionsRoom_Text_BrendanCongratulations:
 	.string "{PLAYER}, way to go!\n"
 	.string "Congratulations!$"
 
+
+EverGrandeCity_ChampionsRoom_Text_StevenRematchIntro:
+	.string "STEVEN: Welcome back, {PLAYER}{KUN}.\p"
+	.string "I've been out searching for stones\n"
+	.string "and training my POKéMON harder\l"
+	.string "than ever.\p"
+	.string "This time, I won't hold anything\n"
+	.string "back. Let's begin!$"

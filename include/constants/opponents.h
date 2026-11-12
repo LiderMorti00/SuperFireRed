@@ -177,7 +177,7 @@
 #define TRAINER_FRANKLIN                    170
 #define TRAINER_KEVIN                       171
 #define TRAINER_JACK                        172
-#define TRAINER_DUDLEY                      173
+#define TRAINER_SE_PHOEBE_REMATCH                      173
 #define TRAINER_CHAD                        174
 #define TRAINER_TONY_2                      175
 #define TRAINER_TONY_3                      176
@@ -572,7 +572,7 @@
 #define TRAINER_CATHERINE_5                 565
 #define TRAINER_JULIO                       566
 #define TRAINER_GRUNT_SEAFLOOR_CAVERN_5     567
-#define TRAINER_GRUNT_UNUSED                568
+#define TRAINER_SE_SIDNEY_REMATCH                568
 #define TRAINER_GRUNT_MT_PYRE_4             569
 #define TRAINER_GRUNT_JAGGED_PASS           570
 #define TRAINER_MARC                        571
@@ -867,12 +867,14 @@
 #define TRAINER_SFR_KOGA_REMATCH            859
 #define TRAINER_SFR_SABRINA_REMATCH         860
 #define TRAINER_SFR_BLAINE_REMATCH          861
+#define TRAINER_SE_GLACIA_REMATCH           862 // Super Emerald: League rematch
+#define TRAINER_SE_DRAKE_REMATCH            863 // Super Emerald: League rematch
 
 // NOTE: Because each Trainer uses a flag to determine when they are defeated, there is only space for 9 additional trainers before trainer flag space overflows
 //       More space can be made by shifting flags around in constants/flags.h or changing how trainer flags are handled
 //       MAX_TRAINERS_COUNT can be increased but will take up additional saveblock space
 
-#define TRAINERS_COUNT_EMERALD     862
+#define TRAINERS_COUNT_EMERALD     864
 #define MAX_TRAINERS_COUNT_EMERALD 864
 
 #if !IS_FRLG && KANTO_TRAINER_ID_START != MAX_TRAINERS_COUNT_EMERALD

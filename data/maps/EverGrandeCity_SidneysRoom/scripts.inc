@@ -48,7 +48,9 @@ EverGrandeCity_SidneysRoom_EventScript_Sidney::
 	goto_if_set FLAG_DEFEATED_ELITE_4_SIDNEY, EverGrandeCity_SidneysRoom_EventScript_PostBattleSpeech
 	playbgm MUS_ENCOUNTER_ELITE_FOUR, FALSE
 	msgbox EverGrandeCity_SidneysRoom_Text_IntroSpeech, MSGBOX_DEFAULT
+	goto_if_set FLAG_SYS_GAME_CLEAR, EverGrandeCity_SidneysRoom_EventScript_RematchBattle @ Super Emerald: ORAS League rematch
 	trainerbattle_no_intro TRAINER_SIDNEY, EverGrandeCity_SidneysRoom_Text_Defeat
+EverGrandeCity_SidneysRoom_EventScript_AfterBattle::
 	goto EverGrandeCity_SidneysRoom_EventScript_Defeated
 	end
 
@@ -85,3 +87,7 @@ EverGrandeCity_SidneysRoom_Text_PostBattleSpeech:
 	.string "Now, go on to the next room and enjoy\l"
 	.string "your next battle!$"
 
+
+EverGrandeCity_SidneysRoom_EventScript_RematchBattle::
+	trainerbattle_no_intro TRAINER_SE_SIDNEY_REMATCH, EverGrandeCity_SidneysRoom_Text_Defeat
+	goto EverGrandeCity_SidneysRoom_EventScript_AfterBattle

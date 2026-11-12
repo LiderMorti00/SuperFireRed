@@ -4,6 +4,7 @@ FallarborTown_CozmosHouse_MapScripts::
 FallarborTown_CozmosHouse_EventScript_ProfCozmo::
 	lock
 	faceplayer
+	call_if_set FLAG_SYS_GAME_CLEAR, SE_EventScript_CozmoAuroraTicket @ Super Emerald
 	goto_if_set FLAG_RECEIVED_TM_RETURN, FallarborTown_CozmosHouse_EventScript_GaveMeteorite
 	checkitem ITEM_METEORITE
 	goto_if_eq VAR_RESULT, TRUE, FallarborTown_CozmosHouse_EventScript_PlayerHasMeteorite
