@@ -145,3 +145,7 @@ This project follows the [all-contributors](https://github.com/all-contributors/
 
 ### Super Fire Red: Hoenn tilesets and maps in FireRed style
 - [Hoenn_FR_Style](https://github.com/Jaizu/Hoenn_FR_Style): Jaizu, Citrus Bolt, TheDeadHeroAlistair, Poffin_Case (special thanks: Syreldar)
+
+### Super Emerald: HGSS-style Kanto trainer sprites
+- "64x64 Trainer Sprites" pack, shrunk by Greenphx from the HeartGold / SoulSilver and Black / White sprites (The Spriters Resource): Karen, Brock, Misty, Lt. Surge, Erika, Sabrina, Blaine, Koga, Bruno
+- Janine sprites provided by LiderMorti00 (converted with `tools/sfr/convert_rmxp_npc.py`)
