@@ -528,8 +528,7 @@ static const struct SpritePalette sObjectEventSpritePalettes[] = {
     {gObjectEventPal_SfrTucker, OBJ_EVENT_PAL_TAG_SFR_TUCKER},
     {gObjectEventPal_SfrGreta, OBJ_EVENT_PAL_TAG_SFR_GRETA},
     {gObjectEventPal_SfrSpenser, OBJ_EVENT_PAL_TAG_SFR_SPENSER},
-    {gObjectEventPal_SfrRivalBrendanNormal, OBJ_EVENT_PAL_TAG_SFR_RIVAL_BRENDAN_NORMAL},
-    {gObjectEventPal_SfrRivalMayNormal, OBJ_EVENT_PAL_TAG_SFR_RIVAL_MAY_NORMAL},
+    {gObjectEventPal_SfrPlayerFx, OBJ_EVENT_PAL_TAG_SFR_PLAYER_FX},
 // Super Fire Red: FRHoenn end
     {gObjectEventPal_Npc1,                  OBJ_EVENT_PAL_TAG_NPC_1},
     {gObjectEventPal_Npc2,                  OBJ_EVENT_PAL_TAG_NPC_2},
@@ -3360,6 +3359,14 @@ u8 LoadObjectEventPaletteCopy(u16 originalTag, u16 copyTag)
     u32 i = FindObjectEventPaletteIndexByTag(originalTag);
     const struct SpritePalette palette = {sObjectEventSpritePalettes[i].data, copyTag};
     return LoadSpritePalette(&palette);
+}
+
+// Super Emerald: the FR-style Brendan/May palettes no longer hold the colors
+// of the surf blob, fly bird, rock climb blob and warp arrow, so those keep
+// the original Emerald player palette under their own tag.
+u8 LoadPlayerFieldEffectPalette(void)
+{
+    return LoadObjectEventPalette(OBJ_EVENT_PAL_TAG_SFR_PLAYER_FX);
 }
 
 u8 LoadPlayerObjectEventPalette(enum Gender gender)

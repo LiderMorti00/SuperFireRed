@@ -276,7 +276,7 @@ void Task_HandleExpansionIntro(u8 taskId)
             ResetSpriteData();
             FreeAllSpritePalettes();
             DestroyTask(taskId);
-            if (TRUE /* Super Fire Red: was IS_FRLG */)
+            if (FALSE /* Super Emerald: was IS_FRLG */)
             {
                 SetMainCallback2(CB2_SetUpIntroFrlg);
             }

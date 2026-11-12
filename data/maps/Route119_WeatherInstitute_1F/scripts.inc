@@ -28,7 +28,7 @@ Route119_WeatherInstitute_1F_EventScript_LittleBoyTeamAquaHere::
 Route119_WeatherInstitute_1F_EventScript_InstituteWorker1::
 	lock
 	faceplayer
-	goto_if_unset FLAG_SFR_HOENN_GAME_CLEAR, Route119_WeatherInstitute_1F_EventScript_StudyingRain
+	goto_if_unset FLAG_SYS_GAME_CLEAR, Route119_WeatherInstitute_1F_EventScript_StudyingRain
 	setvar VAR_0x8004, 0
 	call_if_set FLAG_DEFEATED_KYOGRE, Route119_WeatherInstitute_1F_EventScript_LegendaryDefeated
 	call_if_set FLAG_DEFEATED_GROUDON, Route119_WeatherInstitute_1F_EventScript_LegendaryDefeated
@@ -122,12 +122,10 @@ Route119_WeatherInstitute_1F_Text_NoticingAbnormalWeather:
 	.string "heavy rain lately…$"
 
 Route119_WeatherInstitute_1F_Text_WhatWereAquasUpTo:
-	.string "Hello!\p"
-	.string "TEAM AQUA once took over this\n"
-	.string "INSTITUTE, but a young TRAINER\l"
-	.string "drove them out.\p"
-	.string "What on earth were the AQUAS\n"
-	.string "up to, anyway?$"
+	.string "Hello!\n"
+	.string "We've been saved by your actions!\p"
+	.string "What I don't understand is what on\n"
+	.string "earth the AQUAS were up to.$"
 
 Route119_WeatherInstitute_1F_Text_TakeRestInBed:
 	.string "There's a bed…\n"

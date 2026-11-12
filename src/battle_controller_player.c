@@ -1121,7 +1121,7 @@ void HandleMoveSwitching(enum BattlerId battler)
             }
         }
 
-        if (TRUE /* Super Fire Red: was IS_FRLG */ && HasAnyBattleFlags(BATTLE_TYPE_FIRST_BATTLE))
+        if (FALSE /* Super Emerald: was IS_FRLG */ && HasAnyBattleFlags(BATTLE_TYPE_FIRST_BATTLE))
             gBattlerControllerFuncs[battler] = OakOldManHandleInputChooseMove;
         else
             gBattlerControllerFuncs[battler] = HandleInputChooseMove;

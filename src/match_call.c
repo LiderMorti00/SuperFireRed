@@ -1832,10 +1832,9 @@ static int GetNumOwnedBadges(void)
 {
     u32 i;
 
-    // Super Fire Red: Hoenn trainers count the Hoenn badges
     for (i = 0; i < NUM_BADGES; i++)
     {
-        if (!FlagGet(FLAG_BADGE09_GET + i))
+        if (!FlagGet(gBadgeFlags[i]))
             break;
     }
 

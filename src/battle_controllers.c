@@ -1,4 +1,5 @@
 #include "global.h"
+#include "regions.h"
 #include "battle.h"
 #include "battle_ai_main.h"
 #include "battle_ai_util.h"
@@ -163,7 +164,7 @@ void SetUpBattleVarsAndBirchZigzagoon(void)
     BattleAI_SetupItems();
     BattleAI_SetupFlags();
 
-    if (!TRUE /* Super Fire Red: was IS_FRLG */ && HasAnyBattleFlags(BATTLE_TYPE_FIRST_BATTLE))
+    if (!FALSE /* Super Emerald: was IS_FRLG */ && HasAnyBattleFlags(BATTLE_TYPE_FIRST_BATTLE))
         CreateWildMon(SPECIES_ZIGZAGOON, 2);
 }
 
@@ -294,8 +295,8 @@ static void InitBtlControllersInternal(void)
             else if (HasAnyBattleFlags(BATTLE_TYPE_SAFARI))
                 SetBattlerControllerFunc(GetBattlerPosition(B_BATTLER_0), SetControllerToSafari);
             else if (HasAnyBattleFlags(BATTLE_TYPE_CATCH_TUTORIAL))
-                SetBattlerControllerFunc(GetBattlerPosition(B_BATTLER_0), TRUE /* Super Fire Red: was IS_FRLG */ ? SetControllerToOakOrOldMan : SetControllerToWally);
-            else if (TRUE /* Super Fire Red: was IS_FRLG */ && HasAnyBattleFlags(BATTLE_TYPE_FIRST_BATTLE))
+                SetBattlerControllerFunc(GetBattlerPosition(B_BATTLER_0), IsInKanto() /* Super Emerald: old man in Viridian, Wally in Petalburg */ ? SetControllerToOakOrOldMan : SetControllerToWally);
+            else if (FALSE /* Super Emerald: was IS_FRLG */ && HasAnyBattleFlags(BATTLE_TYPE_FIRST_BATTLE))
                 SetBattlerControllerFunc(GetBattlerPosition(B_BATTLER_0), SetControllerToOakOrOldMan);
             else if (isAIvsAI)
                 SetBattlerControllerFunc(GetBattlerPosition(B_BATTLER_0), SetControllerToPlayerPartner);
@@ -2208,7 +2209,7 @@ void Controller_WaitForHealthBar(enum BattlerId battler)
         if (IsOnPlayerSide(battler))
             HandleLowHpMusicChange(GetBattlerMon(battler), battler);
 
-        if (TRUE /* Super Fire Red: was IS_FRLG */ && GetBattlerSide(battler) == B_SIDE_OPPONENT && !BtlCtrl_OakOldMan_TestState2Flag(1) && HasAnyBattleFlags(BATTLE_TYPE_FIRST_BATTLE))
+        if (FALSE /* Super Emerald: was IS_FRLG */ && GetBattlerSide(battler) == B_SIDE_OPPONENT && !BtlCtrl_OakOldMan_TestState2Flag(1) && HasAnyBattleFlags(BATTLE_TYPE_FIRST_BATTLE))
         {
             BtlCtrl_OakOldMan_SetState2Flag(1);
             gBattlerControllerFuncs[battler] = PrintOakText_InflictingDamageIsKey;

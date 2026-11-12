@@ -1051,7 +1051,7 @@ static void SerialCB_CopyrightScreen(void)
 
 static u8 SetUpCopyrightScreen(void)
 {
-    if (TRUE /* Super Fire Red: was IS_FRLG */)
+    if (FALSE /* Super Emerald: was IS_FRLG */)
         return SetUpCopyrightScreenFrlg();
 
     switch (gMain.state)

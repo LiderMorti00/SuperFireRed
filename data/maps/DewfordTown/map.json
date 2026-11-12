@@ -3,6 +3,7 @@
   "name": "DewfordTown",
   "layout": "LAYOUT_DEWFORD_TOWN",
   "music": "MUS_DEWFORD",
+  "region": "REGION_HOENN",
   "region_map_section": "MAPSEC_DEWFORD_TOWN",
   "requires_flash": false,
   "weather": "WEATHER_SUNNY",
@@ -11,7 +12,6 @@
   "allow_escaping": false,
   "allow_running": true,
   "show_map_name": true,
-  "floor_number": 0,
   "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
   "connections": [
     {
@@ -27,7 +27,6 @@
   ],
   "object_events": [
     {
-      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_WOMAN_2",
       "x": 7,
       "y": 12,
@@ -42,7 +41,6 @@
     },
     {
       "local_id": "LOCALID_DEWFORD_BRINEY",
-      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_EXPERT_M",
       "x": 12,
       "y": 9,
@@ -56,7 +54,6 @@
       "flag": "FLAG_HIDE_MR_BRINEY_DEWFORD_TOWN"
     },
     {
-      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_FISHERMAN",
       "x": 12,
       "y": 14,
@@ -71,7 +68,6 @@
     },
     {
       "local_id": "LOCALID_DEWFORD_BOAT",
-      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_MR_BRINEYS_BOAT",
       "x": 12,
       "y": 8,
@@ -85,7 +81,6 @@
       "flag": "FLAG_HIDE_MR_BRINEY_BOAT_DEWFORD_TOWN"
     },
     {
-      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_BOY_1",
       "x": 1,
       "y": 6,
@@ -178,6 +173,5 @@
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
       "script": "DewfordTown_EventScript_HallSign"
     }
-  ],
-  "region": "REGION_HOENN"
+  ]
 }

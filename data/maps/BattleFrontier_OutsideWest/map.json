@@ -3,6 +3,7 @@
   "name": "BattleFrontier_OutsideWest",
   "layout": "LAYOUT_BATTLE_FRONTIER_OUTSIDE_WEST",
   "music": "MUS_B_FRONTIER",
+  "region": "REGION_HOENN",
   "region_map_section": "MAPSEC_BATTLE_FRONTIER",
   "requires_flash": false,
   "weather": "WEATHER_NONE",
@@ -11,7 +12,6 @@
   "allow_escaping": false,
   "allow_running": true,
   "show_map_name": true,
-  "floor_number": 0,
   "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
   "connections": [
     {
@@ -22,7 +22,6 @@
   ],
   "object_events": [
     {
-      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_BOY_2",
       "x": 26,
       "y": 38,
@@ -37,7 +36,6 @@
     },
     {
       "local_id": "LOCALID_FRONTIER_SS_TIDAL",
-      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_SS_TIDAL",
       "x": 20,
       "y": 70,
@@ -52,7 +50,6 @@
     },
     {
       "local_id": "LOCALID_FRONTIER_FERRY_ATTENDANT",
-      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_BEAUTY",
       "x": 19,
       "y": 68,
@@ -66,7 +63,6 @@
       "flag": "0"
     },
     {
-      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_EXPERT_M",
       "x": 26,
       "y": 20,
@@ -80,7 +76,6 @@
       "flag": "0"
     },
     {
-      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_MAN_3",
       "x": 27,
       "y": 30,
@@ -94,7 +89,6 @@
       "flag": "0"
     },
     {
-      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_WOMAN_5",
       "x": 33,
       "y": 41,
@@ -108,7 +102,6 @@
       "flag": "0"
     },
     {
-      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_FAT_MAN",
       "x": 28,
       "y": 43,
@@ -122,7 +115,6 @@
       "flag": "0"
     },
     {
-      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_GENTLEMAN",
       "x": 17,
       "y": 20,
@@ -137,7 +129,6 @@
     },
     {
       "local_id": "LOCALID_FRONTIER_MANIAC_1",
-      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_MANIAC",
       "x": 13,
       "y": 44,
@@ -152,7 +143,6 @@
     },
     {
       "local_id": "LOCALID_FRONTIER_MANIAC_2",
-      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_MANIAC",
       "x": 14,
       "y": 44,
@@ -166,7 +156,6 @@
       "flag": "0"
     },
     {
-      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_MAN_5",
       "x": 23,
       "y": 47,
@@ -181,7 +170,6 @@
     },
     {
       "local_id": "LOCALID_FRONTIER_GIRL",
-      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_GIRL_1",
       "x": 38,
       "y": 27,
@@ -195,7 +183,6 @@
       "flag": "0"
     },
     {
-      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_WOMAN_3",
       "x": 45,
       "y": 18,
@@ -210,7 +197,6 @@
     },
     {
       "local_id": "LOCALID_FRONTIER_CAMPER",
-      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_CAMPER",
       "x": 9,
       "y": 47,
@@ -224,7 +210,6 @@
       "flag": "0"
     },
     {
-      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_LASS",
       "x": 35,
       "y": 5,
@@ -238,7 +223,6 @@
       "flag": "0"
     },
     {
-      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_MAN_2",
       "x": 11,
       "y": 66,
@@ -252,7 +236,6 @@
       "flag": "0"
     },
     {
-      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_FISHERMAN",
       "x": 31,
       "y": 31,
@@ -267,7 +250,6 @@
     },
     {
       "local_id": "LOCALID_FRONTIER_FISHERMAN_2",
-      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_FISHERMAN",
       "x": 42,
       "y": 48,
@@ -281,7 +263,6 @@
       "flag": "0"
     },
     {
-      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_FAT_MAN",
       "x": 38,
       "y": 22,
@@ -295,7 +276,6 @@
       "flag": "0"
     },
     {
-      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_WOMAN_2",
       "x": 12,
       "y": 9,
@@ -309,7 +289,6 @@
       "flag": "0"
     },
     {
-      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_BOY_1",
       "x": 12,
       "y": 10,
@@ -323,7 +302,6 @@
       "flag": "0"
     },
     {
-      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_OLD_MAN",
       "x": 11,
       "y": 10,
@@ -338,7 +316,6 @@
     },
     {
       "local_id": "LOCALID_FRONTIER_MAN_4",
-      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_MAN_4",
       "x": 8,
       "y": 5,
@@ -352,7 +329,6 @@
       "flag": "0"
     },
     {
-      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_POKEFAN_F",
       "x": 4,
       "y": 26,
@@ -366,7 +342,6 @@
       "flag": "0"
     },
     {
-      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_ITEM_BALL",
       "x": 17,
       "y": 23,
@@ -501,6 +476,5 @@
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
       "script": "Common_EventScript_ShowPokemartSign"
     }
-  ],
-  "region": "REGION_HOENN"
+  ]
 }

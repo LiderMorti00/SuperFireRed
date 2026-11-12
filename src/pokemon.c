@@ -4661,7 +4661,7 @@ enum Species NationalPokedexNumToSpecies(enum NationalDexOrder nationalNum)
 
 u32 NationalToRegionalOrder(enum NationalDexOrder nationalNum)
 {
-    if (TRUE /* Super Fire Red: was IS_FRLG */)
+    if (FALSE /* Super Emerald: was IS_FRLG */)
         return NationalToKantoOrder(nationalNum);
     return NationalToHoennOrder(nationalNum);
 }
@@ -4713,7 +4713,7 @@ enum NationalDexOrder SpeciesToNationalPokedexNum(enum Species species)
 
 u32 SpeciesToRegionalPokedexNum(enum Species species)
 {
-    if (TRUE /* Super Fire Red: was IS_FRLG */)
+    if (FALSE /* Super Emerald: was IS_FRLG */)
         return SpeciesToKantoPokedexNum(species);
     return SpeciesToHoennPokedexNum(species);
 }
@@ -4734,7 +4734,7 @@ enum HoennDexOrder SpeciesToHoennPokedexNum(enum Species species)
 
 enum NationalDexOrder RegionalToNationalOrder(u32 regionalNum)
 {
-    if (TRUE /* Super Fire Red: was IS_FRLG */)
+    if (FALSE /* Super Emerald: was IS_FRLG */)
         return KantoToNationalOrder(regionalNum);
     return HoennToNationalOrder(regionalNum);
 }
@@ -5072,7 +5072,7 @@ u16 SpeciesToPokedexNum(enum Species species)
 
 bool32 IsSpeciesInRegionalDex(enum Species species)
 {
-    if (TRUE /* Super Fire Red: was IS_FRLG */)
+    if (FALSE /* Super Emerald: was IS_FRLG */)
         return IsSpeciesInKantoDex(species);
     return IsSpeciesInHoennDex(species);
 }

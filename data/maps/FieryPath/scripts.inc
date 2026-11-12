@@ -8,5 +8,7 @@ FieryPath_OnTransition:
 	end
 
 FieryPath_EventScript_MoveScottToFallarbor::
-	return @ Super Fire Red: Scott only shows up after the Mossdeep Gym
+	setflag FLAG_HIDE_VERDANTURF_TOWN_SCOTT
+	clearflag FLAG_HIDE_FALLARBOR_TOWN_BATTLE_TENT_SCOTT
+	return
 

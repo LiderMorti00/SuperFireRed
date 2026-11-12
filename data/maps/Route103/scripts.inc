@@ -4,13 +4,12 @@ Route103_MapScripts::
 	.byte 0
 
 Route103_OnTransition:
-	call SFR_EventScript_SetupBrendanRoute103 @ Super Fire Red
 	call Common_EventScript_SetupRivalGfxId
 	call ProfBirch_EventScript_UpdateLocation
 	end
 
 Route103_OnLoad:
-	call_if_set FLAG_SFR_HOENN_GAME_CLEAR, Route103_EventScript_OpenAlteringCave
+	call_if_set FLAG_SYS_GAME_CLEAR, Route103_EventScript_OpenAlteringCave
 	end
 
 Route103_EventScript_OpenAlteringCave::

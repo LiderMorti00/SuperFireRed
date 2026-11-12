@@ -74,13 +74,14 @@ static inline enum Gender SetQuickstartPlayerGender()
 
 static void CB2_SkipToNewGame(void)
 {
-#if TRUE // Super Fire Red: was IS_FRLG
+#if FALSE // Super Emerald: was IS_FRLG
     static const u8 sText_PlayerMale[] = _("RED");
     static const u8 sText_PlayerFemale[] = _("LEAF");
     static const u8 sText_Rival[] = _("BLUE");
 #else
     static const u8 sText_PlayerMale[] = _("BRENDAN");
     static const u8 sText_PlayerFemale[] = _("MAY");
+    static const u8 sText_Rival[] = _("BLUE"); // Super Emerald: Kanto's rival, now Viridian Gym Leader
 #endif  // IS_FRLG
 
     if (!UpdatePaletteFade())
@@ -89,7 +90,7 @@ static void CB2_SkipToNewGame(void)
         const u8* textPtr = gSaveBlock2Ptr->playerGender == FEMALE ? sText_PlayerFemale : sText_PlayerMale;
         StringCopy_PlayerName(gSaveBlock2Ptr->playerName, textPtr);
 
-#if TRUE // Super Fire Red: was IS_FRLG
+#if TRUE // Super Emerald: Blue keeps his name in Kanto
         StringCopy_PlayerName(gSaveBlock1Ptr->rivalName, sText_Rival);
 #endif  // IS_FRLG
 

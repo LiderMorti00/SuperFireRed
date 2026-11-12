@@ -22,7 +22,6 @@ Route104_MrBrineysHouse_EventScript_SetBrineyPeekoPos::
 Route104_MrBrineysHouse_EventScript_Briney::
 	lock
 	faceplayer
-	call_if_set FLAG_SFR_HOENN_GAME_CLEAR, SFR_EventScript_BrineyOldSeaMap @ Super Fire Red
 	call_if_unset FLAG_MR_BRINEY_SAILING_INTRO, Route104_MrBrineysHouse_EventScript_SailingIntro
 	goto_if_unset FLAG_DELIVERED_STEVEN_LETTER, Route104_MrBrineysHouse_EventScript_SailBothDeliveries
 	goto_if_unset FLAG_DELIVERED_DEVON_GOODS, Route104_MrBrineysHouse_EventScript_SailDeliverPackage
@@ -100,13 +99,17 @@ Route104_MrBrineysHouse_Text_WaitUpPeeko:
 	.string "Wait up, PEEKO!$"
 
 Route104_MrBrineysHouse_Text_ItsYouLetsSailToDewford:
-	.string "Hm? A young TRAINER from KANTO?\p"
-	.string "I'm MR. BRINEY, and this is my\n"
-	.string "darling PEEKO!\p"
+	.string "Hm? You're {PLAYER}{KUN}!\n"
+	.string "You saved my darling PEEKO!\l"
+	.string "We owe so much to you!\p"
 	.string "What's that?\n"
 	.string "You want to sail with me?\p"
 	.string "Hmhm…\p"
-	.string "Certainly, that's no problem at all.\p"
+	.string "You have a LETTER bound for DEWFORD\n"
+	.string "and a package for SLATEPORT, then?\p"
+	.string "Quite the busy life you must lead!\p"
+	.string "But, certainly, what you're asking is\n"
+	.string "no problem at all.\p"
 	.string "You've come to the right man!\n"
 	.string "We'll set sail for DEWFORD.$"
 

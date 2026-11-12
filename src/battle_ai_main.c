@@ -6974,7 +6974,7 @@ static s32 AI_Safari(enum BattlerId battlerAtk, enum BattlerId battlerDef, enum 
 // First battle logic
 static s32 AI_FirstBattle(enum BattlerId battlerAtk, enum BattlerId battlerDef, enum Move move, s32 score)
 {
-    if (!TRUE /* Super Fire Red: was IS_FRLG */ && GetHealthPercentage(battlerDef) <= 20)
+    if (!FALSE /* Super Emerald: was IS_FRLG */ && GetHealthPercentage(battlerDef) <= 20)
         AI_Flee();
 
     return score;

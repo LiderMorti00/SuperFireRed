@@ -38,7 +38,7 @@ PetalburgCity_Gym_EventScript_UnlockAllDoors::
 PetalburgCity_Gym_OnTransition:
 	call_if_eq VAR_PETALBURG_GYM_STATE, 1, PetalburgCity_Gym_EventScript_MoveWallyToEntrance
 	call_if_lt VAR_PETALBURG_GYM_STATE, 6, PetalburgCity_Gym_EventScript_MoveNormanToEntrance
-	call_if_set FLAG_SFR_HOENN_GAME_CLEAR, PetalburgCity_Gym_EventScript_CheckNormanForRematch
+	call_if_set FLAG_SYS_GAME_CLEAR, PetalburgCity_Gym_EventScript_CheckNormanForRematch
 	end
 
 PetalburgCity_Gym_EventScript_MoveWallyToEntrance::
@@ -330,7 +330,7 @@ PetalburgCity_Gym_EventScript_NormanPostBattle::
 	call PetalburgCity_Gym_EventScript_ShouldGiveEnigmaBerry
 	goto_if_eq VAR_RESULT, TRUE, PetalburgCity_Gym_EventScript_GiveEnigmaBerry
 	goto_if_unset FLAG_RECEIVED_TM_FACADE, PetalburgCity_Gym_EventScript_GiveFacade2
-	goto_if_set FLAG_SFR_HOENN_GAME_CLEAR, PetalburgCity_Gym_EventScript_NoAmountOfTrainingIsEnough
+	goto_if_set FLAG_SYS_GAME_CLEAR, PetalburgCity_Gym_EventScript_NoAmountOfTrainingIsEnough
 	msgbox PetalburgCity_Gym_Text_DadGoingToKeepTraining, MSGBOX_DEFAULT
 	release
 	end
@@ -377,8 +377,11 @@ PetalburgCity_Gym_EventScript_NormanBattle::
 	msgbox PetalburgCity_Gym_Text_ExplainBalanceBadgeTakeThis, MSGBOX_DEFAULT
 	setflag FLAG_DEFEATED_PETALBURG_GYM
 	setvar VAR_PETALBURG_GYM_STATE, 7
-	setflag FLAG_BADGE13_GET
+	setflag FLAG_BADGE05_GET
 	special ResetHealLocationFromDewford
+	call EventScript_HideMrBriney
+	setflag FLAG_HIDE_MAUVILLE_GYM_WATTSON
+	clearflag FLAG_HIDE_MAUVILLE_CITY_WATTSON
 	setvar VAR_0x8008, 5
 	call Common_EventScript_SetGymTrainers
 	clearflag FLAG_HIDE_DEWFORD_HALL_SLUDGE_BOMB_MAN
@@ -387,16 +390,6 @@ PetalburgCity_Gym_EventScript_NormanBattle::
 	call PetalburgCity_Gym_EventScript_GiveFacade
 	delay 30
 	msgbox PetalburgCity_Gym_Text_DadHappyAndSad, MSGBOX_DEFAULT
-	closemessage
-	delay 30
-	playfanfare MUS_REGISTER_MATCH_CALL
-	msgbox PetalburgCity_Gym_Text_RegisteredNorman, MSGBOX_DEFAULT
-	waitfanfare
-	closemessage
-	delay 30
-	setflag FLAG_ENABLE_NORMAN_MATCH_CALL
-	release @ Super Fire Red: no Wally's dad scene after Emerald
-	end
 	closemessage
 	delay 40
 	playse SE_DOOR
@@ -1124,13 +1117,13 @@ PetalburgCity_Gym_EventScript_GymGuidePostVictory::
 
 PetalburgCity_Gym_EventScript_LeftGymStatue::
 	lockall
-	goto_if_set FLAG_BADGE13_GET, PetalburgCity_Gym_EventScript_GymStatueCertified
+	goto_if_set FLAG_BADGE05_GET, PetalburgCity_Gym_EventScript_GymStatueCertified
 	goto PetalburgCity_Gym_EventScript_GymStatue
 	end
 
 PetalburgCity_Gym_EventScript_RightGymStatue::
 	lockall
-	goto_if_set FLAG_BADGE13_GET, PetalburgCity_Gym_EventScript_GymStatueCertified
+	goto_if_set FLAG_BADGE05_GET, PetalburgCity_Gym_EventScript_GymStatueCertified
 	goto PetalburgCity_Gym_EventScript_GymStatue
 	end
 
@@ -1260,13 +1253,14 @@ PetalburgCity_Gym_Text_YouHaveGottenStronger:
 	.string "that you've earned.$"
 
 PetalburgCity_Gym_Text_NormanIntro:
-	.string "NORMAN: So you're the TRAINER from\n"
-	.string "KANTO that BIRCH told me about.\p"
-	.string "I'm NORMAN, the GYM LEADER of\n"
-	.string "PETALBURG CITY.\p"
-	.string "My daughter MAY is the CHAMPION of\n"
-	.string "HOENN. If you hope to face her one\l"
-	.string "day, you'll have to get past me.\p"
+	.string "DAD: Hm…\n"
+	.string "So, you did get four GYM BADGES.\p"
+	.string "Fine, as I promised, we will have\n"
+	.string "a POKéMON battle.\p"
+	.string "{PLAYER}…\p"
+	.string "I'm so happy that I can have\n"
+	.string "a real battle with my own child.\p"
+	.string "But, a battle is a battle!\p"
 	.string "I will do everything in my power as\n"
 	.string "a GYM LEADER to win.\p"
 	.string "{PLAYER}, you'd better give it your\n"
@@ -1274,9 +1268,10 @@ PetalburgCity_Gym_Text_NormanIntro:
 
 PetalburgCity_Gym_Text_NormanDefeat:
 	.string "…\p"
-	.string "Hm… I can see why BIRCH spoke\n"
-	.string "so highly of you.\p"
-	.string "Rules are rules!\n"
+	.string "I… I can't…\p"
+	.string "I can't believe it. {PLAYER}…\p"
+	.string "I lost to {PLAYER}?\p"
+	.string "But, rules are rules!\n"
 	.string "Here, take this.$"
 
 PetalburgCity_Gym_Text_ReceivedBalanceBadge:
@@ -1284,12 +1279,15 @@ PetalburgCity_Gym_Text_ReceivedBalanceBadge:
 	.string "from DAD!$"
 
 PetalburgCity_Gym_Text_ExplainBalanceBadgeTakeThis:
-	.string "NORMAN: The BALANCE BADGE proves\n"
-	.string "that you have beaten this GYM.\p"
-	.string "Please take this as well.$"
+	.string "DAD: With that BADGE, the DEFENSE\n"
+	.string "of all your POKéMON will increase.\p"
+	.string "POKéMON that know the HM move SURF\n"
+	.string "will be able to travel over water.\p"
+	.string "This is my gift to you. {PLAYER}, I'm\n"
+	.string "sure you can use it correctly.$"
 
 PetalburgCity_Gym_Text_ExplainFacade:
-	.string "NORMAN: That TM contains FACADE.\p"
+	.string "DAD: TM42 contains FACADE.\p"
 	.string "It doubles the power of moves if\n"
 	.string "the POKéMON is poisoned, paralyzed,\l"
 	.string "or burned.\p"
@@ -1297,10 +1295,10 @@ PetalburgCity_Gym_Text_ExplainFacade:
 	.string "situation into an advantage.$"
 
 PetalburgCity_Gym_Text_DadHappyAndSad:
-	.string "NORMAN: Losing like that…\n"
-	.string "It reminds me of my battle with MAY.\p"
-	.string "I'll be watching to see how far\n"
-	.string "you can go, {PLAYER}.$"
+	.string "DAD: As the GYM LEADER, I can't\n"
+	.string "express how upset I am…\p"
+	.string "But as a father, it makes me both\n"
+	.string "happy and a little sad. It's odd…$"
 
 PetalburgCity_Gym_Text_PleaseComeWithMe:
 	.string "Ah, there you are, {PLAYER}{KUN}!\p"
@@ -1313,13 +1311,15 @@ PetalburgCity_Gym_Text_LetMeBorrowPlayer:
 	.string "a minute or two.$"
 
 PetalburgCity_Gym_Text_DadGoingToKeepTraining:
-	.string "NORMAN: I'm going to stay here and\n"
-	.string "redouble my training.\p"
-	.string "When you see MAY, tell her that her\n"
-	.string "old man is still going strong!$"
+	.string "DAD: {PLAYER}, you should go visit\n"
+	.string "your mother every so often.\p"
+	.string "I'm going to stay here and redouble\n"
+	.string "my training.\p"
+	.string "It would bother me as a TRAINER to\n"
+	.string "not avenge my loss to you, {PLAYER}!$"
 
 PetalburgCity_Gym_Text_DadNoAmountOfTrainingIsEnough:
-	.string "NORMAN: {PLAYER}, how are things going?\p"
+	.string "DAD: {PLAYER}, how are things going?\p"
 	.string "The world of POKéMON is deep.\p"
 	.string "I honestly think that no amount of\n"
 	.string "training would ever be enough.$"
@@ -1553,34 +1553,39 @@ PetalburgCity_Gym_Text_GymStatueCertified:
 	.string "{PLAYER}$"
 
 PetalburgCity_Gym_Text_NormanPreRematch:
-	.string "NORMAN: {PLAYER}…\n"
+	.string "DAD: {PLAYER}…\n"
 	.string "I had a feeling that you would come.\p"
 	.string "I would never refuse to accept\n"
 	.string "a challenge from you.\p"
-	.string "Let's do our best, just like the\n"
-	.string "first time!$"
+	.string "You do understand, don't you?\p"
+	.string "Inside a GYM, it doesn't matter that\n"
+	.string "we are a parent and child.\p"
+	.string "…No, because we are parent and child,\n"
+	.string "we owe it to each other to do the best\l"
+	.string "we can. Isn't that right, {PLAYER}?$"
 
 PetalburgCity_Gym_Text_NormanRematchDefeat:
 	.string "Uh… Haha…\n"
 	.string "Maybe that was going too hard…$"
 
 PetalburgCity_Gym_Text_NormanPostRematch:
-	.string "NORMAN: {PLAYER}…\n"
+	.string "DAD: {PLAYER}…\n"
 	.string "What is your dream?\p"
 	.string "My dream…\n"
 	.string "Hahaha…\l"
-	.string "MAY made it come true, actually.$"
+	.string "It has already come true, actually.$"
 
 PetalburgCity_Gym_Text_NormanRematchNeedTwoMons:
-	.string "NORMAN: {PLAYER}…\n"
+	.string "DAD: {PLAYER}…\n"
 	.string "I had a feeling that you would come.\p"
+	.string "I would never refuse to accept\n"
+	.string "a challenge from you.\p"
+	.string "You do understand, don't you?\p"
+	.string "Inside a GYM, it doesn't matter that\n"
+	.string "we are a parent and child.\p"
 	.string "Hm? Wait a second, {PLAYER}.\p"
 	.string "Do you only have one POKéMON that is\n"
 	.string "capable of battle?\p"
 	.string "Sorry, but you'll have to come back\n"
 	.string "with at least two POKéMON.$"
 
-
-PetalburgCity_Gym_Text_RegisteredNorman:
-	.string "Registered GYM LEADER NORMAN\n"
-	.string "in the POKéNAV.$"

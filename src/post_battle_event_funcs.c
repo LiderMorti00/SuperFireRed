@@ -21,17 +21,14 @@ int GameClear(void)
 
     HealPlayerParty();
 
-    if (FlagGet(FLAG_SFR_HOENN_GAME_CLEAR) == TRUE)
+    if (FlagGet(FLAG_SYS_GAME_CLEAR) == TRUE)
     {
         gHasHallOfFameRecords = TRUE;
     }
     else
     {
         gHasHallOfFameRecords = FALSE;
-        FlagSet(FLAG_SFR_HOENN_GAME_CLEAR);
-        // Super Fire Red: Scott calls to invite the player to the Battle Frontier
-        VarSet(VAR_SCOTT_BF_CALL_STEP_COUNTER, 0);
-        FlagSet(FLAG_SCOTT_CALL_BATTLE_FRONTIER);
+        FlagSet(FLAG_SYS_GAME_CLEAR);
     }
 
     if (GetGameStat(GAME_STAT_FIRST_HOF_PLAY_TIME) == 0)
@@ -39,8 +36,10 @@ int GameClear(void)
 
     SetContinueGameWarpStatus();
 
-    // Super Fire Red: continue from Prof. Birch's lab
-    SetContinueGameWarpToHealLocation(HEAL_LOCATION_SFR_BIRCHS_LAB);
+    if (gSaveBlock2Ptr->playerGender == MALE)
+        SetContinueGameWarpToHealLocation(HEAL_LOCATION_LITTLEROOT_TOWN_BRENDANS_HOUSE_2F);
+    else
+        SetContinueGameWarpToHealLocation(HEAL_LOCATION_LITTLEROOT_TOWN_MAYS_HOUSE_2F);
 
     ribbonGet = FALSE;
 

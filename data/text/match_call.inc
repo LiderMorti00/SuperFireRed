@@ -2224,32 +2224,37 @@ MatchCall_Text_TateLiza_PostRematch::
 	.string "LIZA: We could all battle again!$"
 
 MatchCall_Text_Juan_Preparing::
-	.string "WALLACE: Ah, {PLAYER}{KUN}…\p"
-	.string "Our battle was as elegant as\n"
-	.string "a waterfall in moonlight.\p"
-	.string "I gave up the title of CHAMPION\n"
-	.string "to guide SOOTOPOLIS, but I still\l"
-	.string "polish my art every day.$"
+	.string "JUAN: Hmm…\n"
+	.string "{PLAYER}{KUN}… Was it?\p"
+	.string "Our battle together--it brought\n"
+	.string "to me memories of when I first\l"
+	.string "encountered WALLACE.\p"
+	.string "Perhaps you are a genius who may\n"
+	.string "yet surpass WALLACE!$"
 
 MatchCall_Text_Juan_PreparingPostGame::
-	.string "WALLACE: Bravo, {PLAYER}{KUN}!\p"
-	.string "You've defeated MAY and become\n"
-	.string "HOENN's CHAMPION.\p"
-	.string "My eye for talent wasn't mistaken.\n"
-	.string "I'm refining my team for you…$"
+	.string "JUAN: Fufu… {PLAYER}{KUN}…\n"
+	.string "You've finally achieved your goal.\p"
+	.string "My eye for appraising talent wasn't\n"
+	.string "mistaken…\p"
+	.string "I wish for another chance to meet\n"
+	.string "you, for you have scaled the peak\l"
+	.string "of power and prestige.$"
 
 MatchCall_Text_Juan_RematchReady::
-	.string "WALLACE: {PLAYER}{KUN}…\p"
-	.string "The water of SOOTOPOLIS is calm,\n"
-	.string "and my POKéMON are ready.\p"
-	.string "Come to the GYM whenever you wish\n"
-	.string "to see our new performance.$"
+	.string "JUAN: Hoho… {PLAYER}{KUN}…\p"
+	.string "Our SOOTOPOLIS GYM has finally\n"
+	.string "reopened.\p"
+	.string "If you wish to see me, you are\n"
+	.string "welcome to visit anytime.$"
 
 MatchCall_Text_Juan_PostRematch::
-	.string "WALLACE: {PLAYER}{KUN}…\p"
+	.string "JUAN: {PLAYER}{KUN}…\p"
 	.string "Like the finest music, the battles\n"
 	.string "we wage together strike chords\l"
-	.string "of inspiration in my heart…$"
+	.string "of inspiration in my heart…\p"
+	.string "When I close my eyes, I see visions\n"
+	.string "of you soaring with the melody…$"
 
 MatchCall_Text_Sidney::
 	.string "SIDNEY: Yo, {PLAYER}!\p"
@@ -2704,23 +2709,60 @@ MatchCall_Text_Scott7::
 	.string "SCOTT appears to be out of\n"
 	.string "the POKéNAV's service area…$"
 
+MatchCall_Text_Norman1::
+	.string "DAD: In RUSTBORO, there's a man\n"
+	.string "that goes by the odd name of\l"
+	.string "the CUTTER.\p"
+	.string "If you're in the area, you should\n"
+	.string "pay him a visit.$"
+
+MatchCall_Text_Norman2::
+	.string "DAD: Hm… Little by little, but also\n"
+	.string "very surely, you're getting\l"
+	.string "tougher, {PLAYER}.\p"
+	.string "The stronger you get, the farther\n"
+	.string "and higher you soar from Mother\l"
+	.string "and me…\p"
+	.string "This feeling is hard to explain.$"
+
+MatchCall_Text_Norman3::
+	.string "DAD: I see…\n"
+	.string "You've collected four GYM BADGES…\p"
+	.string "There's no avoiding it now.\n"
+	.string "We will battle like I promised.\p"
+	.string "Come anytime.\n"
+	.string "We'll all be waiting for you!$"
+
+MatchCall_Text_Norman4::
+	.string "DAD: {PLAYER}! You'd better go visit\n"
+	.string "Mother every so often.\p"
+	.string "I'm going to remain here and\n"
+	.string "redouble my training.\p"
+	.string "The way of battling is deep\n"
+	.string "and unforgiving!$"
+
+MatchCall_Text_Norman5::
+	.string "DAD: Oh, hi, {PLAYER}!\p"
+	.string "What's that? MAGMA EMBLEM?\n"
+	.string "I don't know what that's about.\p"
+	.string "But with a name like that, it may\n"
+	.string "be somehow linked to a volcano!$"
+
 MatchCall_Text_Norman_Preparing::
-	.string "NORMAN: Hiyah! Haah! Dwah!\p"
+	.string "DAD: Hiyah! Haah! Dwah!\p"
 	.string "…Oh? {PLAYER}!\p"
 	.string "You caught me right in the middle\n"
-	.string "of a POKéMON training session!\p"
-	.string "A trainer from KANTO who beats\n"
-	.string "me is a trainer I must study.$"
+	.string "of a POKéMON training session!$"
 
 MatchCall_Text_Norman_PreparingPostGame::
-	.string "NORMAN: {PLAYER}!\p"
+	.string "DAD: {PLAYER}!\p"
 	.string "Who would've thought you'd become\n"
-	.string "HOENN's POKéMON LEAGUE CHAMPION…\p"
+	.string "the POKéMON LEAGUE CHAMPION…\p"
 	.string "Okay!\n"
 	.string "I won't be left behind!$"
 
 MatchCall_Text_Norman_RematchReady::
-	.string "NORMAN: Hm? {PLAYER}?\n"
+	.string "DAD: Hm? {PLAYER}?\n"
 	.string "What good timing!\p"
 	.string "This time, I'm going to challenge\n"
 	.string "you to battle.\p"
@@ -2728,7 +2770,7 @@ MatchCall_Text_Norman_RematchReady::
 	.string "Accept my challenge anytime!$"
 
 MatchCall_Text_Norman_PostRematch::
-	.string "NORMAN: …You amaze me, {PLAYER}.\n"
+	.string "DAD: …You amaze me, {PLAYER}.\n"
 	.string "How much higher will you soar?$"
 
 MatchCall_Text_Steven1::

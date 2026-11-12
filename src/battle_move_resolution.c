@@ -2501,7 +2501,7 @@ static bool32 ShouldSkipAccuracyCalcPastFirstHit(enum BattlerId battlerAtk, enum
 
 static bool32 ShouldSkipFRLGAccuracyCheck(void)
 {
-    if (!TRUE /* Super Fire Red: was IS_FRLG */)
+    if (!FALSE /* Super Emerald: was IS_FRLG */)
         return FALSE;
 
     if ((HasAnyBattleFlags(BATTLE_TYPE_FIRST_BATTLE)

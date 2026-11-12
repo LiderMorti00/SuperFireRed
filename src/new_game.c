@@ -135,7 +135,7 @@ static void ClearFrontierRecord(void)
 
 static void WarpToTruck(void)
 {
-    if (TRUE /* Super Fire Red: was IS_FRLG */)
+    if (FALSE /* Super Emerald: was IS_FRLG */)
         SetWarpDestination(MAP_GROUP(MAP_PALLET_TOWN_PLAYERS_HOUSE_2F), MAP_NUM(MAP_PALLET_TOWN_PLAYERS_HOUSE_2F), WARP_ID_NONE, 6, 6);
     else
         SetWarpDestination(MAP_GROUP(MAP_INSIDE_OF_TRUCK), MAP_NUM(MAP_INSIDE_OF_TRUCK), WARP_ID_NONE, -1, -1);
@@ -217,6 +217,11 @@ void NewGameInitData(void)
     RunScriptImmediately(EventScript_ResetAllMapFlags);
 #if TRUE // Super Fire Red
         StringCopy(gSaveBlock1Ptr->rivalName, rivalName);
+    if (gSaveBlock1Ptr->rivalName[0] == EOS)
+    {
+        static const u8 sText_Blue[] = _("BLUE"); // Super Emerald: Kanto's rival, now Viridian Gym Leader
+        StringCopy(gSaveBlock1Ptr->rivalName, sText_Blue);
+    }
 #endif
     ResetMiniGamesRecords();
     InitUnionRoomChatRegisteredTexts();

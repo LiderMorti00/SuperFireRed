@@ -5,6 +5,7 @@ EverGrandeCity_ChampionsRoom_MapScripts::
 	.byte 0
 
 EverGrandeCity_ChampionsRoom_OnTransition:
+	call Common_EventScript_SetupRivalGfxId
 	end
 
 EverGrandeCity_ChampionsRoom_OnWarp:
@@ -37,27 +38,9 @@ EverGrandeCity_ChampionsRoom_Movement_PlayerApproachWallace:
 	step_end
 
 EverGrandeCity_ChampionsRoom_EventScript_Wallace::
-	@ Super Fire Red: May is the Champion
-	playbgm MUS_ENCOUNTER_MAY, FALSE
-	msgbox SFR_Text_MayChampionIntro, MSGBOX_DEFAULT
-	switch VAR_SFR_HOENN_STARTER
-	case SPECIES_TREECKO, EverGrandeCity_ChampionsRoom_EventScript_MayBattleTreecko
-	case SPECIES_TORCHIC, EverGrandeCity_ChampionsRoom_EventScript_MayBattleTorchic
-	goto EverGrandeCity_ChampionsRoom_EventScript_MayBattleMudkip
-	end
-
-EverGrandeCity_ChampionsRoom_EventScript_MayBattleTreecko::
-	trainerbattle_no_intro TRAINER_MAY_LILYCOVE_TREECKO, SFR_Text_MayChampionDefeat
-	goto EverGrandeCity_ChampionsRoom_EventScript_Defeated
-	end
-
-EverGrandeCity_ChampionsRoom_EventScript_MayBattleTorchic::
-	trainerbattle_no_intro TRAINER_MAY_LILYCOVE_TORCHIC, SFR_Text_MayChampionDefeat
-	goto EverGrandeCity_ChampionsRoom_EventScript_Defeated
-	end
-
-EverGrandeCity_ChampionsRoom_EventScript_MayBattleMudkip::
-	trainerbattle_no_intro TRAINER_MAY_LILYCOVE_MUDKIP, SFR_Text_MayChampionDefeat
+	playbgm MUS_ENCOUNTER_CHAMPION, FALSE
+	msgbox EverGrandeCity_ChampionsRoom_Text_IntroSpeech, MSGBOX_DEFAULT
+	trainerbattle_no_intro TRAINER_WALLACE, EverGrandeCity_ChampionsRoom_Text_Defeat
 	goto EverGrandeCity_ChampionsRoom_EventScript_Defeated
 	end
 
@@ -66,13 +49,29 @@ EverGrandeCity_ChampionsRoom_EventScript_Defeated::
 	setmetatile 6, 1, METATILE_EliteFour_OpenDoorChampion_Frame, FALSE
 	setmetatile 6, 2, METATILE_EliteFour_OpenDoorChampion_Opening, FALSE
 	special DrawWholeMapView
-	msgbox SFR_Text_MayChampionPostBattle, MSGBOX_DEFAULT
+	msgbox EverGrandeCity_ChampionsRoom_Text_PostBattleSpeech, MSGBOX_DEFAULT
 	closemessage
 	playse SE_DOOR
-	playbgm MUS_ENCOUNTER_BRENDAN, FALSE
+	checkplayergender
+	call_if_eq VAR_RESULT, MALE, EverGrandeCity_ChampionsRoom_EventScript_PlayMayMusic
+	call_if_eq VAR_RESULT, FEMALE, EverGrandeCity_ChampionsRoom_EventScript_PlayBrendanMusic
 	addobject LOCALID_CHAMPIONS_ROOM_RIVAL
 	call EverGrandeCity_ChampionsRoom_EventScript_RivalApproachPlayer
-	msgbox SFR_Text_ChampionsRoomBrendanArrives, MSGBOX_DEFAULT
+	checkplayergender
+	goto_if_eq VAR_RESULT, MALE, EverGrandeCity_ChampionsRoom_EventScript_MayAdvice
+	goto_if_eq VAR_RESULT, FEMALE, EverGrandeCity_ChampionsRoom_EventScript_BrendanAdvice
+	end
+
+EverGrandeCity_ChampionsRoom_EventScript_PlayMayMusic::
+	playbgm MUS_ENCOUNTER_MAY, FALSE
+	return
+
+EverGrandeCity_ChampionsRoom_EventScript_PlayBrendanMusic::
+	playbgm MUS_ENCOUNTER_BRENDAN, FALSE
+	return
+
+EverGrandeCity_ChampionsRoom_EventScript_MayAdvice::
+	msgbox EverGrandeCity_ChampionsRoom_Text_MayAdvice, MSGBOX_DEFAULT
 	delay 40
 	playse SE_PIN
 	applymovement LOCALID_CHAMPIONS_ROOM_RIVAL, Common_Movement_ExclamationMark
@@ -80,20 +79,39 @@ EverGrandeCity_ChampionsRoom_EventScript_Defeated::
 	applymovement LOCALID_CHAMPIONS_ROOM_RIVAL, Common_Movement_Delay48
 	waitmovement 0
 	call EverGrandeCity_ChampionsRoom_EventScript_RivalLookBackAndForth
-	msgbox SFR_Text_ChampionsRoomBrendanYouWon, MSGBOX_DEFAULT
+	msgbox EverGrandeCity_ChampionsRoom_Text_MayItsAlreadyOver, MSGBOX_DEFAULT
+	goto EverGrandeCity_ChampionsRoom_EventScript_BirchArrivesExitForHoF
+	end
+
+EverGrandeCity_ChampionsRoom_EventScript_BrendanAdvice::
+	msgbox EverGrandeCity_ChampionsRoom_Text_BrendanAdvice, MSGBOX_DEFAULT
+	delay 40
+	playse SE_PIN
+	applymovement LOCALID_CHAMPIONS_ROOM_RIVAL, Common_Movement_ExclamationMark
+	waitmovement 0
+	applymovement LOCALID_CHAMPIONS_ROOM_RIVAL, Common_Movement_Delay48
+	waitmovement 0
+	call EverGrandeCity_ChampionsRoom_EventScript_RivalLookBackAndForth
+	msgbox EverGrandeCity_ChampionsRoom_Text_BrendanYouveWon, MSGBOX_DEFAULT
+	goto EverGrandeCity_ChampionsRoom_EventScript_BirchArrivesExitForHoF
+	end
+
+EverGrandeCity_ChampionsRoom_EventScript_BirchArrivesExitForHoF::
 	closemessage
 	addobject LOCALID_CHAMPIONS_ROOM_BIRCH
 	applymovement LOCALID_CHAMPIONS_ROOM_BIRCH, EverGrandeCity_ChampionsRoom_Movement_BirchArrives
 	waitmovement 0
 	applymovement LOCALID_PLAYER, Common_Movement_WalkInPlaceFasterRight
 	waitmovement 0
-	msgbox SFR_Text_ChampionsRoomBirchCongratulations, MSGBOX_DEFAULT
+	msgbox EverGrandeCity_ChampionsRoom_Text_BirchArriveRatePokedex, MSGBOX_DEFAULT
+	call ProfBirch_EventScript_RatePokedex
+	msgbox EverGrandeCity_ChampionsRoom_Text_BirchCongratulations, MSGBOX_DEFAULT
 	applymovement LOCALID_CHAMPIONS_ROOM_WALLACE, Common_Movement_WalkInPlaceFasterUp
 	waitmovement 0
 	delay 20
 	applymovement LOCALID_CHAMPIONS_ROOM_WALLACE, Common_Movement_WalkInPlaceFasterDown
 	waitmovement 0
-	msgbox SFR_Text_MayComeWithMe, MSGBOX_DEFAULT
+	msgbox EverGrandeCity_ChampionsRoom_Text_WallaceComeWithMe, MSGBOX_DEFAULT
 	closemessage
 	delay 30
 	applymovement LOCALID_CHAMPIONS_ROOM_WALLACE, EverGrandeCity_ChampionsRoom_Movement_WallaceExitStart
@@ -104,7 +122,10 @@ EverGrandeCity_ChampionsRoom_EventScript_Defeated::
 	delay 20
 	applymovement LOCALID_PLAYER, Common_Movement_WalkInPlaceFasterDown
 	waitmovement 0
-	msgbox SFR_Text_ChampionsRoomBrendanGoOn, MSGBOX_DEFAULT
+	msgbox EverGrandeCity_ChampionsRoom_Text_WallaceWaitOutside, MSGBOX_DEFAULT
+	checkplayergender
+	call_if_eq VAR_RESULT, MALE, EverGrandeCity_ChampionsRoom_EventScript_MayCongratulations
+	call_if_eq VAR_RESULT, FEMALE, EverGrandeCity_ChampionsRoom_EventScript_BrendanCongratulations
 	closemessage
 	applymovement LOCALID_CHAMPIONS_ROOM_WALLACE, EverGrandeCity_ChampionsRoom_Movement_WallaceExit
 	applymovement LOCALID_PLAYER, EverGrandeCity_ChampionsRoom_Movement_PlayerExit
@@ -114,6 +135,14 @@ EverGrandeCity_ChampionsRoom_EventScript_Defeated::
 	waitstate
 	releaseall
 	end
+
+EverGrandeCity_ChampionsRoom_EventScript_MayCongratulations::
+	msgbox EverGrandeCity_ChampionsRoom_Text_MayCongratulations, MSGBOX_DEFAULT
+	return
+
+EverGrandeCity_ChampionsRoom_EventScript_BrendanCongratulations::
+	msgbox EverGrandeCity_ChampionsRoom_Text_BrendanCongratulations, MSGBOX_DEFAULT
+	return
 
 EverGrandeCity_ChampionsRoom_EventScript_RivalApproachPlayer::
 	applymovement LOCALID_CHAMPIONS_ROOM_RIVAL, EverGrandeCity_ChampionsRoom_Movement_RivalApproachPlayer

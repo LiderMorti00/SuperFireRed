@@ -58,7 +58,7 @@
 #define FLAG_SFR_DEXNAV_DETECTOR    0x24 // Super Fire Red: DexNav detector mode
 #define FLAG_SFR_HOENN_TRIP_AUTHORIZED          0x25 // Super Fire Red: Oak authorized the trip to Hoenn
 #define FLAG_SFR_HOENN_WORLD_INIT               0x26 // Super Fire Red: Hoenn set to its post-Emerald state
-#define FLAG_SFR_HOENN_GAME_CLEAR               0x27 // Super Fire Red: beat May at the Hoenn League
+#define FLAG_SFR_HOENN_GAME_CLEAR               FLAG_SYS_GAME_CLEAR // Super Emerald: Hoenn League beaten (was flag 0x27 in Super Fire Red)
 #define FLAG_SFR_HIDE_SLATEPORT_HARBOR_BRENDAN  0x28 // Super Fire Red: Brendan at Slateport Harbor on arrival
 #define FLAG_SFR_RECEIVED_HOENN_STARTER         0x29 // Super Fire Red: got a starter from Birch
 #define FLAG_SFR_HIDE_BIRCHS_LAB_BRENDAN        0x2A // Super Fire Red: Brendan in Birch's lab

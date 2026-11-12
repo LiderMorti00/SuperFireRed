@@ -3,6 +3,7 @@
   "name": "Route134",
   "layout": "LAYOUT_ROUTE134",
   "music": "MUS_ROUTE119",
+  "region": "REGION_HOENN",
   "region_map_section": "MAPSEC_ROUTE_134",
   "requires_flash": false,
   "weather": "WEATHER_SUNNY",
@@ -11,7 +12,6 @@
   "allow_escaping": false,
   "allow_running": true,
   "show_map_name": true,
-  "floor_number": 0,
   "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
   "connections": [
     {
@@ -27,7 +27,6 @@
   ],
   "object_events": [
     {
-      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_SWIMMER_M",
       "x": 49,
       "y": 9,
@@ -41,7 +40,6 @@
       "flag": "0"
     },
     {
-      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_SWIMMER_F",
       "x": 58,
       "y": 7,
@@ -55,7 +53,6 @@
       "flag": "0"
     },
     {
-      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_MAN_3",
       "x": 41,
       "y": 23,
@@ -69,7 +66,6 @@
       "flag": "0"
     },
     {
-      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_MAN_5",
       "x": 24,
       "y": 23,
@@ -83,7 +79,6 @@
       "flag": "0"
     },
     {
-      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_BLACK_BELT",
       "x": 49,
       "y": 16,
@@ -97,7 +92,6 @@
       "flag": "0"
     },
     {
-      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_WOMAN_5",
       "x": 43,
       "y": 23,
@@ -111,7 +105,6 @@
       "flag": "0"
     },
     {
-      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_SAILOR",
       "x": 24,
       "y": 30,
@@ -125,7 +118,6 @@
       "flag": "0"
     },
     {
-      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_GIRL_3",
       "x": 50,
       "y": 16,
@@ -139,7 +131,6 @@
       "flag": "0"
     },
     {
-      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_SAILOR",
       "x": 63,
       "y": 14,
@@ -153,7 +144,6 @@
       "flag": "0"
     },
     {
-      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_ITEM_BALL",
       "x": 50,
       "y": 17,
@@ -167,7 +157,6 @@
       "flag": "FLAG_ITEM_ROUTE_134_CARBOS"
     },
     {
-      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_ITEM_BALL",
       "x": 22,
       "y": 27,
@@ -183,6 +172,5 @@
   ],
   "warp_events": [],
   "coord_events": [],
-  "bg_events": [],
-  "region": "REGION_HOENN"
+  "bg_events": []
 }

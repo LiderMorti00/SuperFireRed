@@ -1077,7 +1077,7 @@ static void Task_HandleMainMenuAPressed(u8 taskId)
         {
         case ACTION_NEW_GAME:
         default:
-            if (TRUE /* Super Fire Red: was IS_FRLG */)
+            if (FALSE /* Super Emerald: was IS_FRLG */)
             {
                 DestroyTask(taskId);
                 FreeAllWindowBuffers();

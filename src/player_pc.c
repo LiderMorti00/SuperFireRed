@@ -370,9 +370,8 @@ void NewGameInitPCItems(void)
 
 void BedroomPC(void)
 {
-    // Super Fire Red: no room decoration (the player has no bedroom in Hoenn); only Secret Bases
-    sTopMenuOptionOrder = sPlayerPC_OptionOrder;
-    sTopMenuNumOptions = NUM_PLAYER_PC_OPTIONS;
+    sTopMenuOptionOrder = sBedroomPC_OptionOrder;
+    sTopMenuNumOptions = NUM_BEDROOM_PC_OPTIONS;
     DisplayItemMessageOnField(CreateTask(TaskDummy, 0), gText_WhatWouldYouLike, InitPlayerPCMenu);
 }
 

@@ -98,62 +98,6 @@
       "trainer_sight_or_berry_tree_id": "0",
       "script": "LittlerootTown_ProfessorBirchsLab_EventScript_Chikorita",
       "flag": "FLAG_HIDE_LITTLEROOT_TOWN_BIRCHS_LAB_POKEBALL_CHIKORITA"
-    },
-    {
-      "local_id": "LOCALID_BIRCHS_LAB_SFR_TREECKO_BALL",
-      "graphics_id": "OBJ_EVENT_GFX_ITEM_BALL",
-      "x": 8,
-      "y": 4,
-      "elevation": 3,
-      "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
-      "movement_range_x": 0,
-      "movement_range_y": 0,
-      "trainer_type": "TRAINER_TYPE_NONE",
-      "trainer_sight_or_berry_tree_id": "0",
-      "script": "SFR_EventScript_BirchsLabTreeckoBall",
-      "flag": "FLAG_SFR_RECEIVED_HOENN_STARTER"
-    },
-    {
-      "local_id": "LOCALID_BIRCHS_LAB_SFR_TORCHIC_BALL",
-      "graphics_id": "OBJ_EVENT_GFX_ITEM_BALL",
-      "x": 9,
-      "y": 4,
-      "elevation": 3,
-      "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
-      "movement_range_x": 0,
-      "movement_range_y": 0,
-      "trainer_type": "TRAINER_TYPE_NONE",
-      "trainer_sight_or_berry_tree_id": "0",
-      "script": "SFR_EventScript_BirchsLabTorchicBall",
-      "flag": "FLAG_SFR_RECEIVED_HOENN_STARTER"
-    },
-    {
-      "local_id": "LOCALID_BIRCHS_LAB_SFR_MUDKIP_BALL",
-      "graphics_id": "OBJ_EVENT_GFX_ITEM_BALL",
-      "x": 10,
-      "y": 4,
-      "elevation": 3,
-      "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
-      "movement_range_x": 0,
-      "movement_range_y": 0,
-      "trainer_type": "TRAINER_TYPE_NONE",
-      "trainer_sight_or_berry_tree_id": "0",
-      "script": "SFR_EventScript_BirchsLabMudkipBall",
-      "flag": "FLAG_SFR_RECEIVED_HOENN_STARTER"
-    },
-    {
-      "local_id": "LOCALID_BIRCHS_LAB_SFR_BRENDAN",
-      "graphics_id": "OBJ_EVENT_GFX_RIVAL_BRENDAN_NORMAL",
-      "x": 5,
-      "y": 5,
-      "elevation": 3,
-      "movement_type": "MOVEMENT_TYPE_FACE_RIGHT",
-      "movement_range_x": 0,
-      "movement_range_y": 0,
-      "trainer_type": "TRAINER_TYPE_NONE",
-      "trainer_sight_or_berry_tree_id": "0",
-      "script": "SFR_EventScript_BirchsLabBrendan",
-      "flag": "FLAG_SFR_HIDE_BIRCHS_LAB_BRENDAN"
     }
   ],
   "warp_events": [
@@ -172,26 +116,7 @@
       "dest_warp_id": "2"
     }
   ],
-  "coord_events": [
-    {
-      "type": "trigger",
-      "x": 6,
-      "y": 10,
-      "elevation": 3,
-      "var": "VAR_SFR_HOENN_STATE",
-      "var_value": "4",
-      "script": "SFR_EventScript_BirchsLabPokenavTrigger0"
-    },
-    {
-      "type": "trigger",
-      "x": 7,
-      "y": 10,
-      "elevation": 3,
-      "var": "VAR_SFR_HOENN_STATE",
-      "var_value": "4",
-      "script": "SFR_EventScript_BirchsLabPokenavTrigger1"
-    }
-  ],
+  "coord_events": [],
   "bg_events": [
     {
       "type": "sign",

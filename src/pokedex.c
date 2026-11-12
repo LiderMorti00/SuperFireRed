@@ -4536,7 +4536,7 @@ u16 GetNationalPokedexCount(u8 caseID)
 
 u32 GetRegionalPokedexCount(u8 caseID)
 {
-    if (TRUE /* Super Fire Red: was IS_FRLG */)
+    if (FALSE /* Super Emerald: was IS_FRLG */)
         return GetKantoPokedexCount(caseID);
     return GetHoennPokedexCount(caseID);
 }
@@ -4585,7 +4585,7 @@ u16 GetKantoPokedexCount(u8 caseID)
 
 bool16 HasAllRegionalMons(void)
 {
-    if (TRUE /* Super Fire Red: was IS_FRLG */)
+    if (FALSE /* Super Emerald: was IS_FRLG */)
         return HasAllKantoMons();
     return HasAllHoennMons();
 }

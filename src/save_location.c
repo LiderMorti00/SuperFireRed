@@ -124,7 +124,7 @@ void TrySetMapSaveWarpStatus(void)
 // These flags are read by Pokémon Colosseum/XD for linking. XD Additionally requires FLAG_SYS_GAME_CLEAR
 void SetUnlockedPokedexFlags(void)
 {
-    if (TRUE /* Super Fire Red: was IS_FRLG */)
+    if (FALSE /* Super Emerald: was IS_FRLG */)
     {
         gSaveBlock2Ptr->gcnLinkFlags |= (1 << 0);
         gSaveBlock2Ptr->gcnLinkFlags |= (1 << 4);

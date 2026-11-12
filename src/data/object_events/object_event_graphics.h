@@ -664,6 +664,5 @@ const u16 gObjectEventPal_SfrAnabel[] = INCGFX_U16("graphics/object_events/palet
 const u16 gObjectEventPal_SfrTucker[] = INCGFX_U16("graphics/object_events/palettes/sfr_hoenn/tucker.pal", ".gbapal");
 const u16 gObjectEventPal_SfrGreta[] = INCGFX_U16("graphics/object_events/palettes/sfr_hoenn/greta.pal", ".gbapal");
 const u16 gObjectEventPal_SfrSpenser[] = INCGFX_U16("graphics/object_events/palettes/sfr_hoenn/spenser.pal", ".gbapal");
-const u16 gObjectEventPal_SfrRivalBrendanNormal[] = INCGFX_U16("graphics/object_events/palettes/sfr_hoenn/rival_brendan_normal.pal", ".gbapal");
-const u16 gObjectEventPal_SfrRivalMayNormal[] = INCGFX_U16("graphics/object_events/palettes/sfr_hoenn/rival_may_normal.pal", ".gbapal");
+const u16 gObjectEventPal_SfrPlayerFx[] = INCGFX_U16("graphics/object_events/palettes/sfr_hoenn/player_field_effects.pal", ".gbapal");
 // Super Fire Red: FRHoenn end

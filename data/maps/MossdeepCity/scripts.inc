@@ -8,15 +8,7 @@ MossdeepCity_OnTransition:
 	clearflag FLAG_MOSSDEEP_GYM_SWITCH_3
 	clearflag FLAG_MOSSDEEP_GYM_SWITCH_4
 	call_if_set FLAG_SYS_WEATHER_CTRL, Common_EventScript_SetAbnormalWeather
-	call MossdeepCity_EventScript_SetupScott @ Super Fire Red
 	end
-
-MossdeepCity_EventScript_SetupScott::
-	setflag FLAG_HIDE_MOSSDEEP_CITY_SCOTT
-	goto_if_set FLAG_SFR_MET_SCOTT, Common_EventScript_NopReturn
-	goto_if_unset FLAG_BADGE15_GET, Common_EventScript_NopReturn
-	clearflag FLAG_HIDE_MOSSDEEP_CITY_SCOTT
-	return
 
 MossdeepCity_EventScript_PokefanF::
 	lock
@@ -34,7 +26,7 @@ MossdeepCity_EventScript_PokefanFMagmaGone::
 MossdeepCity_EventScript_Sailor::
 	lock
 	faceplayer
-	goto MossdeepCity_EventScript_SailorMagmaGone @ Super Fire Red: post-Emerald
+	goto_if_set FLAG_RECEIVED_HM_DIVE, MossdeepCity_EventScript_SailorMagmaGone
 	msgbox MossdeepCity_Text_MossdeepTargetedByMagma, MSGBOX_DEFAULT
 	release
 	end
@@ -259,37 +251,37 @@ MossdeepCity_EventScript_BlackBelt::
 MossdeepCity_EventScript_Scott::
 	lock
 	faceplayer
-	msgbox MossdeepCity_Text_ScottMeetPlayer, MSGBOX_DEFAULT
+	msgbox MossdeepCity_Text_ScottSomethingWrongWithTown, MSGBOX_DEFAULT
 	closemessage
-	delay 30
-	playfanfare MUS_REGISTER_MATCH_CALL
-	msgbox MossdeepCity_Text_RegisteredScott, MSGBOX_DEFAULT
-	waitfanfare
-	closemessage
-	setflag FLAG_ENABLE_SCOTT_MATCH_CALL
-	setflag FLAG_SFR_MET_SCOTT
-	clearflag FLAG_HIDE_LILYCOVE_MOTEL_SCOTT
-	msgbox MossdeepCity_Text_ScottSeeYouAround, MSGBOX_DEFAULT
-	closemessage
-	call_if_ne VAR_FACING, DIR_EAST, MossdeepCity_EventScript_ScottExitNorth
+	call_if_eq VAR_FACING, DIR_NORTH, MossdeepCity_EventScript_ScottExitNorth
 	call_if_eq VAR_FACING, DIR_EAST, MossdeepCity_EventScript_ScottExitEast
 	addvar VAR_SCOTT_STATE, 1
 	removeobject LOCALID_MOSSDEEP_SCOTT
-	setflag FLAG_HIDE_MOSSDEEP_CITY_SCOTT
 	release
 	end
 
 MossdeepCity_EventScript_ScottExitNorth::
+	applymovement LOCALID_PLAYER, MossdeepCity_Movement_PlayerWatchScottExit
 	applymovement LOCALID_MOSSDEEP_SCOTT, MossdeepCity_Movement_ScottExitNorth
 	waitmovement 0
 	return
 
 MossdeepCity_EventScript_ScottExitEast::
+	applymovement LOCALID_PLAYER, MossdeepCity_Movement_PlayerWatchScottExit
 	applymovement LOCALID_MOSSDEEP_SCOTT, MossdeepCity_Movement_ScottExitEast
 	waitmovement 0
 	return
 
+MossdeepCity_Movement_PlayerWatchScottExit:
+	delay_16
+	delay_16
+	walk_in_place_faster_left
+	step_end
+
 MossdeepCity_Movement_ScottExitNorth:
+	walk_left
+	walk_left
+	walk_left
 	walk_left
 	walk_left
 	walk_left
@@ -300,6 +292,10 @@ MossdeepCity_Movement_ScottExitNorth:
 
 MossdeepCity_Movement_ScottExitEast:
 	walk_down
+	walk_left
+	walk_left
+	walk_left
+	walk_left
 	walk_left
 	walk_left
 	walk_left
@@ -407,29 +403,18 @@ MossdeepCity_Text_SpaceCenterSign:
 	.string "MOSSDEEP SPACE CENTER\n"
 	.string "“The closest place to space.”$"
 
-MossdeepCity_Text_ScottMeetPlayer:
-	.string "Hi, hi! Excuse me!\n"
-	.string "You just won at the MOSSDEEP GYM,\l"
-	.string "didn't you?\p"
-	.string "Oh, pardon me. My name's SCOTT.\n"
-	.string "I travel all over looking for\l"
-	.string "TRAINERS with real talent.\p"
-	.string "TATE and LIZA's double battles are\n"
-	.string "no joke, but you made it look easy!\p"
-	.string "You're {PLAYER}, from KANTO? I've\n"
-	.string "heard a rumor or two about you…\p"
-	.string "Let me register you in my POKéNAV.\n"
-	.string "I'll be cheering for you!$"
-
-MossdeepCity_Text_RegisteredScott:
-	.string "Registered SCOTT\n"
-	.string "in the POKéNAV.$"
-
-MossdeepCity_Text_ScottSeeYouAround:
-	.string "SCOTT: Someday, there's a place I'd\n"
-	.string "like to show you, {PLAYER}{KUN}.\p"
-	.string "But that's a story for later.\n"
-	.string "See you around!$"
+MossdeepCity_Text_ScottSomethingWrongWithTown:
+	.string "SCOTT: {PLAYER}{KUN}, feeling good?\n"
+	.string "I'm doing great!\p"
+	.string "I'd heard MOSSDEEP's GYM LEADER is\n"
+	.string "pretty strong, so I decided to come\l"
+	.string "take a look-see for myself.\p"
+	.string "But there's something wrong about\n"
+	.string "this town.\p"
+	.string "People are going on about a warning\n"
+	.string "letter and the SPACE CENTER…\p"
+	.string "I don't think it concerns me in any\n"
+	.string "way, though.$"
 
 MossdeepCity_Text_SootopolisNewGymLeader:
 	.string "Ahh… It feels great letting the waves\n"

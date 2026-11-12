@@ -971,7 +971,7 @@ void BattleInitBgsAndWindows(void)
         SetBgTilemapBuffer(1, gBattleAnimBgTilemapBuffer);
         SetBgTilemapBuffer(2, gBattleAnimBgTilemapBuffer);
     }
-    else if (TRUE /* Super Fire Red: was IS_FRLG */ && (HasAnyBattleFlags(BATTLE_TYPE_FIRST_BATTLE | BATTLE_TYPE_CATCH_TUTORIAL)))
+    else if (FALSE /* Super Emerald: was IS_FRLG */ && (HasAnyBattleFlags(BATTLE_TYPE_FIRST_BATTLE | BATTLE_TYPE_CATCH_TUTORIAL)))
     {
         gBattleScripting.windowsType = B_WIN_TYPE_KANTO_TUTORIAL;
     }
@@ -1002,7 +1002,7 @@ void LoadBattleMenuWindowGfx(void)
     LoadPalette(gBattleWindowTextPalette, BG_PLTT_ID(5), PLTT_SIZE_4BPP);
 
     if (HasAnyBattleFlags(BATTLE_TYPE_ARENA | BATTLE_TYPE_POKEDUDE)
-    || (TRUE /* Super Fire Red: was IS_FRLG */ && HasAnyBattleFlags(BATTLE_TYPE_FIRST_BATTLE)))
+    || (FALSE /* Super Emerald: was IS_FRLG */ && HasAnyBattleFlags(BATTLE_TYPE_FIRST_BATTLE)))
     {
         // Load graphics for the Battle Arena referee's mid-battle messages.
         Menu_LoadStdPalAt(BG_PLTT_ID(7));

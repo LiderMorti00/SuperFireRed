@@ -397,9 +397,6 @@ LittlerootTown_EventScript_BirchsLabSign::
 
 LittlerootTown_EventScript_BrendansHouseSign::
 	lockall
-	msgbox LittlerootTown_Text_ProfBirchsHouse, MSGBOX_DEFAULT @ Super Fire Red
-	releaseall
-	end
 	checkplayergender
 	call_if_eq VAR_RESULT, MALE, LittlerootTown_EventScript_PlayersHouseSignMale
 	call_if_eq VAR_RESULT, FEMALE, LittlerootTown_EventScript_BirchsHouseSignFemale
@@ -416,9 +413,6 @@ LittlerootTown_EventScript_BirchsHouseSignFemale::
 
 LittlerootTown_EventScript_MaysHouseSign::
 	lockall
-	msgbox SFR_Text_NormansHouseSign, MSGBOX_DEFAULT @ Super Fire Red
-	releaseall
-	end
 	checkplayergender
 	call_if_eq VAR_RESULT, MALE, LittlerootTown_EventScript_BirchsHouseSignMale
 	call_if_eq VAR_RESULT, FEMALE, LittlerootTown_EventScript_PlayersHouseSignFemale
@@ -989,8 +983,8 @@ LittlerootTown_Text_CanYouGoSeeWhatsHappening:
 	.string "for me?$"
 
 LittlerootTown_Text_YouSavedBirch:
-	.string "PROF. BIRCH is always out in the\n"
-	.string "field. He's a little reckless!$"
+	.string "You saved PROF. BIRCH!\n"
+	.string "I'm so glad!$"
 
 LittlerootTown_Text_GoodLuckCatchingPokemon:
 	.string "Are you going to catch POKéMON?\n"

@@ -60,9 +60,6 @@ struct TrainerCardData
     bool8 unused_F;
     bool8 hasTrades;
     u8 badgeCount[NUM_BADGES];
-    u8 hoennBadgeCount[NUM_BADGES]; // Super Fire Red
-    bool8 showHoennBadges;          // Super Fire Red: second badge row once the player reaches Hoenn
-    bool8 hoennRowsReady;
     u8 easyChatProfile[TRAINER_CARD_PROFILE_LENGTH][13];
     u8 textPlayersCard[70];
     u8 textHofTime[70];
@@ -87,7 +84,6 @@ struct TrainerCardData
     u16 backTilemap[600];
     u16 bgTilemap[600];
     u8 badgeTiles[0x80 * NUM_BADGES];
-    u8 hoennBadgeTiles[0x80 * NUM_BADGES];
     u8 stickerTiles[0x200];
     u8 cardTiles[0x2300];
     u16 cardTilemapBuffer[0x1000];
@@ -162,10 +158,6 @@ static void PrintStatOnBackOfCard(u8 top, const u8 *str1, u8 *str2, const u8 *co
 static void LoadStickerGfx(void);
 static u8 SetCardBgsAndPals(void);
 static void DrawCardBackStats(void);
-static void MakeRoomForHoennBadges(void);
-
-// Super Fire Red: BG3 tiles for the Hoenn badges, after the stickers
-#define HOENN_BADGE_TILES_OFFSET 160
 static void Task_DoCardFlipTask(u8);
 static bool8 Task_BeginCardFlip(struct Task *task);
 static bool8 Task_AnimateCardFlipDown(struct Task *task);
@@ -560,9 +552,6 @@ static bool8 LoadCardGfx(void)
                 DecompressDataWithHeaderWram(gHoennTrainerCardFront_Tilemap, sData->frontTilemap);
             else
                 DecompressDataWithHeaderWram(gKantoTrainerCardFront_Tilemap, sData->frontTilemap);
-            sData->hoennRowsReady = FALSE;
-            if (sData->showHoennBadges)
-                MakeRoomForHoennBadges();
         }
         else
         {
@@ -577,8 +566,6 @@ static bool8 LoadCardGfx(void)
             DecompressDataWithHeaderWram(sHoennTrainerCardBadges_Gfx, sData->badgeTiles);
         else
             DecompressDataWithHeaderWram(sKantoTrainerCardBadges_Gfx, sData->badgeTiles);
-        if (sData->showHoennBadges)
-            DecompressDataWithHeaderWram(sHoennTrainerCardBadges_Gfx, sData->hoennBadgeTiles);
         break;
     case 4:
         if (sData->cardType != CARD_TYPE_FRLG)
@@ -783,9 +770,8 @@ static void SetPlayerCardData(struct TrainerCard *trainerCard, u8 cardType)
 static void TrainerCard_GenerateCardForPlayer(struct TrainerCard *trainerCard)
 {
     memset(trainerCard, 0, sizeof(struct TrainerCard));
-    // Super Fire Red: the player's card is always the FireRed card
-    trainerCard->version = VERSION_FIRE_RED;
-    SetPlayerCardData(trainerCard, CARD_TYPE_FRLG);
+    trainerCard->version = GAME_VERSION;
+    SetPlayerCardData(trainerCard, VersionToCardType(GAME_VERSION));
 
     if (!IS_FRLG)
     {
@@ -812,9 +798,8 @@ static void TrainerCard_GenerateCardForPlayer(struct TrainerCard *trainerCard)
 void TrainerCard_GenerateCardForLinkPlayer(struct TrainerCard *trainerCard)
 {
     memset(trainerCard, 0, 0x60);
-    // Super Fire Red: the player's card is always the FireRed card
-    trainerCard->version = VERSION_FIRE_RED;
-    SetPlayerCardData(trainerCard, CARD_TYPE_FRLG);
+    trainerCard->version = GAME_VERSION;
+    SetPlayerCardData(trainerCard, VersionToCardType(GAME_VERSION));
 
     if (!IS_FRLG)
     {
@@ -882,14 +867,6 @@ static void SetDataFromTrainerCard(void)
     {
         if (FlagGet(badgeFlag))
             sData->badgeCount[i]++;
-    }
-
-    // Super Fire Red: the Hoenn badges get their own row once the player has reached Hoenn
-    sData->showHoennBadges = (!sData->isLink && VarGet(VAR_SFR_HOENN_STATE) >= 2);
-    for (i = 0, badgeFlag = FLAG_BADGE09_GET; badgeFlag < FLAG_BADGE09_GET + NUM_BADGES; badgeFlag++, i++)
-    {
-        if (FlagGet(badgeFlag))
-            sData->hoennBadgeCount[i]++;
     }
 }
 
@@ -1471,8 +1448,6 @@ static u8 SetCardBgsAndPals(void)
     {
     case 0:
         LoadBgTiles(3, sData->badgeTiles, ARRAY_COUNT(sData->badgeTiles), 0);
-        if (sData->showHoennBadges)
-            LoadBgTiles(3, sData->hoennBadgeTiles, ARRAY_COUNT(sData->hoennBadgeTiles), HOENN_BADGE_TILES_OFFSET);
         break;
     case 1:
         LoadBgTiles(0, sData->cardTiles, 0x1800, 0);
@@ -1546,40 +1521,6 @@ static void DrawCardFrontOrBack(u16 *ptr)
     CopyBgTilemapBufferToVram(0);
 }
 
-static void DrawBadgeRow(u16 tileNum, s16 y, const u8 *owned)
-{
-    s16 i, x;
-    u8 palNum = 3;
-
-    for (i = 0, x = 4; i < NUM_BADGES; i++, tileNum += 2, x += 3)
-    {
-        if (owned[i])
-        {
-            FillBgTilemapBufferRect(3, tileNum, x, y, 1, 1, palNum);
-            FillBgTilemapBufferRect(3, tileNum + 1, x + 1, y, 1, 1, palNum);
-            FillBgTilemapBufferRect(3, tileNum + 16, x, y + 1, 1, 1, palNum);
-            FillBgTilemapBufferRect(3, tileNum + 17, x + 1, y + 1, 1, 1, palNum);
-        }
-    }
-}
-
-// Super Fire Red: with the Hoenn row, the badge box grows one row up and the card's bottom
-// frame row makes room for it. Rows 14-19 become: box top, Kanto badges (2), Hoenn badges (2), box bottom.
-static void MakeRoomForHoennBadges(void)
-{
-    static const u8 sourceRows[] = {15, 16, 17, 16, 17, 18}; // for rows 14-19
-    u16 old[4 * 30];
-    u16 *map = sData->frontTilemap;
-    u32 i;
-
-    if (sData->hoennRowsReady)
-        return;
-    sData->hoennRowsReady = TRUE;
-    memcpy(old, &map[15 * 30], sizeof(old));
-    for (i = 0; i < ARRAY_COUNT(sourceRows); i++)
-        memcpy(&map[(14 + i) * 30], &old[(sourceRows[i] - 15) * 30], 30 * sizeof(u16));
-}
-
 static void DrawStarsAndBadgesOnCard(void)
 {
     static const u8 yOffsets[] = {7, 7};
@@ -1589,12 +1530,7 @@ static void DrawStarsAndBadgesOnCard(void)
     u8 palNum = 3;
 
     FillBgTilemapBufferRect(3, 143, 15, yOffsets[sData->isHoenn], sData->trainerCard.stars, 1, 4);
-    if (!sData->isLink && sData->showHoennBadges)
-    {
-        DrawBadgeRow(192, 15, sData->badgeCount);
-        DrawBadgeRow(192 + HOENN_BADGE_TILES_OFFSET, 17, sData->hoennBadgeCount);
-    }
-    else if (!sData->isLink)
+    if (!sData->isLink)
     {
         x = 4;
         y = IS_FRLG ? 16 : 15;
