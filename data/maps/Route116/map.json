@@ -545,7 +545,7 @@
       "elevation": 3,
       "item": "ITEM_SUPER_POTION",
       "flag": "FLAG_HIDDEN_ITEM_ROUTE_116_SUPER_POTION",
-      "quantity": 0,
+      "quantity": 1,
       "underfoot": false
     },
     {
@@ -555,7 +555,7 @@
       "elevation": 3,
       "item": "ITEM_BLACK_GLASSES",
       "flag": "FLAG_HIDDEN_ITEM_ROUTE_116_BLACK_GLASSES",
-      "quantity": 0,
+      "quantity": 1,
       "underfoot": false
     }
   ],

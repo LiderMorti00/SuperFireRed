@@ -199,7 +199,7 @@
       "elevation": 3,
       "item": "ITEM_NUGGET",
       "flag": "FLAG_HIDDEN_ITEM_FALLARBOR_TOWN_NUGGET",
-      "quantity": 0,
+      "quantity": 1,
       "underfoot": false
     }
   ],

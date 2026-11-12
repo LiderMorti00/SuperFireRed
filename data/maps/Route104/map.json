@@ -628,7 +628,7 @@
       "elevation": 3,
       "item": "ITEM_SUPER_POTION",
       "flag": "FLAG_HIDDEN_ITEM_ROUTE_104_SUPER_POTION",
-      "quantity": 0,
+      "quantity": 1,
       "underfoot": false
     },
     {
@@ -638,7 +638,7 @@
       "elevation": 3,
       "item": "ITEM_POKE_BALL",
       "flag": "FLAG_HIDDEN_ITEM_ROUTE_104_POKE_BALL",
-      "quantity": 0,
+      "quantity": 1,
       "underfoot": false
     },
     {
@@ -648,7 +648,7 @@
       "elevation": 3,
       "item": "ITEM_POTION",
       "flag": "FLAG_HIDDEN_ITEM_ROUTE_104_POTION",
-      "quantity": 0,
+      "quantity": 1,
       "underfoot": false
     },
     {
@@ -658,7 +658,7 @@
       "elevation": 3,
       "item": "ITEM_ANTIDOTE",
       "flag": "FLAG_HIDDEN_ITEM_ROUTE_104_ANTIDOTE",
-      "quantity": 0,
+      "quantity": 1,
       "underfoot": false
     },
     {
@@ -668,7 +668,7 @@
       "elevation": 3,
       "item": "ITEM_HEART_SCALE",
       "flag": "FLAG_HIDDEN_ITEM_ROUTE_104_HEART_SCALE",
-      "quantity": 0,
+      "quantity": 1,
       "underfoot": false
     }
   ],

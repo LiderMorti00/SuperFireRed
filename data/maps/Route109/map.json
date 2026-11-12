@@ -399,7 +399,7 @@
       "elevation": 3,
       "item": "ITEM_REVIVE",
       "flag": "FLAG_HIDDEN_ITEM_ROUTE_109_REVIVE",
-      "quantity": 0,
+      "quantity": 1,
       "underfoot": false
     },
     {
@@ -409,7 +409,7 @@
       "elevation": 3,
       "item": "ITEM_HEART_SCALE",
       "flag": "FLAG_HIDDEN_ITEM_ROUTE_109_HEART_SCALE_1",
-      "quantity": 0,
+      "quantity": 1,
       "underfoot": false
     },
     {
@@ -419,7 +419,7 @@
       "elevation": 3,
       "item": "ITEM_GREAT_BALL",
       "flag": "FLAG_HIDDEN_ITEM_ROUTE_109_GREAT_BALL",
-      "quantity": 0,
+      "quantity": 1,
       "underfoot": false
     },
     {
@@ -429,7 +429,7 @@
       "elevation": 3,
       "item": "ITEM_ETHER",
       "flag": "FLAG_HIDDEN_ITEM_ROUTE_109_ETHER",
-      "quantity": 0,
+      "quantity": 1,
       "underfoot": false
     },
     {
@@ -439,7 +439,7 @@
       "elevation": 3,
       "item": "ITEM_HEART_SCALE",
       "flag": "FLAG_HIDDEN_ITEM_ROUTE_109_HEART_SCALE_2",
-      "quantity": 0,
+      "quantity": 1,
       "underfoot": false
     },
     {
@@ -449,7 +449,7 @@
       "elevation": 3,
       "item": "ITEM_HEART_SCALE",
       "flag": "FLAG_HIDDEN_ITEM_ROUTE_109_HEART_SCALE_3",
-      "quantity": 0,
+      "quantity": 1,
       "underfoot": false
     }
   ],
