@@ -149,3 +149,8 @@ This project follows the [all-contributors](https://github.com/all-contributors/
 ### Super Emerald: HGSS-style Kanto trainer sprites
 - "64x64 Trainer Sprites" pack, shrunk by Greenphx from the HeartGold / SoulSilver and Black / White sprites (The Spriters Resource): Karen, Brock, Misty, Lt. Surge, Erika, Sabrina, Blaine, Koga, Bruno
 - Janine sprites provided by LiderMorti00 (converted with `tools/sfr/convert_rmxp_npc.py`)
+- Janine and Karen overworld sprites converted with `tools/sfr/convert_rmxp_npc.py`
+
+### Super Emerald: game data
+- ORAS and HGSS trainers and ORAS wild Pokémon: [Altissimo1's Pokémon pages](https://github.com/Altissimo1/altissimo1.github.io)
+- HGSS wild Pokémon and Kanto League teams: [pret/pokeheartgold](https://github.com/pret/pokeheartgold)

@@ -1,3 +1,38 @@
+# Pokémon Super Emerald
+
+A ROM hack built on [pokeemerald-expansion](https://github.com/rh-hideout/pokeemerald-expansion) 1.17.2. It plays the story of Pokémon Emerald in Hoenn with Omega Ruby / Alpha Sapphire data, then opens Kanto, in its HeartGold / SoulSilver era, and the Sevii Islands as postgame.
+
+## The game
+
+**Hoenn (main story)**
+- The Emerald story, with Team Magma and Team Aqua, in FireRed-style graphics.
+- Wild Pokémon, levels and trainer teams from Omega Ruby and Alpha Sapphire (both versions).
+- Wallace is the Sootopolis Gym Leader, Steven is the Champion and Juan is a Contest coordinator in Lilycove.
+- Steven gives the Mega Ring outside the Petalburg Gym after you beat Norman.
+
+**Hoenn postgame**
+- Gym Leader rematches up to level 75, Wally rematches, and an Elite Four and Steven rematch with ORAS teams.
+- Prof. Birch gives a Johto starter (level 45, holding an Everstone) and the Kanto Ticket.
+- Event tickets from your rival, Mr. Briney, Prof. Cozmo and Wally; every legendary is at level 75.
+
+**Kanto (HeartGold / SoulSilver era)**
+- The ferry from Slateport or Lilycove goes to Vermilion City. Prof. Oak meets you at the dock with a Kanto starter and the Rainbow Pass.
+- There is no Team Rocket. Kanto is already in its post-story state.
+- Leaders in the HGSS order: Blue leads Viridian and Janine leads Fuchsia. The Elite Four are Koga, Bruno, Karen and Lance, and Red is the silent Champion.
+- HGSS wild Pokémon by time of day, and HGSS trainers in the Fire Red trainer spots, all on a postgame level curve.
+- After Red: a Sinnoh starter and the Shiny Charm from Oak, leader rematches and an Elite Four rematch.
+
+**Sevii Islands**
+- Open as soon as you arrive in Kanto. The Bill and Celio story is already over, so the islands are for exploring: Trainer Tower, Lost Cave, the Rocket Warehouse and the legendaries.
+
+## Building
+
+Follow [INSTALL.md](INSTALL.md), then run `make`. The ROM is `pokeemerald.gba`.
+
+The data generators live in `tools/sfr/` (see each script's header).
+
+---
+
 # About `pokeemerald-expansion`
 
 ![Gif that shows debugging functionality that is unique to pokeemerald-expansion such as rerolling Trainer ID, Cheat Start, PC from Debug Menu, Debug PC Fill, Pokémon Sprite Visualizer, Debug Warp to Map, and Battle Debug Menu](https://github.com/user-attachments/assets/cf9dfbee-4c6b-4bca-8e0a-07f116ef891c) ![Gif that shows overworld functionality that is unique to pokeemerald-expansion such as indoor running, BW2 style map popups, overworld followers, DNA Splicers, Gen 1 style fishing, OW Item descriptions, Quick Run from Battle, Use Last Ball, Wild Double Battles, and Catch from EXP](https://github.com/user-attachments/assets/383af243-0904-4d41-bced-721492fbc48e) ![Gif that shows off a number of modern Pokémon battle mechanics happening in the pokeemerald-expansion engine: 2 vs 1 battles, modern Pokémon, items, moves, abilities, fully customizable opponents and partners, Trainer Slides, and generational gimmicks](https://github.com/user-attachments/assets/50c576bc-415e-4d66-a38f-ad712f3316be)
