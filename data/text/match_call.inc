@@ -2224,16 +2224,16 @@ MatchCall_Text_TateLiza_PostRematch::
 	.string "LIZA: We could all battle again!$"
 
 MatchCall_Text_Juan_Preparing::
-	.string "JUAN: Hmm…\n"
-	.string "{PLAYER}{KUN}… Was it?\p"
-	.string "Our battle together--it brought\n"
-	.string "to me memories of when I first\l"
-	.string "encountered WALLACE.\p"
+	.string "WALLACE: Hello…\n"
+	.string "{PLAYER}{KUN}, was it?\p"
+	.string "Our battle together--it brought back\n"
+	.string "memories of when my mentor JUAN\l"
+	.string "first battled me.\p"
 	.string "Perhaps you are a genius who may\n"
-	.string "yet surpass WALLACE!$"
+	.string "yet surpass even STEVEN!$"
 
 MatchCall_Text_Juan_PreparingPostGame::
-	.string "JUAN: Fufu… {PLAYER}{KUN}…\n"
+	.string "WALLACE: Fufu… {PLAYER}{KUN}…\n"
 	.string "You've finally achieved your goal.\p"
 	.string "My eye for appraising talent wasn't\n"
 	.string "mistaken…\p"
@@ -2242,14 +2242,14 @@ MatchCall_Text_Juan_PreparingPostGame::
 	.string "of power and prestige.$"
 
 MatchCall_Text_Juan_RematchReady::
-	.string "JUAN: Hoho… {PLAYER}{KUN}…\p"
+	.string "WALLACE: Hoho… {PLAYER}{KUN}…\p"
 	.string "Our SOOTOPOLIS GYM has finally\n"
 	.string "reopened.\p"
 	.string "If you wish to see me, you are\n"
 	.string "welcome to visit anytime.$"
 
 MatchCall_Text_Juan_PostRematch::
-	.string "JUAN: {PLAYER}{KUN}…\p"
+	.string "WALLACE: {PLAYER}{KUN}…\p"
 	.string "Like the finest music, the battles\n"
 	.string "we wage together strike chords\l"
 	.string "of inspiration in my heart…\p"
@@ -2293,18 +2293,16 @@ MatchCall_Text_Drake::
 	.string "Don't you agree, {PLAYER}?$"
 
 MatchCall_Text_Wallace::
-	.string "WALLACE: Hello, {PLAYER}{KUN}.\n"
-	.string "Have you met STEVEN?\p"
+	.string "STEVEN: Hello, {PLAYER}{KUN}.\n"
+	.string "Have you been to SOOTOPOLIS lately?\p"
+	.string "WALLACE, its GYM LEADER, is a dear\n"
+	.string "friend of mine.\p"
 	.string "He is…\n"
 	.string "Actually incredibly skilled.\p"
-	.string "However, he's an odd soul who\n"
-	.string "rarely battles.\p"
-	.string "Instead, he would rather look for\n"
-	.string "rare stones.\p"
-	.string "I'm sure he's digging in a cave or\n"
-	.string "a craggy mountain somewhere.\p"
-	.string "But what is a rare stone exactly?\n"
-	.string "All I can think of is a METEORITE…$"
+	.string "Me? I'm off looking for rare stones\n"
+	.string "again.\p"
+	.string "I'm sure I'll find something amazing\n"
+	.string "in a cave somewhere…$"
 
 MatchCall_Text_MayRayquazaCall:
 	.string "… … … … … …\n"

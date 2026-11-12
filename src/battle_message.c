@@ -3556,7 +3556,7 @@ u32 BattleStringExpandPlaceholders(const u8 *src, u8 *dst, u32 dstSize)
                 toCpy = textStart;
                 if (HasAnyBattleFlags(BATTLE_TYPE_CATCH_TUTORIAL))
                 {
-                    if (TRUE) // Super Fire Red: the catch tutorial is the old man's
+                    if (IsInKanto()) // Super Emerald: old man in Viridian, Wally in Petalburg
                         textStart = StringCopy(textStart, COMPOUND_STRING("The old man"));
                     else
                         textStart = StringCopy(textStart, COMPOUND_STRING("WALLY"));

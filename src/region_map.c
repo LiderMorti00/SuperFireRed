@@ -1744,7 +1744,7 @@ void CreateRegionMapPlayerIcon(u16 tileTag, u16 paletteTag)
         sRegionMap->playerIconSprite = NULL;
         return;
     }
-    if (TRUE && gSaveBlock2Ptr->playerGender == FEMALE)
+    if (FALSE /* Super Emerald: was IS_FRLG */ && gSaveBlock2Ptr->playerGender == FEMALE)
     {
         sheet.data = sRegionMapPlayerIcon_LeafGfx;
         palette.data = sRegionMapPlayerIcon_LeafPal;
@@ -1754,7 +1754,7 @@ void CreateRegionMapPlayerIcon(u16 tileTag, u16 paletteTag)
         sheet.data = sRegionMapPlayerIcon_MayGfx;
         palette.data = sRegionMapPlayerIcon_MayPal;
     }
-    else if (TRUE) // Super Fire Red: the player is always Red or Leaf
+    else if (FALSE) // Super Emerald: the player is Brendan or May
     {
         sheet.data = sRegionMapPlayerIcon_RedGfx;
         palette.data = sRegionMapPlayerIcon_RedPal;

@@ -1272,9 +1272,12 @@ SootopolisCity_EventScript_GiveWaterfall::
 	setflag FLAG_RECEIVED_HM_WATERFALL
 	msgbox SootopolisCity_Text_ExplainWaterfallGoToGym, MSGBOX_DEFAULT
 	closemessage
-	call_if_eq VAR_FACING, DIR_NORTH, SootopolisCity_EventScript_WallaceMoveFromGym
-	call_if_eq VAR_FACING, DIR_EAST, SootopolisCity_EventScript_WallaceMoveFromGym
-	call_if_eq VAR_FACING, DIR_WEST, SootopolisCity_EventScript_WallaceMoveFromGymWest
+	@ Super Emerald: Wallace is the Gym Leader, so he goes back into his Gym
+	fadescreenspeed FADE_TO_BLACK, 4
+	playse SE_EXIT
+	setflag FLAG_HIDE_SOOTOPOLIS_CITY_WALLACE
+	removeobject LOCALID_SOOTOPOLIS_WALLACE
+	fadescreen FADE_FROM_BLACK
 	release
 	end
 
@@ -1366,7 +1369,7 @@ SootopolisCity_Movement_DestroyTask::
 
 SootopolisCity_Text_GymSign:
 	.string "SOOTOPOLIS CITY POKéMON GYM\n"
-	.string "LEADER: JUAN\p"
+	.string "LEADER: WALLACE\p"
 	.string "“The GYM LEADER with the beauty\n"
 	.string "of pure water!”$"
 
@@ -1675,12 +1678,10 @@ SootopolisCity_Text_ExplainWaterfallGoToGym:
 	.string "force its way up waterfalls.\p"
 	.string "And where does one get the RAIN BADGE?\n"
 	.string "You know, don't you?\p"
-	.string "That's right! You have to beat\n"
+	.string "That's right! You have to beat me,\n"
 	.string "the SOOTOPOLIS GYM LEADER.\p"
-	.string "When you're all set to go, step through\n"
-	.string "that door.$"
+	.string "I shall be waiting for you in the GYM.$"
 
 SootopolisCity_Text_DazzledByMentor:
-	.string "WALLACE: I'm sure that you will be\n"
-	.string "dazzled by my mentor's breathtakingly\l"
-	.string "elegant battle style.$"
+	.string "WALLACE: I shall be waiting for you\n"
+	.string "in the GYM.$"

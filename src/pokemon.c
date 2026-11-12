@@ -5667,9 +5667,9 @@ enum TrainerPicID FacilityClassToPicIndex(u16 facilityClass)
 enum TrainerPicID PlayerGenderToFrontTrainerPicId(enum Gender playerGender)
 {
     if (playerGender != MALE)
-        return FacilityClassToPicIndex(TRUE ? FACILITY_CLASS_LEAF : FACILITY_CLASS_MAY);
+        return FacilityClassToPicIndex(FALSE /* Super Emerald: was IS_FRLG */ ? FACILITY_CLASS_LEAF : FACILITY_CLASS_MAY);
     else
-        return FacilityClassToPicIndex(TRUE ? FACILITY_CLASS_RED : FACILITY_CLASS_BRENDAN);
+        return FacilityClassToPicIndex(FALSE /* Super Emerald: was IS_FRLG */ ? FACILITY_CLASS_RED : FACILITY_CLASS_BRENDAN);
 }
 
 void HandleSetPokedexFlag(enum NationalDexOrder nationalNum, u8 caseId, u32 personality)

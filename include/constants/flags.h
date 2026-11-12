@@ -706,7 +706,7 @@
 #define FLAG_SFR_ITEM_STEELIXITE                 0x28B // Super Fire Red: Mega Stone
 #define FLAG_SFR_ITEM_TYRANITARITE               0x28C // Super Fire Red: Mega Stone
 #define FLAG_SFR_ITEM_VENUSAURITE                0x28D // Super Fire Red: Mega Stone
-#define FLAG_UNUSED_0x28E  0x28E // Unused Flag
+#define FLAG_HIDE_PETALBURG_CITY_STEVEN  0x28E // Super Emerald: Steven gives the Mega Ring
 #define FLAG_UNUSED_0x28F  0x28F // Unused Flag
 #define FLAG_UNUSED_0x290  0x290 // Unused Flag
 #define FLAG_UNUSED_0x291  0x291 // Unused Flag

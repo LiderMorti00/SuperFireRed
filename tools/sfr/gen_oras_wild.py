@@ -1,15 +1,16 @@
 #!/usr/bin/env python3
-"""Super Fire Red: puts Omega Ruby / Alpha Sapphire wild Pokemon into the Hoenn tables
+"""Super Emerald: puts Omega Ruby / Alpha Sapphire wild Pokemon into the Hoenn tables
 of src/data/wild_encounters.json.
 
 - Data: tools/sfr/data/oras_wild.json (ORAS encounter slots and DexNav lists).
-- Levels follow the Super Fire Red curve: 45 + ORAS level * 0.55.
-- Version exclusives: Super Fire Red follows Omega Ruby (Alpha Sapphire-only slots are dropped).
+- Levels: the original ORAS levels (Hoenn is the main story in Super Emerald).
+- Version exclusives: both games, like Emerald; a slot that differs between the two
+  games is split evenly between the Omega Ruby and the Alpha Sapphire species.
 - ORAS and the GBA use different slot rates, so each species keeps (as close as possible)
   its ORAS share of the encounters: the GBA slots are handed out, from the most common to
   the rarest, to the species that is furthest below its ORAS share.
 - Hoenn tables with no ORAS counterpart (Mirage Tower, Desert Underpass, Artisan Cave,
-  Altering Cave...) keep their Emerald species and only get the level curve.
+  Altering Cave...) keep their Emerald species and levels.
 - DexNav: the ORAS DexNav-only species go into a hidden_mons table (3 slots).
 
 Usage (repo root): python3 tools/sfr/gen_oras_wild.py
@@ -19,7 +20,7 @@ import json, os, re
 ROOT = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 os.chdir(ROOT)
 
-GAME = 'Omega Ruby'
+GAMES = ('Omega Ruby', 'Alpha Sapphire')
 
 AREAS = {
     'MAP_ROUTE104': ['route-104_south', 'route-104_north'],
@@ -88,7 +89,7 @@ SPECIAL = {'nidoran♀': 'NIDORAN_F', 'nidoran♂': 'NIDORAN_M', 'mr. mime': 'MR
 
 
 def curve(level):
-    return int(45 + level * 0.55 + 0.5)
+    return level
 
 
 def species_constant(name):
@@ -102,10 +103,10 @@ def levels(text):
 
 
 def gather(area_slots):
-    """{species: [share, min, max]} from ORAS slots, Omega Ruby only."""
+    """{species: [share, min, max]} from ORAS slots, both games."""
     out = {}
     for slot in area_slots:
-        opts = [o for o in slot['options'] if GAME in o['games']]
+        opts = [o for o in slot['options'] if any(g in o['games'] for g in GAMES)]
         for o in opts:
             lo, hi = levels(o['level'])
             e = out.setdefault(species_constant(o['name']), [0.0, lo, hi])

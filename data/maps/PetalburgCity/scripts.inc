@@ -27,6 +27,7 @@ PetalburgCity_EventScript_SetGymDoorsUnlocked::
 PetalburgCity_OnFrame:
 	map_script_2 VAR_PETALBURG_CITY_STATE, 2, PetalburgCity_EventScript_WallyTutorial
 	map_script_2 VAR_PETALBURG_CITY_STATE, 4, PetalburgCity_EventScript_WalkToWallyHouse
+	map_script_2 VAR_SE_MEGA_RING_STATE, 1, PetalburgCity_EventScript_StevenMegaRing
 	.2byte 0
 
 PetalburgCity_EventScript_WallyTutorial::
@@ -758,3 +759,60 @@ PetalburgCity_Text_ImLookingForTalentedTrainers:
 	.string "I'm roaming the land in search of\n"
 	.string "talented TRAINERS.\p"
 	.string "I'm sorry to have taken your time.$"
+
+@ Super Emerald: as in ORAS, Steven gives the Mega Ring after Norman's Gym
+PetalburgCity_EventScript_StevenMegaRing::
+	lockall
+	setobjectxyperm LOCALID_PETALBURG_STEVEN, 15, 14
+	clearflag FLAG_HIDE_PETALBURG_CITY_STEVEN
+	addobject LOCALID_PETALBURG_STEVEN
+	applymovement LOCALID_PLAYER, Common_Movement_WalkInPlaceFasterDown
+	applymovement LOCALID_PETALBURG_STEVEN, PetalburgCity_Movement_StevenApproach
+	waitmovement 0
+	msgbox PetalburgCity_Text_StevenMegaRing, MSGBOX_DEFAULT
+	giveitem ITEM_MEGA_RING
+	msgbox PetalburgCity_Text_StevenExplainMegaRing, MSGBOX_DEFAULT
+	closemessage
+	applymovement LOCALID_PETALBURG_STEVEN, PetalburgCity_Movement_StevenLeave
+	waitmovement 0
+	removeobject LOCALID_PETALBURG_STEVEN
+	setflag FLAG_HIDE_PETALBURG_CITY_STEVEN
+	setvar VAR_SE_MEGA_RING_STATE, 2
+	releaseall
+	end
+
+PetalburgCity_Movement_StevenApproach:
+	walk_up
+	walk_up
+	walk_up
+	walk_up
+	step_end
+
+PetalburgCity_Movement_StevenLeave:
+	walk_down
+	walk_down
+	walk_down
+	walk_down
+	walk_down
+	step_end
+
+PetalburgCity_Text_StevenMegaRing:
+	.string "STEVEN: Hello, {PLAYER}{KUN}.\n"
+	.string "So you beat your father, NORMAN!\p"
+	.string "I had a feeling you would.\n"
+	.string "That's why I came all this way.\p"
+	.string "There's a power that only POKéMON\n"
+	.string "and TRAINERS who trust each other\l"
+	.string "can awaken. MEGA EVOLUTION.\p"
+	.string "I want you to have this.$"
+
+PetalburgCity_Text_StevenExplainMegaRing:
+	.string "STEVEN: That MEGA RING holds a KEY\n"
+	.string "STONE.\p"
+	.string "When a POKéMON holds its MEGA STONE,\n"
+	.string "the KEY STONE lets it MEGA EVOLVE\l"
+	.string "once in each battle.\p"
+	.string "MEGA STONES are hidden all over\n"
+	.string "HOENN. Keep your eyes open!\p"
+	.string "Well, I'm off to look for rare\n"
+	.string "stones. See you around, {PLAYER}{KUN}!$"

@@ -1073,3 +1073,20 @@ LilycoveCity_ContestLobby_Text_MadePokeblocksWithFamily:
 	.string "I bet you can make smoother, better\n"
 	.string "{POKEBLOCK}S if you have more people.$"
 
+
+@ Super Emerald: Juan left the Sootopolis Gym to Wallace and became a Contest coordinator
+LilycoveCity_ContestLobby_EventScript_Juan::
+	msgbox LilycoveCity_ContestLobby_Text_Juan, MSGBOX_NPC
+	end
+
+LilycoveCity_ContestLobby_Text_Juan:
+	.string "JUAN: Ah, a young TRAINER with a\n"
+	.string "sparkle in the eyes.\p"
+	.string "I am JUAN. In SOOTOPOLIS, I once\n"
+	.string "taught WALLACE all I know.\p"
+	.string "Now that he leads the GYM, I devote\n"
+	.string "myself to POKéMON CONTESTS.\p"
+	.string "A battle is won with strength, but\n"
+	.string "a CONTEST is won with beauty.\p"
+	.string "Do show me your POKéMON on the\n"
+	.string "stage someday!$"
