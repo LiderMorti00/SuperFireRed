@@ -1,0 +1,24 @@
+route-1: no Fire Red slot left for School Kid Sherman
+route-1: no Fire Red slot left for School Kid Danny
+route-1: no Fire Red slot left for Ace Trainer French
+route-1: no Fire Red slot left for Ace Trainer Quinn
+route-2: no Fire Red slot left for Bug Catcher Ed
+route-2: no Fire Red slot left for Bug Catcher Doug
+route-2: no Fire Red slot left for Bug Catcher Rob
+route-3: no Fire Red slot left for Hiker Dwight
+route-3: no Fire Red slot left for Firebreather Burt
+route-4: no Fire Red slot left for Bird Keeper Hank
+route-4: no Fire Red slot left for Picnicker Sharon
+route-17: no Fire Red slot left for Biker Markey
+route-20: no Fire Red slot left for Bird Keeper Ernie
+route-20: no Fire Red slot left for Camper Pedro
+route-21: no Fire Red slot left for Swimmer♀ Chelan
+route-21: no Fire Red slot left for Bird Keeper Easton
+route-21: no Fire Red slot left for Swimmer♀ Kendra
+seafoam-islands: no Fire Red slot left for Skier Cady
+seafoam-islands: no Fire Red slot left for Boarder Shaun
+seafoam-islands: no Fire Red slot left for Boarder Bryce
+pewter-city#gym: no Fire Red slot left for Hiker Edwin
+cerulean-city#gym: no Fire Red slot left for Swimmer♀ Diana
+cerulean-city#gym: no Fire Red slot left for Swimmer♀ Joy
+cerulean-city#gym: no Fire Red slot left for Swimmer♀ Briana

@@ -1,0 +1,4898 @@
+{
+ "celadon-city": [
+  {
+   "trainer": "Twins Jo & Zoe",
+   "party": [
+    [
+     "Victreebel",
+     47
+    ],
+    [
+     "Vileplume",
+     47
+    ]
+   ],
+   "notes": "This is a Double Battle.",
+   "table": "HeartGold and SoulSilver Trainers (Celadon Gym)"
+  },
+  {
+   "trainer": "Lass Michelle",
+   "party": [
+    [
+     "Skiploom",
+     44
+    ],
+    [
+     "Hoppip",
+     45
+    ],
+    [
+     "Jumpluff",
+     46
+    ]
+   ],
+   "notes": "",
+   "table": "HeartGold and SoulSilver Trainers (Celadon Gym)"
+  },
+  {
+   "trainer": "Picnicker Tanya",
+   "party": [
+    [
+     "Exeggutor",
+     49
+    ]
+   ],
+   "notes": "",
+   "table": "HeartGold and SoulSilver Trainers (Celadon Gym)"
+  },
+  {
+   "trainer": "Beauty Julia",
+   "party": [
+    [
+     "Paras",
+     44
+    ],
+    [
+     "Carnivine",
+     44
+    ],
+    [
+     "Parasect",
+     47
+    ]
+   ],
+   "notes": "",
+   "table": "HeartGold and SoulSilver Trainers (Celadon Gym)"
+  },
+  {
+   "trainer": "Erika",
+   "party": [
+    [
+     "Jumpluff",
+     51
+    ],
+    [
+     "Tangela",
+     52
+    ],
+    [
+     "Victreebel",
+     56
+    ],
+    [
+     "Bellossom",
+     56
+    ]
+   ],
+   "notes": "She will give the player TM19 Giga Drain after the battle.",
+   "table": "HeartGold and SoulSilver Trainers (Celadon Gym)"
+  }
+ ],
+ "cerulean-city": [
+  {
+   "trainer": "Sailor Parker",
+   "party": [
+    [
+     "Horsea",
+     43
+    ],
+    [
+     "Seadra",
+     43
+    ]
+   ],
+   "notes": "",
+   "table": "HeartGold and SoulSilver Trainers (Cerulean Gym)"
+  },
+  {
+   "trainer": "Sailor Eddie",
+   "party": [
+    [
+     "Azumarill",
+     48
+    ]
+   ],
+   "notes": "",
+   "table": "HeartGold and SoulSilver Trainers (Cerulean Gym)"
+  },
+  {
+   "trainer": "Swimmer♀ Diana",
+   "party": [
+    [
+     "Golduck",
+     48
+    ]
+   ],
+   "notes": "Requires Surf.",
+   "table": "HeartGold and SoulSilver Trainers (Cerulean Gym)"
+  },
+  {
+   "trainer": "Swimmer♀ Joy",
+   "party": [
+    [
+     "Cloyster",
+     48
+    ]
+   ],
+   "notes": "Requires Surf.",
+   "table": "HeartGold and SoulSilver Trainers (Cerulean Gym)"
+  },
+  {
+   "trainer": "Swimmer♀ Briana",
+   "party": [
+    [
+     "Seaking",
+     46
+    ],
+    [
+     "Seaking",
+     46
+    ]
+   ],
+   "notes": "Requires Surf.",
+   "table": "HeartGold and SoulSilver Trainers (Cerulean Gym)"
+  },
+  {
+   "trainer": "Misty",
+   "party": [
+    [
+     "Golduck",
+     49
+    ],
+    [
+     "Quagsire",
+     49
+    ],
+    [
+     "Lapras",
+     52
+    ],
+    [
+     "Starmie",
+     54
+    ]
+   ],
+   "notes": "Requires Surf. She will give the player TM03 Water Pulse after the battle.",
+   "table": "HeartGold and SoulSilver Trainers (Cerulean Gym)"
+  }
+ ],
+ "fighting-dojo": [
+  {
+   "trainer": "Falkner",
+   "party": [
+    [
+     "Staraptor",
+     50
+    ],
+    [
+     "Noctowl",
+     52
+    ],
+    [
+     "Swellow",
+     52
+    ],
+    [
+     "Honchkrow",
+     54
+    ],
+    [
+     "Pelipper",
+     48
+    ],
+    [
+     "Pidgeot",
+     56
+    ]
+   ],
+   "notes": "Staraptor lv.50 Noctowl lv.52 Swellow lv.52 @ Flame Orb Honchkrow lv.54 Pelipper lv.48 Pidgeot lv.56",
+   "table": "HeartGold and SoulSilver Gym Leader Rematches"
+  },
+  {
+   "trainer": "Bugsy",
+   "party": [
+    [
+     "Scizor",
+     56
+    ],
+    [
+     "Shedinja",
+     48
+    ],
+    [
+     "Yanmega",
+     52
+    ],
+    [
+     "Pinsir",
+     55
+    ],
+    [
+     "Heracross",
+     54
+    ],
+    [
+     "Vespiquen",
+     52
+    ]
+   ],
+   "notes": "Scizor lv.56 @ Sitrus Berry Shedinja lv.48 Yanmega lv.52 Pinsir lv.55 Heracross lv.54 Vespiquen lv.52 @ Sitrus Berry",
+   "table": "HeartGold and SoulSilver Gym Leader Rematches"
+  },
+  {
+   "trainer": "Whitney",
+   "party": [
+    [
+     "Girafarig",
+     52
+    ],
+    [
+     "Lickilicky",
+     50
+    ],
+    [
+     "Bibarel",
+     54
+    ],
+    [
+     "Delcatty",
+     54
+    ],
+    [
+     "Clefable",
+     52
+    ],
+    [
+     "Miltank",
+     58
+    ]
+   ],
+   "notes": "Girafarig lv.52 Lickilicky lv.50 Bibarel lv.54 Delcatty lv.54 Clefable lv.52 Miltank lv.58 @ Lum Berry",
+   "table": "HeartGold and SoulSilver Gym Leader Rematches"
+  },
+  {
+   "trainer": "Morty",
+   "party": [
+    [
+     "Drifblim",
+     52
+    ],
+    [
+     "Dusknoir",
+     52
+    ],
+    [
+     "Sableye",
+     52
+    ],
+    [
+     "Mismagius",
+     54
+    ],
+    [
+     "Gengar",
+     57
+    ],
+    [
+     "Gengar",
+     57
+    ]
+   ],
+   "notes": "Drifblim lv.52 @ Sitrus Berry Dusknoir lv.52 Sableye lv.52 Mismagius lv.54 Gengar lv.57 Gengar lv.57",
+   "table": "HeartGold and SoulSilver Gym Leader Rematches"
+  },
+  {
+   "trainer": "Chuck",
+   "party": [
+    [
+     "Medicham",
+     54
+    ],
+    [
+     "Hitmonchan",
+     52
+    ],
+    [
+     "Hitmonlee",
+     55
+    ],
+    [
+     "Breloom",
+     54
+    ],
+    [
+     "Primeape",
+     56
+    ],
+    [
+     "Poliwrath",
+     60
+    ]
+   ],
+   "notes": "Medicham lv.54 @ Sitrus Berry Hitmonchan lv.52 Hitmonlee lv.55 Breloom lv.54 @ Toxic Orb Primeape lv.56 Poliwrath lv.60 @ Sitrus Berry",
+   "table": "HeartGold and SoulSilver Gym Leader Rematches"
+  },
+  {
+   "trainer": "Jasmine",
+   "party": [
+    [
+     "Metagross",
+     52
+    ],
+    [
+     "Magnezone",
+     56
+    ],
+    [
+     "Skarmory",
+     52
+    ],
+    [
+     "Bronzong",
+     50
+    ],
+    [
+     "Empoleon",
+     52
+    ],
+    [
+     "Steelix",
+     62
+    ]
+   ],
+   "notes": "Metagross lv.52 Magnezone lv.56 Skarmory lv.52 Bronzong lv.50 Empoleon lv.52 Steelix lv.62",
+   "table": "HeartGold and SoulSilver Gym Leader Rematches"
+  },
+  {
+   "trainer": "Pryce",
+   "party": [
+    [
+     "Abomasnow",
+     56
+    ],
+    [
+     "Dewgong",
+     58
+    ],
+    [
+     "Glalie",
+     52
+    ],
+    [
+     "Froslass",
+     52
+    ],
+    [
+     "Walrein",
+     54
+    ],
+    [
+     "Mamoswine",
+     60
+    ]
+   ],
+   "notes": "Abomasnow lv.56 Dewgong lv.58 @ Lum Berry Glalie lv.52 Froslass lv.52 Walrein lv.54 Mamoswine lv.60 @ Sitrus Berry",
+   "table": "HeartGold and SoulSilver Gym Leader Rematches"
+  },
+  {
+   "trainer": "Clair",
+   "party": [
+    [
+     "Gyarados",
+     56
+    ],
+    [
+     "Dragonair",
+     52
+    ],
+    [
+     "Aerodactyl",
+     52
+    ],
+    [
+     "Kingdra",
+     56
+    ],
+    [
+     "Charizard",
+     52
+    ],
+    [
+     "Dragonite",
+     60
+    ]
+   ],
+   "notes": "Gyarados lv.56 @ Wacan Berry Dragonair lv.52 Aerodactyl lv.52 Kingdra lv.56 Charizard lv.52 Dragonite lv.60 @ Sitrus Berry",
+   "table": "HeartGold and SoulSilver Gym Leader Rematches"
+  },
+  {
+   "trainer": "Brock",
+   "party": [
+    [
+     "Golem",
+     55
+    ],
+    [
+     "Relicanth",
+     54
+    ],
+    [
+     "Omastar",
+     56
+    ],
+    [
+     "Onix",
+     61
+    ],
+    [
+     "Kabutops",
+     55
+    ],
+    [
+     "Rampardos",
+     57
+    ]
+   ],
+   "notes": "Golem lv.55 Relicanth lv.54 @ Lum Berry Omastar lv.56 Onix lv.61 @ Sitrus Berry Kabutops lv.55 Rampardos lv.57",
+   "table": "HeartGold and SoulSilver Gym Leader Rematches"
+  },
+  {
+   "trainer": "Misty",
+   "party": [
+    [
+     "Starmie",
+     60
+    ],
+    [
+     "Quagsire",
+     56
+    ],
+    [
+     "Lapras",
+     56
+    ],
+    [
+     "Lanturn",
+     54
+    ],
+    [
+     "Floatzel",
+     54
+    ],
+    [
+     "Milotic",
+     60
+    ]
+   ],
+   "notes": "Starmie lv.60 @ Colbur Berry Quagsire lv.56 Lapras lv.56 Lanturn lv.54 Floatzel lv.54 Milotic lv.60",
+   "table": "HeartGold and SoulSilver Gym Leader Rematches"
+  },
+  {
+   "trainer": "Lt. Surge",
+   "party": [
+    [
+     "Raichu",
+     60
+    ],
+    [
+     "Manectric",
+     52
+    ],
+    [
+     "Magnezone",
+     52
+    ],
+    [
+     "Electrode",
+     52
+    ],
+    [
+     "Pachirisu",
+     58
+    ],
+    [
+     "Electivire",
+     56
+    ]
+   ],
+   "notes": "Raichu lv.60 Manectric lv.52 @ Pinap Berry Magnezone lv.52 Electrode lv.52 Pachirisu lv.58 Electivire lv.56 @ Sitrus Berry",
+   "table": "HeartGold and SoulSilver Gym Leader Rematches"
+  },
+  {
+   "trainer": "Erika",
+   "party": [
+    [
+     "Shiftry",
+     54
+    ],
+    [
+     "Jumpluff",
+     53
+    ],
+    [
+     "Victreebel",
+     56
+    ],
+    [
+     "Bellossom",
+     56
+    ],
+    [
+     "Tangrowth",
+     60
+    ],
+    [
+     "Roserade",
+     55
+    ]
+   ],
+   "notes": "Shiftry lv.54 Jumpluff lv.53 Victreebel lv.56 @ Kelpsy Berry Bellossom lv.56 Tangrowth lv.60 Roserade lv.55",
+   "table": "HeartGold and SoulSilver Gym Leader Rematches"
+  },
+  {
+   "trainer": "Janine",
+   "party": [
+    [
+     "Crobat",
+     52
+    ],
+    [
+     "Weezing",
+     56
+    ],
+    [
+     "Toxicroak",
+     52
+    ],
+    [
+     "Ariados",
+     58
+    ],
+    [
+     "Venomoth",
+     59
+    ],
+    [
+     "Drapion",
+     55
+    ]
+   ],
+   "notes": "Crobat lv.52 Weezing lv.56 Toxicroak lv.52 Ariados lv.58 Venomoth lv.59 @ Sitrus Berry Drapion lv.55",
+   "table": "HeartGold and SoulSilver Gym Leader Rematches"
+  },
+  {
+   "trainer": "Sabrina",
+   "party": [
+    [
+     "Alakazam",
+     60
+    ],
+    [
+     "Espeon",
+     58
+    ],
+    [
+     "Mr. Mime",
+     56
+    ],
+    [
+     "Jynx",
+     54
+    ],
+    [
+     "Wobbuffet",
+     53
+    ],
+    [
+     "Gallade",
+     53
+    ]
+   ],
+   "notes": "Alakazam lv.60 Espeon lv.58 Mr. Mime lv.56 Jynx lv.54 Wobbuffet lv.53 Gallade lv.53 @ Sitrus Berry",
+   "table": "HeartGold and SoulSilver Gym Leader Rematches"
+  },
+  {
+   "trainer": "Blaine",
+   "party": [
+    [
+     "Torkoal",
+     54
+    ],
+    [
+     "Camerupt",
+     57
+    ],
+    [
+     "Rapidash",
+     60
+    ],
+    [
+     "Magcargo",
+     58
+    ],
+    [
+     "Houndoom",
+     54
+    ],
+    [
+     "Magmortar",
+     62
+    ]
+   ],
+   "notes": "Torkoal lv.54 Camerupt lv.57 Rapidash lv.60 Magcargo lv.58 Houndoom lv.54 Magmortar lv.62",
+   "table": "HeartGold and SoulSilver Gym Leader Rematches"
+  },
+  {
+   "trainer": "Blue",
+   "party": [
+    [
+     "Exeggutor",
+     67
+    ],
+    [
+     "Machamp",
+     69
+    ],
+    [
+     "Rhyperior",
+     70
+    ],
+    [
+     "Arcanine",
+     68
+    ],
+    [
+     "Tyranitar",
+     70
+    ],
+    [
+     "Pidgeot",
+     72
+    ]
+   ],
+   "notes": "Exeggutor lv.67 Machamp lv.69 @ Iron Ball Rhyperior lv.70 Arcanine lv.68 Tyranitar lv.70 Pidgeot lv.72 @ Sitrus Berry",
+   "table": "HeartGold and SoulSilver Gym Leader Rematches"
+  }
+ ],
+ "fuchsia-city": [
+  {
+   "trainer": "Picnicker Cindy",
+   "party": [
+    [
+     "Nidoqueen",
+     48
+    ]
+   ],
+   "notes": "",
+   "table": "HeartGold and SoulSilver Trainers (Fuchsia Gym)"
+  },
+  {
+   "trainer": "Camper Barry",
+   "party": [
+    [
+     "Nidoking",
+     48
+    ]
+   ],
+   "notes": "",
+   "table": "HeartGold and SoulSilver Trainers (Fuchsia Gym)"
+  },
+  {
+   "trainer": "Lass Alice",
+   "party": [
+    [
+     "Gloom",
+     41
+    ],
+    [
+     "Arbok",
+     45
+    ],
+    [
+     "Vileplume",
+     41
+    ]
+   ],
+   "notes": "",
+   "table": "HeartGold and SoulSilver Trainers (Fuchsia Gym)"
+  },
+  {
+   "trainer": "Lass Linda",
+   "party": [
+    [
+     "Bulbasaur",
+     41
+    ],
+    [
+     "Ivysaur",
+     43
+    ],
+    [
+     "Venusaur",
+     45
+    ]
+   ],
+   "notes": "",
+   "table": "HeartGold and SoulSilver Trainers (Fuchsia Gym)"
+  },
+  {
+   "trainer": "Janine",
+   "party": [
+    [
+     "Crobat",
+     47
+    ],
+    [
+     "Weezing",
+     44
+    ],
+    [
+     "Ariados",
+     47
+    ],
+    [
+     "Ariados",
+     47
+    ],
+    [
+     "Venomoth",
+     50
+    ]
+   ],
+   "notes": "She will give the player TM84 Poison Jab after the battle.",
+   "table": "HeartGold and SoulSilver Trainers (Fuchsia Gym)"
+  }
+ ],
+ "indigo-plateau": [
+  {
+   "trainer": "Rival",
+   "party": [
+    [
+     "Sneasel",
+     55
+    ],
+    [
+     "Magneton",
+     55
+    ],
+    [
+     "Gengar",
+     56
+    ],
+    [
+     "Crobat",
+     58
+    ],
+    [
+     "Alakazam",
+     56
+    ],
+    [
+     "Starter (3rd stage)",
+     60
+    ]
+   ],
+   "notes": "He can be fought on Mondays and Wednesdays after defeating him in Mt. Moon and defeating Clair and Lance in the Dragon's Den. His starter is the one whose type is strong against the player's starter.",
+   "table": "HeartGold and SoulSilver Trainers"
+  },
+  {
+   "trainer": "Will",
+   "party": [
+    [
+     "Xatu",
+     40
+    ],
+    [
+     "Jynx",
+     41
+    ],
+    [
+     "Slowbro",
+     41
+    ],
+    [
+     "Exeggutor",
+     41
+    ],
+    [
+     "Xatu",
+     42
+    ]
+   ],
+   "notes": "The first member of the Elite Four.",
+   "table": "HeartGold and SoulSilver Trainers (Elite Four)"
+  },
+  {
+   "trainer": "Koga",
+   "party": [
+    [
+     "Ariados",
+     40
+    ],
+    [
+     "Forretress",
+     43
+    ],
+    [
+     "Muk",
+     42
+    ],
+    [
+     "Venomoth",
+     41
+    ],
+    [
+     "Crobat",
+     44
+    ]
+   ],
+   "notes": "The second member of the Elite Four. His Muk might have Sticky Hold to prevent stealing the item.",
+   "table": "HeartGold and SoulSilver Trainers (Elite Four)"
+  },
+  {
+   "trainer": "Bruno",
+   "party": [
+    [
+     "Hitmontop",
+     42
+    ],
+    [
+     "Hitmonlee",
+     42
+    ],
+    [
+     "Hitmonchan",
+     42
+    ],
+    [
+     "Onix",
+     43
+    ],
+    [
+     "Machamp",
+     46
+    ]
+   ],
+   "notes": "The third member of the Elite Four.",
+   "table": "HeartGold and SoulSilver Trainers (Elite Four)"
+  },
+  {
+   "trainer": "Karen",
+   "party": [
+    [
+     "Umbreon",
+     42
+    ],
+    [
+     "Vileplume",
+     42
+    ],
+    [
+     "Murkrow",
+     44
+    ],
+    [
+     "Gengar",
+     45
+    ],
+    [
+     "Houndoom",
+     47
+    ]
+   ],
+   "notes": "The fourth member of the Elite Four.",
+   "table": "HeartGold and SoulSilver Trainers (Elite Four)"
+  },
+  {
+   "trainer": "Lance",
+   "party": [
+    [
+     "Gyarados",
+     46
+    ],
+    [
+     "Dragonite",
+     49
+    ],
+    [
+     "Dragonite",
+     49
+    ],
+    [
+     "Aerodactyl",
+     48
+    ],
+    [
+     "Charizard",
+     48
+    ],
+    [
+     "Dragonite",
+     50
+    ]
+   ],
+   "notes": "The Champion of the Elite Four. He can use Full Restores during the battle.",
+   "table": "HeartGold and SoulSilver Trainers (Elite Four)"
+  },
+  {
+   "trainer": "Will",
+   "party": [
+    [
+     "Bronzong",
+     58
+    ],
+    [
+     "Jynx",
+     60
+    ],
+    [
+     "Grumpig",
+     59
+    ],
+    [
+     "Slowbro",
+     60
+    ],
+    [
+     "Gardevoir",
+     61
+    ],
+    [
+     "Xatu",
+     62
+    ]
+   ],
+   "notes": "The first member of the Elite Four.",
+   "table": "HeartGold and SoulSilver Trainers (Elite Four Rematches)"
+  },
+  {
+   "trainer": "Koga",
+   "party": [
+    [
+     "Skuntank",
+     61
+    ],
+    [
+     "Venomoth",
+     63
+    ],
+    [
+     "Toxicroak",
+     60
+    ],
+    [
+     "Swalot",
+     62
+    ],
+    [
+     "Crobat",
+     64
+    ],
+    [
+     "Muk",
+     62
+    ]
+   ],
+   "notes": "The second member of the Elite Four. His Muk and Swalot might have Sticky Hold to prevent stealing the items.",
+   "table": "HeartGold and SoulSilver Trainers (Elite Four Rematches)"
+  },
+  {
+   "trainer": "Bruno",
+   "party": [
+    [
+     "Hitmontop",
+     62
+    ],
+    [
+     "Hitmonlee",
+     61
+    ],
+    [
+     "Hitmonchan",
+     61
+    ],
+    [
+     "Hariyama",
+     62
+    ],
+    [
+     "Machamp",
+     64
+    ],
+    [
+     "Lucario",
+     64
+    ]
+   ],
+   "notes": "The third member of the Elite Four.",
+   "table": "HeartGold and SoulSilver Trainers (Elite Four Rematches)"
+  },
+  {
+   "trainer": "Karen",
+   "party": [
+    [
+     "Weavile",
+     62
+    ],
+    [
+     "Absol",
+     62
+    ],
+    [
+     "Spiritomb",
+     62
+    ],
+    [
+     "Houndoom",
+     63
+    ],
+    [
+     "Honchkrow",
+     64
+    ],
+    [
+     "Umbreon",
+     64
+    ]
+   ],
+   "notes": "The fourth member of the Elite Four.",
+   "table": "HeartGold and SoulSilver Trainers (Elite Four Rematches)"
+  },
+  {
+   "trainer": "Lance",
+   "party": [
+    [
+     "Salamence",
+     72
+    ],
+    [
+     "Gyarados",
+     68
+    ],
+    [
+     "Garchomp",
+     72
+    ],
+    [
+     "Altaria",
+     73
+    ],
+    [
+     "Charizard",
+     68
+    ],
+    [
+     "Dragonite",
+     75
+    ]
+   ],
+   "notes": "The Champion of the Elite Four. He can use Full Restores during the battle.",
+   "table": "HeartGold and SoulSilver Trainers (Elite Four Rematches)"
+  }
+ ],
+ "mt-moon": [
+  {
+   "trainer": "Rival",
+   "party": [
+    [
+     "Sneasel",
+     46
+    ],
+    [
+     "Golbat",
+     47
+    ],
+    [
+     "Magneton",
+     46
+    ],
+    [
+     "Gengar",
+     48
+    ],
+    [
+     "Alakazam",
+     48
+    ],
+    [
+     "Starter (3rd stage)",
+     50
+    ]
+   ],
+   "notes": "His starter is the one whose type is strong against the player's starter.",
+   "table": "HeartGold and SoulSilver Trainers"
+  }
+ ],
+ "pewter-city": [
+  {
+   "trainer": "Camper Jerry",
+   "party": [
+    [
+     "Rhydon",
+     50
+    ]
+   ],
+   "notes": "",
+   "table": "HeartGold and SoulSilver Trainers (Pewter Gym)"
+  },
+  {
+   "trainer": "Hiker Edwin",
+   "party": [
+    [
+     "Golem",
+     50
+    ]
+   ],
+   "notes": "",
+   "table": "HeartGold and SoulSilver Trainers (Pewter Gym)"
+  },
+  {
+   "trainer": "Brock",
+   "party": [
+    [
+     "Graveler",
+     51
+    ],
+    [
+     "Rhyhorn",
+     51
+    ],
+    [
+     "Omastar",
+     53
+    ],
+    [
+     "Onix",
+     54
+    ],
+    [
+     "Kabutops",
+     52
+    ]
+   ],
+   "notes": "He will give the player TM80 Rock Slide after the battle.",
+   "table": "HeartGold and SoulSilver Trainers (Pewter Gym)"
+  }
+ ],
+ "route-1": [
+  {
+   "trainer": "School Kid Sherman",
+   "party": [
+    [
+     "Furret",
+     43
+    ],
+    [
+     "Pidgeot",
+     43
+    ]
+   ],
+   "notes": "Furret lv.43 Pidgeot lv.43",
+   "table": "HeartGold and SoulSilver Trainers"
+  },
+  {
+   "trainer": "School Kid Danny",
+   "party": [
+    [
+     "Jynx",
+     43
+    ],
+    [
+     "Electabuzz",
+     43
+    ],
+    [
+     "Magmar",
+     43
+    ]
+   ],
+   "notes": "Jynx lv.43 Electabuzz lv.43 Magmar lv.43",
+   "table": "HeartGold and SoulSilver Trainers"
+  },
+  {
+   "trainer": "Ace Trainer French",
+   "party": [
+    [
+     "Absol",
+     47
+    ],
+    [
+     "Alakazam",
+     47
+    ]
+   ],
+   "notes": "Absol lv.47 Alakazam lv.47",
+   "table": "HeartGold and SoulSilver Trainers"
+  },
+  {
+   "trainer": "Ace Trainer Quinn",
+   "party": [
+    [
+     "Ivysaur",
+     47
+    ],
+    [
+     "Starmie",
+     47
+    ]
+   ],
+   "notes": "Ivysaur lv.47 Starmie lv.47",
+   "table": "HeartGold and SoulSilver Trainers"
+  }
+ ],
+ "route-10": [
+  {
+   "trainer": "Pokéfan Robert",
+   "party": [
+    [
+     "Quagsire",
+     43
+    ]
+   ],
+   "notes": "Quagsire lv.43",
+   "table": "HeartGold and SoulSilver Trainers"
+  },
+  {
+   "trainer": "Hiker Jim",
+   "party": [
+    [
+     "Machamp",
+     45
+    ]
+   ],
+   "notes": "Machamp lv.45",
+   "table": "HeartGold and SoulSilver Trainers"
+  }
+ ],
+ "route-11": [
+  {
+   "trainer": "Psychic Fidel",
+   "party": [
+    [
+     "Xatu",
+     43
+    ]
+   ],
+   "notes": "Xatu lv.43",
+   "table": "HeartGold and SoulSilver Trainers"
+  },
+  {
+   "trainer": "Youngster Owen",
+   "party": [
+    [
+     "Growlithe",
+     44
+    ]
+   ],
+   "notes": "Growlithe lv.44",
+   "table": "HeartGold and SoulSilver Trainers"
+  },
+  {
+   "trainer": "Youngster Jason",
+   "party": [
+    [
+     "Sandslash",
+     42
+    ],
+    [
+     "Crobat",
+     42
+    ]
+   ],
+   "notes": "Sandslash lv.42 Crobat lv.42",
+   "table": "HeartGold and SoulSilver Trainers"
+  },
+  {
+   "trainer": "Psychic Herman",
+   "party": [
+    [
+     "Exeggcute",
+     39
+    ],
+    [
+     "Exeggcute",
+     39
+    ],
+    [
+     "Exeggutor",
+     39
+    ]
+   ],
+   "notes": "Exeggcute lv.39 Exeggcute lv.39 Exeggutor lv.39",
+   "table": "HeartGold and SoulSilver Trainers"
+  }
+ ],
+ "route-12": [
+  {
+   "trainer": "Fisherman Kyle",
+   "party": [
+    [
+     "Goldeen",
+     39
+    ],
+    [
+     "Qwilfish",
+     35
+    ],
+    [
+     "Goldeen",
+     39
+    ]
+   ],
+   "notes": "The player can obtain his Pokégear number after the battle. He can be called for a rematch on Wednesday afternoons.",
+   "table": "HeartGold and SoulSilver Trainers"
+  },
+  {
+   "trainer": "Bird Keeper Justin",
+   "party": [
+    [
+     "Xatu",
+     44
+    ],
+    [
+     "Noctowl",
+     39
+    ]
+   ],
+   "notes": "",
+   "table": "HeartGold and SoulSilver Trainers"
+  },
+  {
+   "trainer": "Fisherman Martin",
+   "party": [
+    [
+     "Remoraid",
+     36
+    ],
+    [
+     "Octillery",
+     42
+    ]
+   ],
+   "notes": "",
+   "table": "HeartGold and SoulSilver Trainers"
+  },
+  {
+   "trainer": "Young Couple Vic & Tera",
+   "party": [
+    [
+     "Magmar",
+     44
+    ],
+    [
+     "Sunflora",
+     43
+    ]
+   ],
+   "notes": "This is a Double Battle.",
+   "table": "HeartGold and SoulSilver Trainers"
+  },
+  {
+   "trainer": "Fisherman Stephen",
+   "party": [
+    [
+     "Quagsire",
+     43
+    ],
+    [
+     "Qwilfish",
+     38
+    ],
+    [
+     "Tentacruel",
+     38
+    ]
+   ],
+   "notes": "",
+   "table": "HeartGold and SoulSilver Trainers"
+  },
+  {
+   "trainer": "Bird Keeper Gail",
+   "party": [
+    [
+     "Fearow",
+     42
+    ],
+    [
+     "Spearow",
+     39
+    ]
+   ],
+   "notes": "",
+   "table": "HeartGold and SoulSilver Trainers"
+  },
+  {
+   "trainer": "Fisherman Barney",
+   "party": [
+    [
+     "Gyarados",
+     40
+    ],
+    [
+     "Gyarados",
+     37
+    ],
+    [
+     "Gyarados",
+     37
+    ]
+   ],
+   "notes": "",
+   "table": "HeartGold and SoulSilver Trainers"
+  },
+  {
+   "trainer": "Fisherman Kyler",
+   "party": [
+    [
+     "Magikarp",
+     18
+    ],
+    [
+     "Magikarp",
+     18
+    ],
+    [
+     "Magikarp",
+     18
+    ]
+   ],
+   "notes": "The player can obtain his Pokégear number after the battle. He can be called for a rematch on Thursday afternoons.",
+   "table": "HeartGold and SoulSilver Trainers"
+  },
+  {
+   "trainer": "Fisherman Kyle",
+   "party": [
+    [
+     "Seaking",
+     40
+    ],
+    [
+     "Seaking",
+     43
+    ],
+    [
+     "Qwilfish",
+     38
+    ]
+   ],
+   "notes": "First rematch.",
+   "table": "HeartGold and SoulSilver Rematches"
+  },
+  {
+   "trainer": "Fisherman Kyle",
+   "party": [
+    [
+     "Seaking",
+     43
+    ],
+    [
+     "Seaking",
+     47
+    ],
+    [
+     "Qwilfish",
+     41
+    ],
+    [
+     "Krabby",
+     39
+    ]
+   ],
+   "notes": "Second rematch.",
+   "table": "HeartGold and SoulSilver Rematches"
+  },
+  {
+   "trainer": "Fisherman Kyle",
+   "party": [
+    [
+     "Seaking",
+     48
+    ],
+    [
+     "Seaking",
+     52
+    ],
+    [
+     "Qwilfish",
+     49
+    ],
+    [
+     "Kingler",
+     51
+    ]
+   ],
+   "notes": "Only after obtaining all 16 Badges.",
+   "table": "HeartGold and SoulSilver Rematches"
+  },
+  {
+   "trainer": "Fisherman Kyler",
+   "party": [
+    [
+     "Magikarp",
+     18
+    ],
+    [
+     "Magikarp",
+     18
+    ],
+    [
+     "Magikarp",
+     18
+    ],
+    [
+     "Magikarp",
+     18
+    ]
+   ],
+   "notes": "First rematch.",
+   "table": "HeartGold and SoulSilver Rematches"
+  },
+  {
+   "trainer": "Fisherman Kyler",
+   "party": [
+    [
+     "Magikarp",
+     18
+    ],
+    [
+     "Magikarp",
+     18
+    ],
+    [
+     "Magikarp",
+     18
+    ],
+    [
+     "Magikarp",
+     18
+    ],
+    [
+     "Magikarp",
+     18
+    ]
+   ],
+   "notes": "Second rematch.",
+   "table": "HeartGold and SoulSilver Rematches"
+  },
+  {
+   "trainer": "Fisherman Kyler",
+   "party": [
+    [
+     "Magikarp",
+     18
+    ],
+    [
+     "Magikarp",
+     18
+    ],
+    [
+     "Magikarp",
+     18
+    ],
+    [
+     "Magikarp",
+     18
+    ],
+    [
+     "Magikarp",
+     18
+    ],
+    [
+     "Magikarp",
+     18
+    ]
+   ],
+   "notes": "Only after obtaining all 16 Badges.",
+   "table": "HeartGold and SoulSilver Rematches"
+  }
+ ],
+ "route-13": [
+  {
+   "trainer": "Bird Keeper Bret",
+   "party": [
+    [
+     "Taillow",
+     41
+    ],
+    [
+     "Fearow",
+     41
+    ]
+   ],
+   "notes": "",
+   "table": "HeartGold and SoulSilver Trainers"
+  },
+  {
+   "trainer": "Picnicker Piper",
+   "party": [
+    [
+     "Spoink",
+     40
+    ]
+   ],
+   "notes": "",
+   "table": "HeartGold and SoulSilver Trainers"
+  },
+  {
+   "trainer": "Bird Keeper Perry",
+   "party": [
+    [
+     "Farfetch'd",
+     42
+    ]
+   ],
+   "notes": "",
+   "table": "HeartGold and SoulSilver Trainers"
+  },
+  {
+   "trainer": "Young Couple Tim & Sue",
+   "party": [
+    [
+     "Kadabra",
+     41
+    ],
+    [
+     "Psyduck",
+     46
+    ]
+   ],
+   "notes": "This is a Double Battle. The player can obtain their Pokégear number after the battle. They can be called for a rematch on Friday afternoons.",
+   "table": "HeartGold and SoulSilver Trainers"
+  },
+  {
+   "trainer": "Pokéfan Joshua",
+   "party": [
+    [
+     "Pikachu",
+     32
+    ],
+    [
+     "Pikachu",
+     32
+    ],
+    [
+     "Pikachu",
+     32
+    ],
+    [
+     "Pikachu",
+     32
+    ],
+    [
+     "Pikachu",
+     32
+    ],
+    [
+     "Pikachu",
+     32
+    ]
+   ],
+   "notes": "",
+   "table": "HeartGold and SoulSilver Trainers"
+  },
+  {
+   "trainer": "Pokéfan Alex",
+   "party": [
+    [
+     "Nidoking",
+     29
+    ],
+    [
+     "Slowking",
+     29
+    ],
+    [
+     "Magikarp",
+     65
+    ]
+   ],
+   "notes": "",
+   "table": "HeartGold and SoulSilver Trainers"
+  },
+  {
+   "trainer": "Camper Tanner",
+   "party": [
+    [
+     "Sudowoodo",
+     38
+    ]
+   ],
+   "notes": "The player can obtain his Pokégear number after the battle. He can be called for a rematch on Monday nights.",
+   "table": "HeartGold and SoulSilver Trainers"
+  },
+  {
+   "trainer": "Picnicker Ginger",
+   "party": [
+    [
+     "Whismur",
+     41
+    ]
+   ],
+   "notes": "",
+   "table": "HeartGold and SoulSilver Trainers"
+  },
+  {
+   "trainer": "Camper Clark",
+   "party": [
+    [
+     "Buizel",
+     40
+    ]
+   ],
+   "notes": "",
+   "table": "HeartGold and SoulSilver Trainers"
+  },
+  {
+   "trainer": "Hiker Kenny",
+   "party": [
+    [
+     "Sandslash",
+     27
+    ],
+    [
+     "Graveler",
+     29
+    ],
+    [
+     "Golem",
+     33
+    ]
+   ],
+   "notes": "The player can obtain his Pokégear number after the battle. He can be called for a rematch on Saturday afternoons.",
+   "table": "HeartGold and SoulSilver Trainers"
+  },
+  {
+   "trainer": "Young Couple Tim & Sue",
+   "party": [
+    [
+     "Kadabra",
+     45
+    ],
+    [
+     "Golduck",
+     50
+    ]
+   ],
+   "notes": "First rematch.",
+   "table": "HeartGold and SoulSilver Rematches"
+  },
+  {
+   "trainer": "Young Couple Tim & Sue",
+   "party": [
+    [
+     "Kadabra",
+     48
+    ],
+    [
+     "Golduck",
+     52
+    ]
+   ],
+   "notes": "Second rematch.",
+   "table": "HeartGold and SoulSilver Rematches"
+  },
+  {
+   "trainer": "Young Couple Tim & Sue",
+   "party": [
+    [
+     "Alakazam",
+     54
+    ],
+    [
+     "Golduck",
+     56
+    ]
+   ],
+   "notes": "Only after obtaining all 16 Badges.",
+   "table": "HeartGold and SoulSilver Rematches"
+  },
+  {
+   "trainer": "Camper Tanner",
+   "party": [
+    [
+     "Sudowoodo",
+     41
+    ],
+    [
+     "Chinchou",
+     41
+    ]
+   ],
+   "notes": "First rematch.",
+   "table": "HeartGold and SoulSilver Rematches"
+  },
+  {
+   "trainer": "Camper Tanner",
+   "party": [
+    [
+     "Sudowoodo",
+     48
+    ],
+    [
+     "Lanturn",
+     47
+    ],
+    [
+     "Skiploom",
+     44
+    ]
+   ],
+   "notes": "Second rematch.",
+   "table": "HeartGold and SoulSilver Rematches"
+  },
+  {
+   "trainer": "Camper Tanner",
+   "party": [
+    [
+     "Sudowoodo",
+     52
+    ],
+    [
+     "Lanturn",
+     52
+    ],
+    [
+     "Jumpluff",
+     52
+    ]
+   ],
+   "notes": "Only after obtaining all 16 Badges.",
+   "table": "HeartGold and SoulSilver Rematches"
+  },
+  {
+   "trainer": "Hiker Kenny",
+   "party": [
+    [
+     "Onix",
+     16
+    ],
+    [
+     "Sandslash",
+     32
+    ],
+    [
+     "Graveler",
+     33
+    ],
+    [
+     "Golem",
+     37
+    ]
+   ],
+   "notes": "First rematch.",
+   "table": "HeartGold and SoulSilver Rematches"
+  },
+  {
+   "trainer": "Hiker Kenny",
+   "party": [
+    [
+     "Sandslash",
+     42
+    ],
+    [
+     "Graveler",
+     37
+    ],
+    [
+     "Golem",
+     44
+    ],
+    [
+     "Onix",
+     46
+    ]
+   ],
+   "notes": "Second rematch.",
+   "table": "HeartGold and SoulSilver Rematches"
+  },
+  {
+   "trainer": "Hiker Kenny",
+   "party": [
+    [
+     "Sandslash",
+     46
+    ],
+    [
+     "Graveler",
+     44
+    ],
+    [
+     "Golem",
+     49
+    ],
+    [
+     "Steelix",
+     54
+    ]
+   ],
+   "notes": "Only after obtaining all 16 Badges.",
+   "table": "HeartGold and SoulSilver Rematches"
+  }
+ ],
+ "route-14": [
+  {
+   "trainer": "Bird Keeper Josh",
+   "party": [
+    [
+     "Fearow",
+     37
+    ]
+   ],
+   "notes": "The player can obtain his Pokégear number after the battle. He can be called for a rematch on Tuesday nights.",
+   "table": "HeartGold and SoulSilver Trainers"
+  },
+  {
+   "trainer": "Pokéfan Trevor",
+   "party": [
+    [
+     "Psyduck",
+     42
+    ]
+   ],
+   "notes": "",
+   "table": "HeartGold and SoulSilver Trainers"
+  },
+  {
+   "trainer": "Pokéfan Carter",
+   "party": [
+    [
+     "Bulbasaur",
+     38
+    ],
+    [
+     "Charmander",
+     38
+    ],
+    [
+     "Squirtle",
+     38
+    ]
+   ],
+   "notes": "",
+   "table": "HeartGold and SoulSilver Trainers"
+  },
+  {
+   "trainer": "Bird Keeper Roy",
+   "party": [
+    [
+     "Fearow",
+     38
+    ],
+    [
+     "Fearow",
+     44
+    ]
+   ],
+   "notes": "",
+   "table": "HeartGold and SoulSilver Trainers"
+  },
+  {
+   "trainer": "School Kid Connor",
+   "party": [
+    [
+     "Zigzagoon",
+     42
+    ]
+   ],
+   "notes": "",
+   "table": "HeartGold and SoulSilver Trainers"
+  },
+  {
+   "trainer": "Teacher Clarice",
+   "party": [
+    [
+     "Zigzagoon",
+     41
+    ],
+    [
+     "Roselia",
+     43
+    ]
+   ],
+   "notes": "She can potentially be battled in a Double Battle with School Kid Torin.",
+   "table": "HeartGold and SoulSilver Trainers"
+  },
+  {
+   "trainer": "School Kid Torin",
+   "party": [
+    [
+     "Sandslash",
+     41
+    ],
+    [
+     "Golbat",
+     39
+    ]
+   ],
+   "notes": "He can potentially be battled in a Double Battle with Teacher Clarice. The player can obtain his Pokégear number after the battle. He can be called for a rematch on Wednesday nights.",
+   "table": "HeartGold and SoulSilver Trainers"
+  },
+  {
+   "trainer": "School Kid Travis",
+   "party": [
+    [
+     "Budew",
+     42
+    ]
+   ],
+   "notes": "",
+   "table": "HeartGold and SoulSilver Trainers"
+  },
+  {
+   "trainer": "Bird Keeper Josh",
+   "party": [
+    [
+     "Fearow",
+     47
+    ],
+    [
+     "Skarmory",
+     44
+    ]
+   ],
+   "notes": "First rematch.",
+   "table": "HeartGold and SoulSilver Rematches"
+  },
+  {
+   "trainer": "Bird Keeper Josh",
+   "party": [
+    [
+     "Skarmory",
+     48
+    ],
+    [
+     "Fearow",
+     51
+    ]
+   ],
+   "notes": "Second rematch.",
+   "table": "HeartGold and SoulSilver Rematches"
+  },
+  {
+   "trainer": "Bird Keeper Josh",
+   "party": [
+    [
+     "Skarmory",
+     55
+    ],
+    [
+     "Fearow",
+     55
+    ]
+   ],
+   "notes": "Only after obtaining all 16 Badges.",
+   "table": "HeartGold and SoulSilver Rematches"
+  },
+  {
+   "trainer": "School Kid Torin",
+   "party": [
+    [
+     "Sandslash",
+     46
+    ],
+    [
+     "Golbat",
+     45
+    ],
+    [
+     "Vulpix",
+     41
+    ]
+   ],
+   "notes": "First rematch.",
+   "table": "HeartGold and SoulSilver Rematches"
+  },
+  {
+   "trainer": "School Kid Torin",
+   "party": [
+    [
+     "Sandslash",
+     48
+    ],
+    [
+     "Golbat",
+     51
+    ],
+    [
+     "Vulpix",
+     48
+    ]
+   ],
+   "notes": "Second rematch.",
+   "table": "HeartGold and SoulSilver Rematches"
+  },
+  {
+   "trainer": "School Kid Torin",
+   "party": [
+    [
+     "Sandslash",
+     52
+    ],
+    [
+     "Golbat",
+     53
+    ],
+    [
+     "Vulpix",
+     52
+    ]
+   ],
+   "notes": "Only after obtaining all 16 Badges.",
+   "table": "HeartGold and SoulSilver Rematches"
+  }
+ ],
+ "route-15": [
+  {
+   "trainer": "School Kid Billy",
+   "party": [
+    [
+     "Parasect",
+     39
+    ],
+    [
+     "Poliwhirl",
+     37
+    ],
+    [
+     "Ditto",
+     35
+    ]
+   ],
+   "notes": "The player can obtain his Pokégear number after the battle. He can be called for a rematch on Friday nights.",
+   "table": "HeartGold and SoulSilver Trainers"
+  },
+  {
+   "trainer": "Teacher Colette",
+   "party": [
+    [
+     "Clefairy",
+     45
+    ]
+   ],
+   "notes": "",
+   "table": "HeartGold and SoulSilver Trainers"
+  },
+  {
+   "trainer": "Twins Kay & Tia",
+   "party": [
+    [
+     "Quagsire",
+     41
+    ],
+    [
+     "Quagsire",
+     41
+    ]
+   ],
+   "notes": "This is a Double Battle. The player can obtain their Pokégear number after the battle. They can be called for a rematch on Saturday nights.",
+   "table": "HeartGold and SoulSilver Trainers"
+  },
+  {
+   "trainer": "Pokéfan Eleanor",
+   "party": [
+    [
+     "Spinda",
+     43
+    ],
+    [
+     "Illumise",
+     41
+    ]
+   ],
+   "notes": "",
+   "table": "HeartGold and SoulSilver Trainers"
+  },
+  {
+   "trainer": "School Kid Kipp",
+   "party": [
+    [
+     "Voltorb",
+     36
+    ],
+    [
+     "Voltorb",
+     40
+    ],
+    [
+     "Magnemite",
+     36
+    ],
+    [
+     "Magneton",
+     40
+    ]
+   ],
+   "notes": "",
+   "table": "HeartGold and SoulSilver Trainers"
+  },
+  {
+   "trainer": "School Kid Tommy",
+   "party": [
+    [
+     "Xatu",
+     41
+    ],
+    [
+     "Alakazam",
+     43
+    ]
+   ],
+   "notes": "",
+   "table": "HeartGold and SoulSilver Trainers"
+  },
+  {
+   "trainer": "Teacher Hillary",
+   "party": [
+    [
+     "Sunkern",
+     41
+    ],
+    [
+     "Aipom",
+     31
+    ]
+   ],
+   "notes": "The player can obtain her Pokégear number after the battle. She can be called for a rematch on Thursday nights.",
+   "table": "HeartGold and SoulSilver Trainers"
+  },
+  {
+   "trainer": "Pokéfan Boone",
+   "party": [
+    [
+     "Spinda",
+     43
+    ],
+    [
+     "Volbeat",
+     41
+    ]
+   ],
+   "notes": "",
+   "table": "HeartGold and SoulSilver Trainers"
+  },
+  {
+   "trainer": "School Kid Johnny",
+   "party": [
+    [
+     "Bellsprout",
+     39
+    ],
+    [
+     "Weepinbell",
+     40
+    ],
+    [
+     "Victreebel",
+     42
+    ]
+   ],
+   "notes": "",
+   "table": "HeartGold and SoulSilver Trainers"
+  },
+  {
+   "trainer": "School Kid Billy",
+   "party": [
+    [
+     "Parasect",
+     42
+    ],
+    [
+     "Poliwhirl",
+     43
+    ],
+    [
+     "Ditto",
+     40
+    ]
+   ],
+   "notes": "First rematch.",
+   "table": "HeartGold and SoulSilver Rematches"
+  },
+  {
+   "trainer": "School Kid Billy",
+   "party": [
+    [
+     "Parasect",
+     46
+    ],
+    [
+     "Poliwhirl",
+     47
+    ],
+    [
+     "Ditto",
+     46
+    ]
+   ],
+   "notes": "Second rematch.",
+   "table": "HeartGold and SoulSilver Rematches"
+  },
+  {
+   "trainer": "School Kid Billy",
+   "party": [
+    [
+     "Mr. Mime",
+     50
+    ],
+    [
+     "Parasect",
+     55
+    ],
+    [
+     "Poliwrath",
+     53
+    ],
+    [
+     "Ditto",
+     51
+    ]
+   ],
+   "notes": "Only after obtaining all 16 Badges.",
+   "table": "HeartGold and SoulSilver Rematches"
+  },
+  {
+   "trainer": "Twins Kay & Tia",
+   "party": [
+    [
+     "Quagsire",
+     48
+    ],
+    [
+     "Quagsire",
+     48
+    ]
+   ],
+   "notes": "First rematch.",
+   "table": "HeartGold and SoulSilver Rematches"
+  },
+  {
+   "trainer": "Twins Kay & Tia",
+   "party": [
+    [
+     "Quagsire",
+     53
+    ],
+    [
+     "Quagsire",
+     53
+    ]
+   ],
+   "notes": "Second rematch.",
+   "table": "HeartGold and SoulSilver Rematches"
+  },
+  {
+   "trainer": "Twins Kay & Tia",
+   "party": [
+    [
+     "Quagsire",
+     55
+    ],
+    [
+     "Quagsire",
+     55
+    ]
+   ],
+   "notes": "Only after obtaining all 16 Badges.",
+   "table": "HeartGold and SoulSilver Rematches"
+  },
+  {
+   "trainer": "Teacher Hillary",
+   "party": [
+    [
+     "Ambipom",
+     43
+    ],
+    [
+     "Sunflora",
+     43
+    ]
+   ],
+   "notes": "First rematch.",
+   "table": "HeartGold and SoulSilver Rematches"
+  },
+  {
+   "trainer": "Teacher Hillary",
+   "party": [
+    [
+     "Ambipom",
+     49
+    ],
+    [
+     "Sunflora",
+     49
+    ]
+   ],
+   "notes": "Second rematch.",
+   "table": "HeartGold and SoulSilver Rematches"
+  },
+  {
+   "trainer": "Teacher Hillary",
+   "party": [
+    [
+     "Ambipom",
+     55
+    ],
+    [
+     "Sunflora",
+     55
+    ]
+   ],
+   "notes": "Only after obtaining all 16 Badges.",
+   "table": "HeartGold and SoulSilver Rematches"
+  }
+ ],
+ "route-17": [
+  {
+   "trainer": "Biker Dale",
+   "party": [
+    [
+     "Gulpin",
+     47
+    ]
+   ],
+   "notes": "His Gulpin might have Sticky Hold to prevent stealing the item.",
+   "table": "HeartGold and SoulSilver Trainers"
+  },
+  {
+   "trainer": "Biker Reese",
+   "party": [
+    [
+     "Weezing",
+     45
+    ]
+   ],
+   "notes": "The player can obtain his Pokégear number after the battle. He can be called for a rematch on Sunday nights.",
+   "table": "HeartGold and SoulSilver Trainers"
+  },
+  {
+   "trainer": "Biker Joel",
+   "party": [
+    [
+     "Magmar",
+     43
+    ],
+    [
+     "Magmar",
+     43
+    ]
+   ],
+   "notes": "",
+   "table": "HeartGold and SoulSilver Trainers"
+  },
+  {
+   "trainer": "Biker Jacob",
+   "party": [
+    [
+     "Magmar",
+     43
+    ],
+    [
+     "Tentacruel",
+     43
+    ]
+   ],
+   "notes": "",
+   "table": "HeartGold and SoulSilver Trainers"
+  },
+  {
+   "trainer": "Biker Ernest",
+   "party": [
+    [
+     "Teddiursa",
+     45
+    ],
+    [
+     "Marill",
+     44
+    ]
+   ],
+   "notes": "The player can obtain his Pokégear number after the battle. He can be called for a rematch on Sunday afternoons.",
+   "table": "HeartGold and SoulSilver Trainers"
+  },
+  {
+   "trainer": "Biker Aiden",
+   "party": [
+    [
+     "Tentacruel",
+     45
+    ]
+   ],
+   "notes": "The player can obtain his Pokégear number after the battle. He can be called for a rematch on Monday mornings.",
+   "table": "HeartGold and SoulSilver Trainers"
+  },
+  {
+   "trainer": "Biker Dan",
+   "party": [
+    [
+     "Gulpin",
+     39
+    ],
+    [
+     "Weezing",
+     37
+    ],
+    [
+     "Weezing",
+     37
+    ]
+   ],
+   "notes": "He can potentially be battled in a Double Battle with Biker Theron.",
+   "table": "HeartGold and SoulSilver Trainers"
+  },
+  {
+   "trainer": "Biker Theron",
+   "party": [
+    [
+     "Croagunk",
+     45
+    ]
+   ],
+   "notes": "He can potentially be battled in a Double Battle with Biker Dan.",
+   "table": "HeartGold and SoulSilver Trainers"
+  },
+  {
+   "trainer": "Biker Glenn",
+   "party": [
+    [
+     "Koffing",
+     39
+    ],
+    [
+     "Magmar",
+     41
+    ],
+    [
+     "Weezing",
+     43
+    ]
+   ],
+   "notes": "",
+   "table": "HeartGold and SoulSilver Trainers"
+  },
+  {
+   "trainer": "Biker Teddy",
+   "party": [
+    [
+     "Seviper",
+     46
+    ]
+   ],
+   "notes": "He can potentially be battled in a Double Battle with Biker Markey.",
+   "table": "HeartGold and SoulSilver Trainers"
+  },
+  {
+   "trainer": "Biker Markey",
+   "party": [
+    [
+     "Skorupi",
+     47
+    ]
+   ],
+   "notes": "He can potentially be battled in a Double Battle with Biker Teddy.",
+   "table": "HeartGold and SoulSilver Trainers"
+  },
+  {
+   "trainer": "Biker Reese",
+   "party": [
+    [
+     "Arbok",
+     42
+    ],
+    [
+     "Weezing",
+     48
+    ]
+   ],
+   "notes": "First rematch.",
+   "table": "HeartGold and SoulSilver Rematches"
+  },
+  {
+   "trainer": "Biker Reese",
+   "party": [
+    [
+     "Arbok",
+     48
+    ],
+    [
+     "Weezing",
+     50
+    ]
+   ],
+   "notes": "Second rematch.",
+   "table": "HeartGold and SoulSilver Rematches"
+  },
+  {
+   "trainer": "Biker Reese",
+   "party": [
+    [
+     "Arbok",
+     56
+    ],
+    [
+     "Weezing",
+     55
+    ]
+   ],
+   "notes": "Only after obtaining all 16 Badges.",
+   "table": "HeartGold and SoulSilver Rematches"
+  },
+  {
+   "trainer": "Biker Ernest",
+   "party": [
+    [
+     "Teddiursa",
+     46
+    ],
+    [
+     "Azumarill",
+     47
+    ]
+   ],
+   "notes": "First rematch.",
+   "table": "HeartGold and SoulSilver Rematches"
+  },
+  {
+   "trainer": "Biker Ernest",
+   "party": [
+    [
+     "Teddiursa",
+     48
+    ],
+    [
+     "Azumarill",
+     49
+    ]
+   ],
+   "notes": "Second rematch.",
+   "table": "HeartGold and SoulSilver Rematches"
+  },
+  {
+   "trainer": "Biker Ernest",
+   "party": [
+    [
+     "Ursaring",
+     58
+    ],
+    [
+     "Azumarill",
+     54
+    ]
+   ],
+   "notes": "Only after obtaining all 16 Badges.",
+   "table": "HeartGold and SoulSilver Rematches"
+  },
+  {
+   "trainer": "Biker Aiden",
+   "party": [
+    [
+     "Hypno",
+     50
+    ],
+    [
+     "Tentacruel",
+     49
+    ]
+   ],
+   "notes": "First rematch.",
+   "table": "HeartGold and SoulSilver Rematches"
+  },
+  {
+   "trainer": "Biker Aiden",
+   "party": [
+    [
+     "Hypno",
+     55
+    ],
+    [
+     "Tentacruel",
+     55
+    ]
+   ],
+   "notes": "Second rematch.",
+   "table": "HeartGold and SoulSilver Rematches"
+  },
+  {
+   "trainer": "Biker Aiden",
+   "party": [
+    [
+     "Tentacruel",
+     55
+    ],
+    [
+     "Hypno",
+     58
+    ],
+    [
+     "Tentacruel",
+     58
+    ]
+   ],
+   "notes": "Only after obtaining all 16 Badges.",
+   "table": "HeartGold and SoulSilver Rematches"
+  }
+ ],
+ "route-18": [
+  {
+   "trainer": "Biker Charles",
+   "party": [
+    [
+     "Koffing",
+     41
+    ],
+    [
+     "Charmeleon",
+     41
+    ],
+    [
+     "Weezing",
+     42
+    ]
+   ],
+   "notes": "Requires the Bicycle.",
+   "table": "HeartGold and SoulSilver Trainers"
+  },
+  {
+   "trainer": "Bird Keeper Bob",
+   "party": [
+    [
+     "Noctowl",
+     48
+    ]
+   ],
+   "notes": "",
+   "table": "HeartGold and SoulSilver Trainers"
+  },
+  {
+   "trainer": "Bird Keeper Boris",
+   "party": [
+    [
+     "Doduo",
+     39
+    ],
+    [
+     "Doduo",
+     37
+    ],
+    [
+     "Dodrio",
+     41
+    ]
+   ],
+   "notes": "",
+   "table": "HeartGold and SoulSilver Trainers"
+  }
+ ],
+ "route-19": [
+  {
+   "trainer": "Swimmer♂ Tucker",
+   "party": [
+    [
+     "Shellder",
+     40
+    ],
+    [
+     "Cloyster",
+     44
+    ]
+   ],
+   "notes": "Requires Surf.",
+   "table": "HeartGold and SoulSilver Trainers"
+  },
+  {
+   "trainer": "Swimmer♀ Debbie",
+   "party": [
+    [
+     "Clamperl",
+     46
+    ]
+   ],
+   "notes": "Requires Surf.",
+   "table": "HeartGold and SoulSilver Trainers"
+  },
+  {
+   "trainer": "Swimmer♂ Harold",
+   "party": [
+    [
+     "Remoraid",
+     42
+    ],
+    [
+     "Seadra",
+     40
+    ]
+   ],
+   "notes": "Requires Surf.",
+   "table": "HeartGold and SoulSilver Trainers"
+  },
+  {
+   "trainer": "Swimmer♂ Jerome",
+   "party": [
+    [
+     "Seadra",
+     36
+    ],
+    [
+     "Tentacool",
+     38
+    ],
+    [
+     "Tentacruel",
+     40
+    ],
+    [
+     "Goldeen",
+     38
+    ]
+   ],
+   "notes": "Requires Surf.",
+   "table": "HeartGold and SoulSilver Trainers"
+  }
+ ],
+ "route-2": [
+  {
+   "trainer": "Bug Catcher Ed",
+   "party": [
+    [
+     "Burmy (Plant)",
+     43
+    ],
+    [
+     "Beedrill",
+     43
+    ],
+    [
+     "Butterfree",
+     43
+    ]
+   ],
+   "notes": "In the northern half.",
+   "table": "HeartGold and SoulSilver Trainers"
+  },
+  {
+   "trainer": "Bug Catcher Doug",
+   "party": [
+    [
+     "Butterfree",
+     39
+    ],
+    [
+     "Ariados",
+     37
+    ]
+   ],
+   "notes": "In the southern half. The player can obtain his Pokégear number after the battle. He can be called for a rematch on Wednesday mornings.",
+   "table": "HeartGold and SoulSilver Trainers"
+  },
+  {
+   "trainer": "Bug Catcher Rob",
+   "party": [
+    [
+     "Beedrill",
+     40
+    ],
+    [
+     "Butterfree",
+     39
+    ]
+   ],
+   "notes": "In the southern half. The player can obtain his Pokégear number after the battle. He can be called for a rematch on Friday mornings.",
+   "table": "HeartGold and SoulSilver Trainers"
+  },
+  {
+   "trainer": "Bug Catcher Doug",
+   "party": [
+    [
+     "Butterfree",
+     40
+    ],
+    [
+     "Ariados",
+     40
+    ]
+   ],
+   "notes": "First rematch.",
+   "table": "HeartGold and SoulSilver Rematches"
+  },
+  {
+   "trainer": "Bug Catcher Doug",
+   "party": [
+    [
+     "Butterfree",
+     47
+    ],
+    [
+     "Ariados",
+     46
+    ]
+   ],
+   "notes": "Second rematch.",
+   "table": "HeartGold and SoulSilver Rematches"
+  },
+  {
+   "trainer": "Bug Catcher Doug",
+   "party": [
+    [
+     "Butterfree",
+     52
+    ],
+    [
+     "Ariados",
+     50
+    ]
+   ],
+   "notes": "Only after obtaining all 16 Badges.",
+   "table": "HeartGold and SoulSilver Rematches"
+  },
+  {
+   "trainer": "Bug Catcher Rob",
+   "party": [
+    [
+     "Beedrill",
+     45
+    ],
+    [
+     "Butterfree",
+     42
+    ]
+   ],
+   "notes": "First rematch.",
+   "table": "HeartGold and SoulSilver Rematches"
+  },
+  {
+   "trainer": "Bug Catcher Rob",
+   "party": [
+    [
+     "Beedrill",
+     52
+    ],
+    [
+     "Butterfree",
+     48
+    ]
+   ],
+   "notes": "Second rematch.",
+   "table": "HeartGold and SoulSilver Rematches"
+  },
+  {
+   "trainer": "Bug Catcher Rob",
+   "party": [
+    [
+     "Beedrill",
+     56
+    ],
+    [
+     "Butterfree",
+     56
+    ]
+   ],
+   "notes": "Only after obtaining all 16 Badges.",
+   "table": "HeartGold and SoulSilver Rematches"
+  }
+ ],
+ "route-20": [
+  {
+   "trainer": "Swimmer♂ Frankie",
+   "party": [
+    [
+     "Azumarill",
+     44
+    ]
+   ],
+   "notes": "West of the Seafoam Islands.",
+   "table": "HeartGold and SoulSilver Trainers"
+  },
+  {
+   "trainer": "Bird Keeper Bert",
+   "party": [
+    [
+     "Wingull",
+     46
+    ],
+    [
+     "Fearow",
+     43
+    ]
+   ],
+   "notes": "West of the Seafoam Islands.",
+   "table": "HeartGold and SoulSilver Trainers"
+  },
+  {
+   "trainer": "Swimmer♀ Mina",
+   "party": [
+    [
+     "Luvdisc",
+     38
+    ],
+    [
+     "Luvdisc",
+     39
+    ],
+    [
+     "Luvdisc",
+     41
+    ]
+   ],
+   "notes": "West of the Seafoam Islands.",
+   "table": "HeartGold and SoulSilver Trainers"
+  },
+  {
+   "trainer": "Picnicker Cheyenne",
+   "party": [
+    [
+     "Shinx",
+     45
+    ]
+   ],
+   "notes": "West of the Seafoam Islands.",
+   "table": "HeartGold and SoulSilver Trainers"
+  },
+  {
+   "trainer": "Bird Keeper Ernie",
+   "party": [
+    [
+     "Starly",
+     48
+    ]
+   ],
+   "notes": "West of the Seafoam Islands.",
+   "table": "HeartGold and SoulSilver Trainers"
+  },
+  {
+   "trainer": "Swimmer♀ Leona",
+   "party": [
+    [
+     "Bidoof",
+     44
+    ]
+   ],
+   "notes": "West of the Seafoam Islands.",
+   "table": "HeartGold and SoulSilver Trainers"
+  },
+  {
+   "trainer": "Picnicker Adrian",
+   "party": [
+    [
+     "Shroomish",
+     45
+    ]
+   ],
+   "notes": "West of the Seafoam Islands.",
+   "table": "HeartGold and SoulSilver Trainers"
+  },
+  {
+   "trainer": "Swimmer♂ Luis",
+   "party": [
+    [
+     "Seadra",
+     46
+    ],
+    [
+     "Quagsire",
+     42
+    ]
+   ],
+   "notes": "East of the Seafoam Islands.",
+   "table": "HeartGold and SoulSilver Trainers"
+  },
+  {
+   "trainer": "Camper Pedro",
+   "party": [
+    [
+     "Linoone",
+     45
+    ]
+   ],
+   "notes": "East of the Seafoam Islands.",
+   "table": "HeartGold and SoulSilver Trainers"
+  },
+  {
+   "trainer": "Swimmer♂ Elmo",
+   "party": [
+    [
+     "Poliwhirl",
+     46
+    ],
+    [
+     "Tentacruel",
+     42
+    ]
+   ],
+   "notes": "East of the Seafoam Islands.",
+   "table": "HeartGold and SoulSilver Trainers"
+  },
+  {
+   "trainer": "Swimmer♀ Lori",
+   "party": [
+    [
+     "Starmie",
+     42
+    ],
+    [
+     "Starmie",
+     42
+    ],
+    [
+     "Starmie",
+     42
+    ]
+   ],
+   "notes": "East of the Seafoam Islands.",
+   "table": "HeartGold and SoulSilver Trainers"
+  },
+  {
+   "trainer": "Swimmer♀ Nicole",
+   "party": [
+    [
+     "Marill",
+     39
+    ],
+    [
+     "Marill",
+     39
+    ],
+    [
+     "Lapras",
+     42
+    ]
+   ],
+   "notes": "East of the Seafoam Islands.",
+   "table": "HeartGold and SoulSilver Trainers"
+  }
+ ],
+ "route-21": [
+  {
+   "trainer": "Swimmer♀ Nikki",
+   "party": [
+    [
+     "Seel",
+     37
+    ],
+    [
+     "Dewgong",
+     42
+    ]
+   ],
+   "notes": "Seel lv.37 Dewgong lv.42",
+   "table": "HeartGold and SoulSilver Trainers"
+  },
+  {
+   "trainer": "Fisherman Arnold",
+   "party": [
+    [
+     "Shellder",
+     44
+    ]
+   ],
+   "notes": "Shellder lv.44",
+   "table": "HeartGold and SoulSilver Trainers"
+  },
+  {
+   "trainer": "Bird Keeper Kinsley",
+   "party": [
+    [
+     "Farfetch'd",
+     36
+    ],
+    [
+     "Fearow",
+     36
+    ],
+    [
+     "Pidgeotto",
+     37
+    ]
+   ],
+   "notes": "Farfetch'd lv.36 Fearow lv.36 Pidgeotto lv.37",
+   "table": "HeartGold and SoulSilver Trainers"
+  },
+  {
+   "trainer": "Fisherman Murphy",
+   "party": [
+    [
+     "Corsola",
+     32
+    ],
+    [
+     "Corsola",
+     34
+    ],
+    [
+     "Corsola",
+     36
+    ],
+    [
+     "Corsola",
+     38
+    ]
+   ],
+   "notes": "Corsola lv.32 Corsola lv.34 Corsola lv.36 Corsola lv.38",
+   "table": "HeartGold and SoulSilver Trainers"
+  },
+  {
+   "trainer": "Swimmer♀ Chelan",
+   "party": [
+    [
+     "Azumarill",
+     40
+    ]
+   ],
+   "notes": "Azumarill lv.40",
+   "table": "HeartGold and SoulSilver Trainers"
+  },
+  {
+   "trainer": "Fisherman Liam",
+   "party": [
+    [
+     "Seadra",
+     42
+    ]
+   ],
+   "notes": "Seadra lv.42",
+   "table": "HeartGold and SoulSilver Trainers"
+  },
+  {
+   "trainer": "Swimmer♂ Tyson",
+   "party": [
+    [
+     "Quagsire",
+     42
+    ],
+    [
+     "Octillery",
+     42
+    ]
+   ],
+   "notes": "Quagsire lv.42 Octillery lv.42",
+   "table": "HeartGold and SoulSilver Trainers"
+  },
+  {
+   "trainer": "Fisherman Gideon",
+   "party": [
+    [
+     "Lanturn",
+     44
+    ],
+    [
+     "Mantine",
+     40
+    ]
+   ],
+   "notes": "Lanturn lv.44 Mantine lv.40",
+   "table": "HeartGold and SoulSilver Trainers"
+  },
+  {
+   "trainer": "Swimmer♂ Esteban",
+   "party": [
+    [
+     "Golduck",
+     38
+    ],
+    [
+     "Poliwhirl",
+     38
+    ]
+   ],
+   "notes": "Golduck lv.38 Poliwhirl lv.38",
+   "table": "HeartGold and SoulSilver Trainers"
+  },
+  {
+   "trainer": "Swimmer♂ Duane",
+   "party": [
+    [
+     "Seaking",
+     40
+    ],
+    [
+     "Kabutops",
+     40
+    ]
+   ],
+   "notes": "Seaking lv.40 Kabutops lv.40",
+   "table": "HeartGold and SoulSilver Trainers"
+  },
+  {
+   "trainer": "Bird Keeper Easton",
+   "party": [
+    [
+     "Doduo",
+     35
+    ],
+    [
+     "Doduo",
+     35
+    ],
+    [
+     "Dodrio",
+     35
+    ],
+    [
+     "Dodrio",
+     36
+    ]
+   ],
+   "notes": "Doduo lv.35 Doduo lv.35 Dodrio lv.35 Dodrio lv.36",
+   "table": "HeartGold and SoulSilver Trainers"
+  },
+  {
+   "trainer": "Swimmer♀ Kendra",
+   "party": [
+    [
+     "Slowking",
+     43
+    ]
+   ],
+   "notes": "Slowking lv.43",
+   "table": "HeartGold and SoulSilver Trainers"
+  }
+ ],
+ "route-24": [
+  {
+   "trainer": "Team Rocket Grunt",
+   "party": [
+    [
+     "Golbat",
+     39
+    ]
+   ],
+   "notes": "Only appears here after meeting him at the Cerulean Gym first.",
+   "table": "HeartGold and SoulSilver Trainers"
+  }
+ ],
+ "route-25": [
+  {
+   "trainer": "School Kid Dudley",
+   "party": [
+    [
+     "Oddish",
+     45
+    ]
+   ],
+   "notes": "",
+   "table": "HeartGold and SoulSilver Trainers"
+  },
+  {
+   "trainer": "Lass Ellen",
+   "party": [
+    [
+     "Wigglytuff",
+     40
+    ],
+    [
+     "Granbull",
+     44
+    ]
+   ],
+   "notes": "",
+   "table": "HeartGold and SoulSilver Trainers"
+  },
+  {
+   "trainer": "School Kid Joe",
+   "party": [
+    [
+     "Tangela",
+     44
+    ],
+    [
+     "Vaporeon",
+     42
+    ]
+   ],
+   "notes": "",
+   "table": "HeartGold and SoulSilver Trainers"
+  },
+  {
+   "trainer": "Camper Lloyd",
+   "party": [
+    [
+     "Nidoking",
+     46
+    ]
+   ],
+   "notes": "",
+   "table": "HeartGold and SoulSilver Trainers"
+  },
+  {
+   "trainer": "Lass Laura",
+   "party": [
+    [
+     "Gloom",
+     38
+    ],
+    [
+     "Bellossom",
+     41
+    ],
+    [
+     "Pidgeotto",
+     41
+    ]
+   ],
+   "notes": "She is battled in a Double Battle with Lass Shannon.",
+   "table": "HeartGold and SoulSilver Trainers"
+  },
+  {
+   "trainer": "Lass Shannon",
+   "party": [
+    [
+     "Paras",
+     38
+    ],
+    [
+     "Paras",
+     38
+    ],
+    [
+     "Parasect",
+     42
+    ]
+   ],
+   "notes": "She is battled in a Double Battle with Lass Laura.",
+   "table": "HeartGold and SoulSilver Trainers"
+  },
+  {
+   "trainer": "Super Nerd Pat",
+   "party": [
+    [
+     "Porygon",
+     47
+    ]
+   ],
+   "notes": "",
+   "table": "HeartGold and SoulSilver Trainers"
+  },
+  {
+   "trainer": "Ace Trainer Kevin",
+   "party": [
+    [
+     "Rhyhorn",
+     48
+    ],
+    [
+     "Charmeleon",
+     46
+    ],
+    [
+     "Wartortle",
+     46
+    ]
+   ],
+   "notes": "",
+   "table": "HeartGold and SoulSilver Trainers"
+  }
+ ],
+ "route-26": [
+  {
+   "trainer": "Fisherman Scott",
+   "party": [
+    [
+     "Qwilfish",
+     30
+    ],
+    [
+     "Qwilfish",
+     30
+    ],
+    [
+     "Seaking",
+     34
+    ]
+   ],
+   "notes": "",
+   "table": "HeartGold and SoulSilver Trainers"
+  },
+  {
+   "trainer": "Psychic Vernon",
+   "party": [
+    [
+     "Espeon",
+     36
+    ]
+   ],
+   "notes": "",
+   "table": "HeartGold and SoulSilver Trainers"
+  },
+  {
+   "trainer": "Ace Trainer Joyce",
+   "party": [
+    [
+     "Pikachu",
+     36
+    ],
+    [
+     "Blastoise",
+     36
+    ]
+   ],
+   "notes": "",
+   "table": "HeartGold and SoulSilver Trainers"
+  },
+  {
+   "trainer": "Ace Trainer Gaven",
+   "party": [
+    [
+     "Victreebel",
+     32
+    ],
+    [
+     "Kingler",
+     32
+    ],
+    [
+     "Flareon",
+     32
+    ]
+   ],
+   "notes": "The player can obtain his Pokégear number after the battle. He can be called for a rematch on Thursday mornings.",
+   "table": "HeartGold and SoulSilver Trainers"
+  },
+  {
+   "trainer": "Ace Trainer Jake",
+   "party": [
+    [
+     "Parasect",
+     33
+    ],
+    [
+     "Golduck",
+     35
+    ],
+    [
+     "Vaporeon",
+     33
+    ]
+   ],
+   "notes": "",
+   "table": "HeartGold and SoulSilver Trainers"
+  },
+  {
+   "trainer": "Ace Trainer Jamie",
+   "party": [
+    [
+     "Rapidash",
+     36
+    ],
+    [
+     "Flaaffy",
+     31
+    ]
+   ],
+   "notes": "The player can obtain her Pokégear number after the battle. She can be called for a rematch on Friday afternoons.",
+   "table": "HeartGold and SoulSilver Trainers"
+  },
+  {
+   "trainer": "Ace Trainer Gaven",
+   "party": [
+    [
+     "Victreebel",
+     34
+    ],
+    [
+     "Kingler",
+     34
+    ],
+    [
+     "Flareon",
+     34
+    ]
+   ],
+   "notes": "First rematch.",
+   "table": "HeartGold and SoulSilver Trainers"
+  },
+  {
+   "trainer": "Ace Trainer Gaven",
+   "party": [
+    [
+     "Victreebel",
+     38
+    ],
+    [
+     "Kingler",
+     39
+    ],
+    [
+     "Flareon",
+     38
+    ]
+   ],
+   "notes": "Only after defeating the Elite Four.",
+   "table": "HeartGold and SoulSilver Trainers"
+  },
+  {
+   "trainer": "Ace Trainer Gaven",
+   "party": [
+    [
+     "Victreebel",
+     52
+    ],
+    [
+     "Kingler",
+     49
+    ],
+    [
+     "Flareon",
+     50
+    ]
+   ],
+   "notes": "Only after obtaining all 16 Badges.",
+   "table": "HeartGold and SoulSilver Trainers"
+  },
+  {
+   "trainer": "Ace Trainer Jamie",
+   "party": [
+    [
+     "Rapidash",
+     38
+    ],
+    [
+     "Ampharos",
+     37
+    ]
+   ],
+   "notes": "First rematch.",
+   "table": "HeartGold and SoulSilver Trainers"
+  },
+  {
+   "trainer": "Ace Trainer Jamie",
+   "party": [
+    [
+     "Rapidash",
+     42
+    ],
+    [
+     "Ampharos",
+     40
+    ]
+   ],
+   "notes": "Only after defeating the Elite Four.",
+   "table": "HeartGold and SoulSilver Trainers"
+  },
+  {
+   "trainer": "Ace Trainer Jamie",
+   "party": [
+    [
+     "Rapidash",
+     56
+    ],
+    [
+     "Ampharos",
+     59
+    ]
+   ],
+   "notes": "Only after obtaining all 16 Badges.",
+   "table": "HeartGold and SoulSilver Trainers"
+  }
+ ],
+ "route-27": [
+  {
+   "trainer": "Ace Trainer Megan",
+   "party": [
+    [
+     "Bulbasaur",
+     32
+    ],
+    [
+     "Ivysaur",
+     32
+    ],
+    [
+     "Venusaur",
+     32
+    ]
+   ],
+   "notes": "",
+   "table": "HeartGold and SoulSilver Trainers"
+  },
+  {
+   "trainer": "Ace Trainer Blake",
+   "party": [
+    [
+     "Magneton",
+     33
+    ],
+    [
+     "Quagsire",
+     31
+    ],
+    [
+     "Exeggcute",
+     31
+    ]
+   ],
+   "notes": "",
+   "table": "HeartGold and SoulSilver Trainers"
+  },
+  {
+   "trainer": "Bird Keeper Jose",
+   "party": [
+    [
+     "Farfetch'd",
+     40
+    ]
+   ],
+   "notes": "Requires Surf and Whirlpool. The player can obtain his Pokégear number after the battle. He can be called for a rematch on Saturday nights.",
+   "table": "HeartGold and SoulSilver Trainers"
+  },
+  {
+   "trainer": "Ace Trainer Brian",
+   "party": [
+    [
+     "Mareep",
+     35
+    ]
+   ],
+   "notes": "",
+   "table": "HeartGold and SoulSilver Trainers"
+  },
+  {
+   "trainer": "Psychic Eli",
+   "party": [
+    [
+     "Starmie",
+     30
+    ],
+    [
+     "Exeggcute",
+     30
+    ],
+    [
+     "Girafarig",
+     34
+    ]
+   ],
+   "notes": "",
+   "table": "HeartGold and SoulSilver Trainers"
+  },
+  {
+   "trainer": "Ace Trainer Reena",
+   "party": [
+    [
+     "Growlithe",
+     36
+    ],
+    [
+     "Nidorina",
+     33
+    ],
+    [
+     "Staryu",
+     36
+    ]
+   ],
+   "notes": "The player can obtain her Pokégear number after the battle. She can be called for a rematch on Sunday mornings.",
+   "table": "HeartGold and SoulSilver Trainers"
+  },
+  {
+   "trainer": "Bird Keeper Jose",
+   "party": [
+    [
+     "Farfetch'd",
+     44
+    ]
+   ],
+   "notes": "First rematch.",
+   "table": "HeartGold and SoulSilver Rematches"
+  },
+  {
+   "trainer": "Bird Keeper Jose",
+   "party": [
+    [
+     "Farfetch'd",
+     38
+    ],
+    [
+     "Farfetch'd",
+     45
+    ]
+   ],
+   "notes": "Only after defeating the Elite Four.",
+   "table": "HeartGold and SoulSilver Rematches"
+  },
+  {
+   "trainer": "Bird Keeper Jose",
+   "party": [
+    [
+     "Farfetch'd",
+     50
+    ],
+    [
+     "Farfetch'd",
+     52
+    ],
+    [
+     "Farfetch'd",
+     53
+    ]
+   ],
+   "notes": "Only after obtaining all 16 Badges.",
+   "table": "HeartGold and SoulSilver Rematches"
+  },
+  {
+   "trainer": "Ace Trainer Reena",
+   "party": [
+    [
+     "Growlithe",
+     38
+    ],
+    [
+     "Nidorina",
+     36
+    ],
+    [
+     "Staryu",
+     38
+    ]
+   ],
+   "notes": "First rematch.",
+   "table": "HeartGold and SoulSilver Rematches"
+  },
+  {
+   "trainer": "Ace Trainer Reena",
+   "party": [
+    [
+     "Arcanine",
+     47
+    ],
+    [
+     "Nidoqueen",
+     43
+    ],
+    [
+     "Starmie",
+     47
+    ]
+   ],
+   "notes": "Only after defeating the Elite Four.",
+   "table": "HeartGold and SoulSilver Rematches"
+  },
+  {
+   "trainer": "Ace Trainer Reena",
+   "party": [
+    [
+     "Arcanine",
+     54
+    ],
+    [
+     "Nidoqueen",
+     53
+    ],
+    [
+     "Starmie",
+     56
+    ]
+   ],
+   "notes": "Only after obtaining all 16 Badges.",
+   "table": "HeartGold and SoulSilver Rematches"
+  }
+ ],
+ "route-3": [
+  {
+   "trainer": "Youngster Regis",
+   "party": [
+    [
+     "Golbat",
+     40
+    ],
+    [
+     "Electrode",
+     40
+    ]
+   ],
+   "notes": "",
+   "table": "HeartGold and SoulSilver Trainers"
+  },
+  {
+   "trainer": "Youngster Warren",
+   "party": [
+    [
+     "Fearow",
+     38
+    ],
+    [
+     "Raticate",
+     42
+    ]
+   ],
+   "notes": "",
+   "table": "HeartGold and SoulSilver Trainers"
+  },
+  {
+   "trainer": "Youngster Jimmy",
+   "party": [
+    [
+     "Raticate",
+     42
+    ],
+    [
+     "Arbok",
+     42
+    ],
+    [
+     "Parasect",
+     42
+    ]
+   ],
+   "notes": "",
+   "table": "HeartGold and SoulSilver Trainers"
+  },
+  {
+   "trainer": "Double Team Zac & Jen",
+   "party": [
+    [
+     "Dugtrio",
+     47
+    ],
+    [
+     "Electabuzz",
+     47
+    ]
+   ],
+   "notes": "This is a Double Battle.",
+   "table": "HeartGold and SoulSilver Trainers"
+  },
+  {
+   "trainer": "Firebreather Otis",
+   "party": [
+    [
+     "Magmar",
+     43
+    ],
+    [
+     "Weezing",
+     40
+    ],
+    [
+     "Camerupt",
+     47
+    ]
+   ],
+   "notes": "",
+   "table": "HeartGold and SoulSilver Trainers"
+  },
+  {
+   "trainer": "Hiker Bruce",
+   "party": [
+    [
+     "Graveler",
+     39
+    ],
+    [
+     "Rhydon",
+     44
+    ],
+    [
+     "Clefairy",
+     45
+    ]
+   ],
+   "notes": "",
+   "table": "HeartGold and SoulSilver Trainers"
+  },
+  {
+   "trainer": "Black Belt Manford",
+   "party": [
+    [
+     "Poliwrath",
+     47
+    ]
+   ],
+   "notes": "",
+   "table": "HeartGold and SoulSilver Trainers"
+  },
+  {
+   "trainer": "Black Belt Ander",
+   "party": [
+    [
+     "Primeape",
+     43
+    ],
+    [
+     "Graveler",
+     39
+    ],
+    [
+     "Machoke",
+     44
+    ]
+   ],
+   "notes": "",
+   "table": "HeartGold and SoulSilver Trainers"
+  },
+  {
+   "trainer": "Hiker Dwight",
+   "party": [
+    [
+     "Magneton",
+     44
+    ],
+    [
+     "Steelix",
+     44
+    ]
+   ],
+   "notes": "",
+   "table": "HeartGold and SoulSilver Trainers"
+  },
+  {
+   "trainer": "Firebreather Burt",
+   "party": [
+    [
+     "Weezing",
+     42
+    ],
+    [
+     "Magcargo",
+     45
+    ]
+   ],
+   "notes": "",
+   "table": "HeartGold and SoulSilver Trainers"
+  }
+ ],
+ "route-4": [
+  {
+   "trainer": "Picnicker Hope",
+   "party": [
+    [
+     "Flaaffy",
+     44
+    ]
+   ],
+   "notes": "Flaaffy lv.44",
+   "table": "HeartGold and SoulSilver Trainers"
+  },
+  {
+   "trainer": "Bird Keeper Hank",
+   "party": [
+    [
+     "Pidgey",
+     13
+    ],
+    [
+     "Pidgeot",
+     44
+    ]
+   ],
+   "notes": "Pidgey lv.13 Pidgeot lv.44",
+   "table": "HeartGold and SoulSilver Trainers"
+  },
+  {
+   "trainer": "Picnicker Sharon",
+   "party": [
+    [
+     "Furret",
+     41
+    ],
+    [
+     "Rapidash",
+     43
+    ]
+   ],
+   "notes": "Furret lv.41 Rapidash lv.43",
+   "table": "HeartGold and SoulSilver Trainers"
+  }
+ ],
+ "route-6": [
+  {
+   "trainer": "Twins Day & Dani",
+   "party": [
+    [
+     "Plusle",
+     41
+    ],
+    [
+     "Minun",
+     41
+    ]
+   ],
+   "notes": "This is a Double Battle.",
+   "table": "HeartGold and SoulSilver Trainers"
+  },
+  {
+   "trainer": "Camper Virgil",
+   "party": [
+    [
+     "Slakoth",
+     43
+    ]
+   ],
+   "notes": "",
+   "table": "HeartGold and SoulSilver Trainers"
+  },
+  {
+   "trainer": "Picnicker Selina",
+   "party": [
+    [
+     "Cherubi",
+     42
+    ]
+   ],
+   "notes": "",
+   "table": "HeartGold and SoulSilver Trainers"
+  }
+ ],
+ "route-8": [
+  {
+   "trainer": "Biker Dwayne",
+   "party": [
+    [
+     "Koffing",
+     38
+    ],
+    [
+     "Koffing",
+     39
+    ],
+    [
+     "Koffing",
+     40
+    ],
+    [
+     "Koffing",
+     41
+    ]
+   ],
+   "notes": "",
+   "table": "HeartGold and SoulSilver Trainers"
+  },
+  {
+   "trainer": "Biker Harris",
+   "party": [
+    [
+     "Flareon",
+     45
+    ]
+   ],
+   "notes": "",
+   "table": "HeartGold and SoulSilver Trainers"
+  },
+  {
+   "trainer": "Biker Zeke",
+   "party": [
+    [
+     "Koffing",
+     43
+    ],
+    [
+     "Koffing",
+     43
+    ]
+   ],
+   "notes": "",
+   "table": "HeartGold and SoulSilver Trainers"
+  },
+  {
+   "trainer": "Super Nerd Sam",
+   "party": [
+    [
+     "Grimer",
+     44
+    ],
+    [
+     "Muk",
+     44
+    ]
+   ],
+   "notes": "His Muk might have Sticky Hold to prevent stealing the item.",
+   "table": "HeartGold and SoulSilver Trainers"
+  },
+  {
+   "trainer": "Young Couple Moe & Lulu",
+   "party": [
+    [
+     "Seedot",
+     43
+    ],
+    [
+     "Lotad",
+     43
+    ]
+   ],
+   "notes": "This is a Double Battle.",
+   "table": "HeartGold and SoulSilver Trainers"
+  },
+  {
+   "trainer": "Super Nerd Tyrone",
+   "party": [
+    [
+     "Magnemite",
+     40
+    ],
+    [
+     "Magnemite",
+     40
+    ],
+    [
+     "Magnemite",
+     40
+    ]
+   ],
+   "notes": "",
+   "table": "HeartGold and SoulSilver Trainers"
+  },
+  {
+   "trainer": "Gentleman Milton",
+   "party": [
+    [
+     "Growlithe",
+     45
+    ]
+   ],
+   "notes": "",
+   "table": "HeartGold and SoulSilver Trainers"
+  }
+ ],
+ "route-9": [
+  {
+   "trainer": "Picnicker Edna",
+   "party": [
+    [
+     "Nidorina",
+     41
+    ],
+    [
+     "Raichu",
+     45
+    ]
+   ],
+   "notes": "Nidorina lv.41 Raichu lv.45",
+   "table": "HeartGold and SoulSilver Trainers"
+  },
+  {
+   "trainer": "Camper Sid",
+   "party": [
+    [
+     "Dugtrio",
+     43
+    ],
+    [
+     "Poliwrath",
+     40
+    ],
+    [
+     "Primeape",
+     40
+    ]
+   ],
+   "notes": "Dugtrio lv.43 Poliwrath lv.40 Primeape lv.40",
+   "table": "HeartGold and SoulSilver Trainers"
+  },
+  {
+   "trainer": "Camper Dean",
+   "party": [
+    [
+     "Golduck",
+     44
+    ],
+    [
+     "Sandslash",
+     42
+    ]
+   ],
+   "notes": "Golduck lv.44 Sandslash lv.42",
+   "table": "HeartGold and SoulSilver Trainers"
+  },
+  {
+   "trainer": "Hiker Eoin",
+   "party": [
+    [
+     "Graveler",
+     42
+    ],
+    [
+     "Graveler",
+     42
+    ],
+    [
+     "Graveler",
+     42
+    ]
+   ],
+   "notes": "Graveler lv.42 Graveler lv.42 Graveler lv.42",
+   "table": "HeartGold and SoulSilver Trainers"
+  },
+  {
+   "trainer": "Picnicker Heidi",
+   "party": [
+    [
+     "Skiploom",
+     43
+    ],
+    [
+     "Skiploom",
+     43
+    ]
+   ],
+   "notes": "Skiploom lv.43 Skiploom lv.43",
+   "table": "HeartGold and SoulSilver Trainers"
+  },
+  {
+   "trainer": "Hiker Clarke",
+   "party": [
+    [
+     "Onix",
+     43
+    ],
+    [
+     "Dugtrio",
+     45
+    ]
+   ],
+   "notes": "Onix lv.43 Dugtrio lv.45",
+   "table": "HeartGold and SoulSilver Trainers"
+  }
+ ],
+ "saffron-city": [
+  {
+   "trainer": "Medium Rebecca",
+   "party": [
+    [
+     "Bronzor",
+     45
+    ],
+    [
+     "Hypno",
+     45
+    ]
+   ],
+   "notes": "Southeast room",
+   "table": "HeartGold and SoulSilver Trainers (Saffron Gym)"
+  },
+  {
+   "trainer": "Psychic Jared",
+   "party": [
+    [
+     "Mr. Mime",
+     42
+    ],
+    [
+     "Exeggcute",
+     42
+    ],
+    [
+     "Exeggcute",
+     45
+    ]
+   ],
+   "notes": "Northeast room",
+   "table": "HeartGold and SoulSilver Trainers (Saffron Gym)"
+  },
+  {
+   "trainer": "Medium Darcy",
+   "party": [
+    [
+     "Slowpoke",
+     44
+    ],
+    [
+     "Slowbro",
+     46
+    ]
+   ],
+   "notes": "Northwest room",
+   "table": "HeartGold and SoulSilver Trainers (Saffron Gym)"
+  },
+  {
+   "trainer": "Psychic Franklin",
+   "party": [
+    [
+     "Kadabra",
+     44
+    ],
+    [
+     "Girafarig",
+     47
+    ]
+   ],
+   "notes": "Southwest room",
+   "table": "HeartGold and SoulSilver Trainers (Saffron Gym)"
+  },
+  {
+   "trainer": "Sabrina",
+   "party": [
+    [
+     "Espeon",
+     53
+    ],
+    [
+     "Mr. Mime",
+     53
+    ],
+    [
+     "Alakazam",
+     55
+    ]
+   ],
+   "notes": "Middle room. She will give the player TM48 Skill Swap after the battle.",
+   "table": "HeartGold and SoulSilver Trainers (Saffron Gym)"
+  }
+ ],
+ "seafoam-islands": [
+  {
+   "trainer": "Scientist Lowell",
+   "party": [
+    [
+     "Arcanine",
+     50
+    ]
+   ],
+   "notes": "",
+   "table": "HeartGold and SoulSilver Trainers (Cinnabar Gym)"
+  },
+  {
+   "trainer": "Scientist Daniel",
+   "party": [
+    [
+     "Ninetales",
+     50
+    ]
+   ],
+   "notes": "",
+   "table": "HeartGold and SoulSilver Trainers (Cinnabar Gym)"
+  },
+  {
+   "trainer": "Super Nerd Cary",
+   "party": [
+    [
+     "Torkoal",
+     53
+    ]
+   ],
+   "notes": "",
+   "table": "HeartGold and SoulSilver Trainers (Cinnabar Gym)"
+  },
+  {
+   "trainer": "Scientist Linden",
+   "party": [
+    [
+     "Magmar",
+     50
+    ]
+   ],
+   "notes": "",
+   "table": "HeartGold and SoulSilver Trainers (Cinnabar Gym)"
+  },
+  {
+   "trainer": "Super Nerd Waldo",
+   "party": [
+    [
+     "Numel",
+     53
+    ]
+   ],
+   "notes": "",
+   "table": "HeartGold and SoulSilver Trainers (Cinnabar Gym)"
+  },
+  {
+   "trainer": "Super Nerd Merle",
+   "party": [
+    [
+     "Magcargo",
+     53
+    ]
+   ],
+   "notes": "",
+   "table": "HeartGold and SoulSilver Trainers (Cinnabar Gym)"
+  },
+  {
+   "trainer": "Blaine",
+   "party": [
+    [
+     "Magcargo",
+     54
+    ],
+    [
+     "Magmar",
+     54
+    ],
+    [
+     "Rapidash",
+     59
+    ]
+   ],
+   "notes": "He will give the player TM50 Overheat after the battle.",
+   "table": "HeartGold and SoulSilver Trainers (Cinnabar Gym)"
+  },
+  {
+   "trainer": "Skier Cady",
+   "party": [
+    [
+     "Delibird",
+     53
+    ]
+   ],
+   "notes": "Delibird lv.53",
+   "table": "HeartGold and SoulSilver Trainers"
+  },
+  {
+   "trainer": "Boarder Shaun",
+   "party": [
+    [
+     "Cloyster",
+     55
+    ],
+    [
+     "Dewgong",
+     50
+    ]
+   ],
+   "notes": "Cloyster lv.55 Dewgong lv.50",
+   "table": "HeartGold and SoulSilver Trainers"
+  },
+  {
+   "trainer": "Boarder Bryce",
+   "party": [
+    [
+     "Dewgong",
+     55
+    ],
+    [
+     "Lapras",
+     50
+    ]
+   ],
+   "notes": "Dewgong lv.55 Lapras lv.50",
+   "table": "HeartGold and SoulSilver Trainers"
+  }
+ ],
+ "tohjo-falls": [
+  {
+   "trainer": "Giovanni",
+   "party": [
+    [
+     "Nidoking",
+     42
+    ],
+    [
+     "Honchkrow",
+     43
+    ],
+    [
+     "Nidoqueen",
+     46
+    ],
+    [
+     "Kangaskhan",
+     40
+    ]
+   ],
+   "notes": "This battle is only accessible if the player has a Celebi distributed through an event.",
+   "table": "HeartGold and SoulSilver Trainers"
+  }
+ ],
+ "vermilion-city": [
+  {
+   "trainer": "Juggler Horton",
+   "party": [
+    [
+     "Electrode",
+     43
+    ],
+    [
+     "Electrode",
+     43
+    ],
+    [
+     "Electrode",
+     43
+    ]
+   ],
+   "notes": "He can potentially be battled in a Double Battle with Guitarist Vincent.",
+   "table": "HeartGold and SoulSilver Trainers (Vermilion Gym)"
+  },
+  {
+   "trainer": "Guitarist Vincent",
+   "party": [
+    [
+     "Jolteon",
+     45
+    ],
+    [
+     "Voltorb",
+     43
+    ],
+    [
+     "Magnemite",
+     42
+    ]
+   ],
+   "notes": "He can potentially be battled in a Double Battle with Juggler Horton or Gentleman Gregory.",
+   "table": "HeartGold and SoulSilver Trainers (Vermilion Gym)"
+  },
+  {
+   "trainer": "Gentleman Gregory",
+   "party": [
+    [
+     "Pikachu",
+     46
+    ],
+    [
+     "Flaaffy",
+     43
+    ],
+    [
+     "Electrike",
+     42
+    ]
+   ],
+   "notes": "He can potentially be battled in a Double Battle with Guitarist Vincent.",
+   "table": "HeartGold and SoulSilver Trainers (Vermilion Gym)"
+  },
+  {
+   "trainer": "Lt. Surge",
+   "party": [
+    [
+     "Raichu",
+     51
+    ],
+    [
+     "Electrode",
+     47
+    ],
+    [
+     "Electrode",
+     47
+    ],
+    [
+     "Magneton",
+     47
+    ],
+    [
+     "Electabuzz",
+     53
+    ]
+   ],
+   "notes": "He will give the player TM34 Shock Wave after the battle.",
+   "table": "HeartGold and SoulSilver Trainers (Vermilion Gym)"
+  }
+ ],
+ "victory-road": [
+  {
+   "trainer": "Rival",
+   "party": [
+    [
+     "Sneasel",
+     36
+    ],
+    [
+     "Golbat",
+     38
+    ],
+    [
+     "Magneton",
+     37
+    ],
+    [
+     "Kadabra",
+     37
+    ],
+    [
+     "Haunter",
+     37
+    ],
+    [
+     "Starter (3rd stage)",
+     40
+    ]
+   ],
+   "notes": "On 2F. His starter is the one whose type is strong against the player's starter.",
+   "table": "HeartGold and SoulSilver Trainers"
+  }
+ ],
+ "viridian-city": [
+  {
+   "trainer": "Ace Trainer Arabella",
+   "party": [
+    [
+     "Stantler",
+     53
+    ],
+    [
+     "Tauros",
+     52
+    ]
+   ],
+   "notes": "",
+   "table": "HeartGold and SoulSilver Trainers (Viridian Gym)"
+  },
+  {
+   "trainer": "Ace Trainer Salma",
+   "party": [
+    [
+     "Slowking",
+     50
+    ],
+    [
+     "Lickilicky",
+     53
+    ]
+   ],
+   "notes": "",
+   "table": "HeartGold and SoulSilver Trainers (Viridian Gym)"
+  },
+  {
+   "trainer": "Ace Trainer Bonita",
+   "party": [
+    [
+     "Spinda",
+     50
+    ],
+    [
+     "Sudowoodo",
+     52
+    ]
+   ],
+   "notes": "",
+   "table": "HeartGold and SoulSilver Trainers (Viridian Gym)"
+  },
+  {
+   "trainer": "Double Team Elan & Ida",
+   "party": [
+    [
+     "Porygon2",
+     52
+    ],
+    [
+     "Azumarill",
+     50
+    ]
+   ],
+   "notes": "This is a Double Battle.",
+   "table": "HeartGold and SoulSilver Trainers (Viridian Gym)"
+  },
+  {
+   "trainer": "Blue",
+   "party": [
+    [
+     "Exeggutor",
+     55
+    ],
+    [
+     "Rhydon",
+     58
+    ],
+    [
+     "Machamp",
+     56
+    ],
+    [
+     "Gyarados",
+     52
+    ],
+    [
+     "Arcanine",
+     58
+    ],
+    [
+     "Pidgeot",
+     60
+    ]
+   ],
+   "notes": "He will give the player TM92 Trick Room after the battle.",
+   "table": "HeartGold and SoulSilver Trainers (Viridian Gym)"
+  },
+  {
+   "trainer": "Cal",
+   "party": [
+    [
+     "Meganium",
+     50
+    ],
+    [
+     "Typhlosion",
+     50
+    ],
+    [
+     "Feraligatr",
+     50
+    ]
+   ],
+   "notes": "Meganium lv.50 @ Sitrus Berry Typhlosion lv.50 @ Salac Berry Feraligatr lv.50 @ Lum Berry",
+   "table": "HeartGold and SoulSilver Trainers (Trainer House)"
+  }
+ ],
+ "viridian-forest": [
+  {
+   "trainer": "Bug Catcher Abner",
+   "party": [
+    [
+     "Butterfree",
+     44
+    ],
+    [
+     "Beedrill",
+     44
+    ],
+    [
+     "Pikachu",
+     44
+    ]
+   ],
+   "notes": "Butterfree lv.44 Beedrill lv.44 Pikachu lv.44",
+   "table": "HeartGold and SoulSilver Trainers"
+  },
+  {
+   "trainer": "Bug Catcher Ellis",
+   "party": [
+    [
+     "Weedle",
+     28
+    ],
+    [
+     "Kakuna",
+     38
+    ],
+    [
+     "Beedrill",
+     46
+    ]
+   ],
+   "notes": "Weedle lv.28 Kakuna lv.38 Beedrill lv.46",
+   "table": "HeartGold and SoulSilver Trainers"
+  },
+  {
+   "trainer": "Bug Catcher Stacey",
+   "party": [
+    [
+     "Metapod",
+     52
+    ],
+    [
+     "Metapod",
+     56
+    ],
+    [
+     "Metapod",
+     60
+    ]
+   ],
+   "notes": "Metapod lv.52 Metapod lv.56 Metapod lv.60",
+   "table": "HeartGold and SoulSilver Trainers"
+  },
+  {
+   "trainer": "Bug Catcher Dion",
+   "party": [
+    [
+     "Ariados",
+     50
+    ]
+   ],
+   "notes": "Ariados lv.50",
+   "table": "HeartGold and SoulSilver Trainers"
+  },
+  {
+   "trainer": "Bug Catcher Dane",
+   "party": [
+    [
+     "Beedrill",
+     44
+    ],
+    [
+     "Butterfree",
+     48
+    ]
+   ],
+   "notes": "Beedrill lv.44 Butterfree lv.48",
+   "table": "HeartGold and SoulSilver Trainers"
+  }
+ ]
+}

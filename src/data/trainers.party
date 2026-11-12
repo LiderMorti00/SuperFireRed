@@ -7789,22 +7789,63 @@ Seaking
 Level: 37
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-=== TRAINER_KAYLEE ===
-Name: KAYLEE
-Class: Swimmer F
-Pic: Swimmer F
-Gender: Female
-Music: Swimmer
+=== TRAINER_SE_BLUE_REMATCH ===
+Name: BLUE
+Class: Leader Frlg
+Pic: Champion Rival Frlg
+Gender: Male
+Music: Serious
+Items: Full Restore / Full Restore / Full Restore
 Double Battle: No
-AI: Check Bad Move
+AI: Basic Trainer
 
-Lanturn
-Level: 34
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Exeggutor
+Level: 76
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Leaf Storm
+- Psychic
+- Explosion
+- Trick Room
 
-Pelipper
-Level: 34
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Machamp @ Iron Ball
+Level: 77
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Dynamic Punch
+- Stone Edge
+- Fling
+- Attract
+
+Rhyperior
+Level: 77
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Megahorn
+- Stone Edge
+- Thunder Fang
+- Earthquake
+
+Arcanine
+Level: 77
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Flare Blitz
+- Extreme Speed
+- Thunder Fang
+- Crunch
+
+Tyranitar
+Level: 77
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Low Kick
+- Fire Fang
+- Rock Slide
+- Earthquake
+
+Pidgeot @ Sitrus Berry
+Level: 78
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Return
+- Double Team
+- Air Slash
+- Steel Wing
 
 === TRAINER_LAUREL ===
 Name: LAUREL
@@ -16391,4 +16432,410 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 Salamence
 Level: 75
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+
+=== TRAINER_SFR_BROCK_REMATCH ===
+Name: BROCK
+Class: Leader Frlg
+Pic: Leader Brock Frlg
+Gender: Male
+Music: Serious
+Items: Full Restore / Full Restore / Full Restore
+Double Battle: No
+AI: Basic Trainer
+
+Golem
+Level: 72
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Sandstorm
+- Rock Slide
+- Rock Polish
+- Earthquake
+
+Relicanth @ Lum Berry
+Level: 72
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Head Smash
+- Aqua Tail
+- Earthquake
+- Rest
+
+Omastar
+Level: 73
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Ancient Power
+- Brine
+- Protect
+- Sandstorm
+
+Onix @ Sitrus Berry
+Level: 74
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Stealth Rock
+- Rock Slide
+- Rock Polish
+- Sandstorm
+
+Kabutops
+Level: 72
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Rock Slide
+- Aqua Jet
+- Endure
+- Giga Drain
+
+Rampardos
+Level: 73
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Earthquake
+- Stone Edge
+- Avalanche
+- Rock Polish
+
+=== TRAINER_SFR_MISTY_REMATCH ===
+Name: MISTY
+Class: Leader Frlg
+Pic: Leader Misty Frlg
+Gender: Female
+Music: Serious
+Items: Full Restore / Full Restore / Full Restore
+Double Battle: No
+AI: Basic Trainer
+
+Starmie @ Colbur Berry
+Level: 74
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Thunderbolt
+- Psychic
+- Ice Beam
+- Surf
+
+Quagsire
+Level: 73
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Water Pulse
+- Amnesia
+- Earthquake
+- Rain Dance
+
+Lapras
+Level: 73
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Surf
+- Perish Song
+- Blizzard
+- Rain Dance
+
+Lanturn
+Level: 72
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Confuse Ray
+- Thunderbolt
+- Surf
+- Thunder Wave
+
+Floatzel
+Level: 72
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Agility
+- Ice Fang
+- Waterfall
+- Baton Pass
+
+Milotic
+Level: 74
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Hydro Pump
+- Ice Beam
+- Rest
+- Sleep Talk
+
+=== TRAINER_SFR_LT_SURGE_REMATCH ===
+Name: LT. SURGE
+Class: Leader Frlg
+Pic: Leader Lt Surge Frlg
+Gender: Male
+Music: Serious
+Items: Full Restore / Full Restore / Full Restore
+Double Battle: No
+AI: Basic Trainer
+
+Raichu
+Level: 74
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Thunder Wave
+- Quick Attack
+- Thunderbolt
+- Grass Knot
+
+Manectric @ Pinap Berry
+Level: 71
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Thunder Wave
+- Natural Gift
+- Discharge
+- Overheat
+
+Magnezone
+Level: 71
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Thunderbolt
+- Double Team
+- Magnet Rise
+- Mirror Shot
+
+Electrode
+Level: 71
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Thunder Wave
+- Double Team
+- Thunderbolt
+- Explosion
+
+Pachirisu
+Level: 73
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Quick Attack
+- Super Fang
+- Discharge
+- Sweet Kiss
+
+Electivire @ Sitrus Berry
+Level: 73
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Thunderbolt
+- Cross Chop
+- Ice Punch
+- Earthquake
+
+=== TRAINER_SFR_ERIKA_REMATCH ===
+Name: ERIKA
+Class: Leader Frlg
+Pic: Leader Erika Frlg
+Gender: Female
+Music: Serious
+Items: Full Restore / Full Restore / Full Restore
+Double Battle: No
+AI: Basic Trainer
+
+Shiftry
+Level: 72
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Leaf Storm
+- Sucker Punch
+- Explosion
+- Sunny Day
+
+Jumpluff
+Level: 72
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- U Turn
+- Memento
+- Sleep Powder
+- Giga Drain
+
+Victreebel @ Kelpsy Berry
+Level: 73
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Natural Gift
+- Sludge Bomb
+- Leaf Storm
+- Leaf Blade
+
+Bellossom
+Level: 73
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Sunny Day
+- Solar Beam
+- Giga Drain
+- Attract
+
+Tangrowth
+Level: 74
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Swords Dance
+- Power Whip
+- Rock Slide
+- Earthquake
+
+Roserade
+Level: 72
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Weather Ball
+- Energy Ball
+- Sludge Bomb
+- Stun Spore
+
+=== TRAINER_SFR_KOGA_REMATCH ===
+Name: JANINE
+Class: Leader Frlg
+Pic: Leader Janine
+Gender: Female
+Music: Serious
+Items: Full Restore / Full Restore / Full Restore
+Double Battle: No
+AI: Basic Trainer
+
+Crobat
+Level: 71
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Heat Wave
+- Cross Poison
+- Confuse Ray
+- U Turn
+
+Weezing
+Level: 73
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Thunderbolt
+- Sludge Bomb
+- Toxic
+- Explosion
+
+Toxicroak
+Level: 71
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Cross Chop
+- Poison Jab
+- Attract
+- Substitute
+
+Ariados
+Level: 73
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Toxic
+- Bounce
+- Swagger
+- Night Shade
+
+Venomoth @ Sitrus Berry
+Level: 74
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Sleep Powder
+- Double Team
+- Bug Buzz
+- Psychic
+
+Drapion
+Level: 72
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Cross Poison
+- Confuse Ray
+- Crunch
+- Swords Dance
+
+=== TRAINER_SFR_SABRINA_REMATCH ===
+Name: SABRINA
+Class: Leader Frlg
+Pic: Leader Sabrina Frlg
+Gender: Female
+Music: Serious
+Items: Full Restore / Full Restore / Full Restore
+Double Battle: No
+AI: Basic Trainer
+
+Alakazam
+Level: 74
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Gravity
+- Focus Blast
+- Energy Ball
+- Psychic
+
+Espeon
+Level: 73
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Calm Mind
+- Baton Pass
+- Shadow Ball
+- Psychic
+
+Mr Mime
+Level: 73
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Reflect
+- Skill Swap
+- Thunder
+- Psychic
+
+Jynx
+Level: 72
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Blizzard
+- Perish Song
+- Psychic
+- Focus Blast
+
+Wobbuffet
+Level: 72
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Counter
+- Mirror Coat
+- Destiny Bond
+- Encore
+
+Gallade @ Sitrus Berry
+Level: 72
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Close Combat
+- Psycho Cut
+- Night Slash
+- Stone Edge
+
+=== TRAINER_SFR_BLAINE_REMATCH ===
+Name: BLAINE
+Class: Leader Frlg
+Pic: Leader Blaine Frlg
+Gender: Male
+Music: Serious
+Items: Full Restore / Full Restore / Full Restore
+Double Battle: No
+AI: Basic Trainer
+
+Torkoal
+Level: 72
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Sunny Day
+- Yawn
+- Body Slam
+- Overheat
+
+Camerupt
+Level: 73
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Earthquake
+- Eruption
+- Solar Beam
+- Sunny Day
+
+Rapidash
+Level: 74
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Megahorn
+- Quick Attack
+- Overheat
+- Flare Blitz
+
+Magcargo
+Level: 73
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Curse
+- Gyro Ball
+- Overheat
+- Stone Edge
+
+Houndoom
+Level: 72
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Shadow Ball
+- Dark Pulse
+- Flamethrower
+- Sucker Punch
+
+Magmortar
+Level: 75
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Thunderbolt
+- Low Kick
+- Flamethrower
+- Confuse Ray
 

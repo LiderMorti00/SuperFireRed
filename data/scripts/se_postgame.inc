@@ -80,10 +80,10 @@ SFR_EventScript_BrockRematch::
 	end
 
 SFR_Text_BrockRematch:
-	.string "BROCK: {PLAYER}! I heard you became\n"
-	.string "the CHAMPION of HOENN too!\p"
+	.string "BROCK: {PLAYER}! I heard you beat\n"
+	.string "RED at the POKéMON LEAGUE!\p"
 	.string "My rock-hard POKéMON have trained\n"
-	.string "with rocks from every region.\p"
+	.string "harder than ever.\p"
 	.string "Want to test them?$"
 
 SFR_Text_BrockRematchDefeat:
@@ -102,8 +102,8 @@ SFR_EventScript_MistyRematch::
 	end
 
 SFR_Text_MistyRematch:
-	.string "MISTY: Oh, it's you! The double\n"
-	.string "CHAMPION!\p"
+	.string "MISTY: Oh, it's you! The CHAMPION\n"
+	.string "who beat RED!\p"
 	.string "I've been training WATER POKéMON\n"
 	.string "from all over the world.\p"
 	.string "Care for a splash?$"
@@ -163,13 +163,15 @@ SFR_EventScript_KogaRematch::
 	end
 
 SFR_Text_KogaRematch:
-	.string "KOGA: Fwahahaha! The CHAMPION returns!\p"
-	.string "My POISON techniques have been\n"
-	.string "refined across many regions.\p"
-	.string "Will you face them?$"
+	.string "JANINE: Fufufu… The CHAMPION who\n"
+	.string "beat RED has come back!\p"
+	.string "My father trained me even harder\n"
+	.string "after our last battle.\p"
+	.string "Will you face my new techniques?$"
 
 SFR_Text_KogaRematchDefeat:
-	.string "KOGA: Hmm… Your skill is genuine.$"
+	.string "JANINE: Hmph… I still have a long\n"
+	.string "way to go!$"
 
 SFR_EventScript_SabrinaRematch::
 	lock
@@ -211,6 +213,27 @@ SFR_Text_BlaineRematch:
 SFR_Text_BlaineRematchDefeat:
 	.string "BLAINE: I've burned out!\n"
 	.string "You're a true flame, kid!$"
+
+SFR_EventScript_BlueRematch::
+	lock
+	faceplayer
+	msgbox SE_Text_BlueRematch, MSGBOX_YESNO
+	goto_if_eq VAR_RESULT, NO, SFR_EventScript_KantoRematchDecline
+	cleartrainerflag TRAINER_SE_BLUE_REMATCH
+	trainerbattle_no_intro TRAINER_SE_BLUE_REMATCH, SE_Text_BlueRematchDefeat
+	msgbox SFR_Text_KantoRematchAfter, MSGBOX_DEFAULT
+	release
+	end
+
+SE_Text_BlueRematch:
+	.string "BLUE: So you actually beat RED…\p"
+	.string "Heh. I knew you had it in you.\p"
+	.string "But I've been training too.\n"
+	.string "Let's see who's stronger now!$"
+
+SE_Text_BlueRematchDefeat:
+	.string "BLUE: …Tch. Still can't beat you.\n"
+	.string "Next time, for sure!$"
 
 SFR_EventScript_KantoRematchDecline::
 	msgbox SFR_Text_KantoRematchDecline, MSGBOX_DEFAULT
