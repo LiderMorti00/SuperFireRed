@@ -42,7 +42,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "CeladonCity_House1_EventScript_Rocket1",
-      "flag": "0"
+      "flag": "FLAG_HIDE_MISC_KANTO_ROCKETS"
     },
     {
       "type": "object",
@@ -56,7 +56,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "CeladonCity_House1_EventScript_Rocket2",
-      "flag": "0"
+      "flag": "FLAG_HIDE_MISC_KANTO_ROCKETS"
     }
   ],
   "warp_events": [

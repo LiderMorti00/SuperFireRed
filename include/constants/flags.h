@@ -63,14 +63,14 @@
 #define FLAG_SFR_RECEIVED_HOENN_STARTER         0x29 // Super Fire Red: got a starter from Birch
 #define FLAG_SFR_HIDE_BIRCHS_LAB_BRENDAN        0x2A // Super Fire Red: Brendan in Birch's lab
 #define FLAG_SFR_RECEIVED_POKENAV               0x2B // Super Fire Red: got the Pokenav and DexNav from Brendan
-#define FLAG_BADGE09_GET                       0x2C // Super Fire Red: Hoenn badge 1 (Stone)
-#define FLAG_BADGE10_GET                       0x2D // Super Fire Red: Hoenn badge 2 (Knuckle)
-#define FLAG_BADGE11_GET                       0x2E // Super Fire Red: Hoenn badge 3 (Dynamo)
-#define FLAG_BADGE12_GET                       0x2F // Super Fire Red: Hoenn badge 4 (Heat)
-#define FLAG_BADGE13_GET                       0x30 // Super Fire Red: Hoenn badge 5 (Balance)
-#define FLAG_BADGE14_GET                       0x31 // Super Fire Red: Hoenn badge 6 (Feather)
-#define FLAG_BADGE15_GET                       0x32 // Super Fire Red: Hoenn badge 7 (Mind)
-#define FLAG_BADGE16_GET                       0x33 // Super Fire Red: Hoenn badge 8 (Rain)
+#define FLAG_BADGE09_GET                       0x2C // Super Emerald: Kanto badge 1
+#define FLAG_BADGE10_GET                       0x2D // Super Emerald: Kanto badge 2
+#define FLAG_BADGE11_GET                       0x2E // Super Emerald: Kanto badge 3
+#define FLAG_BADGE12_GET                       0x2F // Super Emerald: Kanto badge 4
+#define FLAG_BADGE13_GET                       0x30 // Super Emerald: Kanto badge 5
+#define FLAG_BADGE14_GET                       0x31 // Super Emerald: Kanto badge 6
+#define FLAG_BADGE15_GET                       0x32 // Super Emerald: Kanto badge 7
+#define FLAG_BADGE16_GET                       0x33 // Super Emerald: Kanto badge 8
 #define FLAG_SFR_DEFEATED_BRENDAN_ROUTE103       0x34 // Super Fire Red
 #define FLAG_SFR_DEFEATED_BRENDAN_ROUTE110       0x35 // Super Fire Red
 #define FLAG_SFR_DEFEATED_BRENDAN_ROUTE119       0x36 // Super Fire Red
@@ -707,9 +707,9 @@
 #define FLAG_SFR_ITEM_TYRANITARITE               0x28C // Super Fire Red: Mega Stone
 #define FLAG_SFR_ITEM_VENUSAURITE                0x28D // Super Fire Red: Mega Stone
 #define FLAG_HIDE_PETALBURG_CITY_STEVEN  0x28E // Super Emerald: Steven gives the Mega Ring
-#define FLAG_UNUSED_0x28F  0x28F // Unused Flag
-#define FLAG_UNUSED_0x290  0x290 // Unused Flag
-#define FLAG_UNUSED_0x291  0x291 // Unused Flag
+#define FLAG_SE_KANTO_INITIALIZED  0x28F // Super Emerald: Kanto set to its post-story state
+#define FLAG_SE_KANTO_CHAMPION  0x290 // Super Emerald: beat Red in the Kanto League
+#define FLAG_SE_HIDE_VERMILION_OAK  0x291 // Super Emerald: Oak waiting at the Vermilion dock
 #define FLAG_UNUSED_0x292  0x292 // Unused Flag
 #define FLAG_UNUSED_0x293  0x293 // Unused Flag
 #define FLAG_UNUSED_0x294  0x294 // Unused Flag

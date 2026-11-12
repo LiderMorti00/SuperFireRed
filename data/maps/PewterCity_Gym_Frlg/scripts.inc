@@ -3,7 +3,7 @@ PewterCity_Gym_Frlg_MapScripts::
 
 PewterCity_Gym_EventScript_Brock::
 	famechecker FAMECHECKER_BROCK, FCPICKSTATE_COLORED, UpdatePickStateFromSpecialVar8005
-	goto_if_set FLAG_SFR_HOENN_GAME_CLEAR, SFR_EventScript_BrockRematch @ Super Fire Red
+	goto_if_set FLAG_SE_KANTO_CHAMPION, SFR_EventScript_BrockRematch @ Super Emerald: after beating Red
 	trainerbattle_single TRAINER_LEADER_BROCK, PewterCity_Gym_Text_BrockIntro, PewterCity_Gym_Text_BrockDefeat, PewterCity_Gym_EventScript_DefeatedBrock, NO_MUSIC
 	goto_if_unset FLAG_GOT_TM39_FROM_BROCK, PewterCity_Gym_EventScript_GiveTM39
 	msgbox PewterCity_Gym_Text_BrockPostBattle
@@ -13,7 +13,7 @@ PewterCity_Gym_EventScript_Brock::
 PewterCity_Gym_EventScript_DefeatedBrock::
 	famechecker FAMECHECKER_BROCK, 1
 	setflag FLAG_DEFEATED_BROCK
-	setflag FLAG_BADGE01_GET
+	setflag FLAG_BADGE09_GET
 	setvar VAR_MAP_SCENE_PEWTER_CITY, 1
 	setflag FLAG_HIDE_PEWTER_CITY_GYM_GUIDE
 	clearflag FLAG_HIDE_PEWTER_CITY_RUNNING_SHOES_GUY
@@ -72,7 +72,7 @@ PewterCity_Gym_EventScript_GymGuyAdvice::
 
 PewterCity_Gym_EventScript_GymStatue::
 	lockall
-	goto_if_set FLAG_BADGE01_GET, PewterCity_Gym_EventScript_GymStatuePostVictory
+	goto_if_set FLAG_BADGE09_GET, PewterCity_Gym_EventScript_GymStatuePostVictory
 	msgbox PewterCity_Gym_Text_GymStatue
 	releaseall
 	end

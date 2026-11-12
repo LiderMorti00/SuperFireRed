@@ -42,6 +42,7 @@ SE_EventScript_SlateportOfferKanto::
 	goto_if_eq VAR_RESULT, FALSE, Common_EventScript_NopReturn
 	msgbox SE_Text_HarborKantoTicket, MSGBOX_YESNO
 	goto_if_eq VAR_RESULT, NO, Common_EventScript_NopReturn
+	call SE_EventScript_InitKantoPostgame
 	call SlateportCity_Harbor_EventScript_BoardFerry
 	warp MAP_VERMILION_CITY, 23, 32
 	waitstate
@@ -53,6 +54,7 @@ SE_EventScript_LilycoveOfferKanto::
 	goto_if_eq VAR_RESULT, FALSE, Common_EventScript_NopReturn
 	msgbox SE_Text_HarborKantoTicket, MSGBOX_YESNO
 	goto_if_eq VAR_RESULT, NO, Common_EventScript_NopReturn
+	call SE_EventScript_InitKantoPostgame
 	call LilycoveCity_Harbor_EventScript_BoardFerry
 	warp MAP_VERMILION_CITY, 23, 32
 	waitstate
@@ -229,8 +231,6 @@ SFR_Text_KantoRematchAfter:
 SFR_EventScript_OakAfterHoenn::
 	goto_if_unset FLAG_SFR_RECEIVED_SINNOH_STARTER, SFR_EventScript_OakSinnohStarter
 	goto_if_set FLAG_SFR_RECEIVED_SHINY_CHARM, SFR_EventScript_OakAfterHoennDone
-	special SfrHasCaughtAllObtainable
-	goto_if_eq VAR_RESULT, FALSE, SFR_EventScript_OakAfterHoennDone
 	msgbox SFR_Text_OakShinyCharm, MSGBOX_DEFAULT
 	giveitem ITEM_SHINY_CHARM
 	goto_if_eq VAR_RESULT, FALSE, SFR_EventScript_OakAfterHoennDone
@@ -307,6 +307,7 @@ SFR_EventScript_OakReceivedSinnohStarter::
 
 SFR_EventScript_OakSinnohStarterEnd::
 	msgbox SFR_Text_OakAfterSinnohStarter, MSGBOX_DEFAULT
+	call SFR_EventScript_OakAfterHoenn
 	release
 	end
 
@@ -318,14 +319,14 @@ SFR_Text_Piplup:
 	.string "PIPLUP$"
 
 SFR_Text_OakSinnohStarterIntro:
-	.string "OAK: {PLAYER}! BIRCH called me!\n"
-	.string "You're the CHAMPION of HOENN, too!\p"
+	.string "OAK: {PLAYER}! You beat RED!\n"
+	.string "You're the CHAMPION of KANTO, too!\p"
 	.string "Two regions… Remarkable!\p"
 	.string "To celebrate, I have a gift for you.\p"
 	.string "A friend of mine, PROF. ROWAN, sent\n"
 	.string "me three POKéMON from SINNOH.\p"
-	.string "Like the ones BIRCH gave you, they\n"
-	.string "hold an EVERSTONE.$"
+	.string "Like the others, they hold an\n"
+	.string "EVERSTONE.$"
 
 SFR_Text_OakWhichSinnohStarter:
 	.string "Which one will you choose?$"
@@ -340,16 +341,13 @@ SFR_Text_ReceivedSinnohStarter:
 SFR_Text_OakAfterSinnohStarter:
 	.string "OAK: There are so many POKéMON out\n"
 	.string "there, from every corner of the world.\p"
-	.string "If you ever catch every POKéMON you\n"
-	.string "can find, come and show me your\l"
-	.string "POKéDEX!$"
+	.string "Oh, and there's one more thing\n"
+	.string "I'd like you to have.$"
 
 SFR_Text_OakShinyCharm:
-	.string "OAK: Ah, {PLAYER}! Let me see your\n"
-	.string "POKéDEX…\p"
-	.string "Incredible! You've caught every\n"
-	.string "POKéMON there is to find!\p"
-	.string "You've made my dream a reality.\n"
+	.string "OAK: A TRAINER who has become the\n"
+	.string "CHAMPION of two regions deserves\l"
+	.string "something special.\p"
 	.string "Please, take this!$"
 
 SFR_Text_OakExplainShinyCharm:
@@ -554,3 +552,230 @@ SE_Text_WallyMysticTicket:
 SE_Text_TicketUseAtLilycove:
 	.string "Show it at LILYCOVE CITY's harbor\n"
 	.string "to set sail.$"
+
+@ ---------------------------------------------------------------------------
+@ Kanto, the first time the player sails there: the FireRed story is over
+@ (no Team Rocket, Silph Co. and Pokémon Tower back to normal, Saffron open,
+@ Snorlax gone), like Kanto in HeartGold / SoulSilver with Cinnabar rebuilt.
+SE_EventScript_InitKantoPostgame::
+	goto_if_set FLAG_SE_KANTO_INITIALIZED, Common_EventScript_NopReturn
+	setflag FLAG_SE_KANTO_INITIALIZED
+	setvar VAR_SE_KANTO_ARRIVAL, 1
+	@ Pallet Town, Oak's lab, Viridian, Route 22
+	setflag FLAG_PALLET_LADY_NOT_BLOCKING_SIGN
+	setflag FLAG_VISITED_OAKS_LAB
+	setflag FLAG_BEAT_RIVAL_IN_OAKS_LAB
+	setflag FLAG_HIDE_RIVAL_IN_LAB
+	clearflag FLAG_HIDE_OAK_IN_HIS_LAB
+	setflag FLAG_HIDE_OAK_IN_PALLET_TOWN
+	setflag FLAG_HIDE_BULBASAUR_BALL
+	setflag FLAG_HIDE_SQUIRTLE_BALL
+	setflag FLAG_HIDE_CHARMANDER_BALL
+	setflag FLAG_GOT_POKEBALLS_FROM_OAK_AFTER_22_RIVAL
+	setvar VAR_MAP_SCENE_PALLET_TOWN_OAK, 3
+	setvar VAR_MAP_SCENE_PALLET_TOWN_PROFESSOR_OAKS_LAB, 9
+	setvar VAR_MAP_SCENE_PALLET_TOWN_PLAYERS_HOUSE_2F, 1
+	setvar VAR_MAP_SCENE_PALLET_TOWN_RIVALS_HOUSE, 2
+	setvar VAR_MAP_SCENE_PALLET_TOWN_SIGN_LADY, 2
+	setvar VAR_MAP_SCENE_VIRIDIAN_CITY_OLD_MAN, 2
+	setvar VAR_MAP_SCENE_VIRIDIAN_CITY_MART, 2
+	setvar VAR_MAP_SCENE_ROUTE22, 4
+	setflag FLAG_HIDE_ROUTE_22_RIVAL
+	@ Pewter, Cerulean, Route 24
+	setvar VAR_MAP_SCENE_PEWTER_CITY, 2
+	setvar VAR_MAP_SCENE_CERULEAN_CITY_RIVAL, 1
+	setvar VAR_MAP_SCENE_CERULEAN_CITY_ROCKET, 1
+	setvar VAR_MAP_SCENE_ROUTE24, 1
+	setflag FLAG_HIDE_CERULEAN_RIVAL
+	setflag FLAG_HIDE_CERULEAN_ROCKET
+	setflag FLAG_HIDE_NUGGET_BRIDGE_ROCKET
+	@ Vermilion: the S.S. Anne has left
+	setvar VAR_MAP_SCENE_VERMILION_CITY, 3
+	setvar VAR_MAP_SCENE_S_S_ANNE_2F_CORRIDOR, 1
+	setflag FLAG_HIDE_SS_ANNE
+	setflag FLAG_HIDE_SS_ANNE_RIVAL
+	@ Lavender: Pokémon Tower is calm, Mr. Fuji is home
+	setvar VAR_MAP_SCENE_POKEMON_TOWER_2F, 1
+	setvar VAR_MAP_SCENE_POKEMON_TOWER_6F, 1
+	setflag FLAG_HIDE_TOWER_RIVAL
+	setflag FLAG_HIDE_TOWER_ROCKET_1
+	setflag FLAG_HIDE_TOWER_ROCKET_2
+	setflag FLAG_HIDE_TOWER_ROCKET_3
+	setflag FLAG_HIDE_TOWER_FUJI
+	clearflag FLAG_HIDE_POKEHOUSE_FUJI
+	setflag FLAG_RESCUED_MR_FUJI
+	@ Celadon: no Rocket Hideout
+	setflag FLAG_HIDE_GAME_CORNER_ROCKET
+	setflag FLAG_HIDE_CELADON_ROCKETS
+	setflag FLAG_HIDE_HIDEOUT_GIOVANNI
+	setflag FLAG_HIDE_SILPH_SCOPE
+	@ Saffron: Silph Co. freed, gates open
+	setvar VAR_MAP_SCENE_ROUTE5_ROUTE6_ROUTE7_ROUTE8_GATES, 1
+	setvar VAR_MAP_SCENE_SILPH_CO_7F, 1
+	setvar VAR_MAP_SCENE_SILPH_CO_11F, 1
+	setflag FLAG_HIDE_SILPH_RIVAL
+	setflag FLAG_HIDE_SILPH_ROCKETS
+	setflag FLAG_HIDE_SAFFRON_ROCKETS
+	clearflag FLAG_HIDE_SAFFRON_CIVILIANS
+	setflag FLAG_SILPH_2F_DOOR_1
+	setflag FLAG_SILPH_2F_DOOR_2
+	setflag FLAG_SILPH_3F_DOOR_1
+	setflag FLAG_SILPH_3F_DOOR_2
+	setflag FLAG_SILPH_4F_DOOR_1
+	setflag FLAG_SILPH_4F_DOOR_2
+	setflag FLAG_SILPH_5F_DOOR_1
+	setflag FLAG_SILPH_5F_DOOR_2
+	setflag FLAG_SILPH_5F_DOOR_3
+	setflag FLAG_SILPH_6F_DOOR
+	setflag FLAG_SILPH_7F_DOOR_1
+	setflag FLAG_SILPH_7F_DOOR_2
+	setflag FLAG_SILPH_7F_DOOR_3
+	setflag FLAG_SILPH_8F_DOOR
+	setflag FLAG_SILPH_9F_DOOR_1
+	setflag FLAG_SILPH_9F_DOOR_2
+	setflag FLAG_SILPH_9F_DOOR_3
+	setflag FLAG_SILPH_9F_DOOR_4
+	setflag FLAG_SILPH_10F_DOOR
+	setflag FLAG_SILPH_11F_DOOR
+	@ Snorlax no longer blocks Routes 12 and 16
+	setflag FLAG_HIDE_ROUTE_12_SNORLAX
+	setflag FLAG_WOKE_UP_ROUTE_12_SNORLAX
+	setflag FLAG_HIDE_ROUTE_16_SNORLAX
+	@ Cinnabar Gym is open (Blaine's Secret Key not needed)
+	setflag FLAG_HIDE_POKEMON_MANSION_B1F_SECRET_KEY
+	setvar VAR_MAP_SCENE_CINNABAR_ISLAND, 4
+	@ Every other Team Rocket member in Kanto and the Sevii Islands
+	setflag FLAG_HIDE_MISC_KANTO_ROCKETS
+	setflag FLAG_HIDE_FIVE_ISLAND_ROCKETS
+	setflag FLAG_HIDE_MT_EMBER_EXTERIOR_ROCKETS
+	setflag FLAG_HIDE_ICEFALL_CAVE_ROCKETS
+	return
+
+@ ---------------------------------------------------------------------------
+@ Vermilion City: Prof. Oak meets the player at the dock with a Kanto starter
+SE_EventScript_VermilionOakArrival::
+	lockall
+	applymovement LOCALID_PLAYER, Common_Movement_FaceDown
+	waitmovement 0
+	playse SE_PIN
+	applymovement LOCALID_PLAYER, Common_Movement_ExclamationMark
+	waitmovement 0
+	clearflag FLAG_SE_HIDE_VERMILION_OAK
+	addobject LOCALID_VERMILION_SE_OAK
+	applymovement LOCALID_VERMILION_SE_OAK, SE_Movement_VermilionOakApproach
+	waitmovement 0
+	msgbox SE_Text_VermilionOakWelcome, MSGBOX_DEFAULT
+SE_EventScript_VermilionOakChoose::
+	message SE_Text_OakWhichKantoStarter
+	waitmessage
+	dynmultipush SE_Text_Bulbasaur, 0
+	dynmultipush SE_Text_Charmander, 1
+	dynmultipush SE_Text_Squirtle, 2
+	dynmultichoice 20, 4, TRUE, 3, 0, DYN_MULTICHOICE_CB_NONE
+	switch VAR_RESULT
+	case 0, SE_EventScript_OakBulbasaur
+	case 1, SE_EventScript_OakCharmander
+	setvar VAR_0x8004, SPECIES_SQUIRTLE
+	goto SE_EventScript_OakConfirmKantoStarter
+	end
+
+SE_EventScript_OakBulbasaur::
+	setvar VAR_0x8004, SPECIES_BULBASAUR
+	goto SE_EventScript_OakConfirmKantoStarter
+	end
+
+SE_EventScript_OakCharmander::
+	setvar VAR_0x8004, SPECIES_CHARMANDER
+	goto SE_EventScript_OakConfirmKantoStarter
+	end
+
+SE_EventScript_OakConfirmKantoStarter::
+	bufferspeciesname STR_VAR_1, VAR_0x8004
+	showmonpic VAR_0x8004, 10, 3
+	msgbox SFR_Text_OakSoYouWant, MSGBOX_YESNO
+	hidemonpic
+	goto_if_eq VAR_RESULT, NO, SE_EventScript_VermilionOakChoose
+	givemon VAR_0x8004, 45, ITEM_EVERSTONE
+	goto_if_eq VAR_RESULT, MON_GIVEN_TO_PARTY, SE_EventScript_OakKantoStarterParty
+	goto_if_eq VAR_RESULT, MON_GIVEN_TO_PC, SE_EventScript_OakKantoStarterPC
+	msgbox gText_NoMoreRoomForPokemon, MSGBOX_DEFAULT
+	releaseall
+	end
+
+SE_EventScript_OakKantoStarterParty::
+	call SE_EventScript_OakReceivedKantoStarter
+	msgbox gText_NicknameThisPokemon, MSGBOX_YESNO
+	goto_if_eq VAR_RESULT, NO, SE_EventScript_OakKantoStarterEnd
+	call Common_EventScript_GetGiftMonPartySlot
+	call Common_EventScript_NameReceivedPartyMon
+	goto SE_EventScript_OakKantoStarterEnd
+	end
+
+SE_EventScript_OakKantoStarterPC::
+	call SE_EventScript_OakReceivedKantoStarter
+	msgbox gText_NicknameThisPokemon, MSGBOX_YESNO
+	goto_if_eq VAR_RESULT, NO, SE_EventScript_OakKantoStarterSent
+	call Common_EventScript_NameReceivedBoxMon
+SE_EventScript_OakKantoStarterSent::
+	call Common_EventScript_TransferredToPC
+	goto SE_EventScript_OakKantoStarterEnd
+	end
+
+SE_EventScript_OakReceivedKantoStarter::
+	setvar VAR_SE_KANTO_ARRIVAL, 2
+	playfanfare MUS_OBTAIN_ITEM
+	message SE_Text_ReceivedKantoStarter
+	waitmessage
+	waitfanfare
+	return
+
+SE_EventScript_OakKantoStarterEnd::
+	msgbox SE_Text_VermilionOakGoodbye, MSGBOX_DEFAULT
+	closemessage
+	applymovement LOCALID_VERMILION_SE_OAK, SE_Movement_VermilionOakLeave
+	waitmovement 0
+	removeobject LOCALID_VERMILION_SE_OAK
+	setflag FLAG_SE_HIDE_VERMILION_OAK
+	releaseall
+	end
+
+SE_Movement_VermilionOakApproach:
+	walk_up
+	step_end
+
+SE_Movement_VermilionOakLeave:
+	walk_down
+	step_end
+
+SE_Text_Bulbasaur:
+	.string "BULBASAUR$"
+SE_Text_Charmander:
+	.string "CHARMANDER$"
+SE_Text_Squirtle:
+	.string "SQUIRTLE$"
+
+SE_Text_VermilionOakWelcome:
+	.string "OAK: Ah, you must be {PLAYER}!\n"
+	.string "Welcome to KANTO!\p"
+	.string "I'm PROF. OAK. BIRCH told me all\n"
+	.string "about the new CHAMPION of HOENN.\p"
+	.string "KANTO has eight GYMS of its own,\n"
+	.string "and the POKéMON LEAGUE is waiting\l"
+	.string "at INDIGO PLATEAU.\p"
+	.string "To start you off, I'd like you\n"
+	.string "to have one of these POKéMON.\p"
+	.string "They're well trained, and each\n"
+	.string "one holds an EVERSTONE.$"
+
+SE_Text_OakWhichKantoStarter:
+	.string "Which one will you choose?$"
+
+SE_Text_ReceivedKantoStarter:
+	.string "{PLAYER} received the {STR_VAR_1}\n"
+	.string "from PROF. OAK!$"
+
+SE_Text_VermilionOakGoodbye:
+	.string "OAK: My lab is in PALLET TOWN.\n"
+	.string "Come and visit me anytime!\p"
+	.string "And if you beat the CHAMPION here,\n"
+	.string "I'll have something special for you.$"

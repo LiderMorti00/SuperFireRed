@@ -47,7 +47,7 @@ CinnabarIsland_Gym_OnLoadOpenDoor6::
 
 CinnabarIsland_Gym_EventScript_Blaine::
 	famechecker FAMECHECKER_BLAINE, FCPICKSTATE_COLORED, UpdatePickStateFromSpecialVar8005
-	goto_if_set FLAG_SFR_HOENN_GAME_CLEAR, SFR_EventScript_BlaineRematch @ Super Fire Red
+	goto_if_set FLAG_SE_KANTO_CHAMPION, SFR_EventScript_BlaineRematch @ Super Emerald: after beating Red
 	trainerbattle_single TRAINER_LEADER_BLAINE, CinnabarIsland_Gym_Text_BlaineIntro, CinnabarIsland_Gym_Text_BlaineDefeat, CinnabarIsland_Gym_EventScript_DefeatedBlaine, NO_MUSIC
 	goto_if_unset FLAG_GOT_TM38_FROM_BLAINE, CinnabarIsland_Gym_EventScript_GiveTM38
 	msgbox CinnabarIsland_Gym_Text_BlainePostBattle
@@ -57,7 +57,7 @@ CinnabarIsland_Gym_EventScript_Blaine::
 CinnabarIsland_Gym_EventScript_DefeatedBlaine::
 	famechecker FAMECHECKER_BLAINE, 1
 	setflag FLAG_DEFEATED_BLAINE
-	setflag FLAG_BADGE07_GET
+	setflag FLAG_BADGE15_GET
 	setrespawn HEAL_LOCATION_CINNABAR_ISLAND
 	setvar VAR_MAP_SCENE_CINNABAR_ISLAND, 1
 	clearflag FLAG_HIDE_CINNABAR_BILL
@@ -185,7 +185,7 @@ CinnabarIsland_Gym_EventScript_GymGuyPostVictory::
 
 CinnabarIsland_Gym_EventScript_GymStatue::
 	lockall
-	goto_if_set FLAG_BADGE07_GET, CinnabarIsland_Gym_EventScript_GymStatuePostVictory
+	goto_if_set FLAG_BADGE15_GET, CinnabarIsland_Gym_EventScript_GymStatuePostVictory
 	msgbox CinnabarIsland_Gym_Text_GymStatue
 	releaseall
 	end

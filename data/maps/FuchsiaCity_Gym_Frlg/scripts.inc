@@ -3,7 +3,7 @@ FuchsiaCity_Gym_Frlg_MapScripts::
 
 FuchsiaCity_Gym_EventScript_Koga::
 	famechecker FAMECHECKER_KOGA, FCPICKSTATE_COLORED, UpdatePickStateFromSpecialVar8005
-	goto_if_set FLAG_SFR_HOENN_GAME_CLEAR, SFR_EventScript_KogaRematch @ Super Fire Red
+	goto_if_set FLAG_SE_KANTO_CHAMPION, SFR_EventScript_KogaRematch @ Super Emerald: after beating Red
 	trainerbattle_single TRAINER_LEADER_KOGA, FuchsiaCity_Gym_Text_KogaIntro, FuchsiaCity_Gym_Text_KogaDefeat, FuchsiaCity_Gym_EventScript_DefeatedKoga, NO_MUSIC
 	goto_if_unset FLAG_GOT_TM06_FROM_KOGA, FuchsiaCity_Gym_EventScript_GiveTM06
 	msgbox FuchsiaCity_Gym_Text_KogaPostBattle
@@ -14,7 +14,7 @@ FuchsiaCity_Gym_EventScript_DefeatedKoga::
 	famechecker FAMECHECKER_KOGA, 1
 	clearflag FLAG_HIDE_FAME_CHECKER_KOGA_JOURNAL
 	setflag FLAG_DEFEATED_KOGA
-	setflag FLAG_BADGE05_GET
+	setflag FLAG_BADGE13_GET
 	set_gym_trainers_frlg 5
 	goto FuchsiaCity_Gym_EventScript_GiveTM06
 	end
@@ -80,7 +80,7 @@ FuchsiaCity_Gym_EventScript_GymGuyPostVictory::
 
 FuchsiaCity_Gym_EventScript_GymStatue::
 	lockall
-	goto_if_set FLAG_BADGE05_GET, FuchsiaCity_Gym_EventScript_GymStatuePostVictory
+	goto_if_set FLAG_BADGE13_GET, FuchsiaCity_Gym_EventScript_GymStatuePostVictory
 	msgbox FuchsiaCity_Gym_Text_GymStatue
 	releaseall
 	end
@@ -91,30 +91,29 @@ FuchsiaCity_Gym_EventScript_GymStatuePostVictory::
 	end
 
 FuchsiaCity_Gym_Text_KogaIntro::
-	.string "KOGA: Fwahahaha!\p"
-	.string "A mere child like you dares to\n"
-	.string "challenge me?\p"
-	.string "The very idea makes me shiver\n"
-	.string "with mirth!\p"
-	.string "Very well, I shall show you true\n"
-	.string "terror as a ninja master.\p"
-	.string "Poison brings steady doom.\n"
-	.string "Sleep renders foes helpless.\p"
-	.string "Despair to the creeping horror of\n"
-	.string "POISON-type POKéMON!{PLAY_BGM}{MUS_RG_ENCOUNTER_GYM_LEADER}$"
+	.string "JANINE: Fufufufu…\p"
+	.string "I'm sorry to disappoint you…\p"
+	.string "I'm only joking!\p"
+	.string "I'm the real deal!\p"
+	.string "JANINE of FUCHSIA GYM, that's me!\n"
+	.string "My father, JANINE, taught me all\l"
+	.string "the arts of the ninja.\p"
+	.string "Now he's one of the ELITE FOUR,\n"
+	.string "and I lead this GYM in his place!\p"
+	.string "Prepare for my POISON-type\n"
+	.string "POKéMON!{PLAY_BGM}{MUS_RG_ENCOUNTER_GYM_LEADER}$"
 
 FuchsiaCity_Gym_Text_KogaDefeat::
-	.string "Humph!\n"
-	.string "You have proven your worth!\p"
-	.string "Here!\n"
-	.string "Take the SOULBADGE!$"
+	.string "JANINE: …!\n"
+	.string "No! You're too good!\p"
+	.string "I still have much to learn.\n"
+	.string "Here, take the SOULBADGE!$"
 
 FuchsiaCity_Gym_Text_KogaPostBattle::
-	.string "When afflicted by TOXIC, a POKéMON\n"
-	.string "suffers more and more.\p"
-	.string "It suffers worsening damage as the\n"
-	.string "battle wears on!\p"
-	.string "It will surely terrorize foes!$"
+	.string "JANINE: I'm going to train even\n"
+	.string "harder with my father.\p"
+	.string "One day, I'll be as strong as him.\n"
+	.string "You'll see!$"
 
 FuchsiaCity_Gym_Text_KogaExplainSoulBadge::
 	.string "Now that you have the SOULBADGE,\n"
@@ -126,7 +125,7 @@ FuchsiaCity_Gym_Text_KogaExplainSoulBadge::
 
 FuchsiaCity_Gym_Text_ReceivedTM06FromKoga::
 	.string "{PLAYER} received TM06\n"
-	.string "from KOGA.$"
+	.string "from JANINE.$"
 
 FuchsiaCity_Gym_Text_KogaExplainTM06::
 	.string "Sealed within that TM06 lies\n"
@@ -165,7 +164,7 @@ FuchsiaCity_Gym_Text_KirkDefeat::
 FuchsiaCity_Gym_Text_KirkPostBattle::
 	.string "Even though I've lost, I will keep\n"
 	.string "training according to the teachings\l"
-	.string "of KOGA, my ninja master.$"
+	.string "of JANINE, my ninja master.$"
 
 FuchsiaCity_Gym_Text_NateIntro::
 	.string "Let's see you beat my special\n"
@@ -195,7 +194,7 @@ FuchsiaCity_Gym_Text_PhilPostBattle::
 
 FuchsiaCity_Gym_Text_EdgarIntro::
 	.string "I also study the way of the ninja\n"
-	.string "with Master KOGA!\p"
+	.string "with Master JANINE!\p"
 	.string "Ninja have a long history of using\n"
 	.string "animals!$"
 
@@ -206,7 +205,7 @@ FuchsiaCity_Gym_Text_EdgarPostBattle::
 	.string "I still have much to learn.$"
 
 FuchsiaCity_Gym_Text_ShawnIntro::
-	.string "Master KOGA comes from a long line\n"
+	.string "Master JANINE comes from a long line\n"
 	.string "of ninjas.\p"
 	.string "What did you descend from?$"
 
@@ -225,7 +224,7 @@ FuchsiaCity_Gym_Text_GymGuyAdvice::
 	.string "Champ in the making!\p"
 	.string "FUCHSIA GYM is a tricked-up place.\n"
 	.string "It's riddled with invisible walls!\p"
-	.string "KOGA might appear close, but he's\n"
+	.string "JANINE might appear close, but she's\n"
 	.string "blocked off.\p"
 	.string "You have to find gaps in the walls\n"
 	.string "to reach him.$"
@@ -236,13 +235,13 @@ FuchsiaCity_Gym_Text_GymGuyPostVictory::
 
 FuchsiaCity_Gym_Text_GymStatue::
 	.string "FUCHSIA POKéMON GYM\n"
-	.string "LEADER: KOGA\p"
+	.string "LEADER: JANINE\p"
 	.string "WINNING TRAINERS:\n"
 	.string "{RIVAL}$"
 
 FuchsiaCity_Gym_Text_GymStatuePlayerWon::
 	.string "FUCHSIA POKéMON GYM\n"
-	.string "LEADER: KOGA\p"
+	.string "LEADER: JANINE\p"
 	.string "WINNING TRAINERS:\n"
 	.string "{RIVAL}, {PLAYER}$"
 

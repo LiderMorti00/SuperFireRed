@@ -3,7 +3,7 @@ CeruleanCity_Gym_Frlg_MapScripts::
 
 CeruleanCity_Gym_EventScript_Misty::
 	famechecker FAMECHECKER_MISTY, FCPICKSTATE_COLORED, UpdatePickStateFromSpecialVar8005
-	goto_if_set FLAG_SFR_HOENN_GAME_CLEAR, SFR_EventScript_MistyRematch @ Super Fire Red
+	goto_if_set FLAG_SE_KANTO_CHAMPION, SFR_EventScript_MistyRematch @ Super Emerald: after beating Red
 	trainerbattle_single TRAINER_LEADER_MISTY, CeruleanCity_Gym_Text_MistyIntro, CeruleanCity_Gym_Text_MistyDefeat, CeruleanCity_Gym_EventScript_MistyDefeated, NO_MUSIC
 	goto_if_unset FLAG_GOT_TM03_FROM_MISTY, CeruleanCity_Gym_EventScript_GiveTM03
 	msgbox CeruleanCity_Gym_Text_ExplainTM03
@@ -13,7 +13,7 @@ CeruleanCity_Gym_EventScript_Misty::
 CeruleanCity_Gym_EventScript_MistyDefeated::
 	famechecker FAMECHECKER_MISTY, 1
 	setflag FLAG_DEFEATED_MISTY
-	setflag FLAG_BADGE02_GET
+	setflag FLAG_BADGE10_GET
 	setrespawn HEAL_LOCATION_CERULEAN_CITY
 	set_gym_trainers_frlg 2
 	goto CeruleanCity_Gym_EventScript_GiveTM03
@@ -60,7 +60,7 @@ CeruleanCity_Gym_EventScript_GymGuyPostVictory::
 
 CeruleanCity_Gym_EventScript_GymStatue::
 	lockall
-	goto_if_set FLAG_BADGE02_GET, CeruleanCity_Gym_EventScript_GymStatuePostVictory
+	goto_if_set FLAG_BADGE10_GET, CeruleanCity_Gym_EventScript_GymStatuePostVictory
 	msgbox CeruleanCity_Gym_Text_GymStatue
 	releaseall
 	end

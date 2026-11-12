@@ -180,7 +180,7 @@
 #define VAR_RUSTURF_TUNNEL_STATE                         0x409A
 #define VAR_SE_MEGA_RING_STATE                           0x409B // Super Emerald: 1 = Steven waits outside Petalburg Gym, 2 = Mega Ring received
 #define VAR_ELITE_4_STATE                                0x409C
-#define VAR_UNUSED_0x409D                                0x409D // Unused Var
+#define VAR_SE_KANTO_ARRIVAL                             0x409D // Super Emerald: 1 = Oak waits at the Vermilion dock, 2 = got the Kanto starter
 #define VAR_MOSSDEEP_SPACE_CENTER_STAIR_GUARD_STATE      0x409E
 #define VAR_MOSSDEEP_SPACE_CENTER_STATE                  0x409F
 #define VAR_SLATEPORT_HARBOR_STATE                       0x40A0

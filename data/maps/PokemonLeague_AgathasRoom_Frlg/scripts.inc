@@ -50,12 +50,12 @@ PokemonLeague_AgathasRoom_EventScript_Agatha::
 	famechecker FAMECHECKER_AGATHA, 0
 	famechecker FAMECHECKER_AGATHA, 4
 	famechecker FAMECHECKER_OAK, 4
-	call_if_unset FLAG_SYS_GAME_CLEAR, PokemonLeague_AgathasRoom_EventScript_Intro
-	call_if_set FLAG_SYS_GAME_CLEAR, PokemonLeague_AgathasRoom_EventScript_RematchIntro
+	call_if_unset FLAG_SE_KANTO_CHAMPION, PokemonLeague_AgathasRoom_EventScript_Intro
+	call_if_set FLAG_SE_KANTO_CHAMPION, PokemonLeague_AgathasRoom_EventScript_RematchIntro
 	setflag FLAG_TEMP_3
 	setflag FLAG_TEMP_5
-	call_if_unset FLAG_SFR_HOENN_GAME_CLEAR, PokemonLeague_AgathasRoom_EventScript_Battle
-	call_if_set FLAG_SFR_HOENN_GAME_CLEAR, PokemonLeague_AgathasRoom_EventScript_Rematch
+	call_if_unset FLAG_SE_KANTO_CHAMPION, PokemonLeague_AgathasRoom_EventScript_Battle
+	call_if_set FLAG_SE_KANTO_CHAMPION, PokemonLeague_AgathasRoom_EventScript_Rematch
 	clearflag FLAG_TEMP_5
 	goto PokemonLeague_AgathasRoom_EventScript_DefeatedAgatha
 	end
@@ -89,43 +89,38 @@ PokemonLeague_AgathasRoom_EventScript_DefeatedAgatha::
 	end
 
 PokemonLeague_AgathasRoom_Text_Intro::
-	.string "I am AGATHA of the ELITE FOUR.\p"
-	.string "I hear OAK's taken a lot of\n"
-	.string "interest in you, child.\p"
-	.string "That old duff was once tough and\n"
-	.string "handsome.\p"
-	.string "But that was decades ago.\n"
-	.string "He's a shadow of his former self.\p"
-	.string "Now he just wants to fiddle with\n"
-	.string "his POKéDEX.\p"
-	.string "He's wrong.\n"
-	.string "POKéMON are for battling!\p"
-	.string "{PLAYER}! I'll show you how a real\n"
-	.string "TRAINER battles!{PLAY_BGM}{MUS_RG_ENCOUNTER_GYM_LEADER}$"
+	.string "I am KAREN of the ELITE FOUR.\p"
+	.string "You're {PLAYER}?\n"
+	.string "How amusing.\p"
+	.string "I love DARK-type POKéMON.\p"
+	.string "I find their wild, tough image to\n"
+	.string "be so appealing.\p"
+	.string "And they're so strong.\p"
+	.string "Think you can take them?\n"
+	.string "Just try to entertain me.\p"
+	.string "Let's go.{PLAY_BGM}{MUS_RG_ENCOUNTER_GYM_LEADER}$"
 
 PokemonLeague_AgathasRoom_Text_RematchIntro::
-	.string "I am AGATHA of the ELITE FOUR.\p"
-	.string "You're the child that OAK's taken\n"
-	.string "under his wing, aren't you?\p"
-	.string "That old duff was once tough and\n"
-	.string "handsome.\p"
-	.string "But that was decades ago.\n"
-	.string "He's a shadow of his former self.\p"
-	.string "Now he just wants to fiddle with\n"
-	.string "his POKéDEX.\p"
-	.string "He's wrong.\n"
-	.string "POKéMON are for battling!\p"
-	.string "{PLAYER}! I'll show you how a real\n"
-	.string "TRAINER battles!{PLAY_BGM}{MUS_RG_ENCOUNTER_GYM_LEADER}$"
+	.string "I am KAREN of the ELITE FOUR.\p"
+	.string "So, the CHAMPION has come back.\n"
+	.string "How amusing.\p"
+	.string "My DARK-type POKéMON have grown\n"
+	.string "even tougher since our last battle.\p"
+	.string "Let's see if you can still keep up.\p"
+	.string "Let's go.{PLAY_BGM}{MUS_RG_ENCOUNTER_GYM_LEADER}$"
 
 PokemonLeague_AgathasRoom_Text_Defeat::
-	.string "Oh, my!\n"
-	.string "You're something special, child!$"
+	.string "Well, aren't you good.\n"
+	.string "I like that in a TRAINER.$"
 
 PokemonLeague_AgathasRoom_Text_PostBattle::
-	.string "You win!\p"
-	.string "I see what the old duff sees in\n"
-	.string "you now.\p"
-	.string "I have nothing else to say.\n"
-	.string "Run along now, child!$"
+	.string "Strong POKéMON.\p"
+	.string "Weak POKéMON.\p"
+	.string "That is only the selfish perception\n"
+	.string "of people.\p"
+	.string "Truly skilled TRAINERS should try\n"
+	.string "to win with their favorites.\p"
+	.string "I like your style.\n"
+	.string "You understand what's important.\p"
+	.string "Go on--the CHAMPION is waiting.$"
 

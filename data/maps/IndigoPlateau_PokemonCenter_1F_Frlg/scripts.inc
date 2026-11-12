@@ -6,7 +6,7 @@ IndigoPlateau_PokemonCenter_1F_Frlg_MapScripts::
 IndigoPlateau_PokemonCenter_1F_OnTransition::
 	setrespawn HEAL_LOCATION_INDIGO_PLATEAU
 	specialvar VAR_RESULT, IsNationalPokedexEnabled
-	call_if_eq VAR_RESULT, TRUE, IndigoPlateau_PokemonCenter_1F_EventScript_CheckBlockDoor
+	@ Super Emerald: the door to the League is never blocked
 	end
 
 IndigoPlateau_PokemonCenter_1F_EventScript_CheckBlockDoor::
@@ -18,7 +18,7 @@ IndigoPlateau_PokemonCenter_1F_EventScript_DoorGuard::
 	lock
 	faceplayer
 	specialvar VAR_RESULT, IsNationalPokedexEnabled
-	goto_if_eq VAR_RESULT, TRUE, IndigoPlateau_PokemonCenter_1F_EventScript_CheckSeviiIslandComplete
+	@ Super Emerald: the League is always open (no Lorelei absence in the Sevii Islands)
 	msgbox IndigoPlateau_PokemonCenter_1F_Text_FaceEliteFourGoodLuck
 	release
 	end
@@ -93,16 +93,12 @@ IndigoPlateau_PokemonCenter_1F_Text_LoreleiIsAbsentClosedForTimeBeing::
 	.string "closed for the time being.$"
 
 IndigoPlateau_PokemonCenter_1F_Text_AgathaWhuppedUs::
-	.string "AGATHA's GHOST-type POKéMON are\n"
-	.string "horrifically terrifying in toughness.\p"
-	.string "I took my FIGHTING-type POKéMON\n"
+	.string "KAREN's DARK-type POKéMON are\n"
+	.string "horrifically tough.\p"
+	.string "I took my PSYCHIC-type POKéMON\n"
 	.string "and raised them to the max.\p"
-	.string "I went at AGATHA feeling pretty\n"
-	.string "confident, but she whupped us.\p"
-	.string "That old lady's also got a really\n"
-	.string "short fuse, too.\p"
-	.string "It doesn't take anything to get\n"
-	.string "that scary lady hollering.$"
+	.string "But against DARK-type POKéMON,\n"
+	.string "they couldn't do a thing!$"
 
 IndigoPlateau_PokemonCenter_1F_Text_LancesCousinGymLeaderFarAway::
 	.string "Maybe becoming an ELITE FOUR\n"

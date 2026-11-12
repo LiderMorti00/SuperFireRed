@@ -665,4 +665,9 @@ const u16 gObjectEventPal_SfrTucker[] = INCGFX_U16("graphics/object_events/palet
 const u16 gObjectEventPal_SfrGreta[] = INCGFX_U16("graphics/object_events/palettes/sfr_hoenn/greta.pal", ".gbapal");
 const u16 gObjectEventPal_SfrSpenser[] = INCGFX_U16("graphics/object_events/palettes/sfr_hoenn/spenser.pal", ".gbapal");
 const u16 gObjectEventPal_SfrPlayerFx[] = INCGFX_U16("graphics/object_events/palettes/sfr_hoenn/player_field_effects.pal", ".gbapal");
+// Super Emerald: HGSS-era Kanto
+const u16 gObjectEventPal_SeJanine[] = INCGFX_U16("graphics/object_events/palettes/se/janine.pal", ".gbapal");
+const u16 gObjectEventPal_SeKaren[] = INCGFX_U16("graphics/object_events/palettes/se/karen.pal", ".gbapal");
+const u16 gObjectEventPic_Janine[] = INCGFX_U16("graphics/object_events/pics/people/janine.png", ".4bpp", "-mwidth 2 -mheight 4");
+const u16 gObjectEventPic_Karen[] = INCGFX_U16("graphics/object_events/pics/people/karen.png", ".4bpp", "-mwidth 2 -mheight 4");
 // Super Fire Red: FRHoenn end

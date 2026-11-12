@@ -6,10 +6,6 @@ ViridianCity_Gym_EventScript_Giovanni::
 	trainerbattle_single TRAINER_LEADER_GIOVANNI, ViridianCity_Gym_Text_GiovanniIntro, ViridianCity_Gym_Text_GiovanniDefeat, ViridianCity_Gym_EventScript_DefeatedGiovanni, NO_MUSIC
 	goto_if_unset FLAG_GOT_TM26_FROM_GIOVANNI, ViridianCity_Gym_EventScript_GiveTM26
 	msgbox ViridianCity_Gym_Text_GiovanniPostBattle
-	closemessage
-	fadescreen FADE_TO_BLACK
-	removeobject LOCALID_VIRIDIAN_GIOVANNI
-	fadescreen FADE_FROM_BLACK
 	release
 	end
 
@@ -17,8 +13,7 @@ ViridianCity_Gym_EventScript_DefeatedGiovanni::
 	famechecker FAMECHECKER_GIOVANNI, 3
 	setflag FLAG_HIDE_MISC_KANTO_ROCKETS
 	setflag FLAG_DEFEATED_LEADER_GIOVANNI
-	setflag FLAG_BADGE08_GET
-	setvar VAR_MAP_SCENE_ROUTE22, 3
+	setflag FLAG_BADGE16_GET
 	set_gym_trainers_frlg 8
 	goto ViridianCity_Gym_EventScript_GiveTM26
 	end
@@ -94,7 +89,7 @@ ViridianCity_Gym_EventScript_GymGuyPostVictory::
 
 ViridianCity_Gym_EventScript_GymStatue::
 	lockall
-	goto_if_set FLAG_BADGE08_GET, ViridianCity_Gym_EventScript_GymStatuePostVictory
+	goto_if_set FLAG_BADGE16_GET, ViridianCity_Gym_EventScript_GymStatuePostVictory
 	msgbox ViridianCity_Gym_Text_GymStatue
 	releaseall
 	end
@@ -105,55 +100,50 @@ ViridianCity_Gym_EventScript_GymStatuePostVictory::
 	end
 
 ViridianCity_Gym_Text_GiovanniIntro::
-	.string "Fwahahaha!\n"
-	.string "Welcome to my hideout!\p"
-	.string "It shall be so until I can restore\n"
-	.string "TEAM ROCKET to its former glory.\p"
-	.string "But, you have found me again.\n"
-	.string "So be it.\l"
-	.string "This time, I'm not holding back!\p"
-	.string "Once more, you shall face\n"
-	.string "GIOVANNI, the greatest TRAINER!{PLAY_BGM}{MUS_RG_ENCOUNTER_ROCKET}$"
+	.string "BLUE: Yo! Finally got here, huh?\p"
+	.string "I'm BLUE, the LEADER of this GYM.\n"
+	.string "I wasn't in the mood at CINNABAR,\l"
+	.string "but now I'm ready to battle you.\p"
+	.string "…You're telling me you conquered\n"
+	.string "all the GYMS in KANTO?\p"
+	.string "Heh! And the HOENN LEAGUE too?\n"
+	.string "Then don't hold back.\p"
+	.string "I'm going to show you why I was\n"
+	.string "once the CHAMPION!$"
 
 ViridianCity_Gym_Text_GiovanniDefeat::
-	.string "Ha!\n"
-	.string "That was a truly intense fight.\l"
-	.string "You have won!\p"
-	.string "As proof, here is the EARTHBADGE!\n"
+	.string "What?\n"
+	.string "How the heck did I lose to you?\p"
+	.string "…Tch, all right…\n"
+	.string "Here, take this--it's the EARTHBADGE.\n"
 	.string "{PAUSE_MUSIC}{PLAY_BGM}{MUS_OBTAIN_BADGE}{PAUSE 0xFE}{PAUSE 0x56}{RESUME_MUSIC}$"
 
 ViridianCity_Gym_Text_GiovanniPostBattle::
-	.string "Having lost in this fashion, \n"
-	.string "I can't face my followers.\l"
-	.string "I have betrayed their trust.\p"
-	.string "As of today, TEAM ROCKET is\n"
-	.string "finished forever!\p"
-	.string "As for myself, I shall dedicate\n"
-	.string "my life to training again.\p"
-	.string "Let us meet again someday!\n"
-	.string "Farewell!$"
+	.string "BLUE: …Listen, you.\p"
+	.string "You'd better not get too cocky just\n"
+	.string "because you beat me.\p"
+	.string "With all eight KANTO BADGES, you\n"
+	.string "can take on the POKéMON LEAGUE.\p"
+	.string "The CHAMPION there is RED.\n"
+	.string "He's the one guy I could never beat.\p"
+	.string "Go see for yourself how strong\n"
+	.string "he is!$"
 
 ViridianCity_Gym_Text_ExplainEarthBadgeTakeThis::
-	.string "The EARTHBADGE makes POKéMON of\n"
-	.string "any level obey without question.\p"
-	.string "It is evidence of your mastery as\n"
-	.string "a POKéMON TRAINER.\p"
+	.string "BLUE: The EARTHBADGE is proof that\n"
+	.string "you beat every GYM in KANTO.\p"
 	.string "With it, you can challenge the\n"
 	.string "POKéMON LEAGUE.\p"
-	.string "Also, take this TM.\p"
-	.string "Consider it a gift for your POKéMON\n"
-	.string "LEAGUE challenge.$"
+	.string "Here, take this TM too.$"
 
 ViridianCity_Gym_Text_ReceivedTM26FromGiovanni::
 	.string "{PLAYER} received TM26\n"
-	.string "from GIOVANNI.$"
+	.string "from BLUE.$"
 
 ViridianCity_Gym_Text_ExplainTM26::
-	.string "TM26 contains EARTHQUAKE.\p"
-	.string "It is a powerful attack that causes\n"
-	.string "a massive tremor.\p"
-	.string "I made it when I ran the GYM here,\n"
-	.string "far too long ago… $"
+	.string "BLUE: TM26 contains EARTHQUAKE.\p"
+	.string "It's a powerful attack that causes\n"
+	.string "a massive tremor.$"
 
 ViridianCity_Gym_Text_YouDoNotHaveSpace::
 	.string "You do not have space for this!$"
@@ -251,27 +241,25 @@ ViridianCity_Gym_Text_SamuelPostBattle::
 ViridianCity_Gym_Text_GymGuyAdvice::
 	.string "Yo!\n"
 	.string "Champ in the making!\p"
-	.string "Even I don't know the VIRIDIAN\n"
-	.string "LEADER's identity.\p"
-	.string "But one thing's certain.\n"
-	.string "This will be the toughest of all\l"
-	.string "the GYM LEADERS.\p"
-	.string "Also, I heard that the TRAINERS\n"
-	.string "here like GROUND-type POKéMON.$"
+	.string "The VIRIDIAN LEADER is BLUE,\n"
+	.string "PROF. OAK's grandson.\p"
+	.string "He was the CHAMPION once, so this\n"
+	.string "will be the toughest of all the\l"
+	.string "GYM LEADERS.$"
 
 ViridianCity_Gym_Text_GymGuyPostVictory::
-	.string "Blow me away! GIOVANNI was the\n"
-	.string "GYM LEADER of VIRIDIAN?$"
+	.string "Blow me away! You beat BLUE, the\n"
+	.string "former CHAMPION!$"
 
 ViridianCity_Gym_Text_GymStatue::
 	.string "VIRIDIAN POKéMON GYM\n"
-	.string "LEADER: ?\p"
+	.string "LEADER: BLUE\p"
 	.string "WINNING TRAINERS:\n"
-	.string "{RIVAL}$"
+	.string "RED$"
 
 ViridianCity_Gym_Text_GymStatuePlayerWon::
 	.string "VIRIDIAN POKéMON GYM\n"
-	.string "LEADER: GIOVANNI\p"
+	.string "LEADER: BLUE\p"
 	.string "WINNING TRAINERS:\n"
-	.string "{RIVAL}, {PLAYER}$"
+	.string "RED, {PLAYER}$"
 

@@ -203,7 +203,7 @@ VermilionCity_Gym_EventScript_SetBeamsOn::
 
 VermilionCity_Gym_EventScript_LtSurge::
 	famechecker FAMECHECKER_LTSURGE, FCPICKSTATE_COLORED, UpdatePickStateFromSpecialVar8005
-	goto_if_set FLAG_SFR_HOENN_GAME_CLEAR, SFR_EventScript_LtSurgeRematch @ Super Fire Red
+	goto_if_set FLAG_SE_KANTO_CHAMPION, SFR_EventScript_LtSurgeRematch @ Super Emerald: after beating Red
 	trainerbattle_single TRAINER_LEADER_LT_SURGE, VermilionCity_Gym_Text_LtSurgeIntro, VermilionCity_Gym_Text_LtSurgeDefeat, VermilionCity_Gym_EventScript_DefeatedLtSurge, NO_MUSIC
 	goto_if_unset FLAG_GOT_TM34_FROM_SURGE, VermilionCity_Gym_EventScript_GiveTM34
 	msgbox VermilionCity_Gym_Text_LtSurgePostBattle
@@ -215,7 +215,7 @@ VermilionCity_Gym_EventScript_DefeatedLtSurge::
 	call_if_unset FLAG_GOT_HM05, VermilionCity_Gym_EventScript_ShowOaksAide
 	clearflag FLAG_HIDE_FAME_CHECKER_LT_SURGE_JOURNAL
 	setflag FLAG_DEFEATED_LT_SURGE
-	setflag FLAG_BADGE03_GET
+	setflag FLAG_BADGE11_GET
 	set_gym_trainers_frlg 3
 	goto VermilionCity_Gym_EventScript_GiveTM34
 	end
@@ -276,7 +276,7 @@ VermilionCity_Gym_EventScript_GymGuyPostVictory::
 
 VermilionCity_Gym_EventScript_GymStatue::
 	lockall
-	goto_if_set FLAG_BADGE03_GET, VermilionCity_Gym_EventScript_GymStatuePostVictory
+	goto_if_set FLAG_BADGE11_GET, VermilionCity_Gym_EventScript_GymStatuePostVictory
 	msgbox VermilionCity_Gym_Text_GymStatue
 	releaseall
 	end

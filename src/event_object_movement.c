@@ -529,6 +529,8 @@ static const struct SpritePalette sObjectEventSpritePalettes[] = {
     {gObjectEventPal_SfrGreta, OBJ_EVENT_PAL_TAG_SFR_GRETA},
     {gObjectEventPal_SfrSpenser, OBJ_EVENT_PAL_TAG_SFR_SPENSER},
     {gObjectEventPal_SfrPlayerFx, OBJ_EVENT_PAL_TAG_SFR_PLAYER_FX},
+    {gObjectEventPal_SeJanine, OBJ_EVENT_PAL_TAG_SE_JANINE},
+    {gObjectEventPal_SeKaren, OBJ_EVENT_PAL_TAG_SE_KAREN},
 // Super Fire Red: FRHoenn end
     {gObjectEventPal_Npc1,                  OBJ_EVENT_PAL_TAG_NPC_1},
     {gObjectEventPal_Npc2,                  OBJ_EVENT_PAL_TAG_NPC_2},

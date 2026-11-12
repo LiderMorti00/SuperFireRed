@@ -54,12 +54,12 @@ PokemonLeague_LoreleisRoom_EventScript_Lorelei::
 	goto_if_set FLAG_DEFEATED_LORELEI, PokemonLeague_LoreleisRoom_EventScript_PostBattle
 	famechecker FAMECHECKER_LORELEI, 0
 	famechecker FAMECHECKER_LORELEI, 1
-	call_if_unset FLAG_SFR_HOENN_GAME_CLEAR, PokemonLeague_LoreleisRoom_EventScript_Intro
-	call_if_set FLAG_SFR_HOENN_GAME_CLEAR, PokemonLeague_LoreleisRoom_EventScript_RematchIntro
+	call_if_unset FLAG_SE_KANTO_CHAMPION, PokemonLeague_LoreleisRoom_EventScript_Intro
+	call_if_set FLAG_SE_KANTO_CHAMPION, PokemonLeague_LoreleisRoom_EventScript_RematchIntro
 	setflag FLAG_TEMP_3
 	setflag FLAG_TEMP_5
-	call_if_unset FLAG_SFR_HOENN_GAME_CLEAR, PokemonLeague_LoreleisRoom_EventScript_Battle
-	call_if_set FLAG_SFR_HOENN_GAME_CLEAR, PokemonLeague_LoreleisRoom_EventScript_Rematch
+	call_if_unset FLAG_SE_KANTO_CHAMPION, PokemonLeague_LoreleisRoom_EventScript_Battle
+	call_if_set FLAG_SE_KANTO_CHAMPION, PokemonLeague_LoreleisRoom_EventScript_Rematch
 	clearflag FLAG_TEMP_5
 	goto PokemonLeague_LoreleisRoom_EventScript_DefeatedLorelei
 	end
@@ -93,35 +93,36 @@ PokemonLeague_LoreleisRoom_EventScript_DefeatedLorelei::
 	end
 
 PokemonLeague_LoreleisRoom_Text_Intro::
-	.string "Welcome to the POKéMON LEAGUE.\p"
-	.string "I am LORELEI of the ELITE FOUR.\p"
-	.string "No one can best me when it comes\n"
-	.string "to icy POKéMON.\p"
-	.string "Freezing moves are powerful.\p"
-	.string "Your POKéMON will be at my mercy\n"
-	.string "when they are frozen solid.\p"
-	.string "Hahaha!\n"
-	.string "Are you ready?{PLAY_BGM}{MUS_RG_ENCOUNTER_GYM_LEADER}$"
+	.string "Fwahahahaha!\p"
+	.string "I am KOGA of the ELITE FOUR.\p"
+	.string "I live in shadows, a ninja!\p"
+	.string "My intricate style will confound\n"
+	.string "and destroy you!\p"
+	.string "Confusion, sleep, poison…\n"
+	.string "Prepare to be the victim of my\l"
+	.string "sinister technique!\p"
+	.string "Fwahahahaha!\n"
+	.string "POKéMON is not merely about brute\l"
+	.string "force--you shall see soon enough!{PLAY_BGM}{MUS_RG_ENCOUNTER_GYM_LEADER}$"
 
 PokemonLeague_LoreleisRoom_Text_RematchIntro::
-	.string "Welcome to the POKéMON LEAGUE.\p"
-	.string "I, LORELEI of the ELITE FOUR,\n"
-	.string "have returned!\p"
-	.string "You know how it goes.\n"
-	.string "No one can best me when it comes\l"
-	.string "to icy POKéMON.\p"
-	.string "Freezing moves are powerful.\p"
-	.string "Your POKéMON will be at my mercy\n"
-	.string "when they are frozen solid.\p"
-	.string "Hahaha!\n"
-	.string "Are you ready?{PLAY_BGM}{MUS_RG_ENCOUNTER_GYM_LEADER}$"
+	.string "Fwahahahaha!\p"
+	.string "So, the CHAMPION returns to face\n"
+	.string "KOGA of the ELITE FOUR!\p"
+	.string "My daughter JANINE told me of\n"
+	.string "your battle in FUCHSIA.\p"
+	.string "Now it is my turn.\n"
+	.string "Prepare yourself!{PLAY_BGM}{MUS_RG_ENCOUNTER_GYM_LEADER}$"
 
 PokemonLeague_LoreleisRoom_Text_Defeat::
-	.string "…Things shouldn't be this way!$"
+	.string "Ah!\n"
+	.string "You have proven your worth!$"
 
 PokemonLeague_LoreleisRoom_Text_PostBattle::
-	.string "You're better than I thought.\n"
-	.string "Go on ahead.\p"
-	.string "You only got a taste of the\n"
-	.string "POKéMON LEAGUE's power.$"
+	.string "I subjected you to everything I\n"
+	.string "could muster.\p"
+	.string "But my efforts failed.\n"
+	.string "I must hone my skills.\p"
+	.string "Go on to the next room, and put\n"
+	.string "your abilities to the test!$"
 

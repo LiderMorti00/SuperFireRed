@@ -333,6 +333,8 @@ extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_TownMap;
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Pokedex;
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_CuttableTreeFrlg;
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_BreakableRockFrlg;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Janine;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Karen;
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_PushableBoulderFrlg;
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_FossilFrlg;
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Ruby;
@@ -738,6 +740,8 @@ const struct ObjectEventGraphicsInfo *const gObjectEventGraphicsInfoPointers[NUM
     [OBJ_EVENT_GFX_POKEDEX]                  = &gObjectEventGraphicsInfo_Pokedex,
     [OBJ_EVENT_GFX_CUTTABLE_TREE_FRLG]       = &gObjectEventGraphicsInfo_CuttableTreeFrlg,
     [OBJ_EVENT_GFX_BREAKABLE_ROCK_FRLG]      = &gObjectEventGraphicsInfo_BreakableRockFrlg,
+    [OBJ_EVENT_GFX_JANINE]                   = &gObjectEventGraphicsInfo_Janine,
+    [OBJ_EVENT_GFX_KAREN]                    = &gObjectEventGraphicsInfo_Karen,
     [OBJ_EVENT_GFX_PUSHABLE_BOULDER_FRLG]    = &gObjectEventGraphicsInfo_PushableBoulderFrlg,
     [OBJ_EVENT_GFX_FOSSIL_FRLG]              = &gObjectEventGraphicsInfo_FossilFrlg,
     [OBJ_EVENT_GFX_RUBY]                     = &gObjectEventGraphicsInfo_Ruby,

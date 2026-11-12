@@ -4167,26 +4167,38 @@ Level: 41
 IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
 
 === TRAINER_LEADER_GIOVANNI ===
-Name: GIOVANNI
+Name: BLUE
 Class: Leader Frlg
-Pic: Leader Giovanni Frlg
+Pic: Champion Rival Frlg
 Gender: Male
-Music: Dangerous
-Items: Hyper Potion / Hyper Potion / Full Heal
+Music: Serious
+Items: Full Restore / Full Restore
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
-Dugtrio
-Level: 49
+Pidgeot
+Level: 64
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 
-Nidoqueen
-Level: 49
-
-Nidoking
-Level: 49
+Alakazam
+Level: 63
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 
 Rhydon
-Level: 50
+Level: 64
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+
+Gyarados
+Level: 65
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+
+Exeggutor
+Level: 65
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+
+Arcanine
+Level: 65
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 
 === TRAINER_TEAM_ROCKET_GRUNT ===
 Name: GRUNT
@@ -5653,30 +5665,35 @@ IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Double Team
 
 === TRAINER_ELITE_FOUR_LORELEI ===
-Name: LORELEI
+Name: KOGA
 Class: Elite Four Frlg
-Pic: Elite Four Lorelei Frlg
+Pic: Leader Koga Frlg
 Gender: Male
 Music: Serious
-Items: Full Restore / Full Restore
+Items: Full Restore / Full Restore / Full Restore
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 Mugshot: Purple
 
-Dewgong
-Level: 51
+Ariados
+Level: 65
+IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
 
-Jynx
-Level: 51
+Venomoth
+Level: 66
+IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
 
-Cloyster
-Level: 51
+Forretress
+Level: 68
+IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
 
-Slowbro
-Level: 51
+Muk
+Level: 67
+IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
 
-Lapras
-Level: 52
+Crobat
+Level: 69
+IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
 
 === TRAINER_ELITE_FOUR_BRUNO ===
 Name: BRUNO
@@ -5684,51 +5701,61 @@ Class: Elite Four Frlg
 Pic: Elite Four Bruno Frlg
 Gender: Male
 Music: Serious
-Items: Full Restore / Full Restore
+Items: Full Restore / Full Restore / Full Restore
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 Mugshot: Green
 
-Onix
-Level: 52
+Hitmontop
+Level: 67
+IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
 
 Hitmonlee
-Level: 52
+Level: 67
+IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
 
 Hitmonchan
-Level: 52
+Level: 67
+IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
 
-Poliwrath
-Level: 52
+Onix
+Level: 68
+IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
 
 Machamp
-Level: 53
+Level: 71
+IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
 
 === TRAINER_ELITE_FOUR_AGATHA ===
-Name: AGATHA
+Name: KAREN
 Class: Elite Four Frlg
-Pic: Elite Four Agatha Frlg
-Gender: Male
+Pic: Elite Four Karen
+Gender: Female
 Music: Serious
-Items: Full Restore / Full Restore
+Items: Full Restore / Full Restore / Full Restore
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 Mugshot: Pink
 
-Arbok
-Level: 53
+Umbreon
+Level: 67
+IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+
+Vileplume
+Level: 67
+IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+
+Murkrow
+Level: 69
+IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
 
 Gengar
-Level: 53
+Level: 70
+IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
 
-Golbat
-Level: 53
-
-Weezing
-Level: 53
-
-Gengar
-Level: 54
+Houndoom
+Level: 72
+IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
 
 === TRAINER_ELITE_FOUR_LANCE ===
 Name: LANCE
@@ -5736,25 +5763,34 @@ Class: Elite Four Frlg
 Pic: Elite Four Lance Frlg
 Gender: Male
 Music: Serious
-Items: Full Restore / Full Restore
+Items: Full Restore / Full Restore / Full Restore
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 Mugshot: Blue
 
-Seadra
-Level: 54
-
-Aerodactyl
-Level: 54
-
 Gyarados
-Level: 54
-
-Charizard
-Level: 54
+Level: 69
+IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
 
 Dragonite
-Level: 55
+Level: 72
+IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+
+Dragonite
+Level: 72
+IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+
+Aerodactyl
+Level: 71
+IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+
+Charizard
+Level: 71
+IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+
+Dragonite
+Level: 75
+IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
 
 === TRAINER_LEADER_BROCK ===
 Name: BROCK
@@ -5762,14 +5798,29 @@ Class: Leader Frlg
 Pic: Leader Brock Frlg
 Gender: Male
 Music: Serious
+Items: Full Restore / Full Restore
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
-Geodude
-Level: 11
+Graveler
+Level: 58
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+
+Rhyhorn
+Level: 58
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+
+Omastar
+Level: 59
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+
+Kabutops
+Level: 59
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 
 Onix
-Level: 12
+Level: 59
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 
 === TRAINER_LEADER_MISTY ===
 Name: MISTY
@@ -5777,15 +5828,25 @@ Class: Leader Frlg
 Pic: Leader Misty Frlg
 Gender: Male
 Music: Cute
-Items: Super Potion
+Items: Full Restore / Full Restore
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
-Psyduck
-Level: 18
+Golduck
+Level: 59
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+
+Quagsire
+Level: 59
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+
+Lapras
+Level: 59
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 
 Starmie
-Level: 19
+Level: 61
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 
 === TRAINER_LEADER_LT_SURGE ===
 Name: LT. SURGE
@@ -5793,18 +5854,29 @@ Class: Leader Frlg
 Pic: Leader Lt Surge Frlg
 Gender: Male
 Music: Serious
-Items: Super Potion / Full Heal
+Items: Full Restore / Full Restore
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
-Voltorb
-Level: 25
-
-Magnemite
-Level: 25
-
 Raichu
-Level: 26
+Level: 60
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+
+Electrode
+Level: 58
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+
+Magneton
+Level: 58
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+
+Electrode
+Level: 58
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+
+Electabuzz
+Level: 60
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 
 === TRAINER_LEADER_ERIKA ===
 Name: ERIKA
@@ -5812,40 +5884,55 @@ Class: Leader Frlg
 Pic: Leader Erika Frlg
 Gender: Male
 Music: Cute
-Items: Hyper Potion / Full Heal
+Items: Full Restore / Full Restore
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Tangela
-Level: 33
+Level: 59
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 
-Weepinbell
-Level: 33
+Jumpluff
+Level: 58
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 
-Vileplume
-Level: 34
+Victreebel
+Level: 60
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+
+Bellossom
+Level: 60
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 
 === TRAINER_LEADER_KOGA ===
-Name: KOGA
+Name: JANINE
 Class: Leader Frlg
-Pic: Leader Koga Frlg
-Gender: Male
+Pic: Leader Janine
+Gender: Female
 Music: Serious
-Items: Hyper Potion / Hyper Potion / Full Heal
+Items: Full Restore / Full Restore
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
+Crobat
+Level: 56
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+
 Weezing
-Level: 43
+Level: 56
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 
-Muk
-Level: 43
+Ariados
+Level: 55
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 
-Golbat
-Level: 43
+Ariados
+Level: 55
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 
 Venomoth
-Level: 44
+Level: 57
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 
 === TRAINER_LEADER_BLAINE ===
 Name: BLAINE
@@ -5853,21 +5940,21 @@ Class: Leader Frlg
 Pic: Leader Blaine Frlg
 Gender: Male
 Music: Serious
-Items: Hyper Potion / Hyper Potion / Full Heal
+Items: Full Restore / Full Restore
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
+Magcargo
+Level: 60
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+
 Magmar
-Level: 47
+Level: 60
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 
 Rapidash
-Level: 47
-
-Ninetales
-Level: 47
-
-Arcanine
-Level: 48
+Level: 62
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 
 === TRAINER_LEADER_SABRINA ===
 Name: SABRINA
@@ -5875,21 +5962,21 @@ Class: Leader Frlg
 Pic: Leader Sabrina Frlg
 Gender: Male
 Music: Cute
-Items: Hyper Potion / Hyper Potion / Full Heal
+Items: Full Restore / Full Restore
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
-Mr Mime
-Level: 43
+Espeon
+Level: 60
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 
-Slowbro
-Level: 43
-
-Jynx
-Level: 43
+Mr. Mime
+Level: 60
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 
 Alakazam
-Level: 44
+Level: 61
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 
 === TRAINER_GENTLEMAN_THOMAS ===
 Name: THOMAS
@@ -6388,9 +6475,9 @@ IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
 - Scary Face
 
 === TRAINER_CHAMPION_FIRST_SQUIRTLE ===
-Name: TERRY
+Name: RED
 Class: Champion Frlg
-Pic: Champion Rival Frlg
+Pic: Red
 Gender: Male
 Music: Serious
 Items: Full Restore / Full Restore / Full Restore / Full Restore
@@ -6398,58 +6485,34 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 Mugshot: Yellow
 
-Pidgeot
-Level: 59
+Pikachu
+Level: 80
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Aerial Ace
-- Feather Dance
-- Sand Attack
-- Whirlwind
 
-Alakazam
-Level: 57
+Espeon
+Level: 72
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Psychic
-- Future Sight
-- Recover
-- Reflect
 
-Rhydon
-Level: 59
+Snorlax
+Level: 74
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Take Down
-- Earthquake
-- Rock Tomb
-- Scary Face
 
-Arcanine
-Level: 59
+Venusaur
+Level: 76
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Extreme Speed
-- Flamethrower
-- Roar
-- Bite
 
-Exeggutor
-Level: 61
+Charizard
+Level: 76
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Giga Drain
-- Egg Bomb
-- Sleep Powder
-- Light Screen
 
-Blastoise @ Sitrus Berry
-Level: 63
+Blastoise
+Level: 76
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Hydro Pump
-- Rain Dance
-- Skull Bash
-- Bite
 
 === TRAINER_CHAMPION_FIRST_BULBASAUR ===
-Name: TERRY
+Name: RED
 Class: Champion Frlg
-Pic: Champion Rival Frlg
+Pic: Red
 Gender: Male
 Music: Serious
 Items: Full Restore / Full Restore / Full Restore / Full Restore
@@ -6457,58 +6520,34 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 Mugshot: Yellow
 
-Pidgeot
-Level: 59
+Pikachu
+Level: 80
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Aerial Ace
-- Feather Dance
-- Sand Attack
-- Whirlwind
 
-Alakazam
-Level: 57
+Espeon
+Level: 72
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Psychic
-- Future Sight
-- Recover
-- Reflect
 
-Rhydon
-Level: 59
+Snorlax
+Level: 74
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Take Down
-- Earthquake
-- Rock Tomb
-- Scary Face
 
-Gyarados
-Level: 59
+Venusaur
+Level: 76
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Hydro Pump
-- Dragon Rage
-- Bite
-- Thrash
 
-Arcanine
-Level: 61
+Charizard
+Level: 76
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Extreme Speed
-- Flamethrower
-- Roar
-- Bite
 
-Venusaur @ Sitrus Berry
-Level: 63
+Blastoise
+Level: 76
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Solar Beam
-- Synthesis
-- Sunny Day
-- Growth
 
 === TRAINER_CHAMPION_FIRST_CHARMANDER ===
-Name: TERRY
+Name: RED
 Class: Champion Frlg
-Pic: Champion Rival Frlg
+Pic: Red
 Gender: Male
 Music: Serious
 Items: Full Restore / Full Restore / Full Restore / Full Restore
@@ -6516,53 +6555,29 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 Mugshot: Yellow
 
-Pidgeot
-Level: 59
+Pikachu
+Level: 80
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Aerial Ace
-- Feather Dance
-- Sand Attack
-- Whirlwind
 
-Alakazam
-Level: 57
+Espeon
+Level: 72
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Psychic
-- Future Sight
-- Recover
-- Reflect
 
-Rhydon
-Level: 59
+Snorlax
+Level: 74
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Take Down
-- Earthquake
-- Rock Tomb
-- Scary Face
 
-Exeggutor
-Level: 59
+Venusaur
+Level: 76
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Giga Drain
-- Egg Bomb
-- Sleep Powder
-- Light Screen
 
-Gyarados
-Level: 61
+Charizard
+Level: 76
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Hydro Pump
-- Dragon Rage
-- Bite
-- Thrash
 
-Charizard @ Sitrus Berry
-Level: 63
+Blastoise
+Level: 76
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Fire Blast
-- Aerial Ace
-- Slash
-- Fire Spin
 
 === TRAINER_CHANNELER_PATRICIA ===
 Name: PATRICIA
@@ -11940,69 +11955,35 @@ Level: 49
 IVs: 9 HP / 9 Atk / 9 Def / 9 SpA / 9 SpD / 9 Spe
 
 === TRAINER_ELITE_FOUR_LORELEI_2 ===
-Name: LORELEI
+Name: KOGA
 Class: Elite Four Frlg
-Pic: Elite Four Lorelei Frlg
+Pic: Leader Koga Frlg
 Gender: Male
 Music: Serious
-Items: Full Restore / Full Restore
+Items: Full Restore / Full Restore / Full Restore
 Double Battle: No
 AI: Smart Trainer
 Mugshot: Purple
 
-Dewgong @ Leftovers
-Level: 80
-Ability: Thick Fat
+Ariados
+Level: 70
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Ice Beam
-- Surf
-- Encore
-- Perish Song
 
-Cloyster @ Focus Sash
-Level: 81
-Ability: Skill Link
+Venomoth
+Level: 71
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Icicle Spear
-- Rock Blast
-- Ice Shard
-- Shell Smash
 
-Jynx @ Life Orb
-Level: 81
-Ability: Dry Skin
+Forretress
+Level: 73
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Ice Beam
-- Psychic
-- Focus Blast
-- Lovely Kiss
 
-Mamoswine @ Never-Melt Ice
-Level: 82
-Ability: Thick Fat
+Muk
+Level: 72
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Icicle Crash
-- Earthquake
-- Ice Shard
-- Stone Edge
 
-Glalie @ Glalitite
-Level: 83
-Ability: Inner Focus
+Crobat
+Level: 74
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Frost Breath
-- Earthquake
-- Crunch
-- Explosion
-
-Lapras @ Sitrus Berry
-Level: 85
-Ability: Water Absorb
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Freeze-Dry
-- Hydro Pump
-- Thunderbolt
-- Psychic
 
 === TRAINER_ELITE_FOUR_BRUNO_2 ===
 Name: BRUNO
@@ -12010,129 +11991,61 @@ Class: Elite Four Frlg
 Pic: Elite Four Bruno Frlg
 Gender: Male
 Music: Serious
-Items: Full Restore / Full Restore
+Items: Full Restore / Full Restore / Full Restore
 Double Battle: No
 AI: Smart Trainer
 Mugshot: Green
 
-Hitmonlee @ Life Orb
-Level: 80
-Ability: Reckless
+Hitmontop
+Level: 72
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- High Jump Kick
-- Knock Off
-- Stone Edge
-- Mach Punch
 
-Hitmonchan @ Expert Belt
-Level: 80
-Ability: Iron Fist
+Hitmonlee
+Level: 72
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Drain Punch
-- Ice Punch
-- Thunder Punch
-- Mach Punch
 
-Poliwrath @ Leftovers
-Level: 81
-Ability: Water Absorb
+Hitmonchan
+Level: 72
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Waterfall
-- Close Combat
-- Ice Punch
-- Bulk Up
 
-Heracross @ Flame Orb
-Level: 82
-Ability: Guts
+Onix
+Level: 73
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Close Combat
-- Megahorn
-- Facade
-- Stone Edge
 
-Lucario @ Lucarionite
-Level: 83
-Ability: Inner Focus
+Machamp
+Level: 76
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Aura Sphere
-- Flash Cannon
-- Dark Pulse
-- Vacuum Wave
-
-Machamp @ Flame Orb
-Level: 85
-Ability: Guts
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Dynamic Punch
-- Knock Off
-- Stone Edge
-- Bullet Punch
 
 === TRAINER_ELITE_FOUR_AGATHA_2 ===
-Name: AGATHA
+Name: KAREN
 Class: Elite Four Frlg
-Pic: Elite Four Agatha Frlg
-Gender: Male
+Pic: Elite Four Karen
+Gender: Female
 Music: Serious
-Items: Full Restore / Full Restore
+Items: Full Restore / Full Restore / Full Restore
 Double Battle: No
 AI: Smart Trainer
 Mugshot: Pink
 
-Banette @ Life Orb
-Level: 80
-Ability: Insomnia
+Umbreon
+Level: 72
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Shadow Claw
-- Gunk Shot
-- Knock Off
-- Shadow Sneak
 
-Mismagius @ Choice Specs
-Level: 81
-Ability: Levitate
+Vileplume
+Level: 72
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Shadow Ball
-- Dazzling Gleam
-- Thunderbolt
-- Energy Ball
 
-Dusknoir @ Leftovers
-Level: 81
-Ability: Pressure
+Murkrow
+Level: 74
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Shadow Punch
-- Earthquake
-- Ice Punch
-- Will-O-Wisp
 
-Chandelure @ Choice Scarf
-Level: 82
-Ability: Flash Fire
+Gengar
+Level: 75
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Shadow Ball
-- Fire Blast
-- Energy Ball
-- Psychic
 
-Aegislash @ Leftovers
-Level: 83
-Ability: Stance Change
+Houndoom
+Level: 77
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Shadow Ball
-- Flash Cannon
-- Sacred Sword
-- King's Shield
-
-Gengar @ Gengarite
-Level: 85
-Ability: Cursed Body
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Shadow Ball
-- Sludge Wave
-- Focus Blast
-- Hypnosis
 
 === TRAINER_ELITE_FOUR_LANCE_2 ===
 Name: LANCE
@@ -12140,69 +12053,39 @@ Class: Elite Four Frlg
 Pic: Elite Four Lance Frlg
 Gender: Male
 Music: Serious
-Items: Full Restore / Full Restore
+Items: Full Restore / Full Restore / Full Restore
 Double Battle: No
 AI: Smart Trainer
 Mugshot: Blue
 
-Kingdra @ Life Orb
+Gyarados
+Level: 74
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+
+Dragonite
+Level: 77
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+
+Dragonite
+Level: 77
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+
+Aerodactyl
+Level: 76
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+
+Charizard
+Level: 76
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+
+Dragonite
 Level: 80
-Ability: Swift Swim
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Draco Meteor
-- Hydro Pump
-- Ice Beam
-- Rain Dance
-
-Haxorus @ Lum Berry
-Level: 81
-Ability: Mold Breaker
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Outrage
-- Earthquake
-- Poison Jab
-- Dragon Dance
-
-Hydreigon @ Choice Specs
-Level: 82
-Ability: Levitate
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Draco Meteor
-- Dark Pulse
-- Flamethrower
-- Earth Power
-
-Garchomp @ Rocky Helmet
-Level: 83
-Ability: Rough Skin
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Dragon Claw
-- Earthquake
-- Stone Edge
-- Swords Dance
-
-Salamence @ Salamencite
-Level: 84
-Ability: Intimidate
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Double-Edge
-- Dragon Claw
-- Earthquake
-- Dragon Dance
-
-Dragonite @ Weakness Policy
-Level: 85
-Ability: Multiscale
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Outrage
-- Extreme Speed
-- Earthquake
-- Fire Punch
 
 === TRAINER_CHAMPION_REMATCH_SQUIRTLE ===
-Name: TERRY
+Name: RED
 Class: Champion Frlg
-Pic: Champion Rival Frlg
+Pic: Red
 Gender: Male
 Music: Serious
 Items: Full Restore / Full Restore / Full Restore / Full Restore
@@ -12210,64 +12093,34 @@ Double Battle: No
 AI: Smart Trainer
 Mugshot: Yellow
 
-Pidgeot @ Sharp Beak
-Level: 82
-Ability: Keen Eye
+Pikachu
+Level: 80
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Hurricane
-- Heat Wave
-- U-turn
-- Roost
 
-Alakazam @ Focus Sash
-Level: 82
-Ability: Magic Guard
+Espeon
+Level: 72
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Psychic
-- Shadow Ball
-- Focus Blast
-- Dazzling Gleam
 
-Exeggutor @ Sitrus Berry
-Level: 83
-Ability: Harvest
+Snorlax
+Level: 74
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Leaf Storm
-- Psyshock
-- Sludge Bomb
-- Trick Room
 
-Arcanine @ Charcoal
-Level: 83
-Ability: Intimidate
+Venusaur
+Level: 76
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Flare Blitz
-- Extreme Speed
-- Wild Charge
-- Close Combat
 
-Gyarados @ Lum Berry
-Level: 83
-Ability: Intimidate
+Charizard
+Level: 76
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Waterfall
-- Ice Fang
-- Earthquake
-- Dragon Dance
 
-Blastoise @ Blastoisinite
-Level: 85
-Ability: Torrent
+Blastoise
+Level: 76
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Water Pulse
-- Dark Pulse
-- Aura Sphere
-- Ice Beam
 
 === TRAINER_CHAMPION_REMATCH_BULBASAUR ===
-Name: TERRY
+Name: RED
 Class: Champion Frlg
-Pic: Champion Rival Frlg
+Pic: Red
 Gender: Male
 Music: Serious
 Items: Full Restore / Full Restore / Full Restore / Full Restore
@@ -12275,64 +12128,34 @@ Double Battle: No
 AI: Smart Trainer
 Mugshot: Yellow
 
-Pidgeot @ Sharp Beak
-Level: 82
-Ability: Keen Eye
+Pikachu
+Level: 80
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Hurricane
-- Heat Wave
-- U-turn
-- Roost
 
-Alakazam @ Focus Sash
-Level: 82
-Ability: Magic Guard
+Espeon
+Level: 72
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Psychic
-- Shadow Ball
-- Focus Blast
-- Dazzling Gleam
 
-Exeggutor @ Sitrus Berry
-Level: 83
-Ability: Harvest
+Snorlax
+Level: 74
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Leaf Storm
-- Psyshock
-- Sludge Bomb
-- Trick Room
 
-Arcanine @ Charcoal
-Level: 83
-Ability: Intimidate
+Venusaur
+Level: 76
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Flare Blitz
-- Extreme Speed
-- Wild Charge
-- Close Combat
 
-Gyarados @ Lum Berry
-Level: 83
-Ability: Intimidate
+Charizard
+Level: 76
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Waterfall
-- Ice Fang
-- Earthquake
-- Dragon Dance
 
-Venusaur @ Venusaurite
-Level: 85
-Ability: Overgrow
+Blastoise
+Level: 76
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Giga Drain
-- Sludge Bomb
-- Earth Power
-- Synthesis
 
 === TRAINER_CHAMPION_REMATCH_CHARMANDER ===
-Name: TERRY
+Name: RED
 Class: Champion Frlg
-Pic: Champion Rival Frlg
+Pic: Red
 Gender: Male
 Music: Serious
 Items: Full Restore / Full Restore / Full Restore / Full Restore
@@ -12340,59 +12163,29 @@ Double Battle: No
 AI: Smart Trainer
 Mugshot: Yellow
 
-Pidgeot @ Sharp Beak
-Level: 82
-Ability: Keen Eye
+Pikachu
+Level: 80
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Hurricane
-- Heat Wave
-- U-turn
-- Roost
 
-Alakazam @ Focus Sash
-Level: 82
-Ability: Magic Guard
+Espeon
+Level: 72
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Psychic
-- Shadow Ball
-- Focus Blast
-- Dazzling Gleam
 
-Exeggutor @ Sitrus Berry
-Level: 83
-Ability: Harvest
+Snorlax
+Level: 74
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Leaf Storm
-- Psyshock
-- Sludge Bomb
-- Trick Room
 
-Arcanine @ Charcoal
-Level: 83
-Ability: Intimidate
+Venusaur
+Level: 76
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Flare Blitz
-- Extreme Speed
-- Wild Charge
-- Close Combat
 
-Gyarados @ Lum Berry
-Level: 83
-Ability: Intimidate
+Charizard
+Level: 76
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Waterfall
-- Ice Fang
-- Earthquake
-- Dragon Dance
 
-Charizard @ Charizardite X
-Level: 85
-Ability: Blaze
+Blastoise
+Level: 76
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Flare Blitz
-- Dragon Claw
-- Earthquake
-- Dragon Dance
 
 === TRAINER_CUE_BALL_PAXTON ===
 Name: PAXTON

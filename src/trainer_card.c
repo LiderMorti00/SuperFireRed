@@ -31,6 +31,7 @@
 #include "constants/game_stat.h"
 #include "constants/battle_frontier.h"
 #include "constants/rgb.h"
+#include "regions.h"
 #include "constants/trainers.h"
 #include "constants/union_room.h"
 
@@ -562,7 +563,7 @@ static bool8 LoadCardGfx(void)
         }
         break;
     case 3:
-        if (sData->cardType != CARD_TYPE_FRLG)
+        if (sData->cardType != CARD_TYPE_FRLG && !IsInKanto())
             DecompressDataWithHeaderWram(sHoennTrainerCardBadges_Gfx, sData->badgeTiles);
         else
             DecompressDataWithHeaderWram(sKantoTrainerCardBadges_Gfx, sData->badgeTiles);
@@ -863,9 +864,10 @@ static void SetDataFromTrainerCard(void)
     if (sData->trainerCard.battleTowerWins || sData->trainerCard.battleTowerStraightWins)
         sData->hasBattleTowerWins++;
 
+    // Super Emerald: in Kanto the card shows the Kanto badges (FLAG_BADGE09-16)
     for (i = 0, badgeFlag = FLAG_BADGE01_GET; badgeFlag < FLAG_BADGE01_GET + NUM_BADGES; badgeFlag++, i++)
     {
-        if (FlagGet(badgeFlag))
+        if (FlagGet(IsInKanto() ? FLAG_BADGE09_GET + i : badgeFlag))
             sData->badgeCount[i]++;
     }
 }
@@ -1456,7 +1458,7 @@ static u8 SetCardBgsAndPals(void)
         if (sData->cardType != CARD_TYPE_FRLG)
         {
             LoadPalette(sHoennTrainerCardPals[sData->trainerCard.stars], BG_PLTT_ID(0), 3 * PLTT_SIZE_4BPP);
-            LoadPalette(sHoennTrainerCardBadges_Pal, BG_PLTT_ID(3), PLTT_SIZE_4BPP);
+            LoadPalette(IsInKanto() ? sKantoTrainerCardBadges_Pal : sHoennTrainerCardBadges_Pal, BG_PLTT_ID(3), PLTT_SIZE_4BPP);
             if (sData->trainerCard.gender != MALE)
                 LoadPalette(sHoennTrainerCardFemaleBg_Pal, BG_PLTT_ID(1), PLTT_SIZE_4BPP);
         }

@@ -1,4 +1,6 @@
 EventScript_SetDefeatedEliteFourFlagsVars::
+	setflag FLAG_SE_KANTO_CHAMPION @ Super Emerald: beat Red
+	setflag FLAG_HIDE_CERULEAN_CAVE_GUARD @ Super Emerald: as in HGSS, Cerulean Cave opens after Red
 	clearflag FLAG_HIDE_POSTGAME_GOSSIPERS
 	call EventScript_ResetEliteFour
 	special Script_UpdateTrainerFanClubGameClear

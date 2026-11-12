@@ -414,6 +414,8 @@ enum
     OBJ_EVENT_GFX_PUSHABLE_BOULDER_FRLG,
     OBJ_EVENT_GFX_CUTTABLE_TREE_FRLG,
     OBJ_EVENT_GFX_BREAKABLE_ROCK_FRLG,
+    OBJ_EVENT_GFX_JANINE, // Super Emerald
+    OBJ_EVENT_GFX_KAREN,  // Super Emerald
     NUM_OBJ_EVENT_GFX,
 };
 
@@ -646,6 +648,8 @@ enum
 #define OBJ_EVENT_PAL_TAG_SFR_GRETA              0x119C
 #define OBJ_EVENT_PAL_TAG_SFR_SPENSER            0x119D
 #define OBJ_EVENT_PAL_TAG_SFR_PLAYER_FX          0x119E // Super Emerald: surf blob, fly bird, warp arrow
+#define OBJ_EVENT_PAL_TAG_SE_JANINE              0x119F // Super Emerald
+#define OBJ_EVENT_PAL_TAG_SE_KAREN               0x11A0 // Super Emerald
 // Super Fire Red: FRHoenn end
 #define OBJ_EVENT_PAL_TAG_NONE                    0x11FF
 

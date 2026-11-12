@@ -16,7 +16,7 @@
   "object_events": [
     {
       "local_id": "LOCALID_KANTO_CHAMPIONS_ROOM_RIVAL",
-      "graphics_id": "OBJ_EVENT_GFX_BLUE",
+      "graphics_id": "OBJ_EVENT_GFX_RED",
       "x": 6,
       "y": 8,
       "elevation": 3,
