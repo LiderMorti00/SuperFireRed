@@ -1224,11 +1224,14 @@ Music: Dangerous
 Double Battle: No
 AI: Check Bad Move
 
-Voltorb
-Level: 10
+Grimer
+Level: 48
 
-Magnemite
-Level: 10
+Voltorb
+Level: 48
+
+Koffing
+Level: 48
 
 === TRAINER_SUPER_NERD_AIDAN ===
 Name: AIDAN
@@ -7756,20 +7759,10 @@ Double Battle: No
 AI: Check Bad Move
 
 Koffing
-Level: 37
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Haze
-- Smokescreen
-- Sludge
-- Tackle
+Level: 57
 
 Grimer
-Level: 37
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Acid Armor
-- Screech
-- Minimize
-- Sludge
+Level: 57
 
 === TRAINER_BIKER_GOON_2 ===
 Name: GOON
@@ -7781,12 +7774,7 @@ Double Battle: No
 AI: Check Bad Move
 
 Koffing
-Level: 38
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Haze
-- Smokescreen
-- Sludge
-- Tackle
+Level: 57
 
 === TRAINER_BIKER_GOON_3 ===
 Name: GOON
@@ -7798,8 +7786,7 @@ Double Battle: No
 AI: Check Bad Move
 
 Grimer
-Level: 38
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Level: 57
 
 === TRAINER_BUG_CATCHER_ANTHONY ===
 Name: DION
@@ -11546,9 +11533,8 @@ Double Battle: No
 AI: Check Bad Move
 
 Weezing
-Level: 39
-IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+Level: 57
 
 Muk
-Level: 39
-IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+Level: 57
+

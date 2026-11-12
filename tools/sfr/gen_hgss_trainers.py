@@ -49,6 +49,8 @@ SKIP_TRAINERS = ('Team Rocket', 'Rival', 'Blue', 'Brock', 'Misty', 'Lt.', 'Erika
                  'Giovanni', 'Cal', 'Will', 'Koga', 'Bruno', 'Karen', 'Lance', 'Red', 'Falkner', 'Bugsy', 'Whitney',
                  'Morty', 'Chuck', 'Jasmine', 'Pryce', 'Clair')
 SKIP_FRLG = re.compile(r'TRAINER_(LEADER|ELITE_FOUR|CHAMPION|RIVAL|TEAM_ROCKET|BOSS|SFR_|SE_)')
+EXTRA_LEFTOVERS = ['TRAINER_SUPER_NERD_MIGUEL', 'TRAINER_BIKER_GOON', 'TRAINER_BIKER_GOON_2', 'TRAINER_BIKER_GOON_3',
+                   'TRAINER_CUE_BALL_PAXTON']
 SPECIES_NAMES = {"Farfetch'd": 'Farfetchd', 'Mr. Mime': 'Mr Mime', 'Mime Jr.': 'Mime Jr', 'Nidoran♀': 'Nidoran F',
                  'Nidoran♂': 'Nidoran M', 'Porygon-Z': 'Porygon Z', 'Ho-Oh': 'Ho Oh'}
 
@@ -157,7 +159,7 @@ def main():
             if not cls:
                 log.append(f'{page}: unknown class for {r["trainer"]}')
                 continue
-            match = next((s for s in free if frlg_class(text, s) == CLASSES[cls][0]), None)
+            match = next((s for s in free if frlg_class(upstream, s) == CLASSES[cls][0]), None)
             if match:
                 free.remove(match)
                 plan[match] = (cls, name, r)
@@ -170,6 +172,8 @@ def main():
             plan[free.pop(0)] = (cls, name, r)
     # every other Fire Red trainer of Kanto and the Sevii Islands keeps its Fire Red team
     all_slots.update(frlg_slots([d for d in os.listdir('data/maps') if d.endswith('_Frlg')], party_ids))
+    # Fire Red trainers the label scan misses (long scripts, numbered names)
+    all_slots.update(EXTRA_LEFTOVERS)
     leftovers = sorted(all_slots - set(plan))
     # level spread
     hg_levels = [l for _, _, r in plan.values() for _, l in r['party']]
@@ -214,7 +218,7 @@ def main():
         mons = [(s.strip(), fr_lv(int(l))) for s, l in re.findall(r'^([^\n=-][^\n]*)\nLevel: (\d+)', up_blocks[tid].group(2), re.M)]
         for i, extra in enumerate([0, 3, 6, 9, 12]):
             t = tid if i == 0 else f'{tid}_{i + 1}'
-            if t in cur:
+            if t in cur and (i == 0 or t not in all_slots):
                 write(t, make_header(t, {}), mons, extra)
     open(PARTY, 'w').write(text)
     print(f'{len(plan)} Fire Red trainers became HGSS trainers, {len(leftovers)} keep their Fire Red team')

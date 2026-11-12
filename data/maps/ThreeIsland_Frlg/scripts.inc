@@ -548,3 +548,71 @@ ThreeIsland_Text_WhenDodouEvolvesGoingToPlayGame::
 ThreeIsland_Text_Doduo::
 	.string "DODUO: Gigiih!$"
 
+
+@ Super Emerald: the bikers stay on Three Island as ordinary trainers
+SE_ThreeIsland_EventScript_Biker1::
+	trainerbattle_single TRAINER_BIKER_GOON, SE_ThreeIsland_Text_Biker1Intro, SE_ThreeIsland_Text_Biker1Defeat
+	msgbox SE_ThreeIsland_Text_Biker1PostBattle, MSGBOX_AUTOCLOSE
+	end
+
+SE_ThreeIsland_EventScript_Biker2::
+	trainerbattle_single TRAINER_BIKER_GOON_2, SE_ThreeIsland_Text_Biker2Intro, SE_ThreeIsland_Text_Biker2Defeat
+	msgbox SE_ThreeIsland_Text_Biker2PostBattle, MSGBOX_AUTOCLOSE
+	end
+
+SE_ThreeIsland_EventScript_Biker3::
+	trainerbattle_single TRAINER_BIKER_GOON_3, SE_ThreeIsland_Text_Biker3Intro, SE_ThreeIsland_Text_Biker3Defeat
+	msgbox SE_ThreeIsland_Text_Biker3PostBattle, MSGBOX_AUTOCLOSE
+	end
+
+SE_ThreeIsland_EventScript_Paxton::
+	trainerbattle_single TRAINER_CUE_BALL_PAXTON, SE_ThreeIsland_Text_PaxtonIntro, SE_ThreeIsland_Text_PaxtonDefeat
+	msgbox SE_ThreeIsland_Text_PaxtonPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+SE_ThreeIsland_Text_Biker1Intro:
+	.string "We ride all the way from KANTO\n"
+	.string "just to race on these roads!\p"
+	.string "You look like a tough one.\n"
+	.string "Let's see what you've got!$"
+
+SE_ThreeIsland_Text_Biker1Defeat:
+	.string "Whoa! You're the real deal!$"
+
+SE_ThreeIsland_Text_Biker1PostBattle:
+	.string "The folks here weren't happy to see\n"
+	.string "us at first. We're behaving now.$"
+
+SE_ThreeIsland_Text_Biker2Intro:
+	.string "Hey, quit staring at my bike!\n"
+	.string "You want a battle or what?$"
+
+SE_ThreeIsland_Text_Biker2Defeat:
+	.string "Ugh… My POKéMON ran out of gas.$"
+
+SE_ThreeIsland_Text_Biker2PostBattle:
+	.string "This island's quiet, but the sea\n"
+	.string "breeze is great for riding.$"
+
+SE_ThreeIsland_Text_Biker3Intro:
+	.string "Out of the way!\n"
+	.string "…Unless you want to battle!$"
+
+SE_ThreeIsland_Text_Biker3Defeat:
+	.string "Wiped out!$"
+
+SE_ThreeIsland_Text_Biker3PostBattle:
+	.string "Our boss is up by the POKéMON\n"
+	.string "CENTER. He's tougher than me.$"
+
+SE_ThreeIsland_Text_PaxtonIntro:
+	.string "I'm PAXTON, leader of this gang.\p"
+	.string "You beat my boys? Then you'll\n"
+	.string "have to deal with me!$"
+
+SE_ThreeIsland_Text_PaxtonDefeat:
+	.string "Hmph… Fine. You win this time.$"
+
+SE_ThreeIsland_Text_PaxtonPostBattle:
+	.string "We'll keep it down on THREE ISLAND.\n"
+	.string "A trainer like you earns respect.$"
