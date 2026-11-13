@@ -160,15 +160,9 @@ void ResetMenuAndMonGlobals(void)
 
 void NewGameInitData(void)
 {
-#if TRUE // Super Fire Red
-    u8 rivalName[PLAYER_NAME_LENGTH + 1];
-#endif
     if (gSaveFileStatus == SAVE_STATUS_EMPTY || gSaveFileStatus == SAVE_STATUS_CORRUPT)
         RtcReset();
 
-#if TRUE // Super Fire Red
-    StringCopy(rivalName, gSaveBlock1Ptr->rivalName);
-#endif
     gDifferentSaveFile = TRUE;
     gSaveBlock2Ptr->encryptionKey = 0;
     ZeroPlayerPartyMons();
@@ -215,14 +209,13 @@ void NewGameInitData(void)
     // Super Fire Red: both regions start with their map flags set
     RunScriptImmediately(EventScript_ResetAllMapFlagsFrlg);
     RunScriptImmediately(EventScript_ResetAllMapFlags);
-#if TRUE // Super Fire Red
-        StringCopy(gSaveBlock1Ptr->rivalName, rivalName);
-    if (gSaveBlock1Ptr->rivalName[0] == EOS)
+    // Super Emerald: Kanto's rival, now Viridian Gym Leader, is always BLUE. (The old FRLG code
+    // copied the rival name into a local buffer first; on a new save that name is not terminated
+    // and overflowed the stack, resetting the game after Birch's intro.)
     {
-        static const u8 sText_Blue[] = _("BLUE"); // Super Emerald: Kanto's rival, now Viridian Gym Leader
+        static const u8 sText_Blue[] = _("BLUE");
         StringCopy(gSaveBlock1Ptr->rivalName, sText_Blue);
     }
-#endif
     ResetMiniGamesRecords();
     InitUnionRoomChatRegisteredTexts();
     InitLilycoveLady();
