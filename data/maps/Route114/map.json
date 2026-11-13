@@ -559,7 +559,7 @@
       "elevation": 3,
       "item": "ITEM_CARBOS",
       "flag": "FLAG_HIDDEN_ITEM_ROUTE_114_CARBOS",
-      "quantity": 0,
+      "quantity": 1,
       "underfoot": false
     },
     {
@@ -576,7 +576,7 @@
       "elevation": 3,
       "item": "ITEM_REVIVE",
       "flag": "FLAG_HIDDEN_ITEM_ROUTE_114_REVIVE",
-      "quantity": 0,
+      "quantity": 1,
       "underfoot": false
     }
   ],

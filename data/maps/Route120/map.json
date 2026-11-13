@@ -874,7 +874,7 @@
       "elevation": 3,
       "item": "ITEM_RARE_CANDY",
       "flag": "FLAG_HIDDEN_ITEM_ROUTE_120_RARE_CANDY_1",
-      "quantity": 0,
+      "quantity": 1,
       "underfoot": false
     },
     {
@@ -884,7 +884,7 @@
       "elevation": 3,
       "item": "ITEM_REVIVE",
       "flag": "FLAG_HIDDEN_ITEM_ROUTE_120_REVIVE",
-      "quantity": 0,
+      "quantity": 1,
       "underfoot": false
     },
     {
@@ -894,7 +894,7 @@
       "elevation": 3,
       "item": "ITEM_RARE_CANDY",
       "flag": "FLAG_HIDDEN_ITEM_ROUTE_120_RARE_CANDY_2",
-      "quantity": 0,
+      "quantity": 1,
       "underfoot": false
     },
     {
@@ -904,7 +904,7 @@
       "elevation": 3,
       "item": "ITEM_ZINC",
       "flag": "FLAG_HIDDEN_ITEM_ROUTE_120_ZINC",
-      "quantity": 0,
+      "quantity": 1,
       "underfoot": false
     },
     {

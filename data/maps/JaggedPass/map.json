@@ -256,7 +256,7 @@
       "elevation": 3,
       "item": "ITEM_FULL_HEAL",
       "flag": "FLAG_HIDDEN_ITEM_JAGGED_PASS_FULL_HEAL",
-      "quantity": 0,
+      "quantity": 1,
       "underfoot": false
     },
     {
@@ -266,7 +266,7 @@
       "elevation": 3,
       "item": "ITEM_GREAT_BALL",
       "flag": "FLAG_HIDDEN_ITEM_JAGGED_PASS_GREAT_BALL",
-      "quantity": 0,
+      "quantity": 1,
       "underfoot": false
     }
   ],

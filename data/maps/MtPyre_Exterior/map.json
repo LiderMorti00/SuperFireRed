@@ -122,7 +122,7 @@
       "elevation": 0,
       "item": "ITEM_ULTRA_BALL",
       "flag": "FLAG_HIDDEN_ITEM_MT_PYRE_EXTERIOR_ULTRA_BALL",
-      "quantity": 0,
+      "quantity": 1,
       "underfoot": false
     },
     {
@@ -132,7 +132,7 @@
       "elevation": 0,
       "item": "ITEM_MAX_ETHER",
       "flag": "FLAG_HIDDEN_ITEM_MT_PYRE_EXTERIOR_MAX_ETHER",
-      "quantity": 0,
+      "quantity": 1,
       "underfoot": false
     }
   ],

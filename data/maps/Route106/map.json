@@ -115,7 +115,7 @@
       "elevation": 3,
       "item": "ITEM_POKE_BALL",
       "flag": "FLAG_HIDDEN_ITEM_ROUTE_106_POKE_BALL",
-      "quantity": 0,
+      "quantity": 1,
       "underfoot": false
     },
     {
@@ -125,7 +125,7 @@
       "elevation": 0,
       "item": "ITEM_STARDUST",
       "flag": "FLAG_HIDDEN_ITEM_ROUTE_106_STARDUST",
-      "quantity": 0,
+      "quantity": 1,
       "underfoot": false
     },
     {
@@ -135,7 +135,7 @@
       "elevation": 3,
       "item": "ITEM_HEART_SCALE",
       "flag": "FLAG_HIDDEN_ITEM_ROUTE_106_HEART_SCALE",
-      "quantity": 0,
+      "quantity": 1,
       "underfoot": false
     },
     {

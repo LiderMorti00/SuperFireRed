@@ -437,7 +437,7 @@
       "elevation": 3,
       "item": "ITEM_IRON",
       "flag": "FLAG_HIDDEN_ITEM_ROUTE_118_IRON",
-      "quantity": 0,
+      "quantity": 1,
       "underfoot": false
     },
     {
@@ -447,7 +447,7 @@
       "elevation": 3,
       "item": "ITEM_HEART_SCALE",
       "flag": "FLAG_HIDDEN_ITEM_ROUTE_118_HEART_SCALE",
-      "quantity": 0,
+      "quantity": 1,
       "underfoot": false
     }
   ],

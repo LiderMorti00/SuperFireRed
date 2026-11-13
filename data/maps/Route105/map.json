@@ -162,7 +162,7 @@
       "elevation": 3,
       "item": "ITEM_HEART_SCALE",
       "flag": "FLAG_HIDDEN_ITEM_ROUTE_105_HEART_SCALE",
-      "quantity": 0,
+      "quantity": 1,
       "underfoot": false
     },
     {
@@ -172,7 +172,7 @@
       "elevation": 3,
       "item": "ITEM_BIG_PEARL",
       "flag": "FLAG_HIDDEN_ITEM_ROUTE_105_BIG_PEARL",
-      "quantity": 0,
+      "quantity": 1,
       "underfoot": false
     }
   ],
