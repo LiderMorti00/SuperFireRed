@@ -584,6 +584,15 @@ SE_EventScript_InitKantoPostgame::
 	goto_if_set FLAG_SE_KANTO_INITIALIZED, Common_EventScript_NopReturn
 	setflag FLAG_SE_KANTO_INITIALIZED
 	setvar VAR_SE_KANTO_ARRIVAL, 1
+	call SE_EventScript_KantoWorldState
+	return
+
+@ Kanto and the Sevii Islands after their stories. Safe to run again: src/script.c runs it on
+@ entering Kanto when VAR_SE_KANTO_STATE_VERSION is older than SE_KANTO_STATE_VERSION, so saves
+@ made with an older version of this list catch up.
+SE_EventScript_KantoWorldState::
+	setflag FLAG_HIDE_PEWTER_CITY_GYM_GUIDE
+	setflag FLAG_HIDE_PEWTER_CITY_RUNNING_SHOES_GUY
 	@ Pallet Town, Oak's lab, Viridian, Route 22
 	setflag FLAG_PALLET_LADY_NOT_BLOCKING_SIGN
 	setflag FLAG_VISITED_OAKS_LAB
@@ -712,6 +721,7 @@ SE_EventScript_InitKantoPostgame::
 	setflag FLAG_HIDE_DOTTED_HOLE_SCIENTIST
 	setvar VAR_MAP_SCENE_SIX_ISLAND_POKEMON_CENTER_1F, 1
 	setflag FLAG_HIDE_SIX_ISLAND_POKECENTER_RIVAL
+	setvar VAR_SE_KANTO_STATE_VERSION, SE_KANTO_STATE_VERSION
 	return
 
 @ ---------------------------------------------------------------------------

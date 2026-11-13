@@ -14,6 +14,8 @@
 #include "field_message_box.h"
 
 #include "dexnav.h"
+#include "regions.h"
+#include "event_scripts.h"
 
 #define RAM_SCRIPT_MAGIC 51
 
@@ -432,8 +434,20 @@ void RunOnLoadMapScript(void)
     MapHeaderRunScriptType(MAP_SCRIPT_ON_LOAD);
 }
 
+// Super Emerald: bring Kanto into its post-story state (also for saves made with an older list)
+static void SE_UpdateKantoWorldState(void)
+{
+    if (!IsInKanto())
+        return;
+    if (!FlagGet(FLAG_SE_KANTO_INITIALIZED))
+        RunScriptImmediately(SE_EventScript_InitKantoPostgame);
+    else if (VarGet(VAR_SE_KANTO_STATE_VERSION) < SE_KANTO_STATE_VERSION)
+        RunScriptImmediately(SE_EventScript_KantoWorldState);
+}
+
 void RunOnTransitionMapScript(void)
 {
+    SE_UpdateKantoWorldState();
     MapHeaderRunScriptType(MAP_SCRIPT_ON_TRANSITION);
 }
 

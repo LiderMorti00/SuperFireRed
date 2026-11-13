@@ -184,7 +184,8 @@
 #define VAR_MOSSDEEP_SPACE_CENTER_STAIR_GUARD_STATE      0x409E
 #define VAR_MOSSDEEP_SPACE_CENTER_STATE                  0x409F
 #define VAR_SLATEPORT_HARBOR_STATE                       0x40A0
-#define VAR_UNUSED_0x40A1                                0x40A1 // Unused var
+#define VAR_SE_KANTO_STATE_VERSION                       0x40A1 // Super Emerald: version of the Kanto world state applied to this save
+#define SE_KANTO_STATE_VERSION                           2      // bump when SE_EventScript_KantoWorldState changes
 #define VAR_SEAFLOOR_CAVERN_STATE                        0x40A2
 #define VAR_CABLE_CAR_STATION_STATE                      0x40A3
 #define VAR_SAFARI_WARP_STATE                            0x40A4 // see include/constants/safaris.h
