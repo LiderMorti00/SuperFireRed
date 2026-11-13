@@ -139,7 +139,7 @@
     {
       "id": "HEAL_LOCATION_FALLARBOR_TOWN",
       "map": "MAP_FALLARBOR_TOWN",
-      "x": 14,
+      "x": 15,
       "y": 8,
       "respawn_map": "MAP_FALLARBOR_TOWN_POKEMON_CENTER_1F",
       "respawn_npc": "LOCALID_FALLARBOR_NURSE"
