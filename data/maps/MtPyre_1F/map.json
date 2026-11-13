@@ -3,7 +3,6 @@
   "name": "MtPyre_1F",
   "layout": "LAYOUT_MT_PYRE_1F",
   "music": "MUS_MT_PYRE",
-  "region": "REGION_HOENN",
   "region_map_section": "MAPSEC_MT_PYRE",
   "requires_flash": false,
   "weather": "WEATHER_NONE",
@@ -12,12 +11,14 @@
   "allow_escaping": false,
   "allow_running": false,
   "show_map_name": true,
+  "floor_number": 0,
   "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
   "connections": null,
   "object_events": [
     {
+      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_OLD_WOMAN",
-      "x": 21,
+      "x": 12,
       "y": 2,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
@@ -29,8 +30,9 @@
       "flag": "0"
     },
     {
+      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_POKEFAN_F",
-      "x": 17,
+      "x": 8,
       "y": 8,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_FACE_UP",
@@ -42,8 +44,9 @@
       "flag": "0"
     },
     {
+      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_MAN_4",
-      "x": 13,
+      "x": 4,
       "y": 10,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_FACE_LEFT",
@@ -57,42 +60,28 @@
   ],
   "warp_events": [
     {
-      "x": 17,
+      "x": 8,
       "y": 18,
       "elevation": 3,
       "dest_map": "MAP_ROUTE122",
       "dest_warp_id": "0"
     },
     {
-      "x": 3,
-      "y": 6,
-      "elevation": 3,
-      "dest_map": "MAP_MT_PYRE_EXTERIOR",
-      "dest_warp_id": "0"
-    },
-    {
-      "x": 18,
+      "x": 9,
       "y": 18,
       "elevation": 3,
       "dest_map": "MAP_ROUTE122",
       "dest_warp_id": "0"
     },
     {
-      "x": 4,
-      "y": 6,
-      "elevation": 3,
-      "dest_map": "MAP_MT_PYRE_EXTERIOR",
-      "dest_warp_id": "0"
-    },
-    {
-      "x": 11,
+      "x": 2,
       "y": 1,
       "elevation": 3,
       "dest_map": "MAP_MT_PYRE_2F",
       "dest_warp_id": "0"
     },
     {
-      "x": 20,
+      "x": 11,
       "y": 9,
       "elevation": 3,
       "dest_map": "MAP_MT_PYRE_2F",
@@ -100,5 +89,6 @@
     }
   ],
   "coord_events": [],
-  "bg_events": []
+  "bg_events": [],
+  "region": "REGION_HOENN"
 }

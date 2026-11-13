@@ -39,7 +39,7 @@
     {
       "id": "HEAL_LOCATION_MAUVILLE_CITY",
       "map": "MAP_MAUVILLE_CITY",
-      "x": 22,
+      "x": 23,
       "y": 6,
       "respawn_map": "MAP_MAUVILLE_CITY_POKEMON_CENTER_1F",
       "respawn_npc": "LOCALID_MAUVILLE_NURSE"
@@ -71,7 +71,7 @@
     {
       "id": "HEAL_LOCATION_MOSSDEEP_CITY",
       "map": "MAP_MOSSDEEP_CITY",
-      "x": 28,
+      "x": 29,
       "y": 17,
       "respawn_map": "MAP_MOSSDEEP_CITY_POKEMON_CENTER_1F",
       "respawn_npc": "LOCALID_MOSSDEEP_NURSE"
@@ -131,7 +131,7 @@
     {
       "id": "HEAL_LOCATION_LAVARIDGE_TOWN",
       "map": "MAP_LAVARIDGE_TOWN",
-      "x": 9,
+      "x": 10,
       "y": 7,
       "respawn_map": "MAP_LAVARIDGE_TOWN_POKEMON_CENTER_1F",
       "respawn_npc": "LOCALID_LAVARIDGE_NURSE"
@@ -147,15 +147,15 @@
     {
       "id": "HEAL_LOCATION_VERDANTURF_TOWN",
       "map": "MAP_VERDANTURF_TOWN",
-      "x": 16,
-      "y": 4,
+      "x": 17,
+      "y": 5,
       "respawn_map": "MAP_VERDANTURF_TOWN_POKEMON_CENTER_1F",
       "respawn_npc": "LOCALID_VERDANTURF_NURSE"
     },
     {
       "id": "HEAL_LOCATION_PACIFIDLOG_TOWN",
       "map": "MAP_PACIFIDLOG_TOWN",
-      "x": 8,
+      "x": 9,
       "y": 16,
       "respawn_map": "MAP_PACIFIDLOG_TOWN_POKEMON_CENTER_1F",
       "respawn_npc": "LOCALID_PACIFIDLOG_NURSE"
@@ -193,10 +193,10 @@
       "map": "MAP_PALLET_TOWN",
       "x": 6,
       "y": 8,
-      "respawn_x": 8,
-      "respawn_y": 5,
       "respawn_map": "MAP_PALLET_TOWN_PLAYERS_HOUSE_1F",
-      "respawn_npc": "LOCALID_PLAYERS_HOUSE_1F_MOM"
+      "respawn_npc": "LOCALID_PLAYERS_HOUSE_1F_MOM",
+      "respawn_x": 8,
+      "respawn_y": 5
     },
     {
       "id": "HEAL_LOCATION_VIRIDIAN_CITY",
